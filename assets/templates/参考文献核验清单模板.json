@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "citation_style": "GB/T 7714-compatible numeric style; confirm current competition requirements",
+  "competition_context": {
+    "mode": "live_competition",
+    "competition_year": 2026,
+    "evidence_cutoff_date": "2026-09-07"
+  },
+  "citations": [
+    {
+      "id": "1",
+      "title": "人工检索后填写真实题名",
+      "authors": ["作者甲", "作者乙"],
+      "year": 2025,
+      "venue": "来源名称",
+      "source_type": "primary",
+      "doi": "10.0000/replace-with-verified-doi",
+      "url": "https://publisher.example/verified-source",
+      "verified_at": "2026-09-07",
+      "verified_by": "队员姓名或角色",
+      "verification_source": "出版社页面、Crossref、OpenAlex 或数据库原始记录",
+      "verification_evidence": {
+        "source_snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "bibliographic_locator": "题名页、DOI元数据或官方页面标题",
+        "claim_check": "记录原文支持该陈述的页码、定理、表格或段落，并保存来源快照。"
+      },
+      "claims": [
+        {
+          "paper_location": "3.2 模型选择",
+          "claim": "该文献实际支持的具体陈述",
+          "support_note": "说明原文哪一结果或方法支持该陈述；禁止只记录“用于参考”。"
+        }
+      ]
+    }
+  ]
+}

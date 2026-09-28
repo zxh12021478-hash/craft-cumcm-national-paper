@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "target_case": "填写赛题编号",
+  "created_at": "填写ISO-8601时间",
+  "output": [
+    "从 prediction / ranking / routing / allocation / control / parameter / policy_boundary 中选择"
+  ],
+  "structures": [
+    "从 tabular / graph / spatial / sequential / compositional_data / repeated_measure / dynamics 中选择"
+  ],
+  "constraints": [
+    "填写 capacity / time_window / conservation / balance / integrality / safety / information_timing 等"
+  ],
+  "bottlenecks": [
+    "填写 identifiability / dimensionality / solver_scale / uncertainty / sparse_data / missing_validation 等"
+  ],
+  "validation": [
+    "填写 enumeration / analytic_bound / alternate_solver / synthetic_truth / held_out_scenario / original_space_recompute 等"
+  ],
+  "keywords": [
+    "填写只来自题面事实的英文检索标签"
+  ],
+  "forbidden_source_cases": [
+    "填写当前赛题及任何同题材料编号"
+  ]
+}

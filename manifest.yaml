@@ -1,0 +1,115 @@
+version: 25
+skill: craft-cumcm-national-paper
+
+always_load:
+  - static/runtime-core.md
+
+stage_routes:
+  contest-readiness:
+    triggers: [precontest_doctor, build_recovery_card, verify_recovery_card, prepare_submission_package, approve_submission_manifest, build_submission_package]
+    fragment: static/fragments/stage-contest-readiness.md
+  efficiency-control:
+    triggers: [maximize_efficiency, save_tokens, choose_profile, delta_review, start_competition]
+    fragment: static/fragments/stage-efficiency-control.md
+  capability-evaluation:
+    triggers: [optimize_skill, validate_skill, benchmark_skill, forward_test_skill, measure_capability_regression]
+    fragment: static/fragments/stage-capability-evaluation.md
+  historical-benchmark:
+    triggers: [benchmark_skill, historical_forward_test, compare_historical_problem]
+    fragment: static/fragments/stage-historical-benchmark.md
+  human-ai-governance:
+    triggers: [plan_ai_use, approve_core_decision, verify_ai_compliance, write_ai_disclosure]
+    fragment: static/fragments/stage-human-ai-governance.md
+  problem-reading:
+    triggers: [read_problem, restate_problem, decompose_subproblems, identify_constraints, produce_recommended_outline]
+    fragment: static/fragments/stage-problem-reading.md
+  external-baseline-handoff:
+    triggers: [receive_external_paper, receive_external_code, audit_overnight_baseline, start_three_day_takeover]
+    fragment: static/fragments/stage-external-baseline-handoff.md
+  data-preprocessing-visualization:
+    triggers: [inspect_data, clean_data, engineer_features, exploratory_analysis]
+    fragment: static/fragments/stage-data-preprocessing-visualization.md
+  model-construction:
+    triggers: [select_model, define_variables, formulate_objective, formulate_constraints, design_solver]
+    fragment: static/fragments/stage-model-construction.md
+  result-visualization:
+    triggers: [interpret_results, make_figures, make_tables, answer_subproblems]
+    fragment: static/fragments/stage-result-visualization.md
+  sensitivity-analysis:
+    triggers: [parameter_sensitivity, scenario_analysis, robustness_frontier]
+    fragment: static/fragments/stage-sensitivity-analysis.md
+  model-validation:
+    triggers: [validate_model, compare_baseline, calculate_error, verify_constraints]
+    fragment: static/fragments/stage-model-validation.md
+  model-innovation:
+    triggers: [invent_innovation, generate_structural_insights, run_innovation_tournament, extract_novelty]
+    fragment: static/fragments/stage-model-innovation.md
+  paper-writing:
+    triggers: [write_abstract, rewrite_abstract, polish_abstract, rebuild_abstract_from_full_markdown, replace_abstract_only, build_writer_handoff, review_writer_draft, final_check]
+    fragment: static/fragments/stage-paper-writing.md
+  rigorous-review:
+    triggers: [review_paper, review_code, score_submission, identify_defects, red_team_judge, simulate_national_judge, adversarial_review, final_judge_review]
+    fragment: static/fragments/stage-rigorous-review.md
+  confirmed-revision:
+    triggers: [apply_confirmed_changes, revise_files, produce_final_version]
+    fragment: static/fragments/stage-confirmed-revision.md
+
+references:
+  efficiency: references/efficiency-and-token-budget.md
+  human_ai: references/human-led-ai-collaboration.md
+  rubric: references/national-award-rubric.md
+  red_team_judge: references/red-team-judge-protocol.md
+  validation: references/validation-playbook.md
+  abstract_reconstruction: references/abstract-reconstruction-protocol.md
+  abstract_writing_decisions: references/abstract-writing-decisions-2016-2025.md
+  task_family_kits: references/task-family-kits.md
+  two_system_handoff: references/two-system-handoff.md
+  empirical_validation: references/empirical-validation-protocol.md
+  ai_baseline_regression: references/ai-baseline-regression-protocol.md
+  capability_evaluation: references/capability-evaluation-loop.md
+  contest_readiness: references/contest-readiness-and-recovery.md
+
+task_family_routes:
+  evaluation-ranking:
+    triggers: [ranking, scoring, comprehensive_evaluation, indicator_system, multi_criteria]
+    reference: references/task-family-evaluation-ranking.md
+  forecasting-optimization:
+    triggers: [forecasting, time_series, demand_prediction, forecast_then_optimize]
+    reference: references/task-family-forecasting-optimization.md
+  classification-warning:
+    triggers: [classification, recognition, anomaly_detection, early_warning]
+    reference: references/task-family-classification-warning.md
+  optimization-scheduling:
+    triggers: [optimization, scheduling, allocation, routing, packing]
+    reference: references/task-family-optimization-scheduling.md
+  mechanism-simulation:
+    triggers: [mechanism, simulation, differential_equation, physics, parameter_identification]
+    reference: references/task-family-mechanism-simulation.md
+  network-spatial:
+    triggers: [network, graph, path, spatial, trajectory, geospatial]
+    reference: references/task-family-network-spatial.md
+  sequential-control:
+    triggers: [dynamic_programming, control, online_decision, dynamic_game, markov_decision]
+    reference: references/task-family-sequential-control.md
+
+scripts:
+  contest_doctor: scripts/contest_doctor.py
+  preflight_environment: scripts/preflight_environment.py
+  bootstrap_validator_env: scripts/bootstrap_validator_env.py
+  recovery_card: scripts/recovery_card.py
+  build_submission_package: scripts/build_submission_package.py
+  workflow: scripts/cumcm_workflow.py
+  delta_audit: scripts/plan_incremental_audit.py
+  instruction_budget: scripts/measure_instruction_budget.py
+  audit_problem_bundle: scripts/audit_problem_bundle.py
+  truth_harness: scripts/truth_harness.py
+  innovation_tournament: scripts/innovation_tournament.py
+  validate_submission: scripts/validate_submission.py
+  abstract_guard: scripts/abstract_guard.py
+
+assets:
+  validator_runtime: assets/workflows/validator-runtime.json
+  offline_validator_wheelhouse: assets/runtime/wheelhouse
+  efficiency_profiles: assets/workflows/efficiency-profiles.json
+  recommended_outline_template: assets/templates/推荐解题思路大纲模板.md
+  current_rules: assets/rules/cumcm-current-rules.json

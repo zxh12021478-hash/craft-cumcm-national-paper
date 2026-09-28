@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "entry": "run_all.py",
+  "command_argv": ["{python}", "run_all.py"],
+  "dependency_file": "requirements.txt",
+  "dependency_lock": null,
+  "python_environment": "auto",
+  "timeout_seconds": 1800,
+  "random_seeds": {"numpy": 2026, "python": 2026},
+  "expected_outputs": ["results/metrics.json", "figures/*.png"],
+  "result_ledger": "核心结果台账.json",
+  "verifications": [
+    {
+      "id": "constraint_feasibility",
+      "purpose": "验证约束残差、边界条件与物理可行性",
+      "verification_type": "recomputation",
+      "independent_basis": "从保存的决策变量重新计算目标值和全部约束残差，不调用主求解函数。",
+      "inputs": ["results/solution.json", "data/processed/input.csv"],
+      "expected_relation": "max_constraint_violation <= 1e-8",
+      "reviewed_by": "队员A",
+      "command_argv": ["{python}", "verifications/verify_constraints.py"],
+      "required": true,
+      "pass_regex": "(?m)^RESULT:\\s*PASS\\s*$",
+      "fail_regex": "(?m)^RESULT:\\s*FAIL\\s*$",
+      "timeout_seconds": 300
+    }
+  ]
+}

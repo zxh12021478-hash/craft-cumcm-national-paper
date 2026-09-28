@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/craft-cumcm-national-paper/page-visual-qa.schema.json",
+  "title": "Manual page visual QA",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "paper_sha256", "render_report", "reviewed_by", "reviewed_at", "all_pages_reviewed", "checks", "open_issues"],
+  "properties": {
+    "version": {"const": 1},
+    "paper_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+    "render_report": {"type": "string", "minLength": 1},
+    "reviewed_by": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "reviewed_at": {"type": "string", "format": "date-time"},
+    "all_pages_reviewed": {"const": true},
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["clipping", "overlap", "equations", "tables", "figures", "captions", "page_breaks", "anonymity"],
+      "properties": {
+        "clipping": {"const": "pass"},
+        "overlap": {"const": "pass"},
+        "equations": {"const": "pass"},
+        "tables": {"const": "pass"},
+        "figures": {"const": "pass"},
+        "captions": {"const": "pass"},
+        "page_breaks": {"const": "pass"},
+        "anonymity": {"const": "pass"}
+      }
+    },
+    "open_issues": {"type": "array", "maxItems": 0}
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "bundle_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "reviewed_at": "2026-09-01T12:00:00+08:00",
+  "reviewed_by": [
+    "队员A",
+    "队员B"
+  ],
+  "artifacts": [
+    {
+      "path": "赛题正文.pdf",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "all_pages_or_sheets_reviewed": true,
+      "equations_media_objects_reviewed": true,
+      "headers_units_ranges_reviewed": true,
+      "evidence": "页码、图号、公式号、工作表和关键单元格范围的人工核对记录"
+    }
+  ],
+  "risk_closures": [
+    {
+      "risk_id": "R001",
+      "status": "closed",
+      "evidence": "说明如何通过渲染、公式检查、对象提取或工作簿检查关闭该风险"
+    }
+  ],
+  "subproblems": [
+    {
+      "id": "Q1",
+      "prompt_locator": "赛题正文第 2 页问题一",
+      "required_output": "必须提交的数值、方案、图表或解释",
+      "verified_by": "队员A"
+    }
+  ],
+  "workbook_ranges": [
+    {
+      "file": "附件.xlsx",
+      "sheet": "Sheet1",
+      "range": "Sheet1!A1:K34",
+      "role": "input",
+      "fields": [
+        "逐列写明字段"
+      ],
+      "units": [
+        "逐列写明单位"
+      ],
+      "used_by_subproblems": [
+        "Q1"
+      ],
+      "verified_by": "队员B",
+      "evidence": "工作表名、合并表头、字段、单位和起止单元格均与渲染/Excel界面一致"
+    }
+  ],
+  "unresolved_ambiguities": []
+}

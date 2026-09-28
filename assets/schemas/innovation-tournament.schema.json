@@ -1,0 +1,282 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/craft-cumcm-national-paper/innovation-tournament.schema.json",
+  "title": "CUMCM structural-insight tournament",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "problem_id",
+    "generated_at",
+    "blind_context",
+    "constraints",
+    "baseline",
+    "candidates",
+    "selection"
+  ],
+  "properties": {
+    "version": {"const": 1},
+    "problem_id": {"type": "string", "minLength": 1},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "blind_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode", "solution_blind", "exposed_resources"],
+      "properties": {
+        "mode": {
+          "enum": [
+            "live_competition",
+            "prospective_canary",
+            "solution_isolated_historical",
+            "retrospective_rehearsal"
+          ]
+        },
+        "solution_blind": {"type": "boolean"},
+        "exposed_resources": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["innovation_budget_hours", "max_primary_budget_hours"],
+      "properties": {
+        "innovation_budget_hours": {"type": "number", "exclusiveMinimum": 0},
+        "max_primary_budget_hours": {"type": "number", "exclusiveMinimum": 0}
+      }
+    },
+    "baseline": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["description", "known_limitation", "comparison_metric"],
+      "properties": {
+        "description": {"type": "string", "minLength": 10},
+        "known_limitation": {"type": "string", "minLength": 10},
+        "comparison_metric": {"type": "string", "minLength": 3}
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "title",
+          "family",
+          "target_subproblems",
+          "insight_sentence",
+          "problem_evidence",
+          "baseline_failure",
+          "structural_hypothesis",
+          "mathematical_object_changes",
+          "exact_modification",
+          "counterfactual",
+          "expected_consequence",
+          "falsifier",
+          "minimum_experiment",
+          "fallback",
+          "failure_conditions",
+          "ai_assessment",
+          "stage"
+        ],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[A-Za-z0-9_-]+$"},
+          "title": {"type": "string", "minLength": 3},
+          "family": {
+            "enum": [
+              "structural_reduction",
+              "regime_switching",
+              "identifiability",
+              "uncertainty_decision",
+              "strategy_boundary",
+              "value_of_information",
+              "structure_aware_solver",
+              "certificate",
+              "decision_focused_learning"
+            ]
+          },
+          "target_subproblems": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "insight_sentence": {"type": "string", "minLength": 12},
+          "problem_evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["locator", "fact"],
+              "properties": {
+                "locator": {"type": "string", "minLength": 3},
+                "fact": {"type": "string", "minLength": 8}
+              }
+            }
+          },
+          "baseline_failure": {"type": "string", "minLength": 12},
+          "structural_hypothesis": {"type": "string", "minLength": 12},
+          "mathematical_object_changes": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "objective",
+                "constraint",
+                "state",
+                "geometry",
+                "information",
+                "identifiability",
+                "uncertainty",
+                "solver",
+                "validation"
+              ]
+            }
+          },
+          "exact_modification": {"type": "string", "minLength": 12},
+          "counterfactual": {"type": "string", "minLength": 12},
+          "expected_consequence": {"type": "string", "minLength": 12},
+          "falsifier": {"type": "string", "minLength": 12},
+          "minimum_experiment": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "method",
+              "independent_basis",
+              "metric",
+              "acceptance_threshold",
+              "budget_hours",
+              "status"
+            ],
+            "properties": {
+              "id": {"type": "string", "minLength": 1},
+              "method": {"type": "string", "minLength": 12},
+              "independent_basis": {"type": "string", "minLength": 12},
+              "metric": {"type": "string", "minLength": 3},
+              "acceptance_threshold": {"type": "string", "minLength": 5},
+              "budget_hours": {"type": "number", "exclusiveMinimum": 0},
+              "status": {"enum": ["planned", "pass", "fail"]},
+              "evidence_file": {"type": "string", "minLength": 1},
+              "evidence_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+              "observed_result": {"type": "string", "minLength": 3}
+            }
+          },
+          "fallback": {"type": "string", "minLength": 8},
+          "failure_conditions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 8}
+          },
+          "ai_assessment": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "specificity",
+              "necessity",
+              "evidenceability",
+              "consequence",
+              "feasibility",
+              "independence",
+              "paper_value"
+            ],
+            "properties": {
+              "specificity": {"type": "integer", "minimum": 0, "maximum": 4},
+              "necessity": {"type": "integer", "minimum": 0, "maximum": 4},
+              "evidenceability": {"type": "integer", "minimum": 0, "maximum": 4},
+              "consequence": {"type": "integer", "minimum": 0, "maximum": 4},
+              "feasibility": {"type": "integer", "minimum": 0, "maximum": 4},
+              "independence": {"type": "integer", "minimum": 0, "maximum": 4},
+              "paper_value": {"type": "integer", "minimum": 0, "maximum": 4}
+            }
+          },
+          "transfer_lineage": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "library_version",
+              "borrowed_moves",
+              "target_reconstruction",
+              "noncopied_boundary"
+            ],
+            "properties": {
+              "library_version": {
+                "type": ["integer", "string"]
+              },
+              "borrowed_moves": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_-]+$"
+                }
+              },
+              "target_reconstruction": {
+                "type": "string",
+                "minLength": 12
+              },
+              "noncopied_boundary": {
+                "type": "string",
+                "minLength": 12
+              }
+            }
+          },
+          "stage": {"enum": ["idea", "pilot", "validated", "rejected"]},
+          "rejection_reason": {"type": "string"},
+          "team_review": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["reviewed_by", "reviewed_at", "decision", "rationale"],
+            "properties": {
+              "reviewed_by": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {"type": "string", "minLength": 1}
+              },
+              "reviewed_at": {"type": "string", "format": "date-time"},
+              "decision": {
+                "enum": [
+                  "selected_primary",
+                  "selected_supporting",
+                  "continue_pilot",
+                  "rejected"
+                ]
+              },
+              "rationale": {"type": "string", "minLength": 10}
+            }
+          }
+        }
+      }
+    },
+    "selection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["shortlisted", "primary_candidate", "supporting_candidates"],
+      "properties": {
+        "shortlisted": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "primary_candidate": {
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "supporting_candidates": {
+          "type": "array",
+          "maxItems": 2,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

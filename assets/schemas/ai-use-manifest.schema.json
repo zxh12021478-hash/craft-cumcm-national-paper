@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/craft-cumcm-national-paper/ai-use-manifest.schema.json",
+  "title": "Machine-readable AI use details",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "tools", "team_signoff"],
+  "properties": {
+    "version": {"const": 1},
+    "tools": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "model_version", "provider", "uses"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^AI-[0-9]{2,}$"},
+          "name": {"type": "string", "minLength": 1},
+          "model_version": {"type": "string", "minLength": 1},
+          "provider": {"type": "string", "minLength": 1},
+          "uses": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["timestamp", "purpose", "key_interaction", "adoption", "human_modification", "verification", "affected_locations"],
+              "properties": {
+                "timestamp": {"type": "string", "format": "date-time"},
+                "purpose": {"type": "string", "minLength": 5},
+                "key_interaction": {"type": "string", "minLength": 10},
+                "adoption": {"type": "string", "minLength": 5},
+                "human_modification": {"type": "string", "minLength": 5},
+                "verification": {"type": "string", "minLength": 10},
+                "affected_locations": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 2}}
+              }
+            }
+          }
+        }
+      }
+    },
+    "team_signoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["verified_by", "verified_at"],
+      "properties": {
+        "verified_by": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "verified_at": {"type": "string", "format": "date-time"}
+      }
+    }
+  }
+}

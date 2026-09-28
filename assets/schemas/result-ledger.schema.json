@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/craft-cumcm-national-paper/result-ledger.schema.json",
+  "title": "CUMCM canonical result ledger",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "frozen_at", "approved_by_team", "results"],
+  "properties": {
+    "version": {"const": 1},
+    "frozen_at": {
+      "oneOf": [
+        {"type": "string", "format": "date-time"},
+        {"type": "null"}
+      ]
+    },
+    "approved_by_team": {"type": "boolean"},
+    "notes": {"type": "string"},
+    "results": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "question", "label", "value", "unit", "decision_critical", "source", "occurrences"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_.-]*$"},
+          "question": {"type": "string", "minLength": 1},
+          "label": {"type": "string", "minLength": 1},
+          "value": {
+            "oneOf": [
+              {"type": "number"},
+              {"type": "string", "pattern": "^[+-]?(?:\\d+(?:\\.\\d*)?|\\.\\d+)(?:[eE][+-]?\\d+)?$"}
+            ]
+          },
+          "unit": {"type": "string"},
+          "decision_critical": {"type": "boolean"},
+          "display_precision": {"type": ["integer", "null"], "minimum": 0, "maximum": 12},
+          "absolute_tolerance": {"type": "number", "minimum": 0},
+          "relative_tolerance": {"type": "number", "minimum": 0},
+          "interpretation": {"type": "string"},
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["file"],
+            "properties": {
+              "file": {"type": "string", "minLength": 1},
+              "format": {"enum": ["json", "csv", "txt", "text", "md", "log"]},
+              "key": {"type": "string"},
+              "row": {"type": "integer", "minimum": 0},
+              "column": {"type": "string"},
+              "where": {"type": "object", "additionalProperties": {"type": ["string", "number", "boolean"]}},
+              "regex": {"type": "string"},
+              "group": {"type": "integer", "minimum": 0},
+              "scale": {"type": "number"}
+            }
+          },
+          "occurrences": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["file", "regex"],
+              "properties": {
+                "file": {"type": "string", "minLength": 1},
+                "location": {"type": "string"},
+                "regex": {"type": "string", "minLength": 1},
+                "group": {"type": "integer", "minimum": 0},
+                "scale": {"type": "number"},
+                "expected_min": {"type": "integer", "minimum": 1},
+                "expected_max": {"type": ["integer", "null"], "minimum": 1},
+                "unit_regex": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

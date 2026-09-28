@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "last_reviewed": "2026-08-19",
+  "documents": [
+    {
+      "id": "competition-rules",
+      "url": "https://www.mcm.edu.cn/html_cn/node/9d8e511fe7a1447b35f53a82c908e2e0.html",
+      "required_phrases": ["参赛队员可以使用人工智能", "原创性", "真实性", "准确性"]
+    },
+    {
+      "id": "ai-use-policy",
+      "url": "https://www.mcm.edu.cn/html_cn/node/fef94648f2836ab6cc81586f4c38512b.html",
+      "required_phrases": ["核心建模与分析由参赛队主导", "逐项人工审查与核实", "参考文献之前设置", "AI工具使用声明", "AI工具使用详情.pdf", "主要提示方式与使用过程说明", "本规定自2026年9月1日起试行"]
+    },
+    {
+      "id": "paper-format",
+      "url": "https://www.mcm.edu.cn/html_cn/node/4cd596519c9eb9fbd866398f6df0caa3.html",
+      "required_phrases": ["电子版论文的第一页必须为摘要专用页", "第四页开始是正文内容", "不要目录", "不超过30页", "不超过20MB", "所有可运行源程序"]
+    }
+  ]
+}

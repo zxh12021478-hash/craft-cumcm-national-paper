@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "benchmark_id": "cumcm-YYYY-X",
+  "evaluation_mode": "retrospective_historical",
+  "case_id": "YYYYX",
+  "prior_model_memory": "unknown",
+  "stage": "pre_freeze",
+  "pre_freeze_resources": [
+    {
+      "locator": "https://www.mcm.edu.cn/official-problem-page",
+      "category": "official_problem",
+      "case_scope": ["YYYYX"]
+    },
+    {
+      "locator": "/absolute/path/to/generic-skill-core.md",
+      "category": "generic_skill",
+      "case_scope": []
+    }
+  ],
+  "frozen_artifacts": [],
+  "frozen_at": null,
+  "unblinded_at": null,
+  "declared_solution_blind": false,
+  "notes": "This is an honest pre-freeze ledger. Change stage to frozen only after real strategy artifacts exist, then record their SHA-256 values and frozen_at. Use cross_case_assisted_historical when raw unrelated papers are selected or abstracted after opening the target. Historical tests can be solution-isolated but are not zero-knowledge."
+}

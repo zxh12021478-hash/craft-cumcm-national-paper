@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/craft-cumcm-national-paper/project-state.schema.json",
+  "title": "CUMCM human-led project state",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "competition", "problem", "deadline", "current_stage", "stages", "core_decisions"],
+  "properties": {
+    "version": {"const": 1},
+    "competition": {"const": "CUMCM"},
+    "problem": {"type": ["string", "null"]},
+    "deadline": {"type": ["string", "null"]},
+    "current_stage": {"type": "string"},
+    "updated_at": {"type": ["string", "null"]},
+    "stages": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["status", "started_at", "completed_at", "evidence", "blocking_reason"],
+        "properties": {
+          "status": {"enum": ["not_started", "in_progress", "awaiting_team", "approved", "rework", "completed", "blocked"]},
+          "started_at": {"type": ["string", "null"]},
+          "completed_at": {"type": ["string", "null"]},
+          "approved_at": {"type": ["string", "null"]},
+          "approved_by": {"type": ["string", "null"]},
+          "evidence": {"type": "array", "items": {"type": "string"}},
+          "blocking_reason": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "core_decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "topic", "state", "proposal", "team_rationale", "approved_by", "timestamp"],
+        "properties": {
+          "id": {"type": "string"},
+          "topic": {"type": "string"},
+          "state": {"enum": ["AI-proposed", "AI-recommended", "team-approved", "verified", "rejected"]},
+          "proposal": {"type": "string"},
+          "team_rationale": {"type": ["string", "null"]},
+          "approved_by": {"type": "array", "items": {"type": "string"}},
+          "timestamp": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}

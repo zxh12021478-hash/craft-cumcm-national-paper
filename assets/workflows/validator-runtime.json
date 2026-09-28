@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "runtime_id": "validator-v25",
+  "home_relative_python": ".codex/cumcm-national-paper-runtime/validator-v25/bin/python",
+  "home_relative_wheelhouse": ".codex/cumcm-national-paper-runtime/wheelhouse",
+  "skill_relative_wheelhouse": "assets/runtime/wheelhouse",
+  "python_version": "3.9.6",
+  "platform_system": "Darwin",
+  "platform_machine": "arm64",
+  "minimum_free_bytes": 2147483648,
+  "required_profiles": [
+    "takeover",
+    "final"
+  ]
+}

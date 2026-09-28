@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "competition": "CUMCM",
+  "problem": null,
+  "deadline": null,
+  "current_stage": "intake",
+  "updated_at": null,
+  "stages": {
+    "intake": {"status": "not_started", "started_at": null, "completed_at": null, "approved_at": null, "approved_by": null, "evidence": [], "blocking_reason": null},
+    "problem_decomposition": {"status": "not_started", "started_at": null, "completed_at": null, "approved_at": null, "approved_by": null, "evidence": [], "blocking_reason": null},
+    "data_audit": {"status": "not_started", "started_at": null, "completed_at": null, "approved_at": null, "approved_by": null, "evidence": [], "blocking_reason": null},
+    "baseline": {"status": "not_started", "started_at": null, "completed_at": null, "approved_at": null, "approved_by": null, "evidence": [], "blocking_reason": null},
+    "candidate_selection": {"status": "not_started", "started_at": null, "completed_at": null, "approved_at": null, "approved_by": null, "evidence": [], "blocking_reason": null},
+    "core_approval": {"status": "not_started", "started_at": null, "completed_at": null, "approved_at": null, "approved_by": null, "evidence": [], "blocking_reason": null},
+    "external_baseline_handoff": {"status": "not_started", "started_at": null, "completed_at": null, "approved_at": null, "approved_by": null, "evidence": [], "blocking_reason": null},
+    "implementation": {"status": "not_started", "started_at": null, "completed_at": null, "approved_at": null, "approved_by": null, "evidence": [], "blocking_reason": null},
+    "validation": {"status": "not_started", "started_at": null, "completed_at": null, "approved_at": null, "approved_by": null, "evidence": [], "blocking_reason": null},
+    "result_freeze": {"status": "not_started", "started_at": null, "completed_at": null, "approved_at": null, "approved_by": null, "evidence": [], "blocking_reason": null},
+    "paper": {"status": "not_started", "started_at": null, "completed_at": null, "approved_at": null, "approved_by": null, "evidence": [], "blocking_reason": null},
+    "final_audit": {"status": "not_started", "started_at": null, "completed_at": null, "approved_at": null, "approved_by": null, "evidence": [], "blocking_reason": null}
+  },
+  "core_decisions": []
+}

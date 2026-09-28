@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-19T09:56:59+00:00",
+  "documents": {
+    "competition-rules": {
+      "url": "https://www.mcm.edu.cn/html_cn/node/9d8e511fe7a1447b35f53a82c908e2e0.html",
+      "final_url": "https://www.mcm.edu.cn/html_cn/node/9d8e511fe7a1447b35f53a82c908e2e0.html",
+      "normalized_sha256": "64b268930386768fe27e96273e62597f000435bec78048f87d55dc2a807aa39c",
+      "characters": 1790
+    },
+    "ai-use-policy": {
+      "url": "https://www.mcm.edu.cn/html_cn/node/fef94648f2836ab6cc81586f4c38512b.html",
+      "final_url": "https://www.mcm.edu.cn/html_cn/node/fef94648f2836ab6cc81586f4c38512b.html",
+      "normalized_sha256": "dfa685275d33a37d5e26c86e3e5322637c3282df4e729694d403370a6c66cef1",
+      "characters": 1029
+    },
+    "paper-format": {
+      "url": "https://www.mcm.edu.cn/html_cn/node/4cd596519c9eb9fbd866398f6df0caa3.html",
+      "final_url": "https://www.mcm.edu.cn/html_cn/node/4cd596519c9eb9fbd866398f6df0caa3.html",
+      "normalized_sha256": "f80d33eb8565ad419e283356045134499a82b4f79404c51fd2d93c53d675eafe",
+      "characters": 1900
+    }
+  }
+}

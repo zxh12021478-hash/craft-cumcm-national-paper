@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "purpose": "Pre-contest forward tests only; never use public platforms to discuss a live competition problem.",
+  "cases": [
+    {
+      "id": "cumcm-2025",
+      "year": 2025,
+      "problem_letter": "A",
+      "official_url": "https://www.mcm.edu.cn/html_cn/node/03c91a444e62eee81a3740fa97a461a6.html",
+      "fresh_agent_task": "Open official 2025 CUMCM problem A and all of its attachments from the page, lock their hashes, and produce the strategy deliverable defined by the skill. Do not inspect prior solutions or award papers.",
+      "evaluation_focus": ["requirement coverage", "structural insight", "candidate diversity", "falsification", "solver-ready handoff"]
+    },
+    {
+      "id": "cumcm-2024",
+      "year": 2024,
+      "problem_letter": "A",
+      "official_url": "https://www.mcm.edu.cn/html_cn/node/a0c1fb5c31d43551f08cd8ad16870444.html",
+      "fresh_agent_task": "Open official 2024 CUMCM problem A and all of its attachments from the page, lock their hashes, and produce the strategy deliverable defined by the skill. Do not inspect prior solutions or award papers.",
+      "evaluation_focus": ["dependency graph", "baseline completeness", "innovation evidence", "uncertainty", "paper argument spine"]
+    },
+    {
+      "id": "cumcm-2023",
+      "year": 2023,
+      "problem_letter": "A",
+      "official_url": "https://www.mcm.edu.cn/html_cn/node/c74d72127066f510a5723a94b5323a26.html",
+      "fresh_agent_task": "Open official 2023 CUMCM problem A and all of its attachments from the page, lock their hashes, and produce the strategy deliverable defined by the skill. Do not inspect prior solutions or award papers.",
+      "evaluation_focus": ["data sufficiency", "mechanism fit", "comparison fairness", "failure conditions", "team decision gates"]
+    },
+    {
+      "id": "cumcm-2022",
+      "year": 2022,
+      "problem_letter": "A",
+      "official_url": "https://www.mcm.edu.cn/html_cn/node/388239ded4b057d37b7b8e51e33fe903.html",
+      "fresh_agent_task": "Open official 2022 CUMCM problem A and all of its attachments from the page, lock their hashes, and produce the strategy deliverable defined by the skill. Do not inspect prior solutions or award papers.",
+      "evaluation_focus": ["formalization", "reality checks", "verification independence", "fallback quality", "traceability"]
+    },
+    {
+      "id": "cumcm-2021",
+      "year": 2021,
+      "problem_letter": "A",
+      "official_url": "https://www.mcm.edu.cn/html_cn/node/90d223833c1eb50f899aa096a66c6896.html",
+      "fresh_agent_task": "Open official 2021 CUMCM problem A and all of its attachments from the page, lock their hashes, and produce the strategy deliverable defined by the skill. Do not inspect prior solutions or award papers.",
+      "evaluation_focus": ["problem restatement", "model contract", "validation thresholds", "decision usefulness", "reproducibility"]
+    },
+    {
+      "id": "cumcm-2020",
+      "year": 2020,
+      "problem_letter": "B",
+      "official_url": "https://www.mcm.edu.cn/html_cn/node/10405905647c52abfd6377c0311632b5.html",
+      "fresh_agent_task": "Open official 2020 CUMCM problem B and all of its attachments from the page, lock their hashes, and produce the strategy deliverable defined by the skill. Do not inspect prior solutions or award papers.",
+      "evaluation_focus": ["subproblem closure", "assumption necessity", "structural exploitation", "sensitivity design", "direct answers"]
+    }
+  ]
+}

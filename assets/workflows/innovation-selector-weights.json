@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "status": "default_uncalibrated",
+  "dimensions": [
+    "specificity",
+    "necessity",
+    "evidenceability",
+    "consequence",
+    "feasibility",
+    "independence",
+    "paper_value"
+  ],
+  "weights": {
+    "specificity": 0.18,
+    "necessity": 0.14,
+    "evidenceability": 0.18,
+    "consequence": 0.18,
+    "feasibility": 0.13,
+    "independence": 0.11,
+    "paper_value": 0.08
+  },
+  "calibrated_from_cases": 0,
+  "note": "Do not describe these weights as empirically calibrated until blind-test ledgers pass audit."
+}

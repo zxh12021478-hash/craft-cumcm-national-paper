@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "frozen_at": null,
+  "approved_by_team": false,
+  "notes": "团队接受核心结果后再冻结；value 保留机器精度，论文显示精度由 display_precision 控制。",
+  "results": [
+    {
+      "id": "Q1_HEADLINE_01",
+      "question": "问题一",
+      "label": "替换为核心指标名称",
+      "value": 0.0,
+      "unit": "%",
+      "decision_critical": true,
+      "display_precision": 2,
+      "absolute_tolerance": 0.005,
+      "relative_tolerance": 0.0001,
+      "interpretation": "说明数值对题目决策的含义。",
+      "source": {
+        "file": "results/metrics.json",
+        "format": "json",
+        "key": "q1.headline",
+        "scale": 1.0
+      },
+      "occurrences": [
+        {
+          "file": "完整论文.docx",
+          "location": "摘要第 2 段",
+          "regex": "问题一[^\\n]*?([0-9]+(?:\\.[0-9]+)?)\\s*%",
+          "group": 1,
+          "scale": 1.0,
+          "expected_min": 1,
+          "expected_max": 1,
+          "unit_regex": "%"
+        }
+      ]
+    }
+  ]
+}

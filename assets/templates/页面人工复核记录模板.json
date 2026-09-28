@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paper_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "render_report": "audit/render-report.json",
+  "reviewed_by": ["队员A"],
+  "reviewed_at": "2026-09-08T12:00:00+08:00",
+  "all_pages_reviewed": true,
+  "checks": {
+    "clipping": "pass",
+    "overlap": "pass",
+    "equations": "pass",
+    "tables": "pass",
+    "figures": "pass",
+    "captions": "pass",
+    "page_breaks": "pass",
+    "anonymity": "pass"
+  },
+  "open_issues": []
+}

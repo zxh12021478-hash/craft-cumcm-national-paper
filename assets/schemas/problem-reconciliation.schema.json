@@ -1,0 +1,244 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/craft-cumcm-national-paper/problem-reconciliation.schema.json",
+  "title": "Human reconciliation record for the official problem bundle",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "bundle_sha256",
+    "reviewed_at",
+    "reviewed_by",
+    "artifacts",
+    "risk_closures",
+    "subproblems",
+    "workbook_ranges"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "bundle_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "reviewed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "reviewed_by": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "not": {
+          "pattern": "AI|Ai|ai|GPT|Gpt|gpt|Claude|claude|Gemini|gemini|Codex|codex|模型"
+        }
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "sha256",
+          "all_pages_or_sheets_reviewed",
+          "equations_media_objects_reviewed",
+          "headers_units_ranges_reviewed",
+          "evidence"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "all_pages_or_sheets_reviewed": {
+            "const": true
+          },
+          "equations_media_objects_reviewed": {
+            "const": true
+          },
+          "headers_units_ranges_reviewed": {
+            "const": true
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 3
+          }
+        }
+      }
+    },
+    "risk_closures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "risk_id",
+          "status",
+          "evidence"
+        ],
+        "properties": {
+          "risk_id": {
+            "type": "string",
+            "pattern": "^R[0-9]{3}$"
+          },
+          "status": {
+            "const": "closed"
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 3
+          }
+        }
+      }
+    },
+    "subproblems": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "prompt_locator",
+          "required_output",
+          "verified_by"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "prompt_locator": {
+            "type": "string",
+            "minLength": 3
+          },
+          "required_output": {
+            "type": "string",
+            "minLength": 3
+          },
+          "verified_by": {
+            "type": "string",
+            "minLength": 1,
+            "not": {
+              "pattern": "AI|Ai|ai|GPT|Gpt|gpt|Claude|claude|Gemini|gemini|Codex|codex|模型"
+            }
+          }
+        }
+      }
+    },
+    "workbook_ranges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "file",
+          "sheet",
+          "range",
+          "role",
+          "fields",
+          "units",
+          "used_by_subproblems",
+          "verified_by",
+          "evidence"
+        ],
+        "properties": {
+          "file": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sheet": {
+            "type": "string",
+            "minLength": 1
+          },
+          "range": {
+            "type": "string",
+            "pattern": "^[^!]+![A-Z]+[0-9]+(?::[A-Z]+[0-9]+)?$"
+          },
+          "role": {
+            "enum": [
+              "input",
+              "required_output",
+              "reference",
+              "validation"
+            ]
+          },
+          "fields": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "units": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "used_by_subproblems": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "verified_by": {
+            "type": "string",
+            "minLength": 1,
+            "not": {
+              "pattern": "AI|Ai|ai|GPT|Gpt|gpt|Claude|claude|Gemini|gemini|Codex|codex|模型"
+            }
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 3
+          }
+        }
+      }
+    },
+    "unresolved_ambiguities": {
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "description",
+          "impact"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 3
+          },
+          "impact": {
+            "type": "string",
+            "minLength": 3
+          }
+        }
+      }
+    }
+  }
+}

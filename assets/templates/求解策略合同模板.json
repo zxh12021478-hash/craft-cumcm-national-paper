@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "problem_id": "2026-A",
+  "source_manifest": "strategy/题面证据清单.json",
+  "source_reconciliation": {
+    "audit_report": "strategy/题面证据清单.json",
+    "reconciliation_record": "strategy/题面核对签字.json"
+  },
+  "subproblems": [
+    {
+      "id": "Q1",
+      "operative_question": "用可计算语言写清本问的决策对象和交付物",
+      "dependencies": [],
+      "inputs": [
+        {
+          "name": "题面输入",
+          "type": "table",
+          "source": "附件.xlsx",
+          "locator": "数据表!A1:K34",
+          "unit": "按题面",
+          "availability_timing": "决策前已知"
+        }
+      ],
+      "unknowns": [
+        "待估参数、待优化决策或待预测状态"
+      ],
+      "decision_variables": [
+        "变量名、定义域、单位和时间索引"
+      ],
+      "method": "主模型、透明基线、问题特定改造及采用理由",
+      "objectives": [
+        "目标函数、方向、单位和现实含义"
+      ],
+      "constraints": [
+        "逐条对应题面硬约束、软约束和边界条件"
+      ],
+      "result_fields": [
+        {
+          "name": "Q1_HEADLINE",
+          "type": "scalar",
+          "unit": "按题面",
+          "machine_path": "results/q1.json#headline",
+          "paper_location": "摘要问题一段与正文结果表",
+          "acceptance": "给出量化阈值、可行性条件和失败判据"
+        }
+      ],
+      "validation_ids": [
+        "V-Q1-01"
+      ]
+    }
+  ],
+  "workbook_range_mappings": [
+    {
+      "file": "附件.xlsx",
+      "sheet": "数据表",
+      "range": "数据表!A1:K34",
+      "role": "input",
+      "fields": [
+        "逐列写明字段"
+      ],
+      "units": [
+        "逐列写明单位"
+      ],
+      "used_by_subproblems": [
+        "Q1"
+      ]
+    }
+  ],
+  "information_structure": {
+    "decision_timeline": ["按真实赛题列出观察、决策、状态转移和结算顺序"],
+    "observation_timing": "明确哪些信息在每次决策前可见",
+    "uncertainty_semantics": "明确概率、区间、情景或未知机制，禁止默认期望值",
+    "multi_agent_semantics": "无多主体则写不适用；否则明确合作、竞争、均衡或公平准则"
+  },
+  "innovation_contract": {
+    "tournament_file": "strategy/结构洞察淘汰赛.json",
+    "tournament_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "audit_report": "strategy/结构洞察冻结审计.json",
+    "audit_report_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "primary_candidate": "I1",
+    "supporting_candidates": ["I8"]
+  },
+  "model_route": {
+    "baseline": "覆盖全部子问的透明基线",
+    "recommended": "团队批准的主模型与求解路线",
+    "structural_insight": "待验证的问题特定结构性质"
+  },
+  "formulation": {
+    "variables": ["变量名、含义、单位、定义域"],
+    "parameters": ["参数名、来源、单位和估计方法"],
+    "objective": "目标函数及其现实含义",
+    "constraints": ["逐条列出硬约束、软约束和边界条件"],
+    "data_transforms": ["清洗、标准化、特征构造及防泄漏边界"],
+    "solver": "算法、伪代码、停止准则、复杂度和随机种子",
+    "fallback": "主模型失败时仍可完整答题的回退路线"
+  },
+  "validation": {
+    "checks": ["解析、数值、经验和决策层检查"],
+    "acceptance_thresholds": ["写出量化通过阈值"],
+    "failure_tests": ["至少一个应导致拒绝或缩小结论的测试"]
+  },
+  "output_contract": {
+    "entry_command": "python run_all.py",
+    "machine_results": ["results/metrics.json"],
+    "verification_commands": ["python verifications/verify_results.py"],
+    "required_files": ["论文", "代码", "依赖", "结果", "图表", "交互记录"]
+  },
+  "locked_decisions": ["题意、假设、目标、约束、主模型和创新检验"],
+  "open_decisions": ["尚待团队确认的事项；未解决时不得声称 solver-ready"]
+}

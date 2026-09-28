@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "case_id": "YYYYX",
+  "created_at": null,
+  "pre_pilot_manifest": {
+    "path": "work/pre-pilot-manifest.json",
+    "sha256": null,
+    "frozen_at": null,
+    "first_pilot_started_at": null
+  },
+  "requirements": [
+    {
+      "id": "Q1-output-1",
+      "official_locator": "official problem page/subproblem/output locator",
+      "required": true,
+      "status": "missing",
+      "artifact_path": "work/results/q1.json",
+      "artifact_sha256": null,
+      "content_checks": [],
+      "notes": "Change to complete only after the real artifact exists, is hashed, and at least one content check passes."
+    }
+  ],
+  "notes": "List every direct answer, required workbook/range, policy, figure, table and supporting file named by the official prompt."
+}

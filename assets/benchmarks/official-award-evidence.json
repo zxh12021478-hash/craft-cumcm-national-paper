@@ -1,0 +1,480 @@
+{
+  "version": 1,
+  "checked_at": "2026-07-30",
+  "scope": {
+    "from_year": 2020,
+    "to_year": 2025,
+    "pre_2020_excluded": true
+  },
+  "policy": {
+    "verified_requires": [
+      "official_award_source",
+      "paper_identity_source",
+      "at_least_two_stable_identity_keys"
+    ],
+    "stable_identity_keys": [
+      "year",
+      "problem",
+      "display_code",
+      "paper_title",
+      "team_members",
+      "institution"
+    ],
+    "display_only_is_unverified": true,
+    "award_inference_forbidden": true,
+    "source_text_reuse_forbidden": true
+  },
+  "records": [
+    {
+      "id": "E2024-B159",
+      "status": "verified",
+      "verification_tier": "A_exact",
+      "year": 2024,
+      "problem": "B",
+      "display_code": "B159",
+      "paper_title": "生产过程中的决策优化设计",
+      "team_members": ["唐梓轩", "陈欣雨", "杨一汀"],
+      "institution": "北京师范大学",
+      "award": {
+        "grade": "special_award",
+        "label": "本科组高教社杯",
+        "group": "undergraduate"
+      },
+      "identity_match": {
+        "keys": ["year", "problem", "display_code", "paper_title", "team_members", "institution"],
+        "notes": "官方展示码、期刊题名与作者、官方获奖名单中的团队和学校相互闭合。"
+      },
+      "sources": [
+        {
+          "role": "official_award_source",
+          "publisher": "全国大学生数学建模竞赛组织委员会",
+          "url": "https://www.mcm.edu.cn/upload_cn/node/733/4rFKQqyT96ee1e63dd8d2408e56df8b2ec172125.pdf",
+          "locator": "第1页，本科组高教社杯",
+          "sha256": "31696d150264f24a9928afc46e6a8a0f01401dac0f4eac43e397d25dd11e82d1"
+        },
+        {
+          "role": "official_display_source",
+          "publisher": "全国大学生数学建模竞赛组委会、中国大学生在线",
+          "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024btlw/241104/1977943.shtml",
+          "locator": "B159"
+        },
+        {
+          "role": "paper_identity_source",
+          "publisher": "高等教育出版社《数学建模及其应用》",
+          "url": "https://cjournal.hep.com.cn/2095-3070/CN/1179753551888556996",
+          "locator": "题名、作者、单位与摘要"
+        }
+      ]
+    },
+    {
+      "id": "E2024-D033",
+      "status": "verified",
+      "verification_tier": "A_fingerprint",
+      "year": 2024,
+      "problem": "D",
+      "display_code": "D033",
+      "paper_title": "反潜航空深弹命中概率优化问题",
+      "team_members": ["张海峰", "葛梦忆", "曹祖铉"],
+      "institution": "南京工业职业技术大学",
+      "award": {
+        "grade": "special_award",
+        "label": "高职高专组高教社杯",
+        "group": "vocational"
+      },
+      "identity_match": {
+        "keys": ["year", "problem", "display_code", "team_members", "institution", "content_fingerprint"],
+        "notes": "官方会刊把获奖团队、D题、旋转坐标、航向不变性和“看哪打哪”证明连在同一叙述中，与D033展示论文结构指纹一致。"
+      },
+      "sources": [
+        {
+          "role": "official_award_source",
+          "publisher": "全国大学生数学建模竞赛组织委员会",
+          "url": "https://www.mcm.edu.cn/upload_cn/node/733/4rFKQqyT96ee1e63dd8d2408e56df8b2ec172125.pdf",
+          "locator": "第1页，高职高专组高教社杯",
+          "sha256": "31696d150264f24a9928afc46e6a8a0f01401dac0f4eac43e397d25dd11e82d1"
+        },
+        {
+          "role": "official_display_source",
+          "publisher": "全国大学生数学建模竞赛组委会、中国大学生在线",
+          "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024dtlw/241104/1977965.shtml",
+          "locator": "D033"
+        },
+        {
+          "role": "paper_identity_source",
+          "publisher": "全国大学生数学建模竞赛组织委员会会刊",
+          "url": "https://www.mcm.edu.cn/upload_cn/node/751/A2kuNwvmb2596415a665eb89cc790d65b23ca0ca.pdf",
+          "locator": "获奖团队参赛回顾：D题、旋转坐标、航向不变性与最优投弹方案",
+          "sha256": "824b2233012a6013fd4e14feddce1da4d4ca555e5bcbd4f2743a71d6168d673c"
+        }
+      ]
+    },
+    {
+      "id": "E2024-A242",
+      "status": "verified",
+      "verification_tier": "A_exact",
+      "year": 2024,
+      "problem": "A",
+      "display_code": "A242",
+      "paper_title": "基于动态搜索的“板凳龙”运动状态及路线研究",
+      "team_members": ["陈静怡", "陈诺严", "游天明"],
+      "institution": "上海交通大学",
+      "award": {
+        "grade": "national_first",
+        "label": "本科组一等奖、北太天元数模之星",
+        "group": "undergraduate"
+      },
+      "identity_match": {
+        "keys": ["year", "problem", "display_code", "paper_title", "team_members", "institution"],
+        "notes": "官方名单和校方页面确认奖级，官方展示码与期刊题名、作者完全匹配。"
+      },
+      "sources": [
+        {
+          "role": "official_award_source",
+          "publisher": "全国大学生数学建模竞赛组织委员会",
+          "url": "https://www.mcm.edu.cn/upload_cn/node/733/4rFKQqyT96ee1e63dd8d2408e56df8b2ec172125.pdf",
+          "locator": "第1页北太天元数模之星；本科组一等奖名单第3页",
+          "sha256": "31696d150264f24a9928afc46e6a8a0f01401dac0f4eac43e397d25dd11e82d1"
+        },
+        {
+          "role": "official_display_source",
+          "publisher": "全国大学生数学建模竞赛组委会、中国大学生在线",
+          "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024atlw/241104/1977939.shtml",
+          "locator": "A242"
+        },
+        {
+          "role": "paper_identity_source",
+          "publisher": "高等教育出版社《数学建模及其应用》",
+          "url": "https://qxyy.cbpt.cnki.net/portal/journal/portal/client/paper/c4e9db17232960f6583809834df699ab",
+          "locator": "题名、作者、单位与摘要"
+        },
+        {
+          "role": "award_identity_source",
+          "publisher": "上海交通大学教务处",
+          "url": "https://www.jwc.sjtu.edu.cn/info/1027/121731.htm",
+          "locator": "2024年A题团队、全国一等奖与北太天元数模之星"
+        }
+      ]
+    },
+    {
+      "id": "E2024-B195",
+      "status": "verified",
+      "verification_tier": "A_exact",
+      "year": 2024,
+      "problem": "B",
+      "display_code": "B195",
+      "paper_title": "基于多阶段模拟仿真的生产决策问题",
+      "team_members": ["何晨", "裘诚睿", "张汝坤"],
+      "institution": "华中师范大学",
+      "award": {
+        "grade": "national_first",
+        "label": "本科组一等奖、SPSSPRO数模之星",
+        "group": "undergraduate"
+      },
+      "identity_match": {
+        "keys": ["year", "problem", "display_code", "paper_title", "team_members", "institution"],
+        "notes": "官方获奖名单、官方展示码、团队分享与期刊元数据交叉一致。"
+      },
+      "sources": [
+        {
+          "role": "official_award_source",
+          "publisher": "全国大学生数学建模竞赛组织委员会",
+          "url": "https://www.mcm.edu.cn/upload_cn/node/733/4rFKQqyT96ee1e63dd8d2408e56df8b2ec172125.pdf",
+          "locator": "第1页SPSSPRO数模之星；本科组一等奖名单第4页",
+          "sha256": "31696d150264f24a9928afc46e6a8a0f01401dac0f4eac43e397d25dd11e82d1"
+        },
+        {
+          "role": "official_display_source",
+          "publisher": "全国大学生数学建模竞赛组委会、中国大学生在线",
+          "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024btlw/241104/1977945.shtml",
+          "locator": "B195"
+        },
+        {
+          "role": "paper_identity_source",
+          "publisher": "高等教育出版社《数学建模及其应用》",
+          "url": "https://cjournal.hep.com.cn/2095-3070/CN/10.19943/j.2095-3070.jmmia.2025.01.10",
+          "locator": "题名、作者、单位与摘要"
+        },
+        {
+          "role": "award_identity_source",
+          "publisher": "中国大学生在线",
+          "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_smtd/241212/1983807.shtml",
+          "locator": "团队、年份与B题"
+        }
+      ]
+    },
+    {
+      "id": "E2024-B196",
+      "status": "verified",
+      "verification_tier": "A_fingerprint",
+      "year": 2024,
+      "problem": "B",
+      "display_code": "B196",
+      "paper_title": "基于遗传算法优化的蒙特卡洛模拟在生产决策优化中的应用研究",
+      "competition_title_variant": "基于蚁群算法与遗传算法优化的蒙特卡洛模拟在生产决策优化中的应用研究",
+      "team_members": ["林佳讯", "熊韬力", "董啸炎"],
+      "institution": "华南理工大学",
+      "award": {
+        "grade": "national_first",
+        "label": "本科组一等奖、B题优秀论文",
+        "group": "undergraduate"
+      },
+      "identity_match": {
+        "keys": ["year", "problem", "display_code", "team_members", "institution", "content_fingerprint"],
+        "notes": "中国大学生在线同时给出团队、国一、B题优秀论文、竞赛题名与方法；期刊版题名删去了“蚁群算法”，故不把题名差异伪装成完全一致。"
+      },
+      "sources": [
+        {
+          "role": "official_award_source",
+          "publisher": "全国大学生数学建模竞赛组织委员会",
+          "url": "https://www.mcm.edu.cn/upload_cn/node/733/4rFKQqyT96ee1e63dd8d2408e56df8b2ec172125.pdf",
+          "locator": "本科组一等奖名单第5页",
+          "sha256": "31696d150264f24a9928afc46e6a8a0f01401dac0f4eac43e397d25dd11e82d1"
+        },
+        {
+          "role": "official_display_source",
+          "publisher": "全国大学生数学建模竞赛组委会、中国大学生在线",
+          "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024btlw/241104/1977950.shtml",
+          "locator": "B196"
+        },
+        {
+          "role": "paper_identity_source",
+          "publisher": "中国大学生在线、华南理工大学",
+          "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_smtd/241223/1985118.shtml",
+          "locator": "团队、奖级、竞赛论文题名与方法"
+        },
+        {
+          "role": "journal_identity_source",
+          "publisher": "高等教育出版社《数学建模及其应用》",
+          "url": "https://cjournal.hep.com.cn/2095-3070/CN/10.19943/j.2095-3070.jmmia.2025.01.11",
+          "locator": "期刊版题名、作者、单位与摘要"
+        }
+      ]
+    },
+    {
+      "id": "E2022-A001",
+      "status": "verified",
+      "verification_tier": "A_exact",
+      "year": 2022,
+      "problem": "A",
+      "display_code": "A001",
+      "paper_title": "波浪能装置输出功率优化设计",
+      "journal_title_variant": "波浪能最大输出功率设计",
+      "team_members": ["曹菁文", "栾天成", "康文广"],
+      "institution": "山东大学",
+      "award": {
+        "grade": "special_award",
+        "label": "本科组高教社杯",
+        "group": "undergraduate"
+      },
+      "identity_match": {
+        "keys": ["year", "problem", "display_code", "paper_title", "team_members", "institution"],
+        "notes": "官方颁奖来源确认最高奖与团队，校方来源给出A题和竞赛论文题名，A001为官方展示码。"
+      },
+      "sources": [
+        {
+          "role": "official_award_source",
+          "publisher": "全国大学生数学建模竞赛组织委员会",
+          "url": "https://www.mcm.edu.cn/upload_cn/node/629/uJzoCRK40ebedd130f42ed41e5f144ac29bae490.pdf",
+          "locator": "第1页本科组高教社杯；本科组一等奖名单第4页",
+          "sha256": "3605b3fbb3c2de44752b856dc4739a13835d5feb3d32c643d526f257763c3f0c"
+        },
+        {
+          "role": "official_display_source",
+          "publisher": "全国大学生数学建模竞赛组委会、中国大学生在线",
+          "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2022qgdxssxjmjslwzs/221106/1820295.shtml",
+          "locator": "A001"
+        },
+        {
+          "role": "award_identity_source",
+          "publisher": "中国工业与应用数学学会",
+          "url": "https://www.csiam.org.cn/1003/202304/1717.html",
+          "locator": "本科组高教社杯团队"
+        },
+        {
+          "role": "paper_identity_source",
+          "publisher": "山东大学",
+          "url": "https://www.media.sdu.edu.cn/info/1002/31777.htm",
+          "locator": "团队、A题与竞赛论文题名"
+        }
+      ]
+    },
+    {
+      "id": "E2023-B-JMMIA-01-10",
+      "status": "verified",
+      "verification_tier": "A_exact_without_display_code",
+      "year": 2023,
+      "problem": "B",
+      "display_code": null,
+      "paper_title": "基于区域划分的多波束测线布设",
+      "team_members": ["邸智", "张一博", "韩书星"],
+      "institution": "南京邮电大学",
+      "award": {
+        "grade": "national_first",
+        "label": "本科组一等奖、北太天元数模之星",
+        "group": "undergraduate"
+      },
+      "identity_match": {
+        "keys": ["year", "problem", "paper_title", "team_members", "institution"],
+        "notes": "官方名单确认奖级，官方团队页确认年份、团队和B题，期刊元数据确认相同团队的论文题名、单位与结构摘要；未发现官方展示码，因此保持为空。"
+      },
+      "sources": [
+        {
+          "role": "official_award_source",
+          "publisher": "全国大学生数学建模竞赛组织委员会",
+          "url": "https://www.mcm.edu.cn/upload_cn/node/701/6XE4ZF5Oc3573e0779f6cd8e31d79a6e9f6fd13d.pdf",
+          "locator": "第1页北太天元数模之星；本科组一等奖名单第3页",
+          "sha256": "44abcc74e05388c6254da3866a4ff5ab4eda2fd4d66863395b632db9bdde49b6"
+        },
+        {
+          "role": "award_identity_source",
+          "publisher": "中国大学生在线、南京邮电大学",
+          "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_smtd/240109/1874022.shtml",
+          "locator": "团队、2023年与B题"
+        },
+        {
+          "role": "paper_identity_source",
+          "publisher": "高等教育出版社《数学建模及其应用》",
+          "url": "https://cjournal.hep.com.cn/2095-3070/CN/10.19943/j.2095-3070.jmmia.2024.01.10",
+          "locator": "题名、作者、单位与摘要"
+        }
+      ]
+    },
+    {
+      "id": "E2020-C-TONGJI-HEP",
+      "status": "verified",
+      "verification_tier": "A_team_problem_fingerprint",
+      "year": 2020,
+      "problem": "C",
+      "display_code": null,
+      "paper_title": null,
+      "team_members": ["刘佳琦", "胡雨辰", "王思澄"],
+      "institution": "同济大学",
+      "award": {
+        "grade": "special_award",
+        "label": "本科组高教社杯",
+        "group": "undergraduate"
+      },
+      "identity_match": {
+        "keys": ["year", "problem", "team_members", "institution", "content_fingerprint"],
+        "notes": "官方获奖名单确认最高奖；全国组委会会刊中的获奖团队感言明确C题、改进的极限梯度提升树风险分级与非线性信贷配置。未核实官方展示码和竞赛论文题名，均保持为空。"
+      },
+      "sources": [
+        {
+          "role": "official_award_source",
+          "publisher": "全国大学生数学建模竞赛组织委员会",
+          "url": "https://www.mcm.edu.cn/upload_cn/node/593/ejsYC2sWca14e3b34ac748d4862444af0c44d1fd.pdf",
+          "locator": "第1页本科组高教社杯；本科组一等奖名单第2页",
+          "sha256": "273c708bb66e4d52f13b20c31fac82dbecae3bc2d157e97f08f47b02c7acebd9"
+        },
+        {
+          "role": "paper_identity_source",
+          "publisher": "全国大学生数学建模竞赛组织委员会会刊",
+          "url": "https://www.mcm.edu.cn/upload_cn/node/635/oxY1gVyUc2e4d4e23b2b161a8fed051f8d86dbfd.pdf",
+          "locator": "第6—7页：获奖团队、C题、风险评估与非线性信贷策略",
+          "sha256": "af29de167611766ae02c91565b47970d6952c36921efa2a17b174e11f957b235"
+        },
+        {
+          "role": "award_identity_source",
+          "publisher": "中国大学生在线",
+          "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_smtd/220902/1736544.shtml",
+          "locator": "2020本科组高教社杯团队"
+        }
+      ]
+    },
+    {
+      "id": "E2021-A-SWJTU-HEP",
+      "status": "verified",
+      "verification_tier": "A_team_problem_fingerprint",
+      "year": 2021,
+      "problem": "A",
+      "display_code": null,
+      "paper_title": null,
+      "team_members": ["王凯伦", "高原", "黄琬"],
+      "institution": "西南交通大学",
+      "award": {
+        "grade": "special_award",
+        "label": "本科组高教社杯",
+        "group": "undergraduate"
+      },
+      "identity_match": {
+        "keys": ["year", "problem", "team_members", "institution", "content_fingerprint"],
+        "notes": "官方名单确认最高奖；全国组委会会刊中的团队本人感言明确选择A题、恢复被过度简化的约束、采用BFGS处理高维非线性等式与不等式约束。未核实官方展示码和论文题名。"
+      },
+      "sources": [
+        {
+          "role": "official_award_source",
+          "publisher": "全国大学生数学建模竞赛组织委员会",
+          "url": "https://www.mcm.edu.cn/upload_cn/node/626/n7nhofCn201ab6d8d92db35564daa7cca31853d6.pdf",
+          "locator": "第1页本科组高教社杯；本科组一等奖名单第6页",
+          "sha256": "79908af470df3c2f0eba0be904d631d384bbff3c24429444692f61367268edc4"
+        },
+        {
+          "role": "paper_identity_source",
+          "publisher": "全国大学生数学建模竞赛组织委员会会刊",
+          "url": "https://www.mcm.edu.cn/upload_cn/node/637/lSQTkSdU290950f6d459d66cf486c56f14e1f228.pdf",
+          "locator": "第12—13页：获奖团队、A题、约束修正与BFGS求解",
+          "sha256": "ead1c616175c8088d4b2df46ffc942e91640457d2fd9cedd247965dbb26e08ae"
+        },
+        {
+          "role": "award_identity_source",
+          "publisher": "西南交通大学新闻网",
+          "url": "https://news.swjtu.edu.cn/info/1012/1577.htm",
+          "locator": "最高奖团队与学校"
+        }
+      ]
+    },
+    {
+      "id": "E2025-B-TSINGHUA-HEP",
+      "status": "verified",
+      "verification_tier": "A_exact_without_display_code",
+      "year": 2025,
+      "problem": "B",
+      "display_code": null,
+      "paper_title": "红外干涉法测量外延层厚度的建模分析",
+      "team_members": ["张新晨", "徐威南", "周诗贺"],
+      "institution": "清华大学",
+      "award": {
+        "grade": "special_award",
+        "label": "本科组高教社杯",
+        "group": "undergraduate"
+      },
+      "identity_match": {
+        "keys": ["year", "problem", "paper_title", "team_members", "institution"],
+        "notes": "官方最终名单和颁奖报道确认最高奖，清华校方确认B题，期刊元数据与中国大学生在线团队页确认相同团队、题名和结构摘要。未建立官方展示码。"
+      },
+      "sources": [
+        {
+          "role": "official_award_source",
+          "publisher": "全国大学生数学建模竞赛组织委员会",
+          "url": "https://www.mcm.edu.cn/upload_cn/node/767/He1YI4ZEe969ff168945f43e52721891ab19945b.pdf",
+          "locator": "本科组高教社杯及本科组一等奖名单",
+          "sha256": "f0a66712c68cf8ec6e6d3b4fb0cd26655ecd425f45e975d8810d4eedbf1b1785"
+        },
+        {
+          "role": "award_identity_source",
+          "publisher": "中国工业与应用数学学会",
+          "url": "https://m.csiam.org.cn/1003/202512/2597.html",
+          "locator": "2025本科组高教社杯团队"
+        },
+        {
+          "role": "problem_identity_source",
+          "publisher": "清华大学数学基础教学中心",
+          "url": "https://www.tcm.tsinghua.edu.cn/info/1006/1171.htm",
+          "locator": "获奖团队与B题“碳化硅外延层厚度的确定”"
+        },
+        {
+          "role": "paper_identity_source",
+          "publisher": "高等教育出版社《数学建模及其应用》",
+          "url": "https://qxyy.cbpt.cnki.net/portal/journal/portal/client/paper/9f132dca9ba0a6617ad70850ae5945dd",
+          "locator": "题名、作者、单位与摘要"
+        },
+        {
+          "role": "team_identity_source",
+          "publisher": "中国大学生在线、清华大学",
+          "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_smtd/260401/2032936.shtml",
+          "locator": "团队、B题与论文题名"
+        }
+      ]
+    }
+  ]
+}

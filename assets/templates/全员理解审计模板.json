@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "scale": "0=不能解释，1=只会复述，2=能解释定义，3=能解释选择依据，4=能处理追问，5=能独立复现或推导",
+  "minimum_score": 3,
+  "members": [
+    {
+      "name": "队员A",
+      "scores": {
+        "problem_interpretation": 0,
+        "assumptions_and_scope": 0,
+        "variables_objective_constraints": 0,
+        "solver_and_parameters": 0,
+        "headline_results": 0,
+        "validation_and_uncertainty": 0,
+        "limitations_and_failure_conditions": 0,
+        "ai_use_and_human_changes": 0
+      },
+      "challenge_question": "",
+      "answer_evidence": "",
+      "audited_by": ""
+    },
+    {
+      "name": "队员B",
+      "scores": {
+        "problem_interpretation": 0,
+        "assumptions_and_scope": 0,
+        "variables_objective_constraints": 0,
+        "solver_and_parameters": 0,
+        "headline_results": 0,
+        "validation_and_uncertainty": 0,
+        "limitations_and_failure_conditions": 0,
+        "ai_use_and_human_changes": 0
+      },
+      "challenge_question": "",
+      "answer_evidence": "",
+      "audited_by": ""
+    },
+    {
+      "name": "队员C",
+      "scores": {
+        "problem_interpretation": 0,
+        "assumptions_and_scope": 0,
+        "variables_objective_constraints": 0,
+        "solver_and_parameters": 0,
+        "headline_results": 0,
+        "validation_and_uncertainty": 0,
+        "limitations_and_failure_conditions": 0,
+        "ai_use_and_human_changes": 0
+      },
+      "challenge_question": "",
+      "answer_evidence": "",
+      "audited_by": ""
+    }
+  ]
+}

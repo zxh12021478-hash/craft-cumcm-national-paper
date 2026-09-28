@@ -1,0 +1,322 @@
+{
+  "version": 2,
+  "scope": {
+    "from_year": 2020,
+    "to_year": 2025,
+    "pre_2020_excluded": true
+  },
+  "policy": {
+    "purpose": "Retrieve cross-case structural moves, not model answers.",
+    "award_boundary": "Official display-code match is not proof of a national-first award.",
+    "award_verified_requires": "A verified card must reference an evidence record that links an official award source to the paper by stable identity keys; display status alone never qualifies.",
+    "award_weight_boundary": "Verified award evidence receives only a modest tie-breaking bonus after task-fit scoring and never overrides reconstruction cost, validation quality, or failure risk.",
+    "copyright_boundary": "Reuse only abstracted moves; never copy source prose, equations, figures, or code.",
+    "same_case_boundary": "Same-case solutions, papers, repositories, and method-revealing snippets remain forbidden before strategy freeze."
+  },
+  "cards": [
+    {
+      "id": "X01",
+      "source_case": "CUMCM2024A-A163",
+      "provenance": "official_display_code_match",
+      "kind": "positive",
+      "tags": ["structural_reduction", "certificate", "geometry", "routing", "locality", "invariant"],
+      "move": "先证明不变量，再把全局搜索缩成只会改变可行性的局部危险事件。",
+      "reconstruction_test": "明确列出被删变量、删减依据与不会漏解的边界条件。",
+      "counterfactual": "对全部位置、速度和路径参数做黑箱搜索。",
+      "failure_risk": "危险集未覆盖首次违规事件时会产生伪最优。"
+    },
+    {
+      "id": "X02",
+      "source_case": "CUMCM2025A-A196",
+      "provenance": "official_display_code_match",
+      "kind": "positive",
+      "tags": ["structural_reduction", "regime_switching", "certificate", "geometry", "boundary", "dimension_reduction"],
+      "move": "证明连续可行区间与边界检查充分性，再按临界事件搜索并重参数化高维协同变量。",
+      "reconstruction_test": "至少给出连续性、边界充分性或一一对应关系中的一个可检查证明。",
+      "counterfactual": "高维变量全部交给通用群智能算法。",
+      "failure_risk": "离散采样不能替代边界充分性证明。"
+    },
+    {
+      "id": "X03",
+      "source_case": "CUMCM2025B-B060",
+      "provenance": "official_display_code_match",
+      "kind": "positive",
+      "tags": ["identifiability", "regime_switching", "certificate", "mechanism", "inverse_problem", "cross_validation"],
+      "move": "为同一未知量建立两条独立反演路线，先判定机制适用区间，再以路线差异诊断错配。",
+      "reconstruction_test": "两条路线不得共享同一关键近似或同一实现路径。",
+      "counterfactual": "只报告一个优化器的拟合值和单一残差。",
+      "failure_risk": "共享错误先验的两条路线不构成独立验证。"
+    },
+    {
+      "id": "X04",
+      "source_case": "CUMCM2024B-B159",
+      "provenance": "official_display_code_match",
+      "award_verification": {
+        "status": "verified",
+        "evidence_id": "E2024-B159"
+      },
+      "kind": "positive",
+      "tags": ["uncertainty_decision", "value_of_information", "sequential_decision", "sampling", "cost", "expected_utility"],
+      "move": "把抽样功效、信息成本和下游状态决策的期望效用放在同一目标中。",
+      "reconstruction_test": "扰动先验或误判代价后，样本量和下游决策应产生可解释变化。",
+      "counterfactual": "先固定样本量，再机械地把检验结论送入优化。",
+      "failure_risk": "主观先验和效用权重必须做决策翻转分析。"
+    },
+    {
+      "id": "X05",
+      "source_case": "CUMCM2024C-C063",
+      "provenance": "official_display_code_match",
+      "kind": "positive",
+      "tags": ["uncertainty_decision", "robust_optimization", "multi_period", "scenario", "risk", "decision"],
+      "move": "沿确定性基线、随机情景、稳健决策递进，并让不确定性真正改变策略或可行域。",
+      "reconstruction_test": "加入不确定性后必须解释策略变化或稳定不变区间。",
+      "counterfactual": "确定性求解后只加一张孤立的灵敏度图。",
+      "failure_risk": "无数据依据的情景分布会把主观设定伪装成稳健性。"
+    },
+    {
+      "id": "X06",
+      "source_case": "CUMCM2024D-D033",
+      "provenance": "official_display_code_match",
+      "award_verification": {
+        "status": "verified",
+        "evidence_id": "E2024-D033"
+      },
+      "kind": "positive",
+      "tags": ["regime_switching", "probability", "geometry", "certificate", "event", "piecewise"],
+      "move": "先按事件几何把概率区域互斥分段，再在各区间推导解析或半解析条件并优化。",
+      "reconstruction_test": "分区必须互斥、完备，边界连续或跳变有现实解释。",
+      "counterfactual": "直接用蒙特卡洛扫描全部决策参数。",
+      "failure_risk": "错误独立性假设会得到精确但不可信的解析结果。"
+    },
+    {
+      "id": "X07",
+      "source_case": "CUMCM2022C-C155",
+      "provenance": "official_display_code_match",
+      "kind": "positive",
+      "tags": ["identifiability", "data_geometry", "classification", "compositional_data", "transform"],
+      "move": "先识别数据所在的约束几何空间，再选择变换、距离和分类模型。",
+      "reconstruction_test": "变换前后距离与边界变化可解释，且能回到原量纲。",
+      "counterfactual": "把组成比例当作彼此独立的普通欧氏变量。",
+      "failure_risk": "零值处理和伪计数需单列敏感性。"
+    },
+    {
+      "id": "X08",
+      "source_case": "CUMCM2022B-B086",
+      "provenance": "official_display_code_match",
+      "kind": "positive",
+      "tags": ["identifiability", "structural_reduction", "certificate", "control", "uniqueness", "local_adjustment"],
+      "move": "先证明观测可唯一确定状态，再设计局部校正规则并验证全局误差收敛。",
+      "reconstruction_test": "展示去掉一类观测后出现的不可辨识反例。",
+      "counterfactual": "直接迭代调整但不说明目标状态能否唯一确定。",
+      "failure_risk": "局部收敛与全局可辨识必须分开陈述。"
+    },
+    {
+      "id": "X09",
+      "source_case": "CUMCM2021C-C085",
+      "provenance": "official_display_code_match",
+      "kind": "positive",
+      "tags": ["decomposition", "sequential_decision", "structure_aware_solver", "routing", "capacity", "hierarchy"],
+      "move": "按信息到达和决策发生顺序分解选择、分配、运输等子问题，并利用单调边界搜索。",
+      "reconstruction_test": "写清子问题接口、共享变量，并用小规模联合基准量化最优性损失。",
+      "counterfactual": "一次性把全部变量塞入单个通用启发式。",
+      "failure_risk": "层间反馈强时，顺序分解可能损失全局最优。"
+    },
+    {
+      "id": "X10",
+      "source_case": "CUMCM2020B",
+      "provenance": "third_party_bundle_unverified",
+      "kind": "positive_low_provenance",
+      "tags": ["certificate", "sequential_decision", "simulation", "policy", "exact_small_instance"],
+      "move": "在小规模状态空间求精确解，从解集提炼策略，再在留出随机情景上比较收益与失败概率。",
+      "reconstruction_test": "策略必须在未参与提炼的情景上与精确解或强基线比较。",
+      "counterfactual": "直接在大规模情景上输出一条启发式路线。",
+      "failure_risk": "少量精确样本提炼的规则可能只对当前参数成立。"
+    },
+    {
+      "id": "X11",
+      "source_case": "CUMCM2023B-B311",
+      "provenance": "official_display_code_match",
+      "kind": "positive",
+      "tags": ["model_selection", "geometry", "recursive_state", "certificate", "definition", "boundary_case"],
+      "move": "提出两个可操作的竞争定义，以题意和临界算例淘汰不贴合者，再递推构造方案。",
+      "reconstruction_test": "竞争定义必须导致可观察差异，并由题意或边界案例裁决。",
+      "counterfactual": "默认采用最熟悉的指标定义。",
+      "failure_risk": "图形直观不能替代公式边界与误差核验。"
+    },
+    {
+      "id": "X12",
+      "source_case": "CUMCM2023D-D039",
+      "provenance": "official_display_code_match",
+      "kind": "positive",
+      "tags": ["structural_reduction", "structure_aware_solver", "simulation", "integer_programming", "finite_search", "fixed_variable"],
+      "move": "解释原模型为何难解，依据业务结构固定或枚举少数关键变量，将剩余问题化为有限搜索。",
+      "reconstruction_test": "以小规模联合求解量化固定变量造成的最优性损失。",
+      "counterfactual": "无证书地声称高维非线性整数模型达到全局最优。",
+      "failure_risk": "缺少依据的变量固定只是未经证明的剪枝。"
+    },
+    {
+      "id": "X13",
+      "source_case": "CUMCM2020A",
+      "provenance": "third_party_bundle_unverified",
+      "kind": "positive_low_provenance",
+      "tags": ["mechanism", "calibration", "optimization", "sensitivity", "dynamics", "control"],
+      "move": "用守恒或传递机理建立状态方程，以实测数据校准，再在现实约束内优化控制。",
+      "reconstruction_test": "校准、预测和优化数据分开，至少保留一部分数据不参与拟合。",
+      "counterfactual": "直接对输入输出做黑箱回归后优化。",
+      "failure_risk": "参数不可辨识或全数据拟合会造成虚假精度。"
+    },
+    {
+      "id": "X14",
+      "source_case": "CUMCM2021A-A217",
+      "provenance": "official_display_code_match",
+      "kind": "positive",
+      "tags": ["geometry", "structural_reduction", "certificate", "simulation", "coordinate_transform", "monte_carlo"],
+      "move": "用坐标变换统一不同姿态的几何问题，再用独立积分评价最终性能。",
+      "reconstruction_test": "变换前后距离、角度和目标值满足对应不变量。",
+      "counterfactual": "为每个空间姿态重复建立不同公式。",
+      "failure_risk": "复用主模型判定函数的蒙特卡洛不构成独立验证。"
+    },
+    {
+      "id": "X15",
+      "source_case": "CUMCM2024A-A242",
+      "provenance": "official_award_and_paper_identity_match",
+      "award_verification": {
+        "status": "verified",
+        "evidence_id": "E2024-A242"
+      },
+      "kind": "positive",
+      "tags": ["structural_reduction", "event_driven", "adaptive_search", "binary_search", "geometry", "invariant", "collision"],
+      "move": "把连续运动拆成少数状态段，先证明不随决策改变的路径量，再用变步长包围首次违规事件并以二分搜索精化。",
+      "reconstruction_test": "用更细独立时间网格或解析距离下界复核事件区间，证明未跨过更早的首次违规点。",
+      "counterfactual": "固定极小步长扫描全时域，并把所有路径参数交给黑箱优化。",
+      "failure_risk": "事件函数不连续、非单调或区间未形成异号包围时，二分搜索可能确认错误事件。"
+    },
+    {
+      "id": "X16",
+      "source_case": "CUMCM2024B-B196",
+      "provenance": "official_award_and_paper_identity_match",
+      "award_verification": {
+        "status": "verified",
+        "evidence_id": "E2024-B196"
+      },
+      "kind": "positive",
+      "tags": ["uncertainty_decision", "simulation", "stochastic", "discrete_policy", "common_random_numbers", "exact_small_instance", "robustness"],
+      "move": "把随机质量传播封装为可复核的策略评价器，再按决策结构搜索；用共同随机数、置信区间和小规模穷举把算法收益与模拟噪声分开。",
+      "reconstruction_test": "候选策略必须在相同随机流和留出种子上复评，并在可穷举子问题中报告最优性差距。",
+      "counterfactual": "堆叠多个元启发式，比较各自最好一次运行的点估计。",
+      "failure_risk": "反复在同一随机样本上择优会产生赢家诅咒；算法名称不能替代独立证书。"
+    },
+    {
+      "id": "X17",
+      "source_case": "CUMCM2024B-B195",
+      "provenance": "official_award_and_paper_identity_match",
+      "award_verification": {
+        "status": "verified",
+        "evidence_id": "E2024-B195"
+      },
+      "kind": "positive",
+      "tags": ["continuous_relaxation", "simulation", "integer_decision", "fixed_point", "rounding", "optimality_gap", "sequential_decision"],
+      "move": "用连续决策率松弛离散策略以揭示循环生产系统的收益地形，再投影回可执行决策并量化松弛界、投影损失和收敛误差。",
+      "reconstruction_test": "在小规模实例上同时给出精确离散最优、连续松弛值和投影方案，报告上下界与可行性。",
+      "counterfactual": "把0到1之间的连续最优值直接解释为可执行的检测或拆解决策。",
+      "failure_risk": "松弛间隙、循环仿真未收敛或事后挑选投影规则都可能制造虚假利润提升。"
+    },
+    {
+      "id": "X18",
+      "source_case": "CUMCM2022A-A001",
+      "provenance": "official_award_and_paper_identity_match",
+      "award_verification": {
+        "status": "verified",
+        "evidence_id": "E2022-A001"
+      },
+      "kind": "positive",
+      "tags": ["mechanism", "dynamics", "ode", "energy_balance", "numerical_convergence", "optimization", "sensitivity"],
+      "move": "按受力关系建立耦合动力学，把稳态周期平均功率写成可计算泛函；先做量纲、能量平衡和步长收敛，再优化阻尼参数。",
+      "reconstruction_test": "至少同时通过单位核验、步长减半、瞬态截除和独立求解器复算，且优化前后的能量账可闭合。",
+      "counterfactual": "在未经验证的数值积分器外直接套遗传算法，并把网格误差当成性能增益。",
+      "failure_risk": "初始瞬态、刚性方程或积分步长会改变平均功率排序，导致优化器追逐数值伪峰。"
+    },
+    {
+      "id": "X19",
+      "source_case": "CUMCM2023B-JMMIA-2024-01-10",
+      "provenance": "official_award_and_paper_identity_match",
+      "award_verification": {
+        "status": "verified",
+        "evidence_id": "E2023-B-JMMIA-01-10"
+      },
+      "kind": "positive",
+      "tags": ["decomposition", "geometry", "partition", "coverage", "boundary", "robustness", "terrain"],
+      "move": "先证明规则坡面上的最优方向与递推间距，再把不规则地形按拟合误差自适应分区，局部求解后统一审计分区接缝和全局覆盖。",
+      "reconstruction_test": "报告分区阈值、拟合残差、接缝漏测或过度重叠，并与不分区基线比较总长度和覆盖违约。",
+      "counterfactual": "对整片不规则区域强行使用同一方向和间距，或局部求解后直接拼接。",
+      "failure_risk": "分区阈值后验调节和接缝约束遗漏会把局部最优拼成全局不可行方案。"
+    },
+    {
+      "id": "X20",
+      "source_case": "CUMCM2020C-TONGJI-HEP",
+      "provenance": "official_award_and_team_problem_match",
+      "award_verification": {
+        "status": "verified",
+        "evidence_id": "E2020-C-TONGJI-HEP"
+      },
+      "kind": "positive",
+      "tags": ["classification", "risk", "decision", "credit", "nonlinear_programming", "policy", "calibration"],
+      "move": "把风险识别、信用分级和额度配置分成可审计的三层接口，让预测分数只作为受政策与收益约束的决策输入，而不是直接等同于授信方案。",
+      "reconstruction_test": "用时间或主体外切分检查校准度，并在风险阈值、政策边界和违约损失扰动下记录额度方案是否翻转。",
+      "counterfactual": "以随机切分准确率选模型，再按预测概率单调发放额度。",
+      "failure_risk": "标签泄漏、概率未校准和把临时政策假设固化进目标函数会造成看似精确的错误授信。"
+    },
+    {
+      "id": "X21",
+      "source_case": "CUMCM2021A-SWJTU-HEP",
+      "provenance": "official_award_and_team_problem_match",
+      "award_verification": {
+        "status": "verified",
+        "evidence_id": "E2021-A-SWJTU-HEP"
+      },
+      "kind": "positive",
+      "tags": ["mechanism", "geometry", "nonlinear_optimization", "equality_constraint", "inequality_constraint", "constraint_residual", "large_scale"],
+      "move": "先把工程曲面与执行机构的几何关系写成带等式和不等式的高维约束，再选择结构相容的迭代法；一旦简化约束导致形状偏差，回到物理约束而不是继续调参。",
+      "reconstruction_test": "同时报告曲面拟合误差、等式残差、不等式最大违约、不同初值结果和恢复被简化约束前后的差异。",
+      "counterfactual": "为便于求解先删去关键工程约束，再以优化器快速收敛证明模型正确。",
+      "failure_risk": "BFGS类方法的收敛不等于约束可行或全局最优；错误几何映射会让小残差失去物理意义。"
+    },
+    {
+      "id": "X22",
+      "source_case": "CUMCM2025B-TSINGHUA-HEP",
+      "provenance": "official_award_and_paper_identity_match",
+      "award_verification": {
+        "status": "verified",
+        "evidence_id": "E2025-B-TSINGHUA-HEP"
+      },
+      "kind": "positive",
+      "tags": ["identifiability", "mechanism", "inverse_problem", "dual_route", "regime_switching", "residual_diagnosis", "dispersion"],
+      "move": "从色散机理建立观测方程，用极值点直接公式与全谱非线性反演两条路线估厚，并以残差结构判断双光束模型何时必须切换为多光束模型。",
+      "reconstruction_test": "两条路线需采用不同信息子集或实现路径；同时做多角度一致性、合成真值恢复和残差频谱检查。",
+      "counterfactual": "只用单个非线性优化器拟合全谱，并以低总残差宣称机理成立。",
+      "failure_risk": "两条路线共享错误折射率模型时会同时偏离真值；低残差也可能掩盖有结构的模型错配。"
+    },
+    {
+      "id": "G01",
+      "source_case": "CUMCM2025C-C132",
+      "provenance": "official_display_code_match",
+      "kind": "guardrail",
+      "tags": ["classification", "validation", "anti_stacking", "small_sample", "leakage", "high_accuracy"],
+      "move": "复杂模型前先做主体分组外层验证、泄漏审计、标签打乱、消融和朴素基线。",
+      "reconstruction_test": "按主体切分、打乱标签和去除元特征后，性能变化应符合预期。",
+      "counterfactual": "用模型堆叠和极高准确率直接证明创新。",
+      "failure_risk": "重复测量跨折、全数据预处理和元特征泄漏会虚高指标。"
+    },
+    {
+      "id": "G02",
+      "source_case": "CUMCM2024C-C063",
+      "provenance": "official_display_code_match",
+      "kind": "guardrail",
+      "tags": ["uncertainty_decision", "causality", "validation", "correlation", "scenario", "dependency"],
+      "move": "相关性只能提出候选依赖；进入决策前比较独立、估计相关和最坏依赖情景。",
+      "reconstruction_test": "三种依赖结构下重跑并记录决策是否翻转。",
+      "counterfactual": "用一次相关分析直接规定未来变量联动。",
+      "failure_risk": "样本相关不等于因果，也不等于未来联合分布。"
+    }
+  ]
+}

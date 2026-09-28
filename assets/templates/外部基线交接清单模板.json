@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "generated_by": {
+    "tool": "另一个软件名称",
+    "model_version": "准确版本或模型标识",
+    "provider": "开发/提供机构",
+    "generated_at": "2026-09-06T08:00:00+08:00",
+    "interaction_log": "handoff/外部工具关键交互记录.md"
+  },
+  "approved_strategy": {
+    "file": "strategy/团队批准的完整建模规格.md",
+    "contract_file": "strategy/求解策略合同.json",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "approved_by": ["队员A", "队员B", "队员C"],
+    "approved_at": "2026-09-05T20:00:00+08:00"
+  },
+  "artifacts": {
+    "paper": "baseline/基线论文.docx",
+    "code_root": "baseline/code",
+    "execution_manifest": "baseline/code/干净运行清单.json",
+    "implemented_strategy_contract": "baseline/实际实施策略合同.json",
+    "result_files": ["baseline/code/results/metrics.json"],
+    "figure_files": ["baseline/code/figures/q1_result.png"],
+    "dependency_file": "baseline/code/requirements.txt"
+  },
+  "strategy_comparison": {
+    "report": "baseline/策略差异报告.json",
+    "reviewed_by": ["队员A"],
+    "reviewed_at": "2026-09-06T08:30:00+08:00",
+    "differences": []
+  },
+  "declared_scope": {
+    "followed_approved_strategy": true,
+    "core_model_changed": false,
+    "changes": []
+  },
+  "known_failures": [],
+  "team_screening": {
+    "decision": "quarantined",
+    "screened_by": [],
+    "screened_at": null,
+    "notes": "此处的 accepted_for_audit 只表示允许进入复核，不表示接受论文结论。"
+  }
+}

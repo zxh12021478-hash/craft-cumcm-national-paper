@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/craft-cumcm-national-paper/innovation-calibration-ledger.schema.json",
+  "title": "Blind-test innovation selector calibration ledger",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "created_at", "cases"],
+  "properties": {
+    "version": {"const": 1},
+    "created_at": {"type": "string", "format": "date-time"},
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "case_id",
+          "isolation_label",
+          "frozen_tournament",
+          "frozen_before_unblinding",
+          "human_review",
+          "unblinded_at"
+        ],
+        "properties": {
+          "case_id": {"type": "string", "minLength": 1},
+          "task_family": {
+            "enum": [
+              "evaluation-ranking",
+              "forecasting-optimization",
+              "classification-warning",
+              "optimization-scheduling",
+              "mechanism-simulation",
+              "network-spatial",
+              "sequential-control"
+            ]
+          },
+          "isolation_label": {
+            "enum": [
+              "prospective_canary",
+              "solution_isolated_historical",
+              "cross_case_assisted_historical",
+              "retrospective_rehearsal"
+            ]
+          },
+          "frozen_tournament": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["file", "sha256"],
+            "properties": {
+              "file": {"type": "string", "minLength": 1},
+              "sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"}
+            }
+          },
+          "frozen_before_unblinding": {"type": "boolean"},
+          "human_review": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "reviewers",
+              "reviewed_at",
+              "human_best_candidate",
+              "candidate_outcomes"
+            ],
+            "properties": {
+              "reviewers": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {"type": "string", "minLength": 1}
+              },
+              "reviewed_at": {"type": "string", "format": "date-time"},
+              "human_best_candidate": {"type": "string", "minLength": 1},
+              "candidate_outcomes": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "candidate_id",
+                    "human_value_score",
+                    "implemented",
+                    "experiment_passed",
+                    "false_novelty",
+                    "selected_final",
+                    "actual_hours",
+                    "decision_effect",
+                    "notes"
+                  ],
+                  "properties": {
+                    "candidate_id": {"type": "string", "minLength": 1},
+                    "human_value_score": {"type": "number", "minimum": 0, "maximum": 4},
+                    "implemented": {"type": "boolean"},
+                    "experiment_passed": {"type": ["boolean", "null"]},
+                    "false_novelty": {"type": "boolean"},
+                    "selected_final": {"type": "boolean"},
+                    "actual_hours": {"type": "number", "minimum": 0},
+                    "decision_effect": {"type": ["number", "null"]},
+                    "notes": {"type": "string"}
+                  }
+                }
+              }
+            }
+          },
+          "unblinded_at": {"type": ["string", "null"], "format": "date-time"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/craft-cumcm-national-paper/capability-benchmark-ledger.schema.json",
+  "title": "CUMCM skill capability benchmark ledger",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "created_at", "cases"],
+  "properties": {
+    "version": {"const": 1},
+    "created_at": {"type": "string", "format": "date-time"},
+    "cases": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/case"}
+    }
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["score", "evidence"],
+      "properties": {
+        "score": {"type": "number", "minimum": 0, "maximum": 4},
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "string", "minLength": 3}
+        }
+      }
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "requirement_coverage",
+        "formulation_validity",
+        "structural_insight",
+        "reproducibility",
+        "independent_validation",
+        "cross_artifact_consistency",
+        "decision_value"
+      ],
+      "properties": {
+        "requirement_coverage": {"$ref": "#/$defs/score"},
+        "formulation_validity": {"$ref": "#/$defs/score"},
+        "structural_insight": {"$ref": "#/$defs/score"},
+        "reproducibility": {"$ref": "#/$defs/score"},
+        "independent_validation": {"$ref": "#/$defs/score"},
+        "cross_artifact_consistency": {"$ref": "#/$defs/score"},
+        "decision_value": {"$ref": "#/$defs/score"}
+      }
+    },
+    "assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dimensions"],
+      "properties": {
+        "dimensions": {"$ref": "#/$defs/dimensions"},
+        "notes": {"type": "string"}
+      }
+    },
+    "independent_assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reviewer_type", "reviewers", "assessed_at", "dimensions"],
+      "properties": {
+        "reviewer_type": {"enum": ["independent_ai", "human"]},
+        "reviewers": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "assessed_at": {"type": "string", "format": "date-time"},
+        "dimensions": {"$ref": "#/$defs/dimensions"},
+        "notes": {"type": "string"}
+      }
+    },
+    "case": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "case_id",
+        "task_family",
+        "isolation_label",
+        "evidence_level",
+        "frozen_artifact",
+        "frozen_before_unblinding",
+        "self_assessment",
+        "independent_assessment",
+        "automatic_failures",
+        "elapsed_minutes",
+        "human_interventions"
+      ],
+      "properties": {
+        "case_id": {"type": "string", "minLength": 1},
+        "task_family": {
+          "enum": [
+            "evaluation-ranking",
+            "forecasting-optimization",
+            "classification-warning",
+            "optimization-scheduling",
+            "mechanism-simulation",
+            "network-spatial",
+            "sequential-control"
+          ]
+        },
+        "isolation_label": {
+          "enum": [
+            "prospective_canary",
+            "solution_isolated_historical",
+            "cross_case_assisted_historical",
+            "retrospective_rehearsal",
+            "synthetic_forward_test"
+          ]
+        },
+        "evidence_level": {"enum": ["E1", "E2", "E3", "E4"]},
+        "frozen_artifact": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["file", "sha256"],
+          "properties": {
+            "file": {"type": "string", "minLength": 1},
+            "sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"}
+          }
+        },
+        "frozen_before_unblinding": {"type": "boolean"},
+        "self_assessment": {"$ref": "#/$defs/assessment"},
+        "independent_assessment": {
+          "oneOf": [
+            {"type": "null"},
+            {"$ref": "#/$defs/independent_assessment"}
+          ]
+        },
+        "automatic_failures": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 3}
+        },
+        "elapsed_minutes": {"type": "number", "minimum": 0},
+        "human_interventions": {"type": "integer", "minimum": 0},
+        "notes": {"type": "string"}
+      }
+    }
+  }
+}

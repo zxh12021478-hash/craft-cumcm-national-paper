@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/craft-cumcm-national-paper/truth-check-manifest.schema.json",
+  "title": "Independent truth-check manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "checks"],
+  "properties": {
+    "version": {"const": 1},
+    "checks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "family", "type"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "family": {
+            "enum": [
+              "evaluation-ranking",
+              "forecasting-optimization",
+              "classification-warning",
+              "optimization-scheduling",
+              "mechanism-simulation",
+              "network-spatial",
+              "sequential-control",
+              "optimization",
+              "dynamics",
+              "geometry",
+              "prediction",
+              "generic"
+            ]
+          },
+          "type": {
+            "enum": [
+              "constraint_set",
+              "multi_seed_stability",
+              "conservation_balance",
+              "step_convergence",
+              "distance_invariance",
+              "roundtrip_error",
+              "split_integrity",
+              "metric_improvement",
+              "interval_coverage",
+              "range",
+              "independent_recompute",
+              "linear_objective_recompute",
+              "matrix_constraint_recompute"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

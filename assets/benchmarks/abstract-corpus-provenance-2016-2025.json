@@ -1,0 +1,5778 @@
+{
+  "version": 2,
+  "scope": "User-provided 2016-2025 CUMCM excellent/displayed-paper collection",
+  "award_boundary": "Local filenames and folder labels do not establish a national prize grade.",
+  "copyright_boundary": "No abstract text is stored in this ledger; only provenance, hashes, extraction status, and derived features.",
+  "semantic_review_definition": "completed means the full extracted abstract was read as a semantic unit and considered in corpus-level writing decisions; deterministic feature extraction alone is insufficient.",
+  "summary": {
+    "records": 134,
+    "unique_pdfs": 134,
+    "by_year": {
+      "2016": 15,
+      "2017": 18,
+      "2018": 13,
+      "2019": 17,
+      "2020": 17,
+      "2021": 17,
+      "2022": 11,
+      "2023": 5,
+      "2024": 16,
+      "2025": 5
+    },
+    "by_status": {
+      "extracted": 134
+    },
+    "by_method": {
+      "pypdf": 46,
+      "vision-ocr": 88
+    },
+    "semantic_review_completed": 134,
+    "semantic_review_pending": 0,
+    "abstract_chinese_character_profile": {
+      "minimum": 416,
+      "first_quartile": 750.0,
+      "median": 884.0,
+      "third_quartile": 993.0,
+      "maximum": 1472,
+      "mean": 874.6,
+      "interpretation": "Descriptive only; OCR noise and formatting differences prevent treating length as a quality target."
+    },
+    "semantic_synthesis_boundary": "Corpus observations guide abstract selection, ordering, compression, and evidence presentation only; they never supply facts for a user paper or pre-draft modeling directions."
+  },
+  "records": [
+    {
+      "paper_id": "LOCAL-2016-001",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一A题优秀论文-基于力学分析的系泊系统设计.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "0e45c8daaf900f551bde7ccdc54bee855ceccae74793ddec361352217bd92a50",
+      "duplicate_of": null,
+      "page_count": 37,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于力学分析的系泊系统设计",
+      "abstract_sha256": "4766fc61f283776b7ec28c88e8dfdd2cf6b73f8b66cedb7bbc7b385c972300b8",
+      "features": {
+        "chinese_characters": 685,
+        "numeric_token_count": 65,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 8,
+        "method_term_hits": [
+          "优化",
+          "检验"
+        ],
+        "validation_term_hits": [
+          "检验"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "控制",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-002",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一A题优秀论文-基于极值系泊系统设计.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "c15635a264749bad1c6c83e65882564c6d754a1a9f0acb3c17d4bb17d3ecf8f8",
+      "duplicate_of": null,
+      "page_count": 36,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于极值优化的系泊系统设计",
+      "abstract_sha256": "168c6620d772a6fb9c8f2123b85ea2588b878104917c9fb08f948c9a7f252b9f",
+      "features": {
+        "chinese_characters": 1224,
+        "numeric_token_count": 42,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 1,
+        "method_term_hits": [
+          "优化",
+          "层次分析",
+          "检验",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "检验",
+          "比较"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-003",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一A题优秀论文-系泊系统设计.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "35bea473602c71ffa8f3c4f493c8e4bc4b2e285b451b45fc4a005eaab3c4f5a5",
+      "duplicate_of": null,
+      "page_count": 39,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "系泊系统的设计",
+      "abstract_sha256": "f50ca5b97a7b6c8d304fd271faad979fb167a7640a5629f1e826846d6ad6f5d1",
+      "features": {
+        "chinese_characters": 936,
+        "numeric_token_count": 44,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "优化",
+          "遗传算法"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "控制",
+          "方案",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-004",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一A题优秀论文-系泊系统设计的多目标优化模型.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "fd565b5e70203b5f59b605e38ccc1b258c31f2623ec7d866fa6bf346bf3ea31d",
+      "duplicate_of": null,
+      "page_count": 46,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "系泊系统设计的多目标优化模型",
+      "abstract_sha256": "ae3ae060fd18e1bbcca6a1f3248f5de1345e9a80a2ccc70884a09574614cb690",
+      "features": {
+        "chinese_characters": 893,
+        "numeric_token_count": 49,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 1,
+        "method_term_hits": [
+          "优化"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "决策",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-005",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一A题优秀论文1.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "4a94d49137a0e75db373417ec9b77d6dc4588573ad5ce99d99fc55ef004f19d2",
+      "duplicate_of": null,
+      "page_count": 44,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "论文标题",
+      "abstract_sha256": "e574cbe24e8b8e00502df841dda5abcd6f7af83b46fffb9dac12f5bd42e02161",
+      "features": {
+        "chinese_characters": 988,
+        "numeric_token_count": 11,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "几何",
+          "熵权",
+          "规划"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "决策",
+          "分配",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-006",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一B题优秀论文-基于道路拼接小区开放道路通行影响.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "588ec8f14f46a031d920b17a1dc9e4f447f5658ddd24eb8d1c7e8fd185bf4fbd",
+      "duplicate_of": null,
+      "page_count": 40,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于道路拼接的小区开放影响问题",
+      "abstract_sha256": "dfa69338bcfc42b275773c6de36b8f4c5336a0d69d7aae0959f51c963169b6a6",
+      "features": {
+        "chinese_characters": 1095,
+        "numeric_token_count": 11,
+        "percentage_token_count": 3,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "层次分析",
+          "规划",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "比较"
+        ],
+        "decision_term_hits": [
+          "建议",
+          "等级"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-007",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一B题优秀论文-小区开放道路通行.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "8d02d53d85aa8478e9d9dbb4b9b15a189f1082a6cd99a3c0be8801c0a61a8098",
+      "duplicate_of": null,
+      "page_count": 30,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "小区开放对道路通行的影响",
+      "abstract_sha256": "3bdd49b3415d660ffa1599d7c985ef8e3a32d904d5290cf42c5351e2ab4d3f09",
+      "features": {
+        "chinese_characters": 993,
+        "numeric_token_count": 28,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "回归",
+          "拟合",
+          "熵权",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "显著"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-008",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一B题优秀论文-小区开放道路通行影响.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "11e1b3f26524d71acf14c6cbd1bcead6abea9f612362db9b06e471c695406ec0",
+      "duplicate_of": null,
+      "page_count": 26,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "小区开放对道路通行的影响",
+      "abstract_sha256": "88944b6e35ebdd62c0185825fbc6b6484e60c10f25217024d2b9793b1182f16b",
+      "features": {
+        "chinese_characters": 970,
+        "numeric_token_count": 10,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "仿真",
+          "微分方程",
+          "模拟退火"
+        ],
+        "validation_term_hits": [
+          "敏感性",
+          "比较"
+        ],
+        "decision_term_hits": [
+          "建议",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-009",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一B题优秀论文-小区开放道路通行影响3.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "99ea51faeb567384a6932e1ff21462f65b9012f35956accfc49f25dd266e0873",
+      "duplicate_of": null,
+      "page_count": 30,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "小区开放对道路通行的影响",
+      "abstract_sha256": "3bdd49b3415d660ffa1599d7c985ef8e3a32d904d5290cf42c5351e2ab4d3f09",
+      "features": {
+        "chinese_characters": 993,
+        "numeric_token_count": 28,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "回归",
+          "拟合",
+          "熵权",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "显著"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-010",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一B题优秀论文-小区开放道路通行影响4.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "5233c4807444a1082bdba59ab3c528b5fb14a2ddd927fa2be376520e9a7e041e",
+      "duplicate_of": null,
+      "page_count": 36,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "小区开放对道路通行的影响",
+      "abstract_sha256": "8187d3c94cdb373b20595a48854c810e674f25e5657bb1bad28edb29c4f9bd6a",
+      "features": {
+        "chinese_characters": 914,
+        "numeric_token_count": 2,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [
+          "主成分",
+          "仿真",
+          "优化",
+          "层次分析",
+          "检验",
+          "聚类",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "检验"
+        ],
+        "decision_term_hits": [
+          "建议",
+          "范围",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-011",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一C题优秀论文-电池剩余放电时间预测.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "f21479ec444e567489dd165211ff0a7f584c021ed334c0e88ac2401abf855fba",
+      "duplicate_of": null,
+      "page_count": 20,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "电池剩余放电时间预测",
+      "abstract_sha256": "64fbf0b20699500ed20595a4fb6187a20dfdf140865e9dd9796d33d168f8bc0f",
+      "features": {
+        "chinese_characters": 644,
+        "numeric_token_count": 31,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "拟合",
+          "误差",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "误差"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-012",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一C题优秀论文-电池剩余放电时间预测2.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "e911a31e04c4e318e9c2520fc692d523646788549c314a3a25fd8e3d25a76b48",
+      "duplicate_of": null,
+      "page_count": 22,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "电池剩余放电时间预测",
+      "abstract_sha256": "853307dea74ddd1a91aba93b5c02a45b214b1fd65118a5ccb2cd459cf149e6ec",
+      "features": {
+        "chinese_characters": 689,
+        "numeric_token_count": 50,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "回归",
+          "拟合",
+          "误差",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "比较",
+          "误差"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-013",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一D题优秀论文-风电场运行状况分析及优化模型.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "a85516d074d7453300872dc8c52eef3ffca199fb1c9b9abe6b206b2639989088",
+      "duplicate_of": null,
+      "page_count": 48,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "风电场运行状况分析及优化模型",
+      "abstract_sha256": "bb9c678d839e39006912be1a9cead3ba97f1f795d4ac5f13e703ac691fbfd53a",
+      "features": {
+        "chinese_characters": 1109,
+        "numeric_token_count": 10,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 3,
+        "method_term_hits": [
+          "优化",
+          "检验"
+        ],
+        "validation_term_hits": [
+          "检验",
+          "比较"
+        ],
+        "decision_term_hits": [
+          "方案"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-014",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一D题优秀论文-风电场运行状况分析及优化研究.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "38552e9df8f2d32c330fd5a0fc73a15d8cbc1de8cbd3bfe2cf80c4c6e0ee9840",
+      "duplicate_of": null,
+      "page_count": 24,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "风电场运行状况分析及优化研究",
+      "abstract_sha256": "45dc7cf09eb3df70c7846d037895732510ec8f3fc6108b3c1042374e35176e09",
+      "features": {
+        "chinese_characters": 772,
+        "numeric_token_count": 21,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "优化",
+          "分类",
+          "拟合",
+          "检验",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "检验"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "等级",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2016-015",
+      "year": 2016,
+      "container_name": "2016竞赛优秀论文.zip",
+      "container_sha256": "45ddf4ee5087b2f153c7044935eab5b0f1bfb083e7e701fa31e47deb1fc6a3be",
+      "source_item": "2016高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2016优秀论文/2016国赛国一D题优秀论文-风电场运行状况分析及维护计划优化.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "17ed630e005232d8c9047a5ed72338da13e9fc45fee1c03d1a9fddc3e97879f7",
+      "duplicate_of": null,
+      "page_count": 81,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "风电场运行状况分析及维护计划优化",
+      "abstract_sha256": "819ecb1eb6eefbf1dfb73b825686b7db9b5ea031f8bff460b96f4906b391a4d3",
+      "features": {
+        "chinese_characters": 1067,
+        "numeric_token_count": 12,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 3,
+        "method_term_hits": [
+          "优化",
+          "拟合",
+          "插值",
+          "检验",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "检验"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "最优",
+          "等级"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-001",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖A题优秀论文1.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "7499798d2f6c19932d0e727e3dd17ac3714f3d0750ffce13b6afa89a5d440d70",
+      "duplicate_of": null,
+      "page_count": 29,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于单目标优化模型和图像重建算法的CT 系统研究",
+      "abstract_sha256": "778fbd1db3ad4e75fd2718a625397d81c4a77692f93ea92b6b0d5ee8e1352e3f",
+      "features": {
+        "chinese_characters": 791,
+        "numeric_token_count": 33,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [
+          "优化",
+          "几何",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "误差"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-002",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖A题优秀论文2.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "9c05c236e4b9ed574e6930cbfee590950654be133c9a9f48fed3be6d34097ffc",
+      "duplicate_of": null,
+      "page_count": 47,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "畃畔系统标定与图像重建",
+      "abstract_sha256": "c1dbf24bcc74f185426067bc748ec5b8511079ac60c2bfb6dfa9d3b28e045576",
+      "features": {
+        "chinese_characters": 546,
+        "numeric_token_count": 0,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 3,
+        "method_term_hits": [
+          "优化",
+          "几何",
+          "拟合",
+          "插值",
+          "检验",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "敏感性",
+          "检验",
+          "误差",
+          "验证"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-003",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖A题优秀论文3.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "88cea99aa282cd9ae842c472caf7744155a20aa7cc81a0409f233373035011ec",
+      "duplicate_of": null,
+      "page_count": 24,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "CT 系统参数标定及反投影重建成像",
+      "abstract_sha256": "f38cacd143486ba0254e6e5790d3f08970e4c00ce0607afe6f47c33cedf01349",
+      "features": {
+        "chinese_characters": 913,
+        "numeric_token_count": 36,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "几何",
+          "分类",
+          "拟合"
+        ],
+        "validation_term_hits": [
+          "对比"
+        ],
+        "decision_term_hits": [
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-004",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖A题优秀论文4.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "da1791fc66965d0c5452f882253987660188c209cb7a0a39d903c44e73decbc1",
+      "duplicate_of": null,
+      "page_count": 31,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "CT 系统参数标定及成像",
+      "abstract_sha256": "f90dde3a5490e630e021c4f58c7d7b5b2031f039dbf9374da9649520d1e6d06f",
+      "features": {
+        "chinese_characters": 889,
+        "numeric_token_count": 10,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 2,
+        "method_term_hits": [
+          "仿真",
+          "优化",
+          "几何",
+          "拟合",
+          "检验",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "显著",
+          "检验",
+          "误差"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-005",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖A题优秀论文5.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "c46c4b047736efcb66aec2e75125e5b3bc7ca77c9678096c17dfb78f04ae96e3",
+      "duplicate_of": null,
+      "page_count": 31,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "平行束 CT 系统的参数标定及成像",
+      "abstract_sha256": "5c232280e47c4d9d6a89bff53e90f51210437e1b79b5f574477e9ed447b1a9cc",
+      "features": {
+        "chinese_characters": 1018,
+        "numeric_token_count": 6,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "几何",
+          "微分方程",
+          "插值",
+          "检验",
+          "误差",
+          "遗传算法"
+        ],
+        "validation_term_hits": [
+          "检验",
+          "置信",
+          "误差"
+        ],
+        "decision_term_hits": [
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-006",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖B题优秀论文1.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "48841fde5b433107049a003d485808a5904634216d418f6c13ef6dd3d4f74612",
+      "duplicate_of": null,
+      "page_count": 28,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "1",
+      "abstract_sha256": "a2c88423cdad1282872f9531e3157e17d138dc41b22806a412af740432b49ab3",
+      "features": {
+        "chinese_characters": 850,
+        "numeric_token_count": 8,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 8,
+        "method_term_hits": [
+          "聚类"
+        ],
+        "validation_term_hits": [
+          "比较"
+        ],
+        "decision_term_hits": [
+          "分配",
+          "方案",
+          "策略",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-007",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖B题优秀论文2.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "af5afdb8611898bf84864f8c58465dc106d12bd30d74ebc72f050ab6e79cc5af",
+      "duplicate_of": null,
+      "page_count": 47,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "“拍照赚钱”的定价分析",
+      "abstract_sha256": "af39e659277b54915b4fdbf7610b6142b047b0d891fd6b1b1011e2c84e443c9c",
+      "features": {
+        "chinese_characters": 1028,
+        "numeric_token_count": 6,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "分类",
+          "回归",
+          "拟合",
+          "检验",
+          "聚类",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "检验",
+          "比较",
+          "误差"
+        ],
+        "decision_term_hits": [
+          "分配",
+          "控制",
+          "等级"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-008",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖B题优秀论文3.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "c8618b5a3247d61960595ef78da563705041f320e122e200506ffca2b33fd891",
+      "duplicate_of": null,
+      "page_count": 51,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于聚类分析的双目标优化定价模型",
+      "abstract_sha256": "752598b1f37b6352971287227ec6fcbdb3c0a13ab80c2c10801354c5e55e7df9",
+      "features": {
+        "chinese_characters": 984,
+        "numeric_token_count": 17,
+        "percentage_token_count": 7,
+        "explicit_question_marker_count": 9,
+        "method_term_hits": [
+          "优化",
+          "拟合",
+          "灰色",
+          "神经网络",
+          "聚类",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "显著",
+          "比较",
+          "置信"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "分配",
+          "方案",
+          "最优",
+          "阈值"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-009",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖B题优秀论文4.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "b1358f0ffd54b308d38597a0165164907343be583429d97283d6331efbb6f733",
+      "duplicate_of": null,
+      "page_count": 35,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "考虑时空效率的任务匹配定价模型与算法",
+      "abstract_sha256": "50fe69a174465b98b0225d87aab2037456a4fd771f7a3a2f6d618dc11e082bf5",
+      "features": {
+        "chinese_characters": 628,
+        "numeric_token_count": 12,
+        "percentage_token_count": 4,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "优化",
+          "回归",
+          "聚类",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "最优",
+          "等级",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-010",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖B题优秀论文5.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "d81aaa9526af41dcbc8b7a50f0275d23b131bd4c23757a5e84cf58d5eefe613e",
+      "duplicate_of": null,
+      "page_count": 45,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "“拍照赚钱”的任务定价",
+      "abstract_sha256": "6980b86209b1c4f1ff5b39a6b97c453d1f839cef7709c73adb413a891b9e33fd",
+      "features": {
+        "chinese_characters": 1080,
+        "numeric_token_count": 9,
+        "percentage_token_count": 7,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "仿真",
+          "优化",
+          "回归",
+          "拟合",
+          "检验",
+          "残差",
+          "灵敏度",
+          "鲁棒"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "对比",
+          "检验",
+          "残差",
+          "灵敏度",
+          "验证",
+          "鲁棒"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-011",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖B题优秀论文6.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "f60ff2e79b2f629c107eee58fd5ca6c1041a5535698560647c6956a68e1ad83f",
+      "duplicate_of": null,
+      "page_count": 25,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "section_heading",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "“拍照赚钱”的任务定价",
+      "abstract_sha256": "5c1238dd851a54e8f4fe0d2d31cc088c0c34e06c4c03417968c297524d896f95",
+      "features": {
+        "chinese_characters": 704,
+        "numeric_token_count": 15,
+        "percentage_token_count": 5,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "优化",
+          "回归",
+          "聚类",
+          "贝叶斯"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "控制",
+          "方案"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-012",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖B题优秀论文7.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "5aba0b997684871b65c91f2df3776c13354509437c9f12e6d865c394bd66f45d",
+      "duplicate_of": null,
+      "page_count": 25,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于优化理论的任务定价与分配模型",
+      "abstract_sha256": "ef01a8f3c8410271c60877f333e6ee555d443af998c4b66529b1369396416242",
+      "features": {
+        "chinese_characters": 984,
+        "numeric_token_count": 16,
+        "percentage_token_count": 3,
+        "explicit_question_marker_count": 9,
+        "method_term_hits": [
+          "优化"
+        ],
+        "validation_term_hits": [
+          "比较"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "分配",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-013",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖C题优秀论文1.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "e1828215c79ae0103ff439630148b19e68185874fb3c83b4b4178b4f154f625b",
+      "duplicate_of": null,
+      "page_count": 31,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "颜色与物质浓度的辨识问题",
+      "abstract_sha256": "fbfa96857065d1a04f196b06b454836ec9bec93fba36fd9f8bad9a2c3c207d83",
+      "features": {
+        "chinese_characters": 612,
+        "numeric_token_count": 7,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 3,
+        "method_term_hits": [
+          "回归",
+          "层次分析",
+          "拟合",
+          "检验",
+          "残差",
+          "误差",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "检验",
+          "残差",
+          "置信",
+          "误差"
+        ],
+        "decision_term_hits": [
+          "排序"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-014",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖C题优秀论文2.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "73e83e6e8d1e8eeaa03b83561d897da7207f2a892a70e24f64a8159c82f0ce71",
+      "duplicate_of": null,
+      "page_count": 16,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "颜色读数辨识物质浓度",
+      "abstract_sha256": "5058c0a7691b1d810db42f85a21d0d4f3388884bdd5622a5be141a1035b886a7",
+      "features": {
+        "chinese_characters": 913,
+        "numeric_token_count": 20,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 3,
+        "method_term_hits": [
+          "回归",
+          "检验",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "检验",
+          "误差"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-015",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖C题优秀论文3.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "6ccd931b8f268d5f46f87fa48374b78fde95ff77eed544f9ce56f929ccc3cd33",
+      "duplicate_of": null,
+      "page_count": 25,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "颜色与物质浓度辨识",
+      "abstract_sha256": "0098ebf4deeca3bec2cfdee31c2abeeed49734ded05364d522f0e636f4b957a2",
+      "features": {
+        "chinese_characters": 777,
+        "numeric_token_count": 1,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "回归",
+          "拟合",
+          "残差",
+          "误差",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "残差",
+          "误差"
+        ],
+        "decision_term_hits": [
+          "排序",
+          "控制"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-016",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖D题优秀论文1.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "c78077dea48700c9140f19cf77742c7542a80a9552770829a19a96511572dc3e",
+      "duplicate_of": null,
+      "page_count": 26,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "化工厂巡检路径规划与建模",
+      "abstract_sha256": "581be879528e20bfe6e9c19ed30f23b107272211dfca9c61c1533a0e3ac4d4c6",
+      "features": {
+        "chinese_characters": 872,
+        "numeric_token_count": 52,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 8,
+        "method_term_hits": [
+          "优化",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "比较"
+        ],
+        "decision_term_hits": [
+          "分配",
+          "方案",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-017",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖D题优秀论文2.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "0a7c383ea863be45b3e669c8d15d866117ee6af56bd696d59e4daa6d035f1f41",
+      "duplicate_of": null,
+      "page_count": 48,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "方案",
+      "abstract_sha256": "924d68fab5536af7cd654ef47fe2ffb02801f7c537c2255a8a7a9420e8a0be27",
+      "features": {
+        "chinese_characters": 970,
+        "numeric_token_count": 32,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [
+          "灵敏度"
+        ],
+        "validation_term_hits": [
+          "灵敏度",
+          "稳健"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "调度",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2017-018",
+      "year": 2017,
+      "container_name": "2017竞赛优秀论文.zip",
+      "container_sha256": "19f85a55fbcc3aa895cffb4aad839872df81926c5c72e754ef60095b1b318179",
+      "source_item": "2017高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2017优秀论文/2017国赛国家一等奖D题优秀论文3.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "169309f899159b3c00759fc29d6a711f9edf690c1da26017bb6a819c650b0dca",
+      "duplicate_of": null,
+      "page_count": 30,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "研究巡检路线的排班状况及优化问题",
+      "abstract_sha256": "6858547266d0fdaa42e219ef1e1dddf7c7d5d0b7c2f82dd600aa84e7c4e69831",
+      "features": {
+        "chinese_characters": 416,
+        "numeric_token_count": 28,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 10,
+        "method_term_hits": [
+          "优化",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "对比"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2018-001",
+      "year": 2018,
+      "container_name": "2018竞赛优秀论文.zip",
+      "container_sha256": "d339247d22e5072afbec5ae3d8761fa862974ff2138cbb88216c5d422d7f40a1",
+      "source_item": "2018高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2018/2018A：基于多原则比较和蒙特卡洛模拟的 RGV 动态调度模型.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "ad3921af461b48321243872c3357de8e423a29d9ecb440e26bafce06466c5355",
+      "duplicate_of": null,
+      "page_count": 45,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于多原则比较和蒙特卡洛模拟的 RGV 动态调度模型",
+      "abstract_sha256": "2d253344cebd5c4968c874ff2af02f2b81313f47ef9f8d00c00b89955753f529",
+      "features": {
+        "chinese_characters": 915,
+        "numeric_token_count": 43,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [
+          "蒙特卡洛",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "比较",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "分配",
+          "方案",
+          "最优",
+          "调度"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2018-002",
+      "year": 2018,
+      "container_name": "2018竞赛优秀论文.zip",
+      "container_sha256": "d339247d22e5072afbec5ae3d8761fa862974ff2138cbb88216c5d422d7f40a1",
+      "source_item": "2018高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2018/2018A：基于非稳态导热的高温作业专用服装设计.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "e34908027ea4882c41244aa1e30b6751761a58b0a257c56933903425e6466e0a",
+      "duplicate_of": null,
+      "page_count": 28,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于非稳态导热的高温作业专用服装设计",
+      "abstract_sha256": "e8e1f2eb3c476bfe6a6d623eaad54e187ce81b80b07a76617d3dd9e24d78aa93",
+      "features": {
+        "chinese_characters": 825,
+        "numeric_token_count": 37,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "微分方程"
+        ],
+        "validation_term_hits": [
+          "区间"
+        ],
+        "decision_term_hits": [
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2018-003",
+      "year": 2018,
+      "container_name": "2018竞赛优秀论文.zip",
+      "container_sha256": "d339247d22e5072afbec5ae3d8761fa862974ff2138cbb88216c5d422d7f40a1",
+      "source_item": "2018高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2018/2018A：高温作业专用服装设计.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "573f632706e80c28da7e675329b2ff0f7f3b97b83709757c823685abd14b2c20",
+      "duplicate_of": null,
+      "page_count": 43,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "高温作业专用服装设计",
+      "abstract_sha256": "b0f73d0bfe35686fd8cde68c8fd97f871dc96394011aa90ef4150722ea6aa28f",
+      "features": {
+        "chinese_characters": 527,
+        "numeric_token_count": 7,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 3,
+        "method_term_hits": [
+          "优化",
+          "微分方程",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "误差"
+        ],
+        "decision_term_hits": [
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2018-004",
+      "year": 2018,
+      "container_name": "2018竞赛优秀论文.zip",
+      "container_sha256": "d339247d22e5072afbec5ae3d8761fa862974ff2138cbb88216c5d422d7f40a1",
+      "source_item": "2018高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2018/2018A：高温作业服设计.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "d80fb7f87eecc1957d465de791a1dbcc6b89c9e12aafd72db60bf6cfccb7ce5d",
+      "duplicate_of": null,
+      "page_count": 31,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "高温作业服设计",
+      "abstract_sha256": "638b8faa5f41201ab483b539f301b04134153bf912543e2a9a52457c0939a009",
+      "features": {
+        "chinese_characters": 715,
+        "numeric_token_count": 17,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "优化",
+          "拟合",
+          "检验"
+        ],
+        "validation_term_hits": [
+          "检验"
+        ],
+        "decision_term_hits": [
+          "控制",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2018-005",
+      "year": 2018,
+      "container_name": "2018竞赛优秀论文.zip",
+      "container_sha256": "d339247d22e5072afbec5ae3d8761fa862974ff2138cbb88216c5d422d7f40a1",
+      "source_item": "2018高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2018/2018B：RGV 的动态调度优化问题.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "196c9766c10dae5b6da0793f5561951c6bac9fb6225a8f16a3f36bc00aa8d77a",
+      "duplicate_of": null,
+      "page_count": 29,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "RGV 的动态调度优化问题",
+      "abstract_sha256": "cdb5fb2c6710a3837481af97038aef659d7a538e580ffb81a53d8b85b2951dca",
+      "features": {
+        "chinese_characters": 793,
+        "numeric_token_count": 8,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [
+          "优化",
+          "检验"
+        ],
+        "validation_term_hits": [
+          "检验",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "方案",
+          "最优",
+          "调度"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2018-006",
+      "year": 2018,
+      "container_name": "2018竞赛优秀论文.zip",
+      "container_sha256": "d339247d22e5072afbec5ae3d8761fa862974ff2138cbb88216c5d422d7f40a1",
+      "source_item": "2018高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2018/2018B：基于 0-1 规划的单 RGV 动态调度模型.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "118ff27ad1d90695c972fb8e33cf036237808edd65f9dc386d45d6e258a1d3e5",
+      "duplicate_of": null,
+      "page_count": 56,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于 0-1 规划的单 RGV 动态调度模型",
+      "abstract_sha256": "8e429b984f05070a7a11026ed273c3a7bb070a1d4df7d2f0d0e721e478446e91",
+      "features": {
+        "chinese_characters": 921,
+        "numeric_token_count": 69,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [
+          "仿真",
+          "检验",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "检验"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "方案",
+          "最优",
+          "调度",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2018-007",
+      "year": 2018,
+      "container_name": "2018竞赛优秀论文.zip",
+      "container_sha256": "d339247d22e5072afbec5ae3d8761fa862974ff2138cbb88216c5d422d7f40a1",
+      "source_item": "2018高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2018/2018B：智能 RGV 的动态调度策略.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "3b3300c93a1aaee6ca10864fbd3140f5a93dd6741659eebbc6b02fabfa856e3c",
+      "duplicate_of": null,
+      "page_count": 99,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "智能 RGV 的动态调度策略",
+      "abstract_sha256": "901e459b735d4240a7c65a9b2ee839f5af77e28b9b0c256670baf37b61dd5f4d",
+      "features": {
+        "chinese_characters": 1063,
+        "numeric_token_count": 72,
+        "percentage_token_count": 7,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [],
+        "validation_term_hits": [
+          "比较"
+        ],
+        "decision_term_hits": [
+          "控制",
+          "方案",
+          "策略",
+          "调度",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2018-008",
+      "year": 2018,
+      "container_name": "2018竞赛优秀论文.zip",
+      "container_sha256": "d339247d22e5072afbec5ae3d8761fa862974ff2138cbb88216c5d422d7f40a1",
+      "source_item": "2018高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2018/2018C：基于 RFMS 指标的大型百货商场会员画像数据挖掘.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "c78f5e1a69922ad463ed33e67a1a4c9d1fc907ce1c187bd01e50ff088ab4d33d",
+      "duplicate_of": null,
+      "page_count": 42,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于 RFMS 指标的大型百货商场会员画像数据挖掘",
+      "abstract_sha256": "e079ba816334610adf3b87d80b1e54aec90bdec31f396d2596aad334cd15636b",
+      "features": {
+        "chinese_characters": 637,
+        "numeric_token_count": 18,
+        "percentage_token_count": 3,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "检验"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "检验"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "等级",
+          "阈值"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2018-009",
+      "year": 2018,
+      "container_name": "2018竞赛优秀论文.zip",
+      "container_sha256": "d339247d22e5072afbec5ae3d8761fa862974ff2138cbb88216c5d422d7f40a1",
+      "source_item": "2018高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2018/2018C：基于 RFMT 模型的百货商场会员画像描绘.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "dbce034bf3cd2f25a0b112758585e7952ec7e90ef33332e112466dddee5272ed",
+      "duplicate_of": null,
+      "page_count": 27,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于 RFMT 模型的百货商场会员画像描绘",
+      "abstract_sha256": "8fde750e0f298cf8e46f515e9305dd94143bdc2bc7c231b691a80e654148a3da",
+      "features": {
+        "chinese_characters": 887,
+        "numeric_token_count": 0,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [
+          "回归",
+          "层次分析",
+          "聚类"
+        ],
+        "validation_term_hits": [
+          "对比"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2018-010",
+      "year": 2018,
+      "container_name": "2018竞赛优秀论文.zip",
+      "container_sha256": "d339247d22e5072afbec5ae3d8761fa862974ff2138cbb88216c5d422d7f40a1",
+      "source_item": "2018高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2018/2018C：大型百货商场会员画像描述.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "2b2710a335764ee1e4f427a873d805e09453e523d26dac5a87bc5848e2373f4b",
+      "duplicate_of": null,
+      "page_count": 15,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "大型百货商场会员画像描述",
+      "abstract_sha256": "0e4f4499b27b36c7e53876ad1fb7e187de0c358b6ac5621ade80c46ba4cec50a",
+      "features": {
+        "chinese_characters": 954,
+        "numeric_token_count": 48,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "拟合",
+          "聚类"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "置信"
+        ],
+        "decision_term_hits": [
+          "建议",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2018-011",
+      "year": 2018,
+      "container_name": "2018竞赛优秀论文.zip",
+      "container_sha256": "d339247d22e5072afbec5ae3d8761fa862974ff2138cbb88216c5d422d7f40a1",
+      "source_item": "2018高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2018/2018D：汽车总装线配置方案.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "ffa178df6b2de4f37da67e55ee3e5ddf024e60e7f778f949179e9a27999f4755",
+      "duplicate_of": null,
+      "page_count": 28,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "汽车总装线配置方案",
+      "abstract_sha256": "38c51b3878ab9066bbcb8f2f69adcfc82b1811e960b3bec028e9b1aa87e8181c",
+      "features": {
+        "chinese_characters": 731,
+        "numeric_token_count": 11,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "排序",
+          "配置"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2018-012",
+      "year": 2018,
+      "container_name": "2018竞赛优秀论文.zip",
+      "container_sha256": "d339247d22e5072afbec5ae3d8761fa862974ff2138cbb88216c5d422d7f40a1",
+      "source_item": "2018高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2018/2018D：汽车总装线配置的优化模型研究.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "f580f0d8f3f5fed72e79152f4d2470983e52f60ade9e0eba1acafbccb3ceb0d2",
+      "duplicate_of": null,
+      "page_count": 40,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "汽车总装线配置的优化模型研究",
+      "abstract_sha256": "b5dc35a5f3c109463833515b177f0c3c471805577a7823bc12e79934d22fe279",
+      "features": {
+        "chinese_characters": 621,
+        "numeric_token_count": 0,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [
+          "优化",
+          "分类",
+          "遗传算法"
+        ],
+        "validation_term_hits": [
+          "验证"
+        ],
+        "decision_term_hits": [
+          "分配",
+          "路径",
+          "配置"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2018-013",
+      "year": 2018,
+      "container_name": "2018竞赛优秀论文.zip",
+      "container_sha256": "d339247d22e5072afbec5ae3d8761fa862974ff2138cbb88216c5d422d7f40a1",
+      "source_item": "2018高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2018/2018D：确定汽车装配顺序问题的算法.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "c0f406fb68afa44de3635faaf11e7731ea8e3411a1ec08b350c2c7b40f3f2a45",
+      "duplicate_of": null,
+      "page_count": 61,
+      "extraction_method": "pypdf",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "确定汽车装配顺序问题的算法",
+      "abstract_sha256": "2227d2d43b778b080e467502dae99098a582d6999c1a8a6217899dfa4c6ae5a8",
+      "features": {
+        "chinese_characters": 1087,
+        "numeric_token_count": 33,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 1,
+        "method_term_hits": [
+          "优化",
+          "分类",
+          "层次分析",
+          "规划"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "分配",
+          "控制",
+          "方案",
+          "最优",
+          "配置"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-001",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019A：基于数值模拟的高压油管压力控制模型.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "bfde9f1a8fbdc8e0dba6f66b729caebe372860e54234c90fd6f5ef4c105280dc",
+      "duplicate_of": null,
+      "page_count": 42,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于数值模拟高压油管压力控制模型",
+      "abstract_sha256": "e16452599a4f354e464464ca9cdcca8fa58eba7534e221354898318835deff74",
+      "features": {
+        "chinese_characters": 882,
+        "numeric_token_count": 26,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 3,
+        "method_term_hits": [
+          "优化",
+          "微分方程"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "决策",
+          "最优",
+          "策略",
+          "阈值"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-002",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019A：高压油管压力波动的稳定控制.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "3fd8f129c15fb55f6e500583122ccf4789ce8a4d606f1133b16eced3a1ad01e7",
+      "duplicate_of": null,
+      "page_count": 24,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "高压油管压力波动的稳定控制",
+      "abstract_sha256": "7a85b136ef14b938b4d7031805dbe022a6f5a90a41ffee9c3b09ce6e302b126b",
+      "features": {
+        "chinese_characters": 994,
+        "numeric_token_count": 16,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 3,
+        "method_term_hits": [
+          "优化",
+          "拟合",
+          "规划"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "控制",
+          "方案",
+          "策略",
+          "阈值"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-003",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019A：高压油管的压强控制.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "b036b1c7dd403cd86734725b574bdb62402243eb7bb3c90ae49bcb82af579893",
+      "duplicate_of": null,
+      "page_count": 40,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "高压油管的压强控制",
+      "abstract_sha256": "10faeb94f8cc9613be283976f274edd0d6eddc9f9d3b9a2e2efecac4b4fc98a4",
+      "features": {
+        "chinese_characters": 826,
+        "numeric_token_count": 22,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "拟合",
+          "检验"
+        ],
+        "validation_term_hits": [
+          "检验"
+        ],
+        "decision_term_hits": [
+          "控制",
+          "方案",
+          "最优",
+          "阈值"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-004",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019B：同心鼓“同心协力”策略探究.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "dc071c4d735a973247cf70e650377694e3769781d91c6dcb265c197db4c6e1ed",
+      "duplicate_of": null,
+      "page_count": 27,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "同心鼓“同心协力”策略探究",
+      "abstract_sha256": "ba81cdbdb7da392b9e029a9096696c32180358fd814b760e44eeb520a179fc22",
+      "features": {
+        "chinese_characters": 733,
+        "numeric_token_count": 22,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 8,
+        "method_term_hits": [
+          "误差"
+        ],
+        "validation_term_hits": [
+          "误差",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-005",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019B：同心鼓最佳协作策略的研究.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "a438e973ad86e24e5a0cf759524153cd55b90fd022f21fbb60f3590f35b52152",
+      "duplicate_of": null,
+      "page_count": 35,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "同心鼓最佳协作策略的研究",
+      "abstract_sha256": "5712800b45eaa812e864af5e43fe6ea7e1b286fc70f6f894b87a5dca112402a5",
+      "features": {
+        "chinese_characters": 1212,
+        "numeric_token_count": 22,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 9,
+        "method_term_hits": [
+          "优化",
+          "微分方程"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "决策",
+          "时机",
+          "最优",
+          "策略",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-006",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019B：同心鼓运动模型的理论分析与策略研究.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "564191dc7c68c7753cc4b12e940023167af3c6f835f3c0bb9e1e083c0630c672",
+      "duplicate_of": null,
+      "page_count": 32,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "—同心鼓运动模型的理论分析与策略研究",
+      "abstract_sha256": "4eb454ae99180b2d3c414bc1afbe945f294a5ec7339a466b24c5d8c2b1780cb5",
+      "features": {
+        "chinese_characters": 945,
+        "numeric_token_count": 10,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "微分方程",
+          "模拟退火",
+          "规划"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "控制",
+          "方案",
+          "时机",
+          "最优",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-007",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019C：基于系统模拟的机场出租车决策与安排模型.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "bf8081da7b159ba41c6133b883717656d01acbef88d25c4cc631e14da6ab103b",
+      "duplicate_of": null,
+      "page_count": 39,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于系统模拟的机场出租车决策与安排模型",
+      "abstract_sha256": "0de461c0f215de186b58c5c106ff24a215076e9ce01e00856f97d3efc9da1d26",
+      "features": {
+        "chinese_characters": 1037,
+        "numeric_token_count": 13,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [
+          "优化",
+          "灵敏度",
+          "鲁棒"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "对比",
+          "灵敏度",
+          "验证",
+          "鲁棒"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "方案",
+          "最优",
+          "策略",
+          "调度"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-008",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019C：机场出租车司机综合决策及机场出租车管理模型.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "90297dd00efca8d21229e208d6218ce067168975d634305aa3b742800ada354b",
+      "duplicate_of": null,
+      "page_count": 30,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "机场出租车司机综合决策及机场出租车管理模型",
+      "abstract_sha256": "8525dc445a7fb13e374a89cca6429841a8931fe34cd0a2a7787f1e4b34083bad",
+      "features": {
+        "chinese_characters": 752,
+        "numeric_token_count": 19,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [
+          "优化",
+          "插值",
+          "检验",
+          "蒙特卡洛",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "准确率",
+          "检验",
+          "比较"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "方案",
+          "时机",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-009",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019C：机场的出租车问题.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "70c29430222a57a98d17413e8765fdafe0346629ba004e82ce72c2644634fbcd",
+      "duplicate_of": null,
+      "page_count": 39,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "机场的出租车问题",
+      "abstract_sha256": "fea22d2186f6caaca19be61145e26c181f70e1d81452b8e1c438a79e9b7a28bc",
+      "features": {
+        "chinese_characters": 793,
+        "numeric_token_count": 20,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "优化",
+          "拟合"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "决策",
+          "控制",
+          "方案",
+          "阈值"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-010",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019D：空气质量数据的校准.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "b456c827a6ed60858a06bdcb95e0fb3e9b5648aa2d36f22fd94f6b753c3c4ea4",
+      "duplicate_of": null,
+      "page_count": 24,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "空气质量数据校准",
+      "abstract_sha256": "e41f08a5dddb5d41c9cae7df5bad2bab21c165003adbcce82b7f1be4416ad563",
+      "features": {
+        "chinese_characters": 1023,
+        "numeric_token_count": 33,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "回归",
+          "拟合",
+          "插值",
+          "残差"
+        ],
+        "validation_term_hits": [
+          "显著",
+          "残差",
+          "比较"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-011",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019D：空气质量数据的校准（2）.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "15e4943508d97dc1ed6153e13ead573c86cefe46a665d73c876538df6519c79a",
+      "duplicate_of": null,
+      "page_count": 39,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "空气质量数据的校准",
+      "abstract_sha256": "1348a9fdc4bbbfa3f8dcb8501ea7d6313fcd255bf28138d1d7ba9170deebe57a",
+      "features": {
+        "chinese_characters": 536,
+        "numeric_token_count": 21,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "回归",
+          "插值",
+          "灰色",
+          "神经网络",
+          "误差",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "误差"
+        ],
+        "decision_term_hits": [
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-012",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019D：空气质量数据的校准（3）.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "5008988441c1db2d984c9acc30238572b6dc6e68f9be124c1388566c043ce216",
+      "duplicate_of": null,
+      "page_count": 31,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "空气质量数据的校准",
+      "abstract_sha256": "f50ce07e49c66b371ce6b90abac9ea1fb5f802a3bfabfdf645460618fac43b58",
+      "features": {
+        "chinese_characters": 674,
+        "numeric_token_count": 23,
+        "percentage_token_count": 4,
+        "explicit_question_marker_count": 3,
+        "method_term_hits": [
+          "优化",
+          "回归",
+          "神经网络",
+          "误差",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "误差"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-013",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019D：空气质量监测数据校准模型研究.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "a90ae5c7a5140f123ee3b095abfa4935091281d5159f9ff78ce4bb8598514436",
+      "duplicate_of": null,
+      "page_count": 36,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "空气质量监测数据校准模型研究",
+      "abstract_sha256": "ad8ae5d8c3a67ced093bdf329f1b4e12bd1b817d9d77a6e3276432a614a4b0fa",
+      "features": {
+        "chinese_characters": 576,
+        "numeric_token_count": 14,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 2,
+        "method_term_hits": [
+          "回归",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "比较",
+          "误差"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-014",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019E：“薄利多销”分析.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "507d425c0ecb676366e88ff56a5fc78f1627705fce5b5cc029ef21b0ef3c55a6",
+      "duplicate_of": null,
+      "page_count": 20,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "《薄利多销”分析",
+      "abstract_sha256": "21525715e656f6a0a7a9c08f98cddbe6ce8b7733b68da1aa828cead9838946eb",
+      "features": {
+        "chinese_characters": 653,
+        "numeric_token_count": 2,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "回归",
+          "拟合"
+        ],
+        "validation_term_hits": [
+          "显著",
+          "比较"
+        ],
+        "decision_term_hits": [
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-015",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019E：基于打折力度概念的“薄利多销”模型.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "dc86f26b66b21e7cca5435b4fed6bf25982fbe06c74b6a7fe88fe1bb2d5d11ff",
+      "duplicate_of": null,
+      "page_count": 23,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于打折力度概念的“薄利多销”模型",
+      "abstract_sha256": "825ae0eed4057d59b4fb7095ce8a8b9886baa74b24b017e5d35a751f9ae76c6f",
+      "features": {
+        "chinese_characters": 718,
+        "numeric_token_count": 16,
+        "percentage_token_count": 3,
+        "explicit_question_marker_count": 9,
+        "method_term_hits": [
+          "回归",
+          "鲁棒"
+        ],
+        "validation_term_hits": [
+          "鲁棒"
+        ],
+        "decision_term_hits": [
+          "排序"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-016",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019E：基于数据挖掘对“薄利多销”进行分析.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "082da5f0b8c11b521380d89af5165deb7def28d377902064cd7e757c924e205f",
+      "duplicate_of": null,
+      "page_count": 36,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于数据挖掘对“薄利多销”进行分析",
+      "abstract_sha256": "c1b89c10ea722560b2c67f9eeefcd10e2579de4b88204dcadb296eb85f368372",
+      "features": {
+        "chinese_characters": 839,
+        "numeric_token_count": 11,
+        "percentage_token_count": 6,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "分类",
+          "回归"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2019-017",
+      "year": 2019,
+      "container_name": "2019竞赛优秀论文.zip",
+      "container_sha256": "5a5bc42ee258ea916f3c59f92a9ef3d48cf310d5844c30c37a5cfaf2a74ce718",
+      "source_item": "2019高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2019/2019E：薄利多销销售策略的模型研究分析.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "99b18a1579d315c1883af363c447c3eaa20b67429fe97a725ede7c89a4a207fa",
+      "duplicate_of": null,
+      "page_count": 37,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "“薄利多销”销售策略的模型研究分析",
+      "abstract_sha256": "3c9782f9fb651c8b10b95f01b5818aa560664383dfc9b7241010b50ac9cef70c",
+      "features": {
+        "chinese_characters": 668,
+        "numeric_token_count": 5,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 7,
+        "method_term_hits": [
+          "回归",
+          "拟合"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "比较"
+        ],
+        "decision_term_hits": [
+          "等级"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-001",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020A：回焊炉温曲线优化控制.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "f56eca794fb358984c07e786927213029cd7e2f34c0a189ffd5df7cb14638cb6",
+      "duplicate_of": null,
+      "page_count": 26,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "回焊炉温曲线优化控制",
+      "abstract_sha256": "bd5771126f114052005e0807df503b5344076a84055dadd22f9b3733d436b82a",
+      "features": {
+        "chinese_characters": 1018,
+        "numeric_token_count": 41,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "微分方程",
+          "拟合",
+          "模拟退火",
+          "规划"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "控制",
+          "方案",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-002",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020A：基于一维热传导方程的回焊炉炉温模型.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "09df8884a298f89d98b8b51e1cfd254901572a147df7cc3b9d73e3c5c19e43ba",
+      "duplicate_of": null,
+      "page_count": 42,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于一维热传导方程的回焊炉炉温模型",
+      "abstract_sha256": "8cb5277d69ab71715e21992ca52ae61fb6f9decf32c1b03aeaf9cd36b2abdb58",
+      "features": {
+        "chinese_characters": 827,
+        "numeric_token_count": 45,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 8,
+        "method_term_hits": [
+          "优化",
+          "拟合",
+          "规划",
+          "遗传算法"
+        ],
+        "validation_term_hits": [
+          "区间"
+        ],
+        "decision_term_hits": [
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-003",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020A：基于维热传导方程的炉温曲线机理模型研究.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "c05adc506598526611af12b283dcde808ed6156478ae151da3c0df6a9ef0c4d7",
+      "duplicate_of": null,
+      "page_count": 89,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于一维热传导方程的炉温曲线机理模型研究",
+      "abstract_sha256": "417017ec2d0c54df96248d3d7ffde3f1034b049542bc380d2eab4272f6bb295c",
+      "features": {
+        "chinese_characters": 798,
+        "numeric_token_count": 27,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 10,
+        "method_term_hits": [
+          "优化",
+          "微分方程",
+          "拟合"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "控制",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-004",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020B：基于动态规划、统计分析、静态博弈的穿越沙漠游戏策咯设计.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "0e1c7b872fbf31f2751c5fef6ba12eba6239be200370a08d6523b40f8f61f1a4",
+      "duplicate_of": null,
+      "page_count": 104,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于动态规划、统计分析、静态博弈的穿越沙漠游戏策略设计",
+      "abstract_sha256": "3d87300cdaa63c2137d465f95763beceeb70a66c3ba41ddd97135508b9aa9537",
+      "features": {
+        "chinese_characters": 944,
+        "numeric_token_count": 10,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "优化",
+          "动态规划",
+          "检验",
+          "灵敏度",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "检验",
+          "比较",
+          "灵敏度",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "控制",
+          "方案",
+          "最优",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-005",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020B：穿越沙漠游戏下玩家的最优策略模型.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "653e3ef3591b96dd65f7e4e0f0e0db23a37a4e5f2322d630bfa9428eb06ac4fd",
+      "duplicate_of": null,
+      "page_count": 34,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "“穿越沙漠”游戏下玩家最优策略模型",
+      "abstract_sha256": "abfffea3b1dd55a0d846db030ae689298f50ea7991bb31db735431d50002e012",
+      "features": {
+        "chinese_characters": 842,
+        "numeric_token_count": 5,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 9,
+        "method_term_hits": [
+          "动态规划",
+          "规划",
+          "预测",
+          "马尔可夫"
+        ],
+        "validation_term_hits": [
+          "验证"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "最优",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-006",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020B：穿越沙漠游戏中的玩家行为决策问题.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "ec8474294080bcc439a0a512123ed92bc209bba782255f34fe4fb64c2755608a",
+      "duplicate_of": null,
+      "page_count": 39,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "穿越沙漠游戏中的玩家行为决策问题",
+      "abstract_sha256": "f1f7844fa251b528436017ea6e49eb301a5ddd93864039e4ca11b73922e53fcd",
+      "features": {
+        "chinese_characters": 881,
+        "numeric_token_count": 2,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "仿真",
+          "动态规划",
+          "规划",
+          "预测",
+          "马尔可夫"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "最优",
+          "策略",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-007",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020B：穿越沙漠游戏最佳策略模型的研究与构建.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "94b75137453efa79fe8b5fabbee579ff75df779235a2c8ded487a0b10e578d5c",
+      "duplicate_of": null,
+      "page_count": 50,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "“穿越沙漠”游戏最佳策略模型的研究与构建",
+      "abstract_sha256": "b08c992a6bb1acc9793d665773237f07116520042fad1f51de35dc648e778608",
+      "features": {
+        "chinese_characters": 1058,
+        "numeric_token_count": 5,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 8,
+        "method_term_hits": [
+          "仿真",
+          "优化",
+          "灵敏度",
+          "蒙特卡洛"
+        ],
+        "validation_term_hits": [
+          "比较",
+          "灵敏度",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "最优",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-008",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020C：针对中小微企业最优信贷决策研究.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "fbc32cfdae1316d53c877c10e08dacec4fa9b8375923d6f6cb3639a7971b0166",
+      "duplicate_of": null,
+      "page_count": 40,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "针对中小微企业最优信贷决策研究",
+      "abstract_sha256": "ce187db10c423d65af999a9937a3e19d57b4152c1cdfbf5a568e3ab45d0623e4",
+      "features": {
+        "chinese_characters": 883,
+        "numeric_token_count": 7,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 3,
+        "method_term_hits": [
+          "TOPSIS",
+          "回归",
+          "熵权",
+          "神经网络",
+          "规划",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "对比"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "最优",
+          "等级",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-009",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020C：银行基于大数据挖掘对中小微企业的信贷决策问题.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "e2492ca30b755c7550e63206d484e939cbcce10226b9e92f187b8147c5de4592",
+      "duplicate_of": null,
+      "page_count": 53,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "银行基于大数据挖掘对中小微企业的信贷决策问题",
+      "abstract_sha256": "77f4441fe36eac0463dd233fa9ec4c08baf13b70c28cf63a029d3283ad9b3979",
+      "features": {
+        "chinese_characters": 803,
+        "numeric_token_count": 8,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 17,
+        "method_term_hits": [
+          "回归"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "决策"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-010",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020C：银行对中小微企业的信贷决策分析.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "2b356a46933b0b539084b492a0ee0aa5cb28994f9da571d7c89ce6e7ca78ec8a",
+      "duplicate_of": null,
+      "page_count": 35,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "银行对中小微企业信贷决策分析",
+      "abstract_sha256": "f1a9afd268c15bb84effe6659eded0f8927999cf6a2beb693d7d1b87612daa14",
+      "features": {
+        "chinese_characters": 702,
+        "numeric_token_count": 12,
+        "percentage_token_count": 3,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "分类",
+          "回归",
+          "聚类",
+          "规划",
+          "随机森林",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "准确率"
+        ],
+        "decision_term_hits": [
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-011",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020C：银行对中小微企业的信贷策略.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "222a6fc7f811d40c5e204162ea49308d8f0b05c78a0adfbfdb3c0ab0490f6812",
+      "duplicate_of": null,
+      "page_count": 45,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "银行对中小微企业的信贷策略",
+      "abstract_sha256": "38ba7bc74c1a89457f8119626469e998323cee57360b4e402a22edaa40b2605c",
+      "features": {
+        "chinese_characters": 809,
+        "numeric_token_count": 13,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 7,
+        "method_term_hits": [
+          "主成分",
+          "分类",
+          "灵敏度",
+          "神经网络",
+          "规划",
+          "遗传算法",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "灵敏度"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "方案",
+          "最优",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-012",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020D：基于接触式轮廓仪测量数据的工件形状自动标注方法.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "e834d845bb4232054fc51338ee6bfc5648890cd2f026ba460e8f425b80254545",
+      "duplicate_of": null,
+      "page_count": 26,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于接触式轮廓仪测量数据的工件形状自动标注方法",
+      "abstract_sha256": "f16ef1b7bad271c5e883521d75d351293a5378c5636c7497bf319a72e85be46f",
+      "features": {
+        "chinese_characters": 646,
+        "numeric_token_count": 0,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 9,
+        "method_term_hits": [
+          "拟合",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "比较",
+          "误差"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-013",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020D：基于梯度下降的决策树算法与非线性规划的信贷风险评估与信贷策略模型.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "efaa0085e3ebb81a1a12d4d49c87c8e15ae7a132cf3946163cabfffc7c8a258c",
+      "duplicate_of": null,
+      "page_count": 77,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "与信贷策略模型",
+      "abstract_sha256": "873c39c089244a88b43cbba1b170f6ff1686191d8e1fdad86a597686f0f9ded0",
+      "features": {
+        "chinese_characters": 1056,
+        "numeric_token_count": 31,
+        "percentage_token_count": 8,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "优化",
+          "分类",
+          "神经网络",
+          "规划",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "准确率"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "最优",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-014",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020D：接触式轮廓仪校准问题.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "3cb9895916d22de873ec90b808370293059889a15cce9565cae144134496865e",
+      "duplicate_of": null,
+      "page_count": 46,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "接触式轮廓仪校准问题",
+      "abstract_sha256": "dbe5327ab551b64810e8d7e5163f2da3efefb93ebae7b8926990b15c118b2fbe",
+      "features": {
+        "chinese_characters": 557,
+        "numeric_token_count": 28,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 7,
+        "method_term_hits": [
+          "拟合",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "比较",
+          "误差"
+        ],
+        "decision_term_hits": [
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-015",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020D：接触式轮廓仪的自动标注数学模型研究.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "b9f67acd980a5ce4c0c9ec872f043293180e080e87d0b0ca761e9ac71981bfb1",
+      "duplicate_of": null,
+      "page_count": 135,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "接触式轮廓仪的自动标注数学模型研究",
+      "abstract_sha256": "9c46de0bae53fa069d4de997b108e4d57df5c218a850593ee76c1e5b8b702051",
+      "features": {
+        "chinese_characters": 763,
+        "numeric_token_count": 25,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "拟合",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "比较",
+          "误差"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-016",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020Ｅ：校园供水系统智能管理（１）.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "940b505b06654d60cb9931258b3f602d2e445996ac3405eac99bdbd8b16f7d96",
+      "duplicate_of": null,
+      "page_count": 22,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "校园供水系统智能管理",
+      "abstract_sha256": "5e323e45903645202b9f007ad2213e2810a43701b4acee6deb6c0e6f60d5c755",
+      "features": {
+        "chinese_characters": 760,
+        "numeric_token_count": 26,
+        "percentage_token_count": 6,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "分类",
+          "回归",
+          "拟合",
+          "检验",
+          "残差",
+          "神经网络",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "检验",
+          "残差",
+          "置信",
+          "误差"
+        ],
+        "decision_term_hits": [
+          "控制",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2020-017",
+      "year": 2020,
+      "container_name": "2020竞赛优秀论文.zip",
+      "container_sha256": "be9e999cdcfcd270e7ca84bd284ff6cbf538d5e880f94160325c6387c73b3832",
+      "source_item": "2020高教社杯全国大学生数学建模竞赛优秀论文【公众号：竞赛资料网】/2020/2020Ｅ：校园供水系统智能管理（２）.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "332fe60ccd25bcc6a788fe8f499b7a18df74999ecbda7179721d10c8801907c0",
+      "duplicate_of": null,
+      "page_count": 37,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "校园供水系统智能管理",
+      "abstract_sha256": "b3c66404363f8c62cf8599b65a0a78845880bc6aa8c278ecca635cc5897ad822",
+      "features": {
+        "chinese_characters": 578,
+        "numeric_token_count": 27,
+        "percentage_token_count": 9,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "插值",
+          "规划",
+          "误差",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "误差"
+        ],
+        "decision_term_hits": [
+          "等级",
+          "范围",
+          "阈值"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-001",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "A028.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "c583804b02dcd8739abbede9672176fff337a70411b676db0554281edfde4941",
+      "duplicate_of": null,
+      "page_count": 38,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "“FAST”主动反射面调节模型",
+      "abstract_sha256": "833ca46a0fffb17d0b2400e7279f007618c4cc567df4a395cf4cf57f9614dd89",
+      "features": {
+        "chinese_characters": 923,
+        "numeric_token_count": 41,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "拟合",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "比较",
+          "误差"
+        ],
+        "decision_term_hits": [
+          "最优",
+          "策略",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-002",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "A115.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "3d2c4cc5eacce89f55caed4c3a43cada1fffa9f854ca717907d3055f99420d8b",
+      "duplicate_of": null,
+      "page_count": 35,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于目标优化的“FAST”主动反射面形状调节研究",
+      "abstract_sha256": "8f7b3a7e9f5098a587a7e894c1fedb15fd84bd6e354a139fd102fd09954d8521",
+      "features": {
+        "chinese_characters": 985,
+        "numeric_token_count": 12,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "优化",
+          "几何"
+        ],
+        "validation_term_hits": [
+          "显著"
+        ],
+        "decision_term_hits": [
+          "策略",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-003",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "A217.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "9664c9dee8f88fb38462da098e5e72ab95c79eac33bb456769be513842297388",
+      "duplicate_of": null,
+      "page_count": 59,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "\"FAST\"工作抛物面的优化设计",
+      "abstract_sha256": "3908dfaa3c1d2bdd8250f2fd85feee44cb7c1f3f471e2fa88389c9bdf8d76179",
+      "features": {
+        "chinese_characters": 984,
+        "numeric_token_count": 18,
+        "percentage_token_count": 4,
+        "explicit_question_marker_count": 3,
+        "method_term_hits": [
+          "优化",
+          "蒙特卡洛",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "误差"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "控制",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-004",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "B007.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "8eb709d0ef276d040209d722884e413786dbd0e1e8b11ee1011987673149bb02",
+      "duplicate_of": null,
+      "page_count": 45,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "C4 烯烃制备分析与试验设计",
+      "abstract_sha256": "6991f08559786fe98270fcc3f5c1f161c1d3533b582c7e475847381f7b558ae8",
+      "features": {
+        "chinese_characters": 973,
+        "numeric_token_count": 12,
+        "percentage_token_count": 3,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "优化",
+          "回归",
+          "拟合",
+          "残差",
+          "聚类"
+        ],
+        "validation_term_hits": [
+          "残差"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-005",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "B026.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "9996589defe7f44b5cc54a2d02300d132722d632af0883b0ca750cf49cf41019",
+      "duplicate_of": null,
+      "page_count": 26,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于双因素方差分析的乙醇制备 C4烯烃研究",
+      "abstract_sha256": "7ce7971f92543ad328281216e562f2be63a2c3203e16b7660abddca1f1149bae",
+      "features": {
+        "chinese_characters": 772,
+        "numeric_token_count": 26,
+        "percentage_token_count": 3,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "回归",
+          "拟合",
+          "插值",
+          "检验"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "显著",
+          "检验",
+          "比较",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "控制",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-006",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "B050.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "5be9358bc2a6567b284f074bef69cf20219091adb3b0063c0a6c17126acc8cca",
+      "duplicate_of": null,
+      "page_count": 59,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "乙醇偶合制备 C4 烯烃的多元回归与神经网络模型",
+      "abstract_sha256": "30059650a6ce659d30d772825ca2b1fbc27d7adc3b7463e7cbb3a5e0f24bd0e5",
+      "features": {
+        "chinese_characters": 866,
+        "numeric_token_count": 46,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "主成分",
+          "优化",
+          "分类",
+          "回归",
+          "拟合",
+          "检验",
+          "神经网络",
+          "误差",
+          "贝叶斯",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "检验",
+          "误差",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-007",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "B106.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "fa5a998e243583de6a84d1f4a0ff2b738cd956edda45f374924dd89ba5c54916",
+      "duplicate_of": null,
+      "page_count": 28,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "乙醇制备 C4烯烃催化剂组合的分析与设计",
+      "abstract_sha256": "9c54e9c74c7be70bbe925532c813074b4682164a4529097a4a7a5cd84269cf8b",
+      "features": {
+        "chinese_characters": 804,
+        "numeric_token_count": 14,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 7,
+        "method_term_hits": [
+          "优化",
+          "分类",
+          "回归"
+        ],
+        "validation_term_hits": [
+          "对比"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "控制",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-008",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "C066.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "39bd99f750897df81526cb5fda6f8cd8ebcedd272f3302948798ec9a4057cce0",
+      "duplicate_of": null,
+      "page_count": 60,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "生产企业原材料订购与运输的评价与规划模型",
+      "abstract_sha256": "e9a231cfc0ab83d46ede2ba1bc7a97dda736e8d7c955d80ccaa2b6370eeb3337",
+      "features": {
+        "chinese_characters": 1031,
+        "numeric_token_count": 18,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "TOPSIS",
+          "优化",
+          "动态规划",
+          "检验",
+          "规划",
+          "遗传算法"
+        ],
+        "validation_term_hits": [
+          "检验",
+          "比较"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-009",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "C085.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "93cbe413fc228eabd2cd07864d56ef55fb22c0e5b0981b9582acf916da531870",
+      "duplicate_of": null,
+      "page_count": 56,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于双层和随机规划原材料订购与运输问题",
+      "abstract_sha256": "7ce2fbe5d0fc16d63692a1cba876787a3cb245d3058254c62fdb3ea79d4dd525",
+      "features": {
+        "chinese_characters": 854,
+        "numeric_token_count": 45,
+        "percentage_token_count": 8,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "TOPSIS",
+          "优化",
+          "动态规划",
+          "熵权",
+          "规划",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "对比"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "方案"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-010",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "C169.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "5ab6d8d83007dda29f7569d57b7276d34000a5464e8a95921fcbe742f23078ad",
+      "duplicate_of": null,
+      "page_count": 51,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于优化算法的企业原材料订购与运输规划模型",
+      "abstract_sha256": "1a1683818b87f0c39e01c2030b4d52f2f7a68ab8cba28bb5f05eb1617ee49f24",
+      "features": {
+        "chinese_characters": 900,
+        "numeric_token_count": 22,
+        "percentage_token_count": 5,
+        "explicit_question_marker_count": 7,
+        "method_term_hits": [
+          "优化",
+          "粒子群",
+          "规划"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "决策",
+          "方案"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-011",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "C283.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "e210b06d974e82136d7a72b0eb93c63c1d03fa2ec8f08649c330e8071293b184",
+      "duplicate_of": null,
+      "page_count": 58,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "section_heading",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "双目标贪心优化下的企业原料订购运输方案",
+      "abstract_sha256": "2654ff828b80aaf918fbf6cde7d177af727784e180493ac8c1752a31ebb5552e",
+      "features": {
+        "chinese_characters": 1136,
+        "numeric_token_count": 24,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "优化",
+          "层次分析",
+          "检验",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "检验",
+          "稳健",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "分配",
+          "方案",
+          "最优",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-012",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "D017.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "0ec2ba8014a190b808df377ef8c0ba1d6d4b8b15c20d5e8c19d2d7727ca37c9d",
+      "duplicate_of": null,
+      "page_count": 21,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "连铸切割的在线优化模型",
+      "abstract_sha256": "8faa0402d021d83c2c625434d2ddeb4421a4e10dbff54eb726252130288e5b81",
+      "features": {
+        "chinese_characters": 604,
+        "numeric_token_count": 36,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "优化",
+          "规划"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "方案",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-013",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "D026.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "54d37037ddd1ceecfe6705420563b8bb8f5658992c89a22b70d9644a7396ccf8",
+      "duplicate_of": null,
+      "page_count": 36,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "连铸切割的在线优化",
+      "abstract_sha256": "9bac88746c071f651e1f0a248e9fd641c9e99a213e5149456e7d46ed9794d653",
+      "features": {
+        "chinese_characters": 883,
+        "numeric_token_count": 40,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "规划"
+        ],
+        "validation_term_hits": [
+          "对比"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-014",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "D034.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "bd5cb08792536f457af916a8d6ad661b3b57a5a419044b2be699710d446813b5",
+      "duplicate_of": null,
+      "page_count": 30,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "连铸切割在线优化",
+      "abstract_sha256": "e1f17a8772c8bcfb69ca68c1cde5f9809808445a29b15072d27cb71e608a2813",
+      "features": {
+        "chinese_characters": 601,
+        "numeric_token_count": 28,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "优化"
+        ],
+        "validation_term_hits": [
+          "比较"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-015",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "E014.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "f663528008168538ea6e73d9734837ed653cc08e3b3607b2aae15e504149eb53",
+      "duplicate_of": null,
+      "page_count": 51,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于机醫学习的中药材类别与产地鉴别",
+      "abstract_sha256": "260c871287d79ed75a5fd5e261c4bd021bdbc2c6671b61c2c7e6510dee463ed4",
+      "features": {
+        "chinese_characters": 754,
+        "numeric_token_count": 16,
+        "percentage_token_count": 6,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "主成分",
+          "分类",
+          "聚类",
+          "贝叶斯"
+        ],
+        "validation_term_hits": [
+          "准确率",
+          "比较"
+        ],
+        "decision_term_hits": [
+          "决策"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-016",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "E025.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "73f55bc2337191cf0353e797757226dbe3fdc4c0a96ad31b57d61b9ebe9df56e",
+      "duplicate_of": null,
+      "page_count": 39,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "中药材鉴别",
+      "abstract_sha256": "159511242431241c7c094f5e2b41c8658ed34429d2b79ebf3daecf6edc751f41",
+      "features": {
+        "chinese_characters": 905,
+        "numeric_token_count": 12,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "主成分",
+          "交叉验证",
+          "优化",
+          "分类",
+          "支持向量",
+          "聚类",
+          "随机森林",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "方案",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2021-017",
+      "year": 2021,
+      "container_name": "2021国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "E037.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "3f5260534af406f174f7fd57fe9685cbdfd520b573a282969898e1c40cb6dda4",
+      "duplicate_of": null,
+      "page_count": 37,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于红外光谱法的中药材鉴别",
+      "abstract_sha256": "bdba94c8314f99efb3fbe48c1d87f91cff3653228d196cf5706d3c670d9cb588",
+      "features": {
+        "chinese_characters": 728,
+        "numeric_token_count": 27,
+        "percentage_token_count": 3,
+        "explicit_question_marker_count": 8,
+        "method_term_hits": [
+          "分类",
+          "支持向量",
+          "聚类"
+        ],
+        "validation_term_hits": [
+          "准确率",
+          "比较"
+        ],
+        "decision_term_hits": [
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2022-001",
+      "year": 2022,
+      "container_name": "2022国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2022高教社杯全国大学生数学建模竞赛A题论文展示（A001）.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "7dc8846bbeeaf8f03f315a2d464a45109cfa87e6a5ffde09c833c2c1d868dea1",
+      "duplicate_of": null,
+      "page_count": 37,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "波浪能装置输出功率优化设计",
+      "abstract_sha256": "948240f25bde425c64230b00a12d9c1b23a162483b27ce4df675bcf408bb2320",
+      "features": {
+        "chinese_characters": 837,
+        "numeric_token_count": 18,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "微分方程",
+          "检验",
+          "误差",
+          "遗传算法"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "检验",
+          "误差"
+        ],
+        "decision_term_hits": [
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2022-002",
+      "year": 2022,
+      "container_name": "2022国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2022高教社杯全国大学生数学建模竞赛A题论文展示（A022）.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "05c8137227d7f9db8aa3d9edcedcede55e79d58f11bbcfafee27ac622fac1fad",
+      "duplicate_of": null,
+      "page_count": 30,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "波浪能装置输出功率最大化模型",
+      "abstract_sha256": "43e452a2c54b8e0e83f2e00495f7e0be3fadf37a19647c0000f54408d75a9530",
+      "features": {
+        "chinese_characters": 1152,
+        "numeric_token_count": 39,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "微分方程",
+          "误差",
+          "鲁棒"
+        ],
+        "validation_term_hits": [
+          "误差",
+          "鲁棒"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2022-003",
+      "year": 2022,
+      "container_name": "2022国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2022高教社杯全国大学生数学建模竞赛A题论文展示（A171）.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "7e7309b2890e809283f57e87d569a31f01f12e792c29c88b8a97ffd592f90360",
+      "duplicate_of": null,
+      "page_count": 57,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于解析和数值方法的波浪能发电装置最大功率求解",
+      "abstract_sha256": "1396801a25d94b8978813814503ae09993e0ba95eb19d306bed4bdca2a7193e6",
+      "features": {
+        "chinese_characters": 1014,
+        "numeric_token_count": 31,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 7,
+        "method_term_hits": [
+          "优化",
+          "微分方程"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "决策",
+          "控制",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2022-004",
+      "year": 2022,
+      "container_name": "2022国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2022高教社杯全国大学生数学建模竞赛B题论文展示（B030）.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "7aafbebb8f6a4ca8d4d9b4204187f45ba6f8e54562354462e12ce95c2eb04781",
+      "duplicate_of": null,
+      "page_count": 42,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "无人机遂行编队飞行中纯方位无源定位",
+      "abstract_sha256": "5120a86f2a9914c1cf5eb13bd12fd92b5cdde57946f1fe1a320e4742738f5a29",
+      "features": {
+        "chinese_characters": 594,
+        "numeric_token_count": 8,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 8,
+        "method_term_hits": [
+          "仿真",
+          "几何",
+          "分类"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "置信",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "方案"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2022-005",
+      "year": 2022,
+      "container_name": "2022国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2022高教社杯全国大学生数学建模竞赛B题论文展示（B035）.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "680ee8680edd06b3166dd9df1a4b0daa62c6750d649b73a93877605602211c49",
+      "duplicate_of": null,
+      "page_count": 41,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于计算儿何与带阈值启发式搜索无人机无源定位模型",
+      "abstract_sha256": "a0dbfa22e5f752d0a7c96a0be89f2debc8882a1c094092849e9b7bea400362d5",
+      "features": {
+        "chinese_characters": 718,
+        "numeric_token_count": 11,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [
+          "几何",
+          "分类",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "误差"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "方案",
+          "最优",
+          "策略",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2022-006",
+      "year": 2022,
+      "container_name": "2022国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2022高教社杯全国大学生数学建模竞赛B题论文展示（B086）.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "780eff65feb591b07f516407654b7fc607939e9a30a30c98a048a7a4b775be97",
+      "duplicate_of": null,
+      "page_count": 32,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于局部最优模型无人机位置调整策略与仿真定位",
+      "abstract_sha256": "38ed5d9df0b05c76f034ffc45453140cff90a488a4d63e75785938533cdabfa2",
+      "features": {
+        "chinese_characters": 1143,
+        "numeric_token_count": 22,
+        "percentage_token_count": 3,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "仿真",
+          "优化",
+          "几何",
+          "拟合",
+          "检验",
+          "误差",
+          "鲁棒"
+        ],
+        "validation_term_hits": [
+          "检验",
+          "比较",
+          "误差",
+          "鲁棒"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "最优",
+          "策略",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2022-007",
+      "year": 2022,
+      "container_name": "2022国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2022高教社杯全国大学生数学建模竞赛C题论文展示（C155）.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "813c7a17f28b300ad0c82d2118cf42ffa4669787642318f4af825567ea183721",
+      "duplicate_of": null,
+      "page_count": 41,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于成分数据古代玻璃制品成分分析与鉴别",
+      "abstract_sha256": "5921e423c5fa613a3309855b808ba764c8fc4548412c94cf8ae4a44c60d25d76",
+      "features": {
+        "chinese_characters": 950,
+        "numeric_token_count": 9,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "分类",
+          "回归",
+          "检验",
+          "灰色",
+          "聚类"
+        ],
+        "validation_term_hits": [
+          "准确率",
+          "敏感性",
+          "检验",
+          "比较"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2022-008",
+      "year": 2022,
+      "container_name": "2022国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2022高教社杯全国大学生数学建模竞赛C题论文展示（C229）.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "2f06fec6333b90f72dcb4c0e292a8701e370ba0f08e73e1d43a0f95a73179fbe",
+      "duplicate_of": null,
+      "page_count": 26,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于成分数据分析的玻璃制品分析与分类",
+      "abstract_sha256": "ce93725378c88f0f2f3051d46f77826abdb649738fe72a00bc864d91bb214917",
+      "features": {
+        "chinese_characters": 1097,
+        "numeric_token_count": 17,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 7,
+        "method_term_hits": [
+          "主成分",
+          "交叉验证",
+          "几何",
+          "分类",
+          "回归",
+          "检验",
+          "聚类",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "显著",
+          "检验",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2022-009",
+      "year": 2022,
+      "container_name": "2022国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2022高教社杯全国大学生数学建模竞赛D题论文展示（D999）.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "a01505d8ba15a99f8abacfeae05839b79e7ec9cc732f97ee213ffc32bdd48415",
+      "duplicate_of": null,
+      "page_count": 25,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "气象报文信息卫星通信传输",
+      "abstract_sha256": "2eb99ede4b06af5b77481a6200089c0c70b64d04901759b7b553e67c4a9e873d",
+      "features": {
+        "chinese_characters": 742,
+        "numeric_token_count": 32,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "分类"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "方案"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2022-010",
+      "year": 2022,
+      "container_name": "2022国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2022高教社杯全国大学生数学建模竞赛E题论文展示（E014）.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "61316061a56d4a2153db8fda798d3cae5693d930f4b00188dcda84cee97f64af",
+      "duplicate_of": null,
+      "page_count": 24,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于时间序列预测物料生产安排模型",
+      "abstract_sha256": "545664bfebac04bda69710442d675c2f04ef20c8db4578829f5cb72e823704d1",
+      "features": {
+        "chinese_characters": 840,
+        "numeric_token_count": 32,
+        "percentage_token_count": 6,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [
+          "预测"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "方案"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2022-011",
+      "year": 2022,
+      "container_name": "2022国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2022高教社杯全国大学生数学建模竞赛E题论文展示（E029）.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "66ba9df73b270d1a901d83fe04f04c5d83d9ccbe05f49432fc10154d4f42a51e",
+      "duplicate_of": null,
+      "page_count": 22,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于时间序列预测的动态生产优化模型",
+      "abstract_sha256": "605a36ec881c698b7c06feaa5b5199ebccac44031295069bdbd10054b6617407",
+      "features": {
+        "chinese_characters": 926,
+        "numeric_token_count": 39,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 7,
+        "method_term_hits": [
+          "ARIMA",
+          "优化",
+          "聚类",
+          "误差",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "误差"
+        ],
+        "decision_term_hits": [],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2023-001",
+      "year": 2023,
+      "container_name": "2023国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "A0127.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "43a4314f1f63bf5146d5f670807e8dea33973cc95955938174a74cc192c99d58",
+      "duplicate_of": null,
+      "page_count": 50,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "定日镜场白输出功率优化",
+      "abstract_sha256": "25210254c1eb4bbdc5baa45a98ddba1ba2434b9d78bc6fa26a7618cee98dc408",
+      "features": {
+        "chinese_characters": 1068,
+        "numeric_token_count": 19,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "规划"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "方案",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2023-002",
+      "year": 2023,
+      "container_name": "2023国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "B311.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "7fc8204bcc01371c9872cd1e1ed52f602f2657bb592e545899af25f913d60460",
+      "duplicate_of": null,
+      "page_count": 31,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于主要目标法的测线设计问题",
+      "abstract_sha256": "62630abe3be0d36f3b9cbb985dad1fd3753e8e93982e159bc6f3d3e1b8589f97",
+      "features": {
+        "chinese_characters": 671,
+        "numeric_token_count": 21,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 11,
+        "method_term_hits": [
+          "几何",
+          "检验",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "检验",
+          "比较"
+        ],
+        "decision_term_hits": [
+          "控制"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2023-003",
+      "year": 2023,
+      "container_name": "2023国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "C050.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "2144c65a0364951b1a7960a3c1eaf8a53ddefddf515da3d6168998339908a3ef",
+      "duplicate_of": null,
+      "page_count": 41,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "某商超蔬菜类商品动态定价与补货决策研究",
+      "abstract_sha256": "97046a4541b26d442091416fba8390918e4d1d5c799e29bdc0f7db9a7724cebe",
+      "features": {
+        "chinese_characters": 956,
+        "numeric_token_count": 8,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "回归",
+          "检验",
+          "模拟退火",
+          "灰色",
+          "聚类",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "检验"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "最优",
+          "策略",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2023-004",
+      "year": 2023,
+      "container_name": "2023国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "D039.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "b7362f6abbc4e020f65b6efd14a0cd6deee317adbf32fe826dcf15ff5d870b1c",
+      "duplicate_of": null,
+      "page_count": 27,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "圈养湖羊空间利用率优化问题",
+      "abstract_sha256": "548d86a81aacdcdb790f7866ea3d5651c25c2c5d17929f0e6e9c66c64e582e68",
+      "features": {
+        "chinese_characters": 873,
+        "numeric_token_count": 34,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 3,
+        "method_term_hits": [
+          "优化",
+          "蒙特卡洛",
+          "规划"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "决策",
+          "方案",
+          "最优",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2023-005",
+      "year": 2023,
+      "container_name": "2023国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "E176.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "51355a3173b3dfd74375a6629247bf8b1c5d8635f611fae1baa3717ef593f122",
+      "duplicate_of": null,
+      "page_count": 50,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "section_heading",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于小波变换和背包模型的小浪底水库最优监测方案研究",
+      "abstract_sha256": "6ab9bf886f23167799b4d7d850eaa0aaf741c6b6f3b93c8322d2f8264aa5aad6",
+      "features": {
+        "chinese_characters": 1115,
+        "numeric_token_count": 60,
+        "percentage_token_count": 6,
+        "explicit_question_marker_count": 0,
+        "method_term_hits": [
+          "交叉验证",
+          "回归",
+          "检验",
+          "灰色",
+          "规划",
+          "误差",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "显著",
+          "检验",
+          "误差",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-001",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文A016.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "23b9a04852c6218af657ca8a45dfad01e4ca43b2dc06932889b79e3187d3267c",
+      "duplicate_of": null,
+      "page_count": 59,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于几何模型的舞龙队位置和速度分析",
+      "abstract_sha256": "93c61fd7df089f2082a631999ca6dfce4247452f4312490b3f021be78c80cfbc",
+      "features": {
+        "chinese_characters": 838,
+        "numeric_token_count": 16,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 8,
+        "method_term_hits": [
+          "几何"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-002",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文A053.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "3bfc581c6fcd910bf756638d2a1eed58c3331c8f3fced4e8eeb06ff6dc85f513",
+      "duplicate_of": null,
+      "page_count": 62,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于目标优化的板凳龙形态调节",
+      "abstract_sha256": "e5611c873856a41685c64fc22f27782cde6de19f995fe132e4430d200e196b31",
+      "features": {
+        "chinese_characters": 934,
+        "numeric_token_count": 4,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 9,
+        "method_term_hits": [
+          "优化",
+          "几何",
+          "灵敏度",
+          "粒子群"
+        ],
+        "validation_term_hits": [
+          "灵敏度"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "范围",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-003",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文A163.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "b4177494e32d072a9160dda6de1824ea76a0764e76afd5179ae9bcdd8ae0ac60",
+      "duplicate_of": null,
+      "page_count": 45,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于几何模型板凳龙运动路径问题",
+      "abstract_sha256": "af76abc891b39c71ee5616848bfa0207b0aa7f499620fadb69ba23d064a3505a",
+      "features": {
+        "chinese_characters": 1371,
+        "numeric_token_count": 0,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 12,
+        "method_term_hits": [
+          "优化",
+          "几何"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-004",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文A178.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "c6fcd6e4e281e982f4ffb7bd694416a3675a0485f6d12dff6f9f488d0ad25409",
+      "duplicate_of": null,
+      "page_count": 48,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": null,
+      "abstract_sha256": "b16c78b3cd32f132ce6a4991d6317bcb5098e84cd650c53cd09fcfe1b63d6598",
+      "features": {
+        "chinese_characters": 943,
+        "numeric_token_count": 44,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "优化",
+          "几何",
+          "微分方程",
+          "误差"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "误差",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "控制",
+          "范围",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-005",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文A242.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "b4a12b5cabdc76874eb607febdf0f7ae4eaa36463e976a14c17c4faaef8c3f8f",
+      "duplicate_of": null,
+      "page_count": 55,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于动态搜索前“板凳龙”运动状态及路线研究",
+      "abstract_sha256": "1bd1b5b5c7dc72ad4335fdc4800ed5e61c7baea7cf7bdecb54f358462d59c052",
+      "features": {
+        "chinese_characters": 998,
+        "numeric_token_count": 14,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 9,
+        "method_term_hits": [
+          "优化",
+          "几何",
+          "分类",
+          "微分方程",
+          "粒子群"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "对比"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "策略",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-006",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文B159.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "d3dfc396f6648368d943943c8a3b0e5c2171d456d7072d8c458600425ba555dc",
+      "duplicate_of": null,
+      "page_count": 32,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "生产过程中决策优化设计",
+      "abstract_sha256": "f7ddc23abf1dd5884ceec4d29baec6044941ace3ba4cfc7a1dbaa3eb15abed02",
+      "features": {
+        "chinese_characters": 707,
+        "numeric_token_count": 4,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "优化",
+          "几何",
+          "动态规划",
+          "检验",
+          "灵敏度",
+          "规划",
+          "贝叶斯"
+        ],
+        "validation_term_hits": [
+          "检验",
+          "灵敏度"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "方案",
+          "最优",
+          "策略",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-007",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文B195.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "dc7a94d06fc09026630276bd8f1eb8aab90ab16356b325a32ac885b5eb7695f0",
+      "duplicate_of": null,
+      "page_count": 70,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "section_heading",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于多阶段模拟仿真的生产决策问题",
+      "abstract_sha256": "1a4d2574e3e0b4660f05cffc19b67d322e45648456b03d3786d5fab1e9cc127d",
+      "features": {
+        "chinese_characters": 1059,
+        "numeric_token_count": 36,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "仿真",
+          "优化",
+          "分类",
+          "检验",
+          "模拟退火",
+          "贝叶斯"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "检验",
+          "比较",
+          "置信"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "控制",
+          "方案",
+          "最优",
+          "策略",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-008",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文B196.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "17112c9874cebf52b34b60d9803fce8ff6d9559e3c6968403cee62a0d915e4e1",
+      "duplicate_of": null,
+      "page_count": 28,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "中的应用研究",
+      "abstract_sha256": "f8c55a6732393e108cb59319f889396f47f62de5d10b078db53e6578ce60d7f7",
+      "features": {
+        "chinese_characters": 1013,
+        "numeric_token_count": 26,
+        "percentage_token_count": 4,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "检验",
+          "蒙特卡洛",
+          "遗传算法",
+          "鲁棒"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "显著",
+          "检验",
+          "置信",
+          "鲁棒"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "建议",
+          "方案",
+          "最优",
+          "策略",
+          "调度",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-009",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文C063.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "1a1bd0d182a470b5cd7017a918b7a4d4ac64cacc3827a918742af7f59fd6a686",
+      "duplicate_of": null,
+      "page_count": 49,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于优化算法的农作物最优种植模型",
+      "abstract_sha256": "05268eec0e5cc55739796718e1be217b9f03176ab47f0174c31fee3fe1d2f058",
+      "features": {
+        "chinese_characters": 926,
+        "numeric_token_count": 24,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "优化",
+          "灵敏度"
+        ],
+        "validation_term_hits": [
+          "灵敏度"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "方案",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-010",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文C094.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "056d3aae86a315049ab9cdaf9d702fe4a1037fd7731229b3a4c4859a87551a43",
+      "duplicate_of": null,
+      "page_count": 58,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于随机优化旳农作物种植策略模型",
+      "abstract_sha256": "7bfd6cd41bb647379141f89906ddc9671c8f6ffc329b27eca912dab686f68c2e",
+      "features": {
+        "chinese_characters": 897,
+        "numeric_token_count": 9,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "优化",
+          "检验",
+          "灵敏度",
+          "蒙特卡洛",
+          "规划"
+        ],
+        "validation_term_hits": [
+          "检验",
+          "比较",
+          "灵敏度"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "方案",
+          "最优",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-011",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文C234.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "e3c8212d91a9e87c88d2fea506eeb5a9b015383a027bcf77473c04cd1f5ae33a",
+      "duplicate_of": null,
+      "page_count": 45,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于遗传算法最优种植策略",
+      "abstract_sha256": "7d1df0b91cc07959e86aef25d5d4488e753e1486e145fc3ecd7274d6643d5495",
+      "features": {
+        "chinese_characters": 864,
+        "numeric_token_count": 18,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "优化",
+          "遗传算法"
+        ],
+        "validation_term_hits": [],
+        "decision_term_hits": [
+          "决策",
+          "方案",
+          "最优",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-012",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文C308.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "7bfe0636e70adc8e65bac47360d4335c30e0d16f7e272f2aef76ec8244e0e518",
+      "duplicate_of": null,
+      "page_count": 61,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于差分遗传算法的农作物种植策略优化",
+      "abstract_sha256": "72582ab87973839913c8007e30c3e6fe1d75b17ab38d5ed9228d4acb2ef6e522",
+      "features": {
+        "chinese_characters": 1101,
+        "numeric_token_count": 22,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "优化",
+          "灵敏度",
+          "遗传算法",
+          "鲁棒"
+        ],
+        "validation_term_hits": [
+          "显著",
+          "灵敏度",
+          "稳健",
+          "验证",
+          "鲁棒"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "控制",
+          "方案",
+          "最优",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-013",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文D033.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "81c321396ac0ec554db9b3b9ce86100909ce3ffe642c0ff926f5f9564a6783e3",
+      "duplicate_of": null,
+      "page_count": 55,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "反潜航空深弹命中概率优化问题",
+      "abstract_sha256": "5fe5add4ec3bb6c133bd20962d72b6bd3ca95fd59c2605791dc5202607fb4a55",
+      "features": {
+        "chinese_characters": 744,
+        "numeric_token_count": 20,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 8,
+        "method_term_hits": [
+          "误差"
+        ],
+        "validation_term_hits": [
+          "误差"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "方案"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-014",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文E010.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "244e239afe6e63517b6622238067a46adef3b51db83af842ceee034e01f50786",
+      "duplicate_of": null,
+      "page_count": 39,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "交通流量管控",
+      "abstract_sha256": "0d247304e6a9ea4146a4c2cdc7e0e8bbeeebd743ff28801588f6014d7b1ccfcc",
+      "features": {
+        "chinese_characters": 932,
+        "numeric_token_count": 13,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "优化",
+          "聚类",
+          "规划",
+          "误差",
+          "遗传算法",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "显著",
+          "误差"
+        ],
+        "decision_term_hits": [
+          "分配",
+          "控制",
+          "方案",
+          "最优",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-015",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文E061.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "54a1f47b71addd3095ff172bcc7cb63d45fa13fc1be56ff83f72775f643ad80c",
+      "duplicate_of": null,
+      "page_count": 32,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于多目标优化的交通管理评估分析",
+      "abstract_sha256": "1fd23f055f5fef19726b66cd6623886c00f90e57fed7f0af5af91e0be5844b0d",
+      "features": {
+        "chinese_characters": 876,
+        "numeric_token_count": 28,
+        "percentage_token_count": 4,
+        "explicit_question_marker_count": 3,
+        "method_term_hits": [
+          "优化",
+          "粒子群",
+          "聚类",
+          "马尔可夫"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "对比",
+          "显著",
+          "置信"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "分配",
+          "方案",
+          "策略",
+          "配置"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2024-016",
+      "year": 2024,
+      "container_name": "2024国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "2024高教社杯数学建模国赛论文E218.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "db0142843222ec0aa308c39624154fe1da55017885d33b511555c45c730e9c81",
+      "duplicate_of": null,
+      "page_count": 62,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于 Python 语言的交通流量管控与预测分析",
+      "abstract_sha256": "a39b6ab7aa6db744d6e02613f0bb9f6276f8d08d2ffe9e72c91ca09c23fc4bd9",
+      "features": {
+        "chinese_characters": 780,
+        "numeric_token_count": 18,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "仿真",
+          "优化",
+          "检验",
+          "聚类",
+          "遗传算法",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "检验",
+          "比较"
+        ],
+        "decision_term_hits": [
+          "方案",
+          "最优",
+          "范围",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2025-001",
+      "year": 2025,
+      "container_name": "2025国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "A196.pdf",
+      "problem_code": "A",
+      "pdf_sha256": "003528befdc1688946fc575d51975da80b8f2ec407a00bddb79c1cd808e3d8d6",
+      "duplicate_of": null,
+      "page_count": 98,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "多情形下无人机烟幕遮蔽策略建模与优化研究",
+      "abstract_sha256": "67c3b24ec3f728644a478a5290fa9f9aa495be13bc00eac6c153cddda1547d8d",
+      "features": {
+        "chinese_characters": 999,
+        "numeric_token_count": 15,
+        "percentage_token_count": 1,
+        "explicit_question_marker_count": 6,
+        "method_term_hits": [
+          "优化",
+          "粒子群",
+          "误差",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "区间",
+          "显著",
+          "误差",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "分配",
+          "方案",
+          "最优",
+          "策略"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2025-002",
+      "year": 2025,
+      "container_name": "2025国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "B060.pdf",
+      "problem_code": "B",
+      "pdf_sha256": "129fc14798cd1d09910b91d5c6ea2a344ef60f2be0ef02a837880a656a639e3a",
+      "duplicate_of": null,
+      "page_count": 72,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "section_heading",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "红外干涉法测量外延层厚度的建模分析",
+      "abstract_sha256": "d756b5871d2c1abdee9c6e766333b021f7251028e8260cef24df6c914758e9b5",
+      "features": {
+        "chinese_characters": 1472,
+        "numeric_token_count": 42,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 8,
+        "method_term_hits": [
+          "拟合",
+          "插值",
+          "检验"
+        ],
+        "validation_term_hits": [
+          "显著",
+          "检验"
+        ],
+        "decision_term_hits": [
+          "方案"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2025-003",
+      "year": 2025,
+      "container_name": "2025国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "C132.pdf",
+      "problem_code": "C",
+      "pdf_sha256": "55dc01e3e254fae87836e8ccd8e6884165b0a7205ca3e7d463b31f9252ca7d65",
+      "duplicate_of": null,
+      "page_count": 65,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于统计建模与元学习的 NIPT 检测决策优化与异常识别",
+      "abstract_sha256": "722a7926e3315927f3b3f187ff06564595eeb558c46d6d510cf590901ab6a197",
+      "features": {
+        "chinese_characters": 885,
+        "numeric_token_count": 17,
+        "percentage_token_count": 8,
+        "explicit_question_marker_count": 4,
+        "method_term_hits": [
+          "优化",
+          "分类",
+          "回归",
+          "检验",
+          "误差",
+          "遗传算法"
+        ],
+        "validation_term_hits": [
+          "准确率",
+          "检验",
+          "误差",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "决策",
+          "最优",
+          "策略",
+          "范围"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2025-004",
+      "year": 2025,
+      "container_name": "2025国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "D037.pdf",
+      "problem_code": "D",
+      "pdf_sha256": "9f31f26091fcf132bf174be36ccf728e24eb11580a5e84c6647fb4234b98ed77",
+      "duplicate_of": null,
+      "page_count": 37,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "矿井突水水流漫延模型与逃生方案问题",
+      "abstract_sha256": "90044aa4f5b96a1d17d9a8f8bb43283cd4432742958727ce599f3182a7ae4876",
+      "features": {
+        "chinese_characters": 954,
+        "numeric_token_count": 26,
+        "percentage_token_count": 0,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [],
+        "validation_term_hits": [
+          "比较"
+        ],
+        "decision_term_hits": [
+          "分配",
+          "方案",
+          "路径"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    },
+    {
+      "paper_id": "LOCAL-2025-005",
+      "year": 2025,
+      "container_name": "2025国赛优秀论文",
+      "container_sha256": null,
+      "source_item": "E030.pdf",
+      "problem_code": "E",
+      "pdf_sha256": "2dfb931efc00590e6edb04ac79a458be2063d6888ea1c2b1a1bccf60e8e76759",
+      "duplicate_of": null,
+      "page_count": 36,
+      "extraction_method": "vision-ocr",
+      "extraction_status": "extracted",
+      "boundary_method": "keyword",
+      "extraction_error": null,
+      "ocr_error": null,
+      "title_candidate": "基于姿态识别 AI辅助智能体测研究",
+      "abstract_sha256": "1e6cc2fb460557f59d46786f4b335bae96f3a711e924d6038c6d394472f9701a",
+      "features": {
+        "chinese_characters": 1090,
+        "numeric_token_count": 48,
+        "percentage_token_count": 2,
+        "explicit_question_marker_count": 5,
+        "method_term_hits": [
+          "优化",
+          "回归",
+          "拟合",
+          "误差",
+          "预测"
+        ],
+        "validation_term_hits": [
+          "对比",
+          "误差",
+          "验证"
+        ],
+        "decision_term_hits": [
+          "建议",
+          "方案",
+          "最优"
+        ],
+        "has_keywords_boundary": true
+      },
+      "semantic_review_status": "completed",
+      "award_status": "not_established_from_local_file",
+      "semantic_review_scope": "whole_abstract_read_for_writing_decisions",
+      "semantic_review_completed_on": "2026-08-25"
+    }
+  ],
+  "knowledge_version": "v20"
+}

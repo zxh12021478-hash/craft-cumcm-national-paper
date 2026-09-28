@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "profiles": {
+    "competition-lite": {
+      "purpose": "开赛至结果冻结；只保留五个人工核心决策门，其余证据自动收集。",
+      "human_gates": [
+        "problem_reconciliation",
+        "model_selection",
+        "baseline_deviation",
+        "result_acceptance",
+        "final_submission"
+      ],
+      "required_before_strategy_freeze": [
+        "problem_reconciliation",
+        "model_selection"
+      ],
+      "required_machine_artifacts_before_strategy_freeze": [
+        "innovation_tournament",
+        "innovation_report"
+      ],
+      "required_before_final_check": [
+        "problem_reconciliation",
+        "model_selection",
+        "baseline_deviation",
+        "result_acceptance"
+      ]
+    },
+    "final-strict": {
+      "purpose": "结果冻结至提交；启用全部复现、台账、页面、合规和团队理解阻断项。",
+      "human_gates": [
+        "problem_reconciliation",
+        "model_selection",
+        "baseline_deviation",
+        "result_acceptance",
+        "final_submission"
+      ],
+      "required_before_strategy_freeze": [
+        "problem_reconciliation",
+        "model_selection"
+      ],
+      "required_machine_artifacts_before_strategy_freeze": [
+        "innovation_tournament",
+        "innovation_report"
+      ],
+      "required_before_final_check": [
+        "problem_reconciliation",
+        "model_selection",
+        "baseline_deviation",
+        "result_acceptance"
+      ],
+      "required_artifacts": [
+        "submission",
+        "strategy_freeze",
+        "innovation_tournament",
+        "innovation_report",
+        "baseline_inventory",
+        "external_handoff",
+        "reproduction_report",
+        "truth_report",
+        "result_ledger",
+        "paper",
+        "code",
+        "execution_manifest",
+        "citation_manifest",
+        "ai_disclosure",
+        "ai_use_manifest",
+        "team_audit",
+        "visual_qa"
+      ]
+    }
+  }
+}

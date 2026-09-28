@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "objective": "maximize verified national-first competitiveness gain per contest minute and Codex token without weakening hard quality gates",
+  "modes": {
+    "sprint": {
+      "default_for": ["triage", "narrow_question", "small_delta", "p0_p1_closure"],
+      "max_active_findings": 5,
+      "chat_soft_cap_zh_chars": 1800,
+      "full_red_team": false,
+      "stop_on_blocker": true
+    },
+    "standard": {
+      "default_for": ["problem_release", "first_viable_external_bundle", "material_core_change"],
+      "max_active_findings": 10,
+      "chat_soft_cap_zh_chars": 3500,
+      "full_red_team": "only_when_decision_relevant",
+      "stop_on_blocker": true
+    },
+    "final": {
+      "default_for": ["results_frozen", "submission_readiness"],
+      "max_active_findings": null,
+      "chat_soft_cap_zh_chars": 2500,
+      "full_red_team": true,
+      "stop_on_blocker": false
+    }
+  },
+  "hard_floors": [
+    "eligibility_and_truthfulness",
+    "correct_problem_interpretation",
+    "valid_formulation",
+    "reproduced_headline_results",
+    "independent_validation"
+  ],
+  "instruction_sets": {
+    "base": {
+      "max_words": 3000,
+      "files": ["SKILL.md", "manifest.yaml", "static/runtime-core.md"]
+    },
+    "problem_standard": {
+      "extends": "base",
+      "max_words": 7000,
+      "files": [
+        "static/fragments/stage-problem-reading.md",
+        "references/task-family-kits.md",
+        "references/two-system-handoff.md",
+        "references/model-selection-playbook.md",
+        "references/innovation-tournament.md"
+      ]
+    },
+    "review_sprint": {
+      "extends": "base",
+      "max_words": 6000,
+      "files": [
+        "static/fragments/stage-rigorous-review.md",
+        "references/national-award-rubric.md",
+        "references/ai-baseline-regression-protocol.md"
+      ]
+    },
+    "review_full": {
+      "extends": "review_sprint",
+      "max_words": 9000,
+      "files": [
+        "references/red-team-judge-protocol.md",
+        "references/validation-playbook.md",
+        "references/code-quality.md",
+        "references/visualization-standards.md",
+        "references/ai-and-competition-compliance.md"
+      ]
+    }
+  }
+}

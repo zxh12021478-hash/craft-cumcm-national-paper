@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "tools": [
+    {
+      "id": "AI-01",
+      "name": "替换为工具名称",
+      "model_version": "替换为准确模型版本",
+      "provider": "替换为开发或提供机构",
+      "uses": [
+        {
+          "timestamp": "2026-09-05T10:00:00+08:00",
+          "purpose": "说明本次交互解决的具体辅助任务",
+          "key_interaction": "保存关键提示词、回复摘要以及完整记录文件的位置",
+          "adoption": "说明采用、部分采用或拒绝的具体内容",
+          "human_modification": "说明团队成员做出的实际修改及理由",
+          "verification": "说明推导复核、独立运行、回算、文献核查或其他证据",
+          "affected_locations": ["论文3.2节", "code/main.py"]
+        }
+      ]
+    }
+  ],
+  "team_signoff": {
+    "verified_by": ["队员A"],
+    "verified_at": "2026-09-08T12:00:00+08:00"
+  }
+}

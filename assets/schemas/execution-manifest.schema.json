@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/craft-cumcm-national-paper/execution-manifest.schema.json",
+  "title": "CUMCM clean execution manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "entry", "expected_outputs", "verifications"],
+  "properties": {
+    "version": {"const": 1},
+    "entry": {"type": "string", "minLength": 1},
+    "command_argv": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "dependency_file": {"type": ["string", "null"]},
+    "dependency_lock": {"type": ["string", "null"]},
+    "python_environment": {"enum": ["auto", "venv", "uv", "system"]},
+    "timeout_seconds": {"type": "integer", "minimum": 1, "maximum": 86400},
+    "random_seeds": {"type": "object", "additionalProperties": {"type": ["integer", "string"]}},
+    "expected_outputs": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "result_ledger": {"type": ["string", "null"]},
+    "verifications": {
+      "type": "array",
+      "minItems": 1,
+      "contains": {
+        "type": "object",
+        "required": ["required"],
+        "properties": {"required": {"const": true}}
+      },
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "verification_type", "independent_basis", "inputs", "expected_relation", "reviewed_by", "command_argv", "required", "pass_regex"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_.-]*$"},
+          "purpose": {"type": "string"},
+          "verification_type": {"enum": ["analytical", "independent_implementation", "invariant", "recomputation", "boundary_case", "external_solver"]},
+          "independent_basis": {"type": "string", "minLength": 10},
+          "inputs": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "expected_relation": {"type": "string", "minLength": 3},
+          "reviewed_by": {"type": "string", "minLength": 1},
+          "command_argv": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+          "required": {"type": "boolean"},
+          "pass_regex": {"type": "string", "minLength": 1},
+          "fail_regex": {"type": "string"},
+          "timeout_seconds": {"type": "integer", "minimum": 1, "maximum": 86400}
+        }
+      }
+    }
+  }
+}

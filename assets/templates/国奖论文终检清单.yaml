@@ -1,0 +1,84 @@
+version: 2
+quality_target: aspirational-national-first
+
+eligibility:
+  - current_rules_verified_from_official_source
+  - requirements_distinguished_from_quality_practices
+  - group_and_anonymity_valid
+  - page_and_file_limits_valid
+  - originality_and_citations_valid
+  - ai_use_fully_disclosed
+  - no_ai_provenance_concealment
+  - claimed_human_verification_is_evidenced
+
+problem:
+  - every_subproblem_answered
+  - units_thresholds_and_scenarios_preserved
+  - dependency_chain_consistent
+  - paper_argument_spine_complete
+
+model:
+  - assumptions_minimal_and_testable
+  - assumption_rationale_consequence_test_and_failure_recorded
+  - variables_objective_constraints_complete
+  - dimensions_boundaries_and_special_cases_checked
+  - identifiability_or_approximation_limits_explained
+  - one_problem_specific_innovation_evidenced
+  - core_model_decisions_team_approved
+  - final_paper_model_set_is_parsimonious
+
+computation:
+  - clean_entrypoint_runs
+  - seeds_dependencies_and_paths_recorded
+  - headline_results_regenerated
+  - constraints_and_solver_status_checked
+  - no_hidden_manual_steps
+  - ai_generated_code_inspected_and_tested
+  - baseline_and_proposed_model_compared_fairly
+
+validation:
+  - transparent_baseline_compared
+  - validation_matches_claim_and_plausible_failure_path
+  - sensitivity_not_substituted_for_formulation_or_solver_validation
+  - independent_validation_completed
+  - uncertainty_reaches_final_decision
+  - failure_case_and_scope_reported
+  - robustness_or_strategy_boundary_analyzed
+  - domain_reality_checks_passed
+
+paper:
+  - title_is_accurate_concise_and_evidence_supported
+  - abstract_answers_all_subproblems
+  - abstract_coverage_matrix_complete
+  - abstract_selected_facts_trace_to_body_evidence
+  - original_abstract_information_loss_audited
+  - abstract_only_markdown_scope_guard_passed_when_applicable
+  - abstract_page_limit_verified_by_render
+  - result_ledger_frozen_before_final_abstract_and_title
+  - notation_and_result_ledger_consistent
+  - symbols_meanings_units_domains_and_code_mapping_consistent
+  - figures_tables_legible_and_referenced
+  - flowchart_nodes_and_edges_match_implemented_artifacts
+  - chart_geometry_does_not_distort_magnitude_or_imply_false_comparability
+  - conclusions_match_evidence
+  - limitations_are_specific
+  - core_reasoning_has_team_signoff
+  - all_references_verified_against_primary_sources
+  - prose_not_manipulated_to_evade_ai_detection
+  - paragraph_list_table_choices_match_information_structure
+  - innovation_not_claimed_by_verb_choice_alone
+
+delivery:
+  - pinned_validator_environment_passed_strict_doctor
+  - final_docx_or_source_present
+  - final_electronic_paper_is_single_consolidated_file
+  - final_docx_built_and_verified_as_structured_document
+  - final_pdf_render_inspected
+  - supporting_material_index_complete
+  - validator_reports_reviewed
+  - unresolved_risks_disclosed
+  - recovery_card_verified_or_rebuilt_after_last_material_handoff
+  - exact_submission_manifest_reviewed_and_explicitly_approved_by_team
+  - deterministic_package_built_from_unchanged_hash_bound_inputs
+  - upload_directory_contains_only_portal_files
+  - upload_hashes_saved_in_local_evidence_directory

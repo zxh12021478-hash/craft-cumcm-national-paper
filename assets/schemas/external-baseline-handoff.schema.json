@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/craft-cumcm-national-paper/external-baseline-handoff.schema.json",
+  "title": "External baseline handoff",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "generated_by", "approved_strategy", "artifacts", "strategy_comparison", "declared_scope", "known_failures", "team_screening"],
+  "properties": {
+    "version": {"const": 1},
+    "generated_by": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tool", "model_version", "provider", "generated_at", "interaction_log"],
+      "properties": {
+        "tool": {"type": "string", "minLength": 1},
+        "model_version": {"type": "string", "minLength": 1},
+        "provider": {"type": "string", "minLength": 1},
+        "generated_at": {"type": "string", "format": "date-time"},
+        "interaction_log": {"type": "string", "minLength": 1}
+      }
+    },
+    "approved_strategy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file", "contract_file", "sha256", "approved_by", "approved_at"],
+      "properties": {
+        "file": {"type": "string", "minLength": 1},
+        "contract_file": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+        "approved_by": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "approved_at": {"type": "string", "format": "date-time"}
+      }
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["paper", "code_root", "execution_manifest", "implemented_strategy_contract", "result_files", "figure_files"],
+      "properties": {
+        "paper": {"type": "string", "minLength": 1},
+        "code_root": {"type": "string", "minLength": 1},
+        "execution_manifest": {"type": "string", "minLength": 1},
+        "implemented_strategy_contract": {"type": "string", "minLength": 1},
+        "result_files": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "figure_files": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "dependency_file": {"type": ["string", "null"]}
+      }
+    },
+    "strategy_comparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["report", "reviewed_by", "reviewed_at", "differences"],
+      "properties": {
+        "report": {"type": "string", "minLength": 1},
+        "reviewed_by": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "differences": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["field", "disposition", "rationale"],
+            "properties": {
+              "field": {"type": "string", "minLength": 1},
+              "disposition": {"enum": ["pending", "team-approved", "rejected", "non-material"]},
+              "rationale": {"type": "string", "minLength": 1}
+            }
+          }
+        }
+      }
+    },
+    "declared_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["followed_approved_strategy", "core_model_changed", "changes"],
+      "properties": {
+        "followed_approved_strategy": {"type": "boolean"},
+        "core_model_changed": {"type": "boolean"},
+        "changes": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "known_failures": {"type": "array", "items": {"type": "string"}},
+    "team_screening": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["decision", "screened_by", "screened_at", "notes"],
+      "properties": {
+        "decision": {"enum": ["quarantined", "accepted_for_audit", "rejected"]},
+        "screened_by": {"type": "array", "items": {"type": "string"}},
+        "screened_at": {
+          "oneOf": [
+            {"type": "string", "format": "date-time"},
+            {"type": "null"}
+          ]
+        },
+        "notes": {"type": "string"}
+      }
+    }
+  }
+}

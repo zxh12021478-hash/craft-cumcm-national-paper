@@ -1,0 +1,4 @@
+interface:
+  display_name: "CUMCM 国奖创新与终审"
+  short_description: "省Token地打磨创新、严审他稿、恢复进度并确定性封装提交包"
+  default_prompt: "Use $craft-cumcm-national-paper in the cheapest safe sprint/standard/final mode to recommend one CUMCM direction, audit and selectively repair the writing agent's bundle, reconstruct the frozen-result abstract, recover hash-bound contest state, and deterministically package an explicitly team-approved final submission."
