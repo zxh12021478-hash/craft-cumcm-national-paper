@@ -1,0 +1,26 @@
+{
+  "case_type": "synthetic demonstration, not a contest benchmark",
+  "original_program_output": {
+    "a": 8,
+    "b": 2,
+    "cost": 26
+  },
+  "capacity_violation": {
+    "warehouse": "A",
+    "capacity": 6,
+    "allocated": 8
+  },
+  "paper_claimed_cost": 24,
+  "recomputed_candidate_cost": 26,
+  "baseline_cost": 38,
+  "paper_claimed_reduction_percent": 40,
+  "candidate_arithmetic_reduction_percent": 31.5789,
+  "candidate_reduction_is_valid": false,
+  "enumerated_feasible_plans": 7,
+  "verified_optimum": {
+    "a": 6,
+    "b": 4,
+    "cost": 32
+  },
+  "verified_reduction_percent": 15.7895
+}
