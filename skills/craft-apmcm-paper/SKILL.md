@@ -9,9 +9,9 @@ This is an independent APMCM mode. It does not load the parent CUMCM entrypoint,
 
 ## Default: quick strategy, low context cost
 
-For a new problem, load only `references/quick-strategy.md` and the official problem/necessary attachment facts. Return one recommended route with core equations, a defensible innovation mechanism, one decisive low-cost check, known gaps, and a fallback trigger. Use `assets/strategy-handoff.md` for Modex. Do not default to a full solution, full manuscript, broad literature review, exhaustive optimization, or multiple agents. Stronger strategy comes from problem structure and evidence, not a model catalogue.
+For a new problem, load only `references/quick-strategy.md` and the official problem/necessary attachment facts. Return one recommended route with core equations, a defensible innovation mechanism, one decisive low-cost validation plan (run a small probe only if necessary to choose the route), known gaps, and a fallback trigger. Use `assets/strategy-handoff.md` for Modex. Do not default to a full solution, full manuscript, broad literature review, exhaustive optimization, or multiple agents. Stronger strategy comes from problem structure and evidence, not a model catalogue.
 
-Reuse verified inputs and results. `scripts/context_cache.py` can bind a short local brief to input hashes; check it before rereading large files. A changed dependency invalidates the brief. The cache proves freshness only, not truth. Inspect failed or consequential new evidence rather than repeating unchanged audits. Have Doubao or local scripts do authorized repetitive extraction, sweeps and formatting; review their actual output. Do not transmit private materials without authorization. Do not claim a percentage saving without measured usage.
+Reuse verified inputs and results. `scripts/context_cache.py` can bind a short local brief to input hashes; check it before rereading large files. A changed dependency invalidates the brief. The cache proves freshness only, not truth. Inspect failed or consequential new evidence rather than repeating unchanged audits. Use local scripts for deterministic checks and return compact summaries. Do not claim a percentage saving without measured usage.
 
 ## Mode and rule boundary
 
@@ -19,7 +19,7 @@ Choose `training`, `historical-rehearsal`, or `live-contest`. Distinguish Novemb
 
 ## Modex handoff
 
-Modex is the user's default author of the full initial manuscript. Prepare the modeling evidence and handoff in `references/modex-handoff.md`, then audit Modex's actual draft and make justified targeted repairs. Do not replace its initial-draft role or rewrite a reasonable model because another method looks more elaborate. Full-body drafting remains available when the user explicitly requests it, as in a historical rehearsal. Reconstruct a final abstract only from the complete paper and frozen results.
+The default contest workflow has two skill phases: (1) generate the Modex strategy handoff, then stop and wait for its draft; (2) audit the returned manuscript, code and results, and make justified targeted repairs. Modex implements the proposed solution, runs the calculations and writes the full initial manuscript. Use `references/modex-handoff.md`; do not require a complete solve, frozen numerical results or a full validation campaign before the first handoff. Mark planned work and untested claims explicitly. Doubao is used only during skill development/testing when authorized; it is not a contest participant, runtime dependency or handoff recipient. Do not invoke or delegate to it in the contest workflow. Do not replace Modex's initial-draft role or rewrite a reasonable model because another method looks more elaborate. Full-body drafting remains available when the user explicitly requests it, as in a historical rehearsal. Reconstruct a final abstract only from the complete paper and frozen results.
 
 ## Routes
 
@@ -32,7 +32,7 @@ Modex is the user's default author of the full initial manuscript. Prepare the m
 
 Separate measured data, published specifications, assumed parameters, simulated outputs, and forecasts. A reduced-order model is not CFD; a discrete best candidate is not a global optimum. Explain each mechanism, units, initial/boundary conditions, and what observations could disprove the assumptions. Report solver feasibility and independent residuals, not just success flags.
 
-For each subproblem supply a direct answer, traceable calculation and one check with a different failure path. Compare against a transparent baseline, test the assumption that most affects the recommendation, and quantify whether the claimed improvement survives. Do not trade requirement coverage for ornate prose or many models.
+At the strategy handoff, specify each subproblem's required answer, proposed calculation, baseline and validation plan; distinguish executed checks from work assigned to Modex. After the draft returns, require direct answers, traceable calculations and checks with a different failure path. Verify the baseline comparison and the assumption most affecting the recommendation, and quantify whether claimed improvements survive. Do not trade requirement coverage for ornate prose or many models.
 
 State review status precisely: `verified`, `supported-not-reproduced`, `inference`, `unable-to-verify`. Automated hash/numeric checks establish limited consistency, not semantic correctness, rule authenticity, human approval, or prize quality. A small historical case is not broad validation. Never claim a prize guarantee or infer actual judging deductions without feedback.
 
