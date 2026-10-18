@@ -16,7 +16,7 @@ Modex implements, calculates and writes the initial paper. Doubao is for authori
 
 ## Strategy and cost discipline
 
-Select methods from problem structure and observable data, not a model catalogue. Check feasibility and identifiability before optimizing or fitting. Read only the relevant section of `references/task-families.md` for forecasting, ranking, optimization or engineering risks. A cheap falsification or analytic bound can be more valuable than a large simulation. Keep useful innovation as a hypothesis until evidence supports it.
+Select methods from problem structure and observable data, not a model catalogue. Check feasibility and identifiability before optimizing or fitting. Read only the relevant section of `references/task-families.md` for forecasting, ranking, optimization or engineering risks. If ambiguity or route choice remains consequential, use `references/route-challenge.md` for one decisive refutation, not a mandatory model tournament. A cheap falsification or analytic bound can be more valuable than a large simulation. Keep useful innovation as a hypothesis until evidence supports it.
 
 Use one concise handoff plus necessary attachments. Do not repeat the same advice across reports or read every reference. Reuse code and verified results; scripts return compact metrics and paths. `scripts/context_cache.py` binds a brief to evidence hashes: changed dependencies invalidate it; unchanged hashes establish freshness, not truth. The complete first draft needs review; later revisions need changed/affected claims and unresolved issues, not another complete solve. Stop when the requested handoff or necessary repairs are complete. Do not claim usage savings without measured usage.
 

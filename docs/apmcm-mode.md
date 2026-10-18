@@ -25,6 +25,8 @@
 
 见 [跨题型与审查测试协议](../evaluations/apmcm/protocol.md)。[本轮实际结果与未完成项](../evaluations/apmcm/results-20261018.md)单独记录。测试答案不进入比赛上下文；合成测试通过不能代替真实 Modex 往返、完整往届题盲测或实际额度计量。
 
+已选择性吸收 GitHub 数模与科学计算 Skill 的做法，见 [来源、采用项与验证](github-learning-20261018.md)；不改变 Modex 分工，也不整体安装外部代理流程。
+
 ## 现有资源
 
 - [本届规则核验记录](../skills/craft-apmcm-paper/references/rules-2026.md)：包含来源、历史材料和待确认项。

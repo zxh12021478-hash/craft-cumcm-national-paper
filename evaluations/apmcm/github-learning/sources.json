@@ -1,0 +1,140 @@
+{
+  "checked_date": "2026-10-18",
+  "repositories": [
+    {
+      "repo": "XiaoMaColtAI/math-modeling-skill",
+      "commit": "05011685611ce25452e44da0407b83bec5366ebe",
+      "stars_at_retrieval": 1876,
+      "default_branch": "main",
+      "pushed_at": "2026-10-17T18:16:44Z",
+      "repository_license": "not detected; no verbatim reuse"
+    },
+    {
+      "repo": "jihe520/MathModelAgent",
+      "commit": "03f4eb388b3862b7bde55b508dceaf3d6b39d5ac",
+      "stars_at_retrieval": 6220,
+      "default_branch": "main",
+      "pushed_at": "2026-10-03T07:04:06Z",
+      "repository_license": "not detected; no verbatim reuse"
+    },
+    {
+      "repo": "y3519712124-ui/math-modeling-contest-route-selection",
+      "commit": "bb15e079e6e4566cde3d0868fef0609681ef0594",
+      "stars_at_retrieval": 91,
+      "default_branch": "main",
+      "pushed_at": "2026-06-19T06:06:51Z",
+      "repository_license": "MIT"
+    },
+    {
+      "repo": "yushui2022/MathModel-Skill",
+      "commit": "286643e9bea39922297f4d46314a5f6d05b924cd",
+      "stars_at_retrieval": 457,
+      "default_branch": "standard",
+      "pushed_at": "2026-10-16T09:10:19Z",
+      "repository_license": "MIT"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "stars_at_retrieval": 52404,
+      "default_branch": "main",
+      "pushed_at": "2026-10-15T23:57:39Z",
+      "repository_license": "MIT"
+    },
+    {
+      "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "commit": "9ff0c99108b36d3b886defd825d8ac1f47dba374",
+      "stars_at_retrieval": 18159,
+      "default_branch": "main",
+      "pushed_at": "2026-10-12T02:06:40Z",
+      "repository_license": "MIT"
+    }
+  ],
+  "files": [
+    {
+      "repo": "XiaoMaColtAI/math-modeling-skill",
+      "path": "SKILL.md",
+      "commit": "05011685611ce25452e44da0407b83bec5366ebe",
+      "blob_sha": "236d02bbcc66ba031d4c6c82cd2dfa7e291a1edc",
+      "url": "https://github.com/XiaoMaColtAI/math-modeling-skill/blob/05011685611ce25452e44da0407b83bec5366ebe/SKILL.md"
+    },
+    {
+      "repo": "XiaoMaColtAI/math-modeling-skill",
+      "path": "references/交付与截止时间协议.md",
+      "commit": "05011685611ce25452e44da0407b83bec5366ebe",
+      "blob_sha": "be901237394b4c9d7cebbc6b2ead639309ec3e1f",
+      "url": "https://github.com/XiaoMaColtAI/math-modeling-skill/blob/05011685611ce25452e44da0407b83bec5366ebe/references/交付与截止时间协议.md"
+    },
+    {
+      "repo": "jihe520/MathModelAgent",
+      "path": "skills/2analysis-modeling/SKILL.md",
+      "commit": "03f4eb388b3862b7bde55b508dceaf3d6b39d5ac",
+      "blob_sha": "ac650238f5136c12568bd03d38c160c8c0f980a0",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/03f4eb388b3862b7bde55b508dceaf3d6b39d5ac/skills/2analysis-modeling/SKILL.md"
+    },
+    {
+      "repo": "jihe520/MathModelAgent",
+      "path": "skills/6verity/SKILL.md",
+      "commit": "03f4eb388b3862b7bde55b508dceaf3d6b39d5ac",
+      "blob_sha": "1d0f6bf8ea35e9c1a699ab891a4c8aaf9cb7c3ad",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/03f4eb388b3862b7bde55b508dceaf3d6b39d5ac/skills/6verity/SKILL.md"
+    },
+    {
+      "repo": "y3519712124-ui/math-modeling-contest-route-selection",
+      "path": "math-modeling-contest-route-selection/SKILL.md",
+      "commit": "bb15e079e6e4566cde3d0868fef0609681ef0594",
+      "blob_sha": "eaa83d12df134f4c011fb8852d0aedeed550747b",
+      "url": "https://github.com/y3519712124-ui/math-modeling-contest-route-selection/blob/bb15e079e6e4566cde3d0868fef0609681ef0594/math-modeling-contest-route-selection/SKILL.md"
+    },
+    {
+      "repo": "y3519712124-ui/math-modeling-contest-route-selection",
+      "path": "math-modeling-contest-route-selection/references/refutation-and-model-choice.md",
+      "commit": "bb15e079e6e4566cde3d0868fef0609681ef0594",
+      "blob_sha": "00cf5c9958cccb88482a8b1bda3b8f6d9398d25a",
+      "url": "https://github.com/y3519712124-ui/math-modeling-contest-route-selection/blob/bb15e079e6e4566cde3d0868fef0609681ef0594/math-modeling-contest-route-selection/references/refutation-and-model-choice.md"
+    },
+    {
+      "repo": "yushui2022/MathModel-Skill",
+      "path": "packages/codex/.agents/skills/model-code-and-result-generator/references/modeling-tools.md",
+      "commit": "286643e9bea39922297f4d46314a5f6d05b924cd",
+      "blob_sha": "c04b3cb79a3386818f804ce86c41765c2da2551c",
+      "url": "https://github.com/yushui2022/MathModel-Skill/blob/286643e9bea39922297f4d46314a5f6d05b924cd/packages/codex/.agents/skills/model-code-and-result-generator/references/modeling-tools.md"
+    },
+    {
+      "repo": "yushui2022/MathModel-Skill",
+      "path": "packages/codex/.agents/skills/model-code-and-result-generator/references/experiment-validation.md",
+      "commit": "286643e9bea39922297f4d46314a5f6d05b924cd",
+      "blob_sha": "e55b158c2e480785b47c82a1639abf14c07ddfc2",
+      "url": "https://github.com/yushui2022/MathModel-Skill/blob/286643e9bea39922297f4d46314a5f6d05b924cd/packages/codex/.agents/skills/model-code-and-result-generator/references/experiment-validation.md"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/pymoo/SKILL.md",
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "blob_sha": "d9ed51c8b5f129393c43383b03ba993ec96ea2c4",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymoo/SKILL.md"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/scientific-brainstorming/references/idea_evaluation.md",
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "blob_sha": "c451c93900c9933b89d8fa5d11a3beb50333d9d3",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-brainstorming/references/idea_evaluation.md"
+    },
+    {
+      "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "path": "skills/context-optimization/SKILL.md",
+      "commit": "9ff0c99108b36d3b886defd825d8ac1f47dba374",
+      "blob_sha": "6b63196315aeab99c37c37d2cfea4891ecb2b23f",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/9ff0c99108b36d3b886defd825d8ac1f47dba374/skills/context-optimization/SKILL.md"
+    },
+    {
+      "repo": "yushui2022/MathModel-Skill",
+      "path": "packages/codex/.agents/skills/model-code-and-result-generator/scripts/modeling_tools.py",
+      "commit": "286643e9bea39922297f4d46314a5f6d05b924cd",
+      "blob_sha": "0ec88ddbde858d9b2879283cac66e2bd997eb8f5",
+      "url": "https://github.com/yushui2022/MathModel-Skill/blob/286643e9bea39922297f4d46314a5f6d05b924cd/packages/codex/.agents/skills/model-code-and-result-generator/scripts/modeling_tools.py"
+    }
+  ],
+  "reuse": "Selective method learning with original wording/code; not wholesale install; top-level notices retained, individual skill licenses checked."
+}

@@ -1,0 +1,5 @@
+Q1: demand=20, feasible (x1,x2) schedules = [(10, 10)]
+Q2: demand=20, exact-demand feasible count = 1, min cost schedule (x1,x2,cost) = (10, 10, 11.0)
+Q2: 'produce at least demand' feasible count = 1, min cost schedule = (10, 10, 11.0) (positive costs -> produce exactly demand)
+Q3: demand=12, exact-demand feasible count = 9, min cost schedule (x1,x2,cost) = (2, 10, 3.0)
+Q3: 'produce at least demand' feasible count = 45, min cost schedule = (2, 10, 3.0) (positive costs -> produce exactly demand)

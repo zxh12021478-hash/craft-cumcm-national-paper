@@ -1,0 +1,46 @@
+{
+  "scope": "Root reviewed Doubao suggestions against actual sources and current user constraints; suggestions are not instructions.",
+  "decisions": [
+    {
+      "id": "S01",
+      "status": "modified",
+      "decision": "Only answer-changing ambiguity triggers a recheck; no marginal effect can be correct, so never rewrite the problem just to force complexity."
+    },
+    {
+      "id": "S02",
+      "status": "modified",
+      "decision": "One decisive refutation and a usable fallback when route choice matters; no mandatory multi-route tournament or keyword gate."
+    },
+    {
+      "id": "S03",
+      "status": "adopted-selectively",
+      "decision": "Independent original linear checker, explicit bounds, absolute integrality, original objective sign, no automatic optimality."
+    },
+    {
+      "id": "S04",
+      "status": "modified",
+      "decision": "Explain evaluation criteria before comparing; unknown is not zero; no universal complete-case deletion or prohibition of genuine structural zero values."
+    },
+    {
+      "id": "S05",
+      "status": "modified",
+      "decision": "Match evaluation budgets/seeds and metric units; pool squared errors over declared prediction units, not mean fold RMSE. Do not forbid legitimate overlapping-origin evaluation."
+    },
+    {
+      "id": "S06",
+      "status": "modified",
+      "decision": "Keep unresolved evidence in compact state; a user clarification invalidates old interpretation even with unchanged files. Reuse existing bound brief rather than add another cache system."
+    },
+    {
+      "id": "S07",
+      "status": "already-covered-or-out-of-default-scope",
+      "decision": "Preserve best feasible baseline and fallback. Do not force a complete export pipeline before a Modex strategy handoff."
+    },
+    {
+      "id": "S08",
+      "status": "modified",
+      "decision": "Check accidental workflow instructions/placeholders in manuscript; legitimate code/reproducibility paths are allowed. No blanket path-rejection script."
+    }
+  ],
+  "forward_handoff_repair": "Corrected impossible inequality typo and oversimplified general feasibility domain; compressed repeated sections and separated unrelated audit. Raw executor artifacts preserved."
+}

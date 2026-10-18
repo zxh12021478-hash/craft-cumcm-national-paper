@@ -1,0 +1,83 @@
+{
+  "status": "pass",
+  "linear_feasible": true,
+  "optimality_verified": false,
+  "scope": "Declared linear constraints, explicit bounds, integrality and objective only; not optimality, model fidelity, units, nonlinear or undeclared constraints.",
+  "objective": 18.0,
+  "sense": "max",
+  "checks": [
+    {
+      "id": "A_ub[0]",
+      "lhs": 6.0,
+      "rhs": 8,
+      "violation": 0.0,
+      "tolerance": 1.08e-07,
+      "passed": true
+    },
+    {
+      "id": "A_ub[1]",
+      "lhs": 6.0,
+      "rhs": 8,
+      "violation": 0.0,
+      "tolerance": 1.08e-07,
+      "passed": true
+    },
+    {
+      "id": "lower[0]",
+      "lhs": 0,
+      "rhs": 2,
+      "violation": 0.0,
+      "tolerance": 1.02e-07,
+      "passed": true
+    },
+    {
+      "id": "upper[0]",
+      "lhs": 2,
+      "rhs": 4,
+      "violation": 0.0,
+      "tolerance": 1.0399999999999999e-07,
+      "passed": true
+    },
+    {
+      "id": "lower[1]",
+      "lhs": 0,
+      "rhs": 2,
+      "violation": 0.0,
+      "tolerance": 1.02e-07,
+      "passed": true
+    },
+    {
+      "id": "upper[1]",
+      "lhs": 2,
+      "rhs": 4,
+      "violation": 0.0,
+      "tolerance": 1.0399999999999999e-07,
+      "passed": true
+    },
+    {
+      "id": "integer[0]",
+      "lhs": 2,
+      "rhs": 2,
+      "violation": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "id": "integer[1]",
+      "lhs": 2,
+      "rhs": 2,
+      "violation": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "id": "objective",
+      "lhs": 18.0,
+      "rhs": 18,
+      "violation": 0.0,
+      "tolerance": 1.18e-07,
+      "passed": true
+    }
+  ],
+  "errors": []
+}

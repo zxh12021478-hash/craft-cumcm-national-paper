@@ -1,0 +1,140 @@
+[
+  {
+    "id": "A",
+    "model": {
+      "sense": "max",
+      "c": [
+        5,
+        4
+      ],
+      "bounds": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "A_ub": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "b_ub": [
+        8,
+        8
+      ],
+      "integer_indices": [
+        0,
+        1
+      ]
+    },
+    "candidate": {
+      "x": [
+        3,
+        3
+      ],
+      "reported_objective": 27,
+      "solver_status": "optimal"
+    }
+  },
+  {
+    "id": "B",
+    "model": {
+      "sense": "max",
+      "c": [
+        5,
+        4
+      ],
+      "bounds": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "A_ub": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "b_ub": [
+        8,
+        8
+      ],
+      "integer_indices": [
+        0,
+        1
+      ]
+    },
+    "candidate": {
+      "x": [
+        2,
+        2
+      ],
+      "reported_objective": 18,
+      "solver_status": "optimal"
+    }
+  },
+  {
+    "id": "C",
+    "model": {
+      "sense": "max",
+      "c": [
+        5,
+        4
+      ],
+      "bounds": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "A_ub": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "b_ub": [
+        8,
+        8
+      ],
+      "integer_indices": [
+        0,
+        1
+      ]
+    },
+    "candidate": {
+      "x": [
+        3,
+        2
+      ],
+      "reported_objective": -23,
+      "solver_status": "optimal"
+    }
+  }
+]
