@@ -1,4 +1,4 @@
 interface:
-  display_name: "APMCM 亚太杯建模与英文审查"
-  short_description: "独立亚太杯模式：规则核验、可复现建模演练、英文摘要与论文一致性审查"
-  default_prompt: "使用 $craft-apmcm-paper，先核对当前赛项规则，再检查我的建模结果、英文论文与提交材料。"
+  display_name: "APMCM 快速思路与 Modex 审查"
+  short_description: "快速选解题主路线、复用结果与摘要，交给Modex写初稿，再核对证据和英文论文"
+  default_prompt: "使用 $craft-apmcm-paper 的快速思路模式，给出推荐主路线、关键公式、可验证创新和最小试算；复用已有证据，输出给 Modex 的交接单。"

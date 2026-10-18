@@ -1,22 +1,30 @@
 ---
 name: craft-apmcm-paper
-description: Prepare, solve rehearsal problems, and audit English APMCM mathematical modeling papers with source-bound contest rules, reproducible results, and submission checks. Use for 亚太杯/APMCM preparation, English abstracts, paper-code-figure consistency, and historical rehearsals; do not apply CUMCM submission rules.
+description: Quickly develop evidence-based APMCM solution strategies and hand them to Modex for drafting, then audit modeling results and English papers. Use for 亚太杯/APMCM思路、Modex交接、结果验证、英文审查与提交检查; preserve CUMCM rules separately.
 ---
 
 # APMCM paper workflow
 
 This is an independent APMCM mode. It does not load the parent CUMCM entrypoint, its compliance rules, scoring rubric, or submission packager. The existing CUMCM skill is unchanged.
 
-## First decision
+## Default: quick strategy, low context cost
 
-Read `references/rules-2026.md` and `assets/rules-2026.json` for current-season work. Read only the relevant workflow below next. Distinguish English November APMCM from the separate Chinese event; never infer rules from the word 亚太杯 alone.
+For a new problem, load only `references/quick-strategy.md` and the official problem/necessary attachment facts. Return one recommended route with core equations, a defensible innovation mechanism, one decisive low-cost check, known gaps, and a fallback trigger. Use `assets/strategy-handoff.md` for Modex. Do not default to a full solution, full manuscript, broad literature review, exhaustive optimization, or multiple agents. Stronger strategy comes from problem structure and evidence, not a model catalogue.
 
-Choose `training`, `historical-rehearsal`, or `live-contest`. Historical rehearsals may solve and draft a full paper when requested. For a live contest, establish the actual current AI policy and authorized scope before assisting; silence in a notice is neither permission nor prohibition. Unknown policy blocks a live assistance plan and final readiness, not ordinary pre-contest learning.
+Reuse verified inputs and results. `scripts/context_cache.py` can bind a short local brief to input hashes; check it before rereading large files. A changed dependency invalidates the brief. The cache proves freshness only, not truth. Inspect failed or consequential new evidence rather than repeating unchanged audits. Have Doubao or local scripts do authorized repetitive extraction, sweeps and formatting; review their actual output. Do not transmit private materials without authorization. Do not claim a percentage saving without measured usage.
+
+## Mode and rule boundary
+
+Choose `training`, `historical-rehearsal`, or `live-contest`. Distinguish November English APMCM from the separate Chinese event. Read `references/rules-2026.md` and `assets/rules-2026.json` when current rules matter, then only the route needed for this phase. Historical rehearsals can include a full solve/draft when explicitly requested. For live work, establish actual current AI permission and scope first; unknown policy blocks live assistance and final readiness, not pre-contest learning.
+
+## Modex handoff
+
+Modex is the user's default author of the full initial manuscript. Prepare the modeling evidence and handoff in `references/modex-handoff.md`, then audit Modex's actual draft and make justified targeted repairs. Do not replace its initial-draft role or rewrite a reasonable model because another method looks more elaborate. Full-body drafting remains available when the user explicitly requests it, as in a historical rehearsal. Reconstruct a final abstract only from the complete paper and frozen results.
 
 ## Routes
 
 - **Rules / preparation:** `references/rules-2026.md`. Verify year, event, official source, dates/timezone, English language, page structure, anonymity, naming, support-file policy, and AI use. Preserve source URLs and hashes. Historical examples cannot fill missing current rules.
-- **Problem / rehearsal:** `references/rehearsal.md`. Freeze official inputs and requirement coverage before models; freeze strategy before opening same-case solutions. Select methods from the problem, not from a fixed preference for complex algorithms. Preserve code, baseline, independent checks, sensitivity, and limitations.
+- **Deep problem / rehearsal (requested or material failure):** `references/rehearsal.md`. Freeze official inputs and requirement coverage before models; freeze strategy before opening same-case solutions. Select methods from the problem, not from a fixed preference for complex algorithms. Preserve code, baseline, independent checks, sensitivity, and limitations. For engineering claims requiring physical validation, also read `references/physical-validation.md`.
 - **English drafting / audit:** `references/english-audit.md` and `assets/paper-template.md`. Work from frozen results. Verify every required answer and high-consequence number across summary, equations, text, tables, figure labels, and conclusions. A language edit must not change units, quantifiers, denominator, or uncertainty.
 - **Final package:** `references/bundle-contract.md`. Use `scripts/audit_bundle.py`, then `scripts/package_bundle.py`. Rehearsal ZIPs are local evidence bundles, never official upload instructions. Unknown 2026 fields must fail `--final`; resolve them against actual notices instead of suppressing checks.
 
