@@ -8,7 +8,7 @@
 
 ## 独立 APMCM 模式
 
-新增 [craft-apmcm-paper](skills/craft-apmcm-paper/SKILL.md)，默认快速提出可验证的解题主路线，交给 Modex 写初稿，再做公式/数字/图表与英文审查。通过按需加载、本地摘要缓存和增量审查减少重复消耗。豆包只用于制作和测试 Skill，不进入正式比赛流程。国赛入口、运行流程和校验器保持原样。
+新增 [craft-apmcm-paper](skills/craft-apmcm-paper/SKILL.md)，默认快速提出可验证的解题主路线，交给 Modex 写初稿，再做公式/数字/图表与英文审查。通过按需加载、本地摘要缓存和增量审查减少重复消耗。豆包只用于制作和测试 Skill，不进入正式比赛流程。国赛入口、运行流程和校验器保持原样。跨题型与审查开发测试见 [验收协议](evaluations/apmcm/protocol.md)。
 
 APMCM 需独立安装：[安装与使用](docs/apmcm-mode.md)。截至 2026-10-18，本届日期、语言及部分提交要求已核对；AI 政策、英文模板和详细排版规范仍待赛前公告，技能不会把历史模板当作本届规定，也不承诺奖项。
 

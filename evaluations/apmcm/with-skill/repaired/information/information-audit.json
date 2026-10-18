@@ -1,0 +1,440 @@
+{
+  "status": "pass",
+  "checked_feature_uses": 142,
+  "errors": [],
+  "non_observed_inputs": [
+    {
+      "forecast": "o60-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o60-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o60-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o60-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o61-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o61-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o61-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o61-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o62-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o62-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o62-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o62-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o63-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o63-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o63-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o63-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o64-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o64-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o64-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o64-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o65-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o65-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o65-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o65-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o66-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o66-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o66-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o66-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o67-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o67-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o67-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o67-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o68-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o68-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o68-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o68-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o69-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o69-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o69-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o69-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o70-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o70-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o70-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o70-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o71-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o71-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o71-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o71-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o72-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o72-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o72-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o72-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o73-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o73-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o73-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o73-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o74-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o74-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o74-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o74-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o75-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o75-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o75-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o75-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o76-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o76-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o76-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o76-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+    },
+    {
+      "forecast": "o80-h3-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "83-84 周促销原点未知；预先固定情景 promo=0，不使用真值"
+    },
+    {
+      "forecast": "o80-h3-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "83-84 周促销原点未知；预先固定情景 promo=1，不使用真值"
+    },
+    {
+      "forecast": "o80-h4-scn0",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "83-84 周促销原点未知；预先固定情景 promo=0，不使用真值"
+    },
+    {
+      "forecast": "o80-h4-scn1",
+      "feature": "promotion",
+      "kind": "scenario",
+      "note": "83-84 周促销原点未知；预先固定情景 promo=1，不使用真值"
+    }
+  ],
+  "scope": "Declared feature availability only; compare trace to actual code and source metadata. A pass does not establish forecast accuracy or prove scenarios are true."
+}

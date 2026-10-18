@@ -1,0 +1,11 @@
+{
+  "forecast_origin": "end of week 80",
+  "demand_units": "realized at end of its own week",
+  "planned_promotion": "known two weeks before each target week; weeks 83-84 not yet known at origin 80",
+  "resolved_service_tickets": "finalized one week after its own week; not available at target-week forecast origin",
+  "future_promotion_81_82": [
+    0,
+    1
+  ],
+  "future_promotion_83_84": null
+}

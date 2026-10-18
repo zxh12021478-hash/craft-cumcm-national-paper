@@ -30,6 +30,9 @@ Actual AI/LLM permission and disclosure policy, English template, page limit, pa
 
 The initial new.saikr.com text fetch returned only a JavaScript shell; the mobile page was subsequently retrieved. Check current notices and the team portal again before live work or final formatting. If unclear, seek written organizer clarification; do not send messages without user authorization. An internal assistance log is preparation practice, not a fabricated official mandate.
 
+
+Rechecked the current notice, registration page and collective-registration notice on October 18 during skill hardening. The visible notice list includes the October 14 registration guide; no complete English-format/AI policy was established from these retrieved pages. The October 9–10 organizer replies remain pending-policy evidence. This recheck does not change unresolved fields to verified.
+
 ## Historical materials (not 2026 requirements)
 
 The [2024 official archive](https://www.apmcm.org/detail/2487) contains `APMCM2024 论文提交规范、论文模板、承诺书.zip`: Summary Sheet and Control Sheet DOCX, English format PDF, Chinese submission instructions and LaTeX ZIP. These remain historical artifacts, not rebranded current templates.

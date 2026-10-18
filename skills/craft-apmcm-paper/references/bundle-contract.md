@@ -14,6 +14,7 @@ Paths are relative to `--root`; traversal, absolute paths and symlinks outside t
   "files": [{"path": "paper.md", "sha256": "64 hexadecimal characters"}],
   "paper": "paper.md",
   "results": "results.json",
+  "requirement_matrix": "requirements.json",
   "claims": [{
     "id": "summary-cost", "quote": "The cost is 32 USD.",
     "token": "32", "pointer": "/cost", "unit": "USD",
@@ -31,6 +32,16 @@ Paths are relative to `--root`; traversal, absolute paths and symlinks outside t
   }
 }
 ```
+
+Freeze `requirements.json` from the original question before drafting, with stable IDs, explicit outputs and acceptance checks. Bind it in `files` and reference it as `requirement_matrix`:
+
+```json
+{"requirements": [{"id": "Q1", "request": "Original requested calculation",
+  "deliverable": "Direct answer with stated units",
+  "acceptance": "Independent balance/baseline check"}]}
+```
+
+The auditor compares its IDs with `required_outputs`; omitting a question from the returned manuscript and output list cannot make the audit pass. Keep optional extensions outside that required-output inventory. This check proves matching records, not whether the matrix faithfully captures the original wording; review that when first extracting it. A new handoff needs no completed results. Legacy rehearsal manifests without the matrix receive a warning; `--final` requires it. Every referenced file, including this matrix, must be hash-bound. The abbreviated `files` array above must be expanded for actual use.
 
 All paths used by the paper/results/review/evidence fields must occur in `files`. JSON pointers use RFC6901 escaping and can address array indexes. `scale` makes an explicit unit conversion (e.g. fraction to percent, 100). `token` must appear as a standalone numerical token within the exact unique `quote` in the paper and match the source value within the declared nonnegative tolerance. A reviewer must ensure every important occurrence is covered; the script cannot discover all unlisted claims.
 

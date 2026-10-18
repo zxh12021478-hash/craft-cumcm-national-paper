@@ -1,0 +1,24 @@
+{
+  "availability_lags": {
+    "resolved_service_tickets": 1,
+    "realized_promotion": 0
+  },
+  "forecasts": [
+    {
+      "id": "o80-h1-tickets",
+      "origin": 80,
+      "target": 81,
+      "features": [
+        {"name": "resolved_service_tickets", "source_time": 81, "kind": "observed"}
+      ]
+    },
+    {
+      "id": "o80-h3-promotion",
+      "origin": 80,
+      "target": 83,
+      "features": [
+        {"name": "realized_promotion", "source_time": 83, "kind": "observed"}
+      ]
+    }
+  ]
+}

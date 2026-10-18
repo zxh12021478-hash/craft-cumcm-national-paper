@@ -1,0 +1,24 @@
+{
+  "q1": {
+    "proxy_drop": 0.19999999999999996,
+    "energy_drop": 0.05,
+    "cost_drop": 0.2,
+    "summary_20pct_matches_energy": false,
+    "summary_20pct_matches_proxy": true,
+    "cost_25pct_claim": true
+  },
+  "lp_convA_cap5_status": 2,
+  "lp_convB_cap5_status": 2,
+  "min_uniform_grid_cap_B": 5.657458518784551,
+  "structural": {
+    "out_of_sample_error_null": true,
+    "probability_model_null": true,
+    "sensitivity_key_absent": true,
+    "Q3_leakage_tickets": true,
+    "Q3_random_split": true,
+    "Q3_trainR2_as_accuracy": true,
+    "Q3_future_promotion_realized": true,
+    "Q4_frequency_as_probability": true,
+    "Q5_present": false
+  }
+}

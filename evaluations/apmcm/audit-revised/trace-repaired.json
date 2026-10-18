@@ -1,0 +1,25 @@
+{
+  "availability_lags": {
+    "resolved_service_tickets_lag1w": 1,
+    "planned_promotion": 0
+  },
+  "forecasts": [
+    {
+      "id": "o80-h1-tickets",
+      "origin": 80,
+      "target": 81,
+      "features": [
+        {"name": "resolved_service_tickets_lag1w", "source_time": 79, "kind": "observed"}
+      ]
+    },
+    {
+      "id": "o80-h3-promotion",
+      "origin": 80,
+      "target": 83,
+      "features": [
+        {"name": "planned_promotion", "source_time": 83, "kind": "scenario", "formed_at": 80,
+         "note": "Promotion schedule announced by week 80 for week 83; explicitly assumed scenario, no realized post-origin values."}
+      ]
+    }
+  ]
+}

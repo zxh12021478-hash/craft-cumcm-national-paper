@@ -1,0 +1,41 @@
+{
+  "never_supply_to_executor": true,
+  "strategies": {
+    "F": [
+      "per-horizon available-information check including unknown future promotion",
+      "exclude delayed tickets",
+      "temporal multistep validation with train-only transforms",
+      "simple baseline and change adaptation",
+      "uncertainty assessed out of sample",
+      "cost-aware event alert with decision assumptions"
+    ],
+    "R": [
+      "B dominates D for point data",
+      "no unconditional winner without preferences",
+      "conditional recommendation or Pareto set",
+      "normalization/units explicit",
+      "recompute joint perturbations; dominance may change",
+      "no frequency-as-truth probability"
+    ],
+    "O": [
+      "worst-case solar zero",
+      "hour1 max battery charge input one",
+      "hour2 max supply 5.81 < 7, shortfall 1.19",
+      "correct storage charging/discharging convention",
+      "no silent load shedding or initial energy",
+      "timing/nonanticipativity and no perfect foresight",
+      "independent feasibility not just solver status"
+    ]
+  },
+  "audit_issues": {
+    "A1": "proxy gain cannot be electrical-energy gain; actual energy reduction5%",
+    "A2": "dispatch infeasible, hour2 shortfall1.19 with stated caps; negative stock/terminal",
+    "A3": "discharge in energy update divided by .9 rather than multiplied",
+    "A4": "delayed/future features and random temporal split leakage",
+    "A5": "training R2 not future accuracy",
+    "A6": "analyst preference scenario frequency not real optimality probability",
+    "A7": "Q5 sensitivity entirely missing",
+    "A8": "cost reduction from100 to80 is20%, not25%"
+  },
+  "correct_control": "temperature target25C is given and repeated consistently; should not be changed"
+}

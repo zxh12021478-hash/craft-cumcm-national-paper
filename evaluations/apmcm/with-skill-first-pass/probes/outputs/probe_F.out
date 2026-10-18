@@ -1,0 +1,16 @@
+######## probe_F ########
+== 1) tickets / demand 比率 ==
+ratio mean=1.6001 sd=0.0071 min=1.5873 max=1.6115
+tickets ~ 0.040 + 1.5997*demand, residual sd=0.716
+
+== 2) 单斜率 vs 分段（全样本，仅诊断） ==
+单斜率: intercept=70.62 slope=0.845 promo=6.35 SSE=7654.7
+分段最优断点 k=55: slopes 0.433 -> 2.150, promo=6.20, SSE=2506.0, SSE下降=67.3%
+
+== 3) 滚动原点（origins 60..76；断点仅在折内训练数据选择） ==
+h=1 single: MAE=15.78 RMSE=17.20 bias=-15.78 n=17
+h=1 piecewise: MAE=5.08 RMSE=6.40 bias=-1.00 n=17
+h=4 single: MAE=17.84 RMSE=19.13 bias=-17.84 n=68
+h=4 piecewise: MAE=4.73 RMSE=5.68 bias=-0.84 n=68
+
+注意：83-84 周促销在原点 80 未知，正式预测须做情景，不得回填真值。

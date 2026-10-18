@@ -131,6 +131,32 @@ def audit(root, manifest, rules=None, final=False):
                 raise ValueError('Unverified output or missing content-level review')
             for name in o['evidence']: bound(name)
         except (KeyError, ValueError, TypeError) as e: fail('OUTPUT', f"{o.get('id', '?')}: {e}")
+    # Compare against the pre-draft original-question inventory, not only the
+    # author's returned list (which could silently omit an entire question).
+    requirement_matrix = manifest.get('requirement_matrix')
+    if requirement_matrix is not None:
+        try:
+            matrix = json.loads(bound(requirement_matrix).read_text(encoding='utf-8'))
+            records = matrix.get('requirements') if isinstance(matrix, dict) else None
+            if not isinstance(records, list) or not records:
+                raise ValueError('Original requirement matrix must contain requirements')
+            expected_ids = set()
+            for row in records:
+                if not isinstance(row, dict): raise ValueError('Requirement must be an object')
+                for key in ('id', 'request', 'deliverable', 'acceptance'):
+                    if not isinstance(row.get(key), str) or not row[key].strip():
+                        raise ValueError('Missing requirement field: ' + key)
+                if row['id'] in expected_ids: raise ValueError('Duplicate original requirement ID')
+                expected_ids.add(row['id'])
+            missing, unexpected = expected_ids - ids, ids - expected_ids
+            if missing: fail('REQUIREMENT_MISSING', ', '.join(sorted(missing)))
+            if unexpected: fail('REQUIREMENT_UNEXPECTED', ', '.join(sorted(unexpected)))
+        except (KeyError, ValueError, TypeError, OSError, UnicodeError) as e:
+            fail('REQUIREMENT_MATRIX', e)
+    elif final:
+        fail('REQUIREMENT_MATRIX', 'Final audit requires a bound original-question matrix')
+    else:
+        warnings.append('No original-question matrix bound; returned output list completeness is unverified.')
     def review(rec, label):
         if not isinstance(rec, dict) or rec.get('status') != 'pass' or not rec.get('reviewer'):
             fail('REVIEW', label + ' is incomplete'); return

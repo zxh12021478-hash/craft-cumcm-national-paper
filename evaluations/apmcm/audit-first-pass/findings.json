@@ -1,0 +1,261 @@
+{
+  "audit_meta": {
+    "exercise": "Synthetic returned-draft exercise (independent initial-draft audit; not a contest or real Modex output)",
+    "date": "2026-10-18",
+    "auditor": "independent Doubao audit, no network / no install / no paid API",
+    "input_files": {
+      "problem.md": "a8f496402581c6ba225172dd6b601afa49807423c0b7728524047099cb1f19e9",
+      "paper.md": "ca2a7605b7daed3871756868f78d1cc4a4654ae3ae2024ec5faaf52d209a8731",
+      "results.json": "47b40f1e8ecb4af1823ba02c6fd54da2358f15ebf3d6b621dd5de5185a425453",
+      "dispatch.py": "30bcaa83f2d8a8202146cbb7770c798dec16480a0e2e0a8ad6686a82c3a88cfd",
+      "forecast.py": "ba74e6091f31001fe987407aa8643cd5808242ea30a8bc4251fb8bd6f7d0d161"
+    },
+    "skill_basis": [
+      "SKILL.md#19adf73b",
+      "references/english-audit.md#9309dbcd",
+      "references/task-families.md#fd68f442",
+      "references/physical-validation.md#fa574014",
+      "references/modex-handoff.md#29186d4c",
+      "references/bundle-contract.md#0259a320",
+      "references/terminology.md#7ee3946d",
+      "assets/modex-return.md#8fdc57f8"
+    ],
+    "severity_levels": {
+      "critical": "answer-changing: wrong number, infeasible plan, information leakage, missing required task",
+      "major": "requirement closure / evidence strength: unsupported claim or unverifiable artifact",
+      "minor": "language / layout / presentation"
+    },
+    "classification_legend": {
+      "clear-error": "demonstrably wrong from supplied materials",
+      "no-evidence": "claim made but supplied materials contain no supporting evidence; status must remain unable-to-verify"
+    }
+  },
+  "findings": [
+    {
+      "id": "F01",
+      "question": "Q1",
+      "severity": "critical",
+      "classification": "clear-error",
+      "location": "paper.md line 3 (Summary): \"Our design reduces electricity consumption by 20%.\"",
+      "evidence": "results.json electrical_energy_kWh baseline=100, design=95 -> reduction (100-95)/100 = 5.00%. The 20% value equals the comfort-proxy drop (0.50->0.40 = 20.00%) and coincidentally the cost drop (100->80 = 20.00%); verify_output.txt Q1 section.",
+      "consequence": "Headline energy saving is overstated 4x (5% reported as 20%) and the normalized comfort proxy movement is relabeled as electrical energy, which is exactly the conflation Q1 forbids; the summary number propagates to any abstract/conclusion.",
+      "minimal_fix": "Change the headline to: electrical energy 100->95 kWh, a 5% reduction; state separately that the dimensionless comfort proxy falls 0.50->0.40 (20%) and that the two quantities are not interchangeable.",
+      "recheck": "Recompute all three percentages from results.json with verify_audit.py; confirm every summary/abstract occurrence uses 5% for kWh and 20% only for the proxy."
+    },
+    {
+      "id": "F02",
+      "question": "Q1",
+      "severity": "critical",
+      "classification": "clear-error",
+      "location": "paper.md line 5 (Q1): \"Operating cost falls from 100 to 80 CNY, a reduction of 25% relative to the original cost.\"",
+      "evidence": "(100-80)/100 = 20.00%, not 25%; results.json cost_CNY baseline=100, design=80; verify_output.txt Q1 section.",
+      "consequence": "Wrong percentage for cost reduction; 25% would correspond to 100->75, contradicting the reported 80 CNY.",
+      "minimal_fix": "Replace \"25%\" with \"20%\" (keep 100->80 CNY).",
+      "recheck": "Recompute the ratio from the cited values; ledger the token 20% against /cost_CNY."
+    },
+    {
+      "id": "F03",
+      "question": "Q1",
+      "severity": "major",
+      "classification": "no-evidence",
+      "location": "paper.md line 5 (Q1): proxy and energy are listed in adjacent sentences, but the draft never defines the proxy or explicitly contrasts it with electrical energy.",
+      "evidence": "Q1 requirement: \"compare actual electrical energy and distinguish it from a normalized comfort proxy.\" The draft gives the proxy without a name/definition/unit and never states it is dimensionless and non-energy; terminology.md distinguishes electrical energy (kWh) from dimensionless normalized quantities.",
+      "consequence": "The required conceptual distinction is only implicit (units differ), which is what allowed the Summary conflation in F01; a reader cannot verify that the two metrics were kept separate downstream.",
+      "minimal_fix": "Add one sentence defining the comfort proxy as a dimensionless normalized index (range, reference point) and stating that electrical energy in kWh is a separate, physically conserved quantity; keep all later uses consistent.",
+      "recheck": "Check each proxy/energy occurrence carries the correct definition and unit; confirm no cross-substitution in summary or conclusion."
+    },
+    {
+      "id": "F04",
+      "question": "Q2",
+      "severity": "critical",
+      "classification": "clear-error",
+      "location": "paper.md line 7 (Q2): \"Charge 1 kWh at hour 1 and discharge 2 kWh at hour 2 ... Battery update is E_t=E_(t-1)+0.9*c_t-0.9*d_t.\"",
+      "evidence": "Executing the supplied dispatch.py on the claimed vectors gives stored-energy states [0.9, -0.9, -0.9]: after hour 2 the battery is negative (it discharges 2 kWh with only 0.9 kWh stored) and final stored energy is -0.9, not 0. verify_output.txt Q2 section.",
+      "consequence": "The plan violates intertemporal energy conservation, non-negativity of stored energy, and the explicit final-stored-energy-zero condition; the dispatch is infeasible.",
+      "minimal_fix": "Do not report this plan; enforce E_t >= 0 and E_3 = 0 in the model (see F06 for the infeasibility certificate).",
+      "recheck": "Run the supplied battery update (or the audit script) on every reported plan; reject any negative state or nonzero terminal state."
+    },
+    {
+      "id": "F05",
+      "question": "Q2",
+      "severity": "critical",
+      "classification": "clear-error",
+      "location": "paper.md line 7 (Q2): \"Grid imports are [5,5,5] kWh; this serves all load.\"",
+      "evidence": "Hour 2 load is 7 kWh with solar 0. Under the literal draft convention supply is 5 + 0.9*2 = 6.8 < 7 (shortfall 0.2). Under the standard two-efficiency convention the hour-2 balance happens to read 5+2=7, but then storage is -1.322 kWh (verify_output.txt). There is no convention under which all constraints and the load balance hold simultaneously.",
+      "consequence": "Hour-2 load is not served as claimed; the assertion is false convention-independently.",
+      "minimal_fix": "Withdraw the plan; report the infeasibility result (F06). Any future plan must satisfy g_t + solar_t + delivered_discharge_t = load_t + charge_t every hour.",
+      "recheck": "Independently recompute the per-hour balance for each reported plan; confirm equality with stated terminal-side definitions."
+    },
+    {
+      "id": "F06",
+      "question": "Q2",
+      "severity": "critical",
+      "classification": "clear-error",
+      "location": "paper.md line 7 and line 3: \"The solver reports optimal\" / \"The dispatch is feasible and globally optimal\"; results.json /dispatch/solver_status = \"optimal\".",
+      "evidence": "Independent feasibility analysis: (a) aggregate bound - total load 16 kWh exceeds maximum 3-hour grid supply 15 kWh, solar is 0 and a battery with E0=E3=0 and round-trip efficiency 0.9^2=0.81 cannot create energy (sum grid >= 16 under both conventions); (b) hour-2 bound - hour 1 can spare at most c1=1 kWh for charging (g1<=5 after serving load 4), so E1<=0.9 and hour 2 can be served at most 5 + 0.9*0.9 = 5.81 < 7; (c) independent LP (HiGHS) returns status=2 infeasible at grid cap 5 under both conventions. verify_output.txt.",
+      "consequence": "No feasible dispatch exists under the stated constraints. The correct Q2 deliverable is an infeasibility certificate identifying which constraint must be relaxed - not a feasible/optimal plan. The reported \"optimal\" status is false and indicates the solved model omitted constraints (E>=0, E3=0, or the balance).",
+      "minimal_fix": "Report the infeasibility certificate (aggregate 16>15 and hour-2 5.81<7) and state admissible relaxations. Audit-side LP context: a uniform grid cap of about 5.66 kWh is sufficient (e.g. grid [5.657,5.657,5], charge [1.657,0,0], discharge [0,1.343,0]); alternatively reduce load or allow solar. Relaxing battery capacity or charge/discharge rates cannot fix the 1 kWh aggregate deficit.",
+      "recheck": "Re-run the independent LP (verify_audit.py) after any constraint change; independently recompute objective, conservation and hard constraints rather than trusting solver_status (task-families.md optimization section)."
+    },
+    {
+      "id": "F07",
+      "question": "Q2",
+      "severity": "major",
+      "classification": "clear-error",
+      "location": "paper.md line 7 and dispatch.py line 6: \"E_t=E_(t-1)+0.9*c_t-0.9*d_t\".",
+      "evidence": "The equation applies the discharge efficiency inside the state while leaving the terminal side undefined. If d is measured at the battery, delivered energy is 0.9d and the state should decrease by d; if d is delivered to the load, the state should decrease by d/0.9. As written, the update is not self-consistent under either terminal definition (verify_output.txt conventions A and B).",
+      "consequence": "Any numerical result from this update is ambiguous; the inconsistency also hides the infeasibility in the hour-2 balance narrative.",
+      "minimal_fix": "Define c and d terminal sides once, then use one consistent form, e.g. E_t = E_{t-1} + 0.9 c_t - d_t/0.9 with balance g_t + d_t + solar_t = load_t + c_t (d = energy delivered to load), and state the units of every variable.",
+      "recheck": "Dimensional check of each equation; verify round-trip 0.81 on a charge-then-discharge unit test."
+    },
+    {
+      "id": "F08",
+      "question": "Q2",
+      "severity": "major",
+      "classification": "no-evidence",
+      "location": "paper.md line 7: no mention of solar; results.json /dispatch contains no solar field; no solver model, entry command or run log is supplied (only dispatch.py, a 10-line state calculator).",
+      "evidence": "problem.md specifies \"solar worst case zero\"; modex-return.md requires executable code, inputs, run records distinguishing executed from unexecuted, and machine-readable checks; task-families.md requires independent recomputation beyond solver status.",
+      "consequence": "The reader cannot verify the worst-case assumption or reproduce the \"optimal\" status; the status is in any case contradicted by F06. Reproduction status must remain unable-to-verify.",
+      "minimal_fix": "State solar=0 explicitly; provide the optimization model/constraints, solver call, seed and run log; record the independent feasibility/conservation checks.",
+      "recheck": "Clean re-run from the supplied entry point on a fresh directory; compare machine output to every reported dispatch number."
+    },
+    {
+      "id": "F09",
+      "question": "Q2",
+      "severity": "major",
+      "classification": "clear-error",
+      "location": "paper.md line 3: \"globally optimal\"; line 7: \"The solver reports optimal.\"",
+      "evidence": "terminology.md #12-13: continuous global optimality requires convexity/optimality-certificate support; the instance is independently certified infeasible (F06), so no optimum exists.",
+      "consequence": "Overstated conclusion strength; misleading for a decision maker.",
+      "minimal_fix": "Remove the optimality claim; state infeasibility under the given constraints. If the problem is later relaxed, report feasible -> best-of-tested -> optimum only with an explicit certificate or complete enumeration.",
+      "recheck": "Match every \"optimal\" token to a documented optimality certificate in the evidence bundle."
+    },
+    {
+      "id": "F10",
+      "question": "Q3",
+      "severity": "critical",
+      "classification": "clear-error",
+      "location": "paper.md line 9 (Q3): \"We use resolved_service_tickets to predict demand. Tickets are finalized one week after the forecast target.\" (also forecast.py line 2 features list).",
+      "evidence": "A feature finalized after the forecast target is not in the origin information set. task-families.md forecasting section: settled/backfilled/future-realized variables cannot enter historical forecasts.",
+      "consequence": "Direct look-ahead leakage: reported performance is unattainable in real forecasting and the required origin-information condition is violated.",
+      "minimal_fix": "Remove the feature or replace it with the information available at the origin (e.g. tickets opened/in-progress at the origin, or a lagged version whose release timestamp precedes the target); document each feature's release time.",
+      "recheck": "Annotate every feature with its availability timestamp; rerun the evaluation with a point-in-time feature table and confirm no feature uses post-target information."
+    },
+    {
+      "id": "F11",
+      "question": "Q3",
+      "severity": "critical",
+      "classification": "clear-error",
+      "location": "paper.md line 9: \"A random 80/20 split of all dates validates the model.\" (forecast.py line 3 split_strategy='random_80_20_across_all_dates').",
+      "evidence": "Random shuffling across dates is invalid for temporal extrapolation: training rows sit on both sides of validation rows. task-families.md requires rolling/expanding-window evaluation matching the real multi-step task, with all transforms/selection inside training folds.",
+      "consequence": "The validation design cannot measure genuine out-of-sample future-week error, which is the explicit Q3 deliverable.",
+      "minimal_fix": "Adopt rolling/expanding-origin backtests: for each origin, train only on earlier dates, evaluate on the held-out future weeks; fit transforms/hyperparameters inside each training fold.",
+      "recheck": "Check every fold's training dates precede its validation dates; report per-horizon errors across origins."
+    },
+    {
+      "id": "F12",
+      "question": "Q3",
+      "severity": "critical",
+      "classification": "clear-error",
+      "location": "paper.md line 3: \"Forecast accuracy is 99%\"; line 9: \"The model achieves training R2=0.99, proving 99% accuracy for future weeks.\"; results.json /forecast/out_of_sample_error = null.",
+      "evidence": "Training R^2 is an in-sample fit statistic; it is not out-of-sample accuracy and no interval coverage is implied. The required genuine out-of-sample error is literally absent (null in results.json).",
+      "consequence": "The headline 99% claim is unsupported and false as stated; Q3's required output (origin-constrained out-of-sample errors) does not exist.",
+      "minimal_fix": "Delete the 99% future-accuracy claim; after F10/F11 repairs, report per-horizon out-of-sample errors (e.g. MAE/MAPE/RMSE), bias and interval coverage/width on the rolling folds; report training R^2 only as an in-sample diagnostic.",
+      "recheck": "Confirm every accuracy token traces to a held-out fold computed after the leakage and split repairs; null/missing metrics must be reported as not executed."
+    },
+    {
+      "id": "F13",
+      "question": "Q3",
+      "severity": "critical",
+      "classification": "clear-error",
+      "location": "paper.md line 9: \"The four future promotion values are taken from realized records.\" (forecast.py line 2 includes 'realized_promotion').",
+      "evidence": "Future exogenous variables are unknown at the forecast origin; task-families.md requires explicit scenarios or omission - realized future values must not be filled in silently.",
+      "consequence": "Second perfect-information leakage path; future-week forecasts would silently use actual future promotions.",
+      "minimal_fix": "Use only promotion values known at the origin (announced schedules) or declared forecast scenarios; otherwise drop the feature and say so.",
+      "recheck": "For each forecast horizon, confirm every exogenous input is either origin-known or a labeled scenario; rerun folds."
+    },
+    {
+      "id": "F14",
+      "question": "Q3",
+      "severity": "major",
+      "classification": "no-evidence",
+      "location": "forecast.py (5 lines of pseudocode: feature names, split string, reported metric); no data, model code, entry command, seeds, dependencies or run record are supplied.",
+      "evidence": "File itself states it is pseudocode; modex-return.md requires executable code, dependencies/version, entry command, inputs, seeds and actual run records; results.json contains only training_r2 and a null OOS field.",
+      "consequence": "None of the Q3 numbers can be reproduced; status must be recorded as unable-to-verify, and with F10-F13 the modeling result is invalid regardless.",
+      "minimal_fix": "Supply the point-in-time dataset or its provenance, the training script, fold definitions, seeds, environment and a clean run log.",
+      "recheck": "Clean rerun reproduces the frozen results.json values; any changed value invalidates dependent claims."
+    },
+    {
+      "id": "F15",
+      "question": "Q4",
+      "severity": "critical",
+      "classification": "clear-error",
+      "location": "paper.md line 3: \"Design B has an 82% probability of being optimal in real operation\"; line 11: \"Design B wins in 82 of 100 analyst-selected preference scenarios. These counts establish an 82% probability that B is best for the sponsor.\"; results.json /ranking/probability_model = null.",
+      "evidence": "82/100 is a win frequency over analyst-selected scenarios. The scenario set is not a probability distribution over the sponsor's unknown true weights, and no probability model is supplied (null). task-families.md: \"sampling-weight win rates are not real reliability probabilities\"; physical-validation.md: \"Frequencies over selected scenarios are not probabilities of physical truth.\"",
+      "consequence": "The 82% probability statement is invalid; it converts a subjective scenario count into a calibrated probability and a single unconditional winner.",
+      "minimal_fix": "Report it as \"B ranked first in 82 of 100 analyst-defined scenarios (scenario construction: ...); this is a win rate, not a probability.\" If a probability is wanted, specify and justify a weight distribution and a model, then compute it; otherwise give the conditional result per F16.",
+      "recheck": "Verify every probability token has an explicit distribution/model and sampling design; scenario counts are labeled as counts only."
+    },
+    {
+      "id": "F16",
+      "question": "Q4",
+      "severity": "critical",
+      "classification": "clear-error",
+      "location": "paper.md line 11 (Q4) - the whole answer is a single winner count; problem.md requires \"preference-conditional ranking when the true weights are unknown\".",
+      "evidence": "task-families.md ranking section: with unknown preferences report the non-dominated set, weight regions, or conditional recommendations; there may be no unique unconditional first place; normalization/weights can themselves determine the winner. No dominance screening, weight-region analysis or conditional table appears in the draft or results.json.",
+      "consequence": "Q4 is answered in the wrong form: the sponsor cannot see under which preferences B (or another design) is preferred, and a unique winner is asserted without justification.",
+      "minimal_fix": "Provide (i) dominance screening, (ii) weight regions over which each design ranks first (with normalization fixed and documented), (iii) conditional recommendations; state explicitly that no unconditional unique winner is asserted unless the regions prove one.",
+      "recheck": "Recompute rankings over the documented weight space; check rank reversals and that every design's winning region is reported; rerun normalization consistently."
+    },
+    {
+      "id": "F17",
+      "question": "Q5",
+      "severity": "critical",
+      "classification": "clear-error",
+      "location": "paper.md has no Q5 section (jumps from Q4 at line 11 to Conclusion at line 12); results.json has no sensitivity field; no code addresses it.",
+      "evidence": "problem.md Q5: \"quantify recommendation sensitivity to +/-5% demand changes.\" Automated presence check (verify_audit.py): Q5/sensitivity absent in paper and results; english-audit.md task-closure pass requires mapping every requested condition to a result.",
+      "consequence": "A required question is completely missing; no evidence on whether the recommendation survives +/-5% demand changes.",
+      "minimal_fix": "Add Q5: apply -5% and +5% demand perturbations, rerun the (corrected) downstream models and rankings, and report recommendation changes, rank reversals and regret with the baseline centered; two directions must be reported separately.",
+      "recheck": "Confirm both -5% and +5% scenarios are run at identical configuration, traced to rerun outputs, and reflected in the conclusion."
+    },
+    {
+      "id": "F18",
+      "question": "cross-cutting",
+      "severity": "critical",
+      "classification": "clear-error",
+      "location": "paper.md line 13 (Conclusion): \"All requested questions have been fully answered.\"",
+      "evidence": "Q5 is absent (F17), Q3's out-of-sample evaluation is absent and its features leak (F10-F13), Q4 is not preference-conditional (F15-F16), Q2 is infeasible (F04-F06).",
+      "consequence": "False closure statement; would cause a reviewer to believe the requirements are met.",
+      "minimal_fix": "Replace with an explicit status list per question, including the Q2 infeasibility certificate and the unresolved Q3/Q4/Q5 work; do not mark items answered without executed checks.",
+      "recheck": "Tie the conclusion sentence-by-sentence to the coverage table and verified results."
+    },
+    {
+      "id": "F19",
+      "question": "cross-cutting",
+      "severity": "major",
+      "classification": "no-evidence",
+      "location": "Whole bundle: no Q-numbered coverage table, no figure/table sources, no runnable code for Q3/Q4/Q5, no assumptions/provenance section; only paper.md, results.json, dispatch.py and pseudocode forecast.py exist.",
+      "evidence": "assets/modex-return.md requires a coverage table mapping original requirement IDs to paper location, code/results pointer, executed checks and unresolved items; bundle-contract.md requires statuses verified / supported-not-reproduced / inference / unable-to-verify.",
+      "consequence": "Task closure cannot be audited from the bundle; most items must remain unable-to-verify; the absence is itself material here because hidden gaps (Q5) were discovered.",
+      "minimal_fix": "Add the coverage table with honest statuses and unresolved-issue column; supply missing code/data/run records or mark the work not executed.",
+      "recheck": "Auditor ticks every problem.md requirement against the table; rows without executed checks stay unable-to-verify."
+    }
+  ],
+  "correct_items_to_preserve": [
+    {"id": "C01", "location": "paper.md line 3 and line 13", "claim": "temperature target is 25 degrees Celsius", "evidence": "matches problem.md exactly; appears consistently in Summary and Conclusion"},
+    {"id": "C02", "location": "paper.md line 5; results.json /comfort_proxy", "claim": "comfort proxy 0.50 -> 0.40", "evidence": "values match results.json; only the missing definition (F03) and the summary conflation (F01) need repair"},
+    {"id": "C03", "location": "paper.md line 5; results.json /electrical_energy_kWh", "claim": "electrical energy 100 -> 95 kWh", "evidence": "values match results.json; the reported percentage in the summary is wrong (F01), not these values"},
+    {"id": "C04", "location": "paper.md line 5; results.json /cost_CNY", "claim": "operating cost 100 -> 80 CNY", "evidence": "values match; only the '25%' percentage is wrong (F02)"},
+    {"id": "C05", "location": "paper.md line 7; results.json /dispatch", "claim": "grid imports [5,5,5] respect grid import <=5; per-hour charge [1,0,0] and discharge [0,2,0] respect the <=2 rate limits; initial battery energy stated as zero", "evidence": "component-wise constraints satisfied; the plan still fails conservation, balance, terminal and aggregate feasibility (F04-F06)"},
+    {"id": "C06", "location": "results.json /forecast/training_r2", "claim": "training R2 = 0.99 as a recorded in-sample value", "evidence": "matches the paper's description; its interpretation as future accuracy is the error (F12)"},
+    {"id": "C07", "location": "paper.md line 11; results.json /ranking", "claim": "B ranks first in 82 of 100 scenarios (the count)", "evidence": "count matches results.json; the probability/conditional-ranking interpretation is the error (F15-F16)"}
+  ],
+  "coverage_summary": {
+    "Q1": "numbers present and match results.json but headline percentage wrong (F01), cost percentage wrong (F02), proxy/energy distinction not explicitly made (F03)",
+    "Q2": "plan infeasible as shown by supplied code, per-hour balance, analytic bounds and independent LP; requires infeasibility certificate (F04-F09, F08)",
+    "Q3": "two leakage paths, invalid temporal split, in-sample metric sold as future accuracy, required OOS errors absent, non-reproducible (F10-F14)",
+    "Q4": "win frequency mislabeled as probability; preference-conditional ranking not delivered (F15-F16)",
+    "Q5": "not answered at all (F17)",
+    "temperature_25C": "correct (C01)"
+  }
+}

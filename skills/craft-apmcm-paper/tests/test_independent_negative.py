@@ -21,11 +21,15 @@ class IndependentNegativeTests(unittest.TestCase):
         self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name)
         content = {'paper.md': 'The cost is 32 USD.', 'results.json': '{"cost":32}',
-                   'review.md': 'SYNTHETIC TEST RECORD ONLY; no real scientific audit.'}
+                   'review.md': 'SYNTHETIC TEST RECORD ONLY; no real scientific audit.',
+                   'requirements.json': json.dumps({'requirements': [{'id': 'Q1',
+                       'request': 'Calculate cost', 'deliverable': 'Cost in USD',
+                       'acceptance': 'Independently recompute cost'}]})}
         for name, text in content.items():
             (self.root / name).write_text(text)
         self.m = {'event': 'APMCM', 'event_year': 2024, 'mode': 'historical-rehearsal',
                   'paper': 'paper.md', 'results': 'results.json',
+                  'requirement_matrix': 'requirements.json',
                   'files': [{'path': n, 'sha256': ab.digest((self.root/n).read_bytes())} for n in content],
                   'claims': [{'id': 'cost', 'quote': content['paper.md'], 'token': '32', 'pointer': '/cost', 'unit': 'USD'}],
                   'required_outputs': [{'id': 'Q1', 'status': 'verified', 'review_note': 'Synthetic fixture', 'evidence': ['results.json']}],
@@ -48,6 +52,45 @@ class IndependentNegativeTests(unittest.TestCase):
         self.m['files'][1]['sha256'] = ab.digest((self.root/'results.json').read_bytes())
         r = ab.audit(self.root, self.m)
         self.assertIn('CLAIM', [e['code'] for e in r['errors']])
+
+    def test_omitted_question_cannot_disappear_from_returned_coverage(self):
+        matrix = json.loads((self.root/'requirements.json').read_text())
+        matrix['requirements'].append({'id': 'Q2', 'request': 'Quantify sensitivity',
+            'deliverable': 'Perturbation results', 'acceptance': 'Recompute both directions'})
+        (self.root/'requirements.json').write_text(json.dumps(matrix))
+        self.m['files'][-1]['sha256'] = ab.digest((self.root/'requirements.json').read_bytes())
+        report = ab.audit(self.root, self.m)
+        self.assertTrue(any(e['code']=='REQUIREMENT_MISSING' and e['detail']=='Q2'
+                            for e in report['errors']))
+
+    def test_unbound_or_malformed_original_matrix_fails(self):
+        m = copy.deepcopy(self.m)
+        m['files'] = m['files'][:-1]
+        self.assertTrue(any(e['code']=='REQUIREMENT_MATRIX'
+                            for e in ab.audit(self.root, m)['errors']))
+        for bad in ({'requirements': []}, {'requirements': [None]},
+                    {'requirements': [{'id':'Q1','request':'x','deliverable':'y','acceptance':' '}]},
+                    {'requirements': [json.loads((self.root/'requirements.json').read_text())['requirements'][0]]*2}):
+            (self.root/'matrix-bad.json').write_text(json.dumps(bad))
+            m = copy.deepcopy(self.m)
+            m['files'].append({'path':'matrix-bad.json',
+                'sha256':ab.digest((self.root/'matrix-bad.json').read_bytes())})
+            m['requirement_matrix'] = 'matrix-bad.json'
+            self.assertTrue(any(e['code']=='REQUIREMENT_MATRIX'
+                                for e in ab.audit(self.root, m)['errors']))
+
+    def test_legacy_rehearsal_warns_but_final_requires_original_matrix(self):
+        self.m.pop('requirement_matrix')
+        report = ab.audit(self.root, self.m)
+        self.assertEqual(report['status'], 'pass')
+        self.assertTrue(any('completeness is unverified' in w for w in report['warnings']))
+        report = ab.audit(self.root, self.m, final=True)
+        self.assertTrue(any(e['code']=='REQUIREMENT_MATRIX' for e in report['errors']))
+
+    def test_claimed_extra_question_does_not_replace_original_question(self):
+        self.m['required_outputs'][0]['id'] = 'optional-extension'
+        codes = {e['code'] for e in ab.audit(self.root, self.m)['errors']}
+        self.assertTrue({'REQUIREMENT_MISSING','REQUIREMENT_UNEXPECTED'} <= codes)
 
     def test_paper_only_cannot_claim_reproduction(self):
         self.m.pop('results')

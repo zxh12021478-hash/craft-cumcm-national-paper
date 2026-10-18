@@ -1,0 +1,2072 @@
+{
+  "availability_lags": {
+    "promotion": -2,
+    "tickets": 1
+  },
+  "forecasts": [
+    {
+      "id": "o60-h1-single",
+      "origin": 60,
+      "target": 61,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 61,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o60-h1-piecewise",
+      "origin": 60,
+      "target": 61,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 61,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o60-h2-single",
+      "origin": 60,
+      "target": 62,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 62,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o60-h2-piecewise",
+      "origin": 60,
+      "target": 62,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 62,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o60-h3-point",
+      "origin": 60,
+      "target": 63,
+      "features": []
+    },
+    {
+      "id": "o60-h3-scn0",
+      "origin": 60,
+      "target": 63,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 63,
+          "kind": "scenario",
+          "formed_at": 60,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o60-h3-scn1",
+      "origin": 60,
+      "target": 63,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 63,
+          "kind": "scenario",
+          "formed_at": 60,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o60-h4-point",
+      "origin": 60,
+      "target": 64,
+      "features": []
+    },
+    {
+      "id": "o60-h4-scn0",
+      "origin": 60,
+      "target": 64,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 64,
+          "kind": "scenario",
+          "formed_at": 60,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o60-h4-scn1",
+      "origin": 60,
+      "target": 64,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 64,
+          "kind": "scenario",
+          "formed_at": 60,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o61-h1-single",
+      "origin": 61,
+      "target": 62,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 62,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o61-h1-piecewise",
+      "origin": 61,
+      "target": 62,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 62,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o61-h2-single",
+      "origin": 61,
+      "target": 63,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 63,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o61-h2-piecewise",
+      "origin": 61,
+      "target": 63,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 63,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o61-h3-point",
+      "origin": 61,
+      "target": 64,
+      "features": []
+    },
+    {
+      "id": "o61-h3-scn0",
+      "origin": 61,
+      "target": 64,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 64,
+          "kind": "scenario",
+          "formed_at": 61,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o61-h3-scn1",
+      "origin": 61,
+      "target": 64,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 64,
+          "kind": "scenario",
+          "formed_at": 61,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o61-h4-point",
+      "origin": 61,
+      "target": 65,
+      "features": []
+    },
+    {
+      "id": "o61-h4-scn0",
+      "origin": 61,
+      "target": 65,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 65,
+          "kind": "scenario",
+          "formed_at": 61,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o61-h4-scn1",
+      "origin": 61,
+      "target": 65,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 65,
+          "kind": "scenario",
+          "formed_at": 61,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o62-h1-single",
+      "origin": 62,
+      "target": 63,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 63,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o62-h1-piecewise",
+      "origin": 62,
+      "target": 63,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 63,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o62-h2-single",
+      "origin": 62,
+      "target": 64,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 64,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o62-h2-piecewise",
+      "origin": 62,
+      "target": 64,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 64,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o62-h3-point",
+      "origin": 62,
+      "target": 65,
+      "features": []
+    },
+    {
+      "id": "o62-h3-scn0",
+      "origin": 62,
+      "target": 65,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 65,
+          "kind": "scenario",
+          "formed_at": 62,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o62-h3-scn1",
+      "origin": 62,
+      "target": 65,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 65,
+          "kind": "scenario",
+          "formed_at": 62,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o62-h4-point",
+      "origin": 62,
+      "target": 66,
+      "features": []
+    },
+    {
+      "id": "o62-h4-scn0",
+      "origin": 62,
+      "target": 66,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 66,
+          "kind": "scenario",
+          "formed_at": 62,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o62-h4-scn1",
+      "origin": 62,
+      "target": 66,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 66,
+          "kind": "scenario",
+          "formed_at": 62,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o63-h1-single",
+      "origin": 63,
+      "target": 64,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 64,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o63-h1-piecewise",
+      "origin": 63,
+      "target": 64,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 64,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o63-h2-single",
+      "origin": 63,
+      "target": 65,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 65,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o63-h2-piecewise",
+      "origin": 63,
+      "target": 65,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 65,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o63-h3-point",
+      "origin": 63,
+      "target": 66,
+      "features": []
+    },
+    {
+      "id": "o63-h3-scn0",
+      "origin": 63,
+      "target": 66,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 66,
+          "kind": "scenario",
+          "formed_at": 63,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o63-h3-scn1",
+      "origin": 63,
+      "target": 66,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 66,
+          "kind": "scenario",
+          "formed_at": 63,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o63-h4-point",
+      "origin": 63,
+      "target": 67,
+      "features": []
+    },
+    {
+      "id": "o63-h4-scn0",
+      "origin": 63,
+      "target": 67,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 67,
+          "kind": "scenario",
+          "formed_at": 63,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o63-h4-scn1",
+      "origin": 63,
+      "target": 67,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 67,
+          "kind": "scenario",
+          "formed_at": 63,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o64-h1-single",
+      "origin": 64,
+      "target": 65,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 65,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o64-h1-piecewise",
+      "origin": 64,
+      "target": 65,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 65,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o64-h2-single",
+      "origin": 64,
+      "target": 66,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 66,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o64-h2-piecewise",
+      "origin": 64,
+      "target": 66,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 66,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o64-h3-point",
+      "origin": 64,
+      "target": 67,
+      "features": []
+    },
+    {
+      "id": "o64-h3-scn0",
+      "origin": 64,
+      "target": 67,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 67,
+          "kind": "scenario",
+          "formed_at": 64,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o64-h3-scn1",
+      "origin": 64,
+      "target": 67,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 67,
+          "kind": "scenario",
+          "formed_at": 64,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o64-h4-point",
+      "origin": 64,
+      "target": 68,
+      "features": []
+    },
+    {
+      "id": "o64-h4-scn0",
+      "origin": 64,
+      "target": 68,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 68,
+          "kind": "scenario",
+          "formed_at": 64,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o64-h4-scn1",
+      "origin": 64,
+      "target": 68,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 68,
+          "kind": "scenario",
+          "formed_at": 64,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o65-h1-single",
+      "origin": 65,
+      "target": 66,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 66,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o65-h1-piecewise",
+      "origin": 65,
+      "target": 66,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 66,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o65-h2-single",
+      "origin": 65,
+      "target": 67,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 67,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o65-h2-piecewise",
+      "origin": 65,
+      "target": 67,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 67,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o65-h3-point",
+      "origin": 65,
+      "target": 68,
+      "features": []
+    },
+    {
+      "id": "o65-h3-scn0",
+      "origin": 65,
+      "target": 68,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 68,
+          "kind": "scenario",
+          "formed_at": 65,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o65-h3-scn1",
+      "origin": 65,
+      "target": 68,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 68,
+          "kind": "scenario",
+          "formed_at": 65,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o65-h4-point",
+      "origin": 65,
+      "target": 69,
+      "features": []
+    },
+    {
+      "id": "o65-h4-scn0",
+      "origin": 65,
+      "target": 69,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 69,
+          "kind": "scenario",
+          "formed_at": 65,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o65-h4-scn1",
+      "origin": 65,
+      "target": 69,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 69,
+          "kind": "scenario",
+          "formed_at": 65,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o66-h1-single",
+      "origin": 66,
+      "target": 67,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 67,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o66-h1-piecewise",
+      "origin": 66,
+      "target": 67,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 67,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o66-h2-single",
+      "origin": 66,
+      "target": 68,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 68,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o66-h2-piecewise",
+      "origin": 66,
+      "target": 68,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 68,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o66-h3-point",
+      "origin": 66,
+      "target": 69,
+      "features": []
+    },
+    {
+      "id": "o66-h3-scn0",
+      "origin": 66,
+      "target": 69,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 69,
+          "kind": "scenario",
+          "formed_at": 66,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o66-h3-scn1",
+      "origin": 66,
+      "target": 69,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 69,
+          "kind": "scenario",
+          "formed_at": 66,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o66-h4-point",
+      "origin": 66,
+      "target": 70,
+      "features": []
+    },
+    {
+      "id": "o66-h4-scn0",
+      "origin": 66,
+      "target": 70,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 70,
+          "kind": "scenario",
+          "formed_at": 66,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o66-h4-scn1",
+      "origin": 66,
+      "target": 70,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 70,
+          "kind": "scenario",
+          "formed_at": 66,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o67-h1-single",
+      "origin": 67,
+      "target": 68,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 68,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o67-h1-piecewise",
+      "origin": 67,
+      "target": 68,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 68,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o67-h2-single",
+      "origin": 67,
+      "target": 69,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 69,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o67-h2-piecewise",
+      "origin": 67,
+      "target": 69,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 69,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o67-h3-point",
+      "origin": 67,
+      "target": 70,
+      "features": []
+    },
+    {
+      "id": "o67-h3-scn0",
+      "origin": 67,
+      "target": 70,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 70,
+          "kind": "scenario",
+          "formed_at": 67,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o67-h3-scn1",
+      "origin": 67,
+      "target": 70,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 70,
+          "kind": "scenario",
+          "formed_at": 67,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o67-h4-point",
+      "origin": 67,
+      "target": 71,
+      "features": []
+    },
+    {
+      "id": "o67-h4-scn0",
+      "origin": 67,
+      "target": 71,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 71,
+          "kind": "scenario",
+          "formed_at": 67,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o67-h4-scn1",
+      "origin": 67,
+      "target": 71,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 71,
+          "kind": "scenario",
+          "formed_at": 67,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o68-h1-single",
+      "origin": 68,
+      "target": 69,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 69,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o68-h1-piecewise",
+      "origin": 68,
+      "target": 69,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 69,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o68-h2-single",
+      "origin": 68,
+      "target": 70,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 70,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o68-h2-piecewise",
+      "origin": 68,
+      "target": 70,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 70,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o68-h3-point",
+      "origin": 68,
+      "target": 71,
+      "features": []
+    },
+    {
+      "id": "o68-h3-scn0",
+      "origin": 68,
+      "target": 71,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 71,
+          "kind": "scenario",
+          "formed_at": 68,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o68-h3-scn1",
+      "origin": 68,
+      "target": 71,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 71,
+          "kind": "scenario",
+          "formed_at": 68,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o68-h4-point",
+      "origin": 68,
+      "target": 72,
+      "features": []
+    },
+    {
+      "id": "o68-h4-scn0",
+      "origin": 68,
+      "target": 72,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 72,
+          "kind": "scenario",
+          "formed_at": 68,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o68-h4-scn1",
+      "origin": 68,
+      "target": 72,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 72,
+          "kind": "scenario",
+          "formed_at": 68,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o69-h1-single",
+      "origin": 69,
+      "target": 70,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 70,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o69-h1-piecewise",
+      "origin": 69,
+      "target": 70,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 70,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o69-h2-single",
+      "origin": 69,
+      "target": 71,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 71,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o69-h2-piecewise",
+      "origin": 69,
+      "target": 71,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 71,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o69-h3-point",
+      "origin": 69,
+      "target": 72,
+      "features": []
+    },
+    {
+      "id": "o69-h3-scn0",
+      "origin": 69,
+      "target": 72,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 72,
+          "kind": "scenario",
+          "formed_at": 69,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o69-h3-scn1",
+      "origin": 69,
+      "target": 72,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 72,
+          "kind": "scenario",
+          "formed_at": 69,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o69-h4-point",
+      "origin": 69,
+      "target": 73,
+      "features": []
+    },
+    {
+      "id": "o69-h4-scn0",
+      "origin": 69,
+      "target": 73,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 73,
+          "kind": "scenario",
+          "formed_at": 69,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o69-h4-scn1",
+      "origin": 69,
+      "target": 73,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 73,
+          "kind": "scenario",
+          "formed_at": 69,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o70-h1-single",
+      "origin": 70,
+      "target": 71,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 71,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o70-h1-piecewise",
+      "origin": 70,
+      "target": 71,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 71,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o70-h2-single",
+      "origin": 70,
+      "target": 72,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 72,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o70-h2-piecewise",
+      "origin": 70,
+      "target": 72,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 72,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o70-h3-point",
+      "origin": 70,
+      "target": 73,
+      "features": []
+    },
+    {
+      "id": "o70-h3-scn0",
+      "origin": 70,
+      "target": 73,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 73,
+          "kind": "scenario",
+          "formed_at": 70,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o70-h3-scn1",
+      "origin": 70,
+      "target": 73,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 73,
+          "kind": "scenario",
+          "formed_at": 70,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o70-h4-point",
+      "origin": 70,
+      "target": 74,
+      "features": []
+    },
+    {
+      "id": "o70-h4-scn0",
+      "origin": 70,
+      "target": 74,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 74,
+          "kind": "scenario",
+          "formed_at": 70,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o70-h4-scn1",
+      "origin": 70,
+      "target": 74,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 74,
+          "kind": "scenario",
+          "formed_at": 70,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o71-h1-single",
+      "origin": 71,
+      "target": 72,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 72,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o71-h1-piecewise",
+      "origin": 71,
+      "target": 72,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 72,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o71-h2-single",
+      "origin": 71,
+      "target": 73,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 73,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o71-h2-piecewise",
+      "origin": 71,
+      "target": 73,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 73,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o71-h3-point",
+      "origin": 71,
+      "target": 74,
+      "features": []
+    },
+    {
+      "id": "o71-h3-scn0",
+      "origin": 71,
+      "target": 74,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 74,
+          "kind": "scenario",
+          "formed_at": 71,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o71-h3-scn1",
+      "origin": 71,
+      "target": 74,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 74,
+          "kind": "scenario",
+          "formed_at": 71,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o71-h4-point",
+      "origin": 71,
+      "target": 75,
+      "features": []
+    },
+    {
+      "id": "o71-h4-scn0",
+      "origin": 71,
+      "target": 75,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 75,
+          "kind": "scenario",
+          "formed_at": 71,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o71-h4-scn1",
+      "origin": 71,
+      "target": 75,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 75,
+          "kind": "scenario",
+          "formed_at": 71,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o72-h1-single",
+      "origin": 72,
+      "target": 73,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 73,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o72-h1-piecewise",
+      "origin": 72,
+      "target": 73,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 73,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o72-h2-single",
+      "origin": 72,
+      "target": 74,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 74,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o72-h2-piecewise",
+      "origin": 72,
+      "target": 74,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 74,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o72-h3-point",
+      "origin": 72,
+      "target": 75,
+      "features": []
+    },
+    {
+      "id": "o72-h3-scn0",
+      "origin": 72,
+      "target": 75,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 75,
+          "kind": "scenario",
+          "formed_at": 72,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o72-h3-scn1",
+      "origin": 72,
+      "target": 75,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 75,
+          "kind": "scenario",
+          "formed_at": 72,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o72-h4-point",
+      "origin": 72,
+      "target": 76,
+      "features": []
+    },
+    {
+      "id": "o72-h4-scn0",
+      "origin": 72,
+      "target": 76,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 76,
+          "kind": "scenario",
+          "formed_at": 72,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o72-h4-scn1",
+      "origin": 72,
+      "target": 76,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 76,
+          "kind": "scenario",
+          "formed_at": 72,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o73-h1-single",
+      "origin": 73,
+      "target": 74,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 74,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o73-h1-piecewise",
+      "origin": 73,
+      "target": 74,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 74,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o73-h2-single",
+      "origin": 73,
+      "target": 75,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 75,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o73-h2-piecewise",
+      "origin": 73,
+      "target": 75,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 75,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o73-h3-point",
+      "origin": 73,
+      "target": 76,
+      "features": []
+    },
+    {
+      "id": "o73-h3-scn0",
+      "origin": 73,
+      "target": 76,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 76,
+          "kind": "scenario",
+          "formed_at": 73,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o73-h3-scn1",
+      "origin": 73,
+      "target": 76,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 76,
+          "kind": "scenario",
+          "formed_at": 73,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o73-h4-point",
+      "origin": 73,
+      "target": 77,
+      "features": []
+    },
+    {
+      "id": "o73-h4-scn0",
+      "origin": 73,
+      "target": 77,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 77,
+          "kind": "scenario",
+          "formed_at": 73,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o73-h4-scn1",
+      "origin": 73,
+      "target": 77,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 77,
+          "kind": "scenario",
+          "formed_at": 73,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o74-h1-single",
+      "origin": 74,
+      "target": 75,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 75,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o74-h1-piecewise",
+      "origin": 74,
+      "target": 75,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 75,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o74-h2-single",
+      "origin": 74,
+      "target": 76,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 76,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o74-h2-piecewise",
+      "origin": 74,
+      "target": 76,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 76,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o74-h3-point",
+      "origin": 74,
+      "target": 77,
+      "features": []
+    },
+    {
+      "id": "o74-h3-scn0",
+      "origin": 74,
+      "target": 77,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 77,
+          "kind": "scenario",
+          "formed_at": 74,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o74-h3-scn1",
+      "origin": 74,
+      "target": 77,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 77,
+          "kind": "scenario",
+          "formed_at": 74,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o74-h4-point",
+      "origin": 74,
+      "target": 78,
+      "features": []
+    },
+    {
+      "id": "o74-h4-scn0",
+      "origin": 74,
+      "target": 78,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 78,
+          "kind": "scenario",
+          "formed_at": 74,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o74-h4-scn1",
+      "origin": 74,
+      "target": 78,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 78,
+          "kind": "scenario",
+          "formed_at": 74,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o75-h1-single",
+      "origin": 75,
+      "target": 76,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 76,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o75-h1-piecewise",
+      "origin": 75,
+      "target": 76,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 76,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o75-h2-single",
+      "origin": 75,
+      "target": 77,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 77,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o75-h2-piecewise",
+      "origin": 75,
+      "target": 77,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 77,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o75-h3-point",
+      "origin": 75,
+      "target": 78,
+      "features": []
+    },
+    {
+      "id": "o75-h3-scn0",
+      "origin": 75,
+      "target": 78,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 78,
+          "kind": "scenario",
+          "formed_at": 75,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o75-h3-scn1",
+      "origin": 75,
+      "target": 78,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 78,
+          "kind": "scenario",
+          "formed_at": 75,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o75-h4-point",
+      "origin": 75,
+      "target": 79,
+      "features": []
+    },
+    {
+      "id": "o75-h4-scn0",
+      "origin": 75,
+      "target": 79,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 79,
+          "kind": "scenario",
+          "formed_at": 75,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o75-h4-scn1",
+      "origin": 75,
+      "target": 79,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 79,
+          "kind": "scenario",
+          "formed_at": 75,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o76-h1-single",
+      "origin": 76,
+      "target": 77,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 77,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o76-h1-piecewise",
+      "origin": 76,
+      "target": 77,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 77,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o76-h2-single",
+      "origin": 76,
+      "target": 78,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 78,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o76-h2-piecewise",
+      "origin": 76,
+      "target": 78,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 78,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o76-h3-point",
+      "origin": 76,
+      "target": 79,
+      "features": []
+    },
+    {
+      "id": "o76-h3-scn0",
+      "origin": 76,
+      "target": 79,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 79,
+          "kind": "scenario",
+          "formed_at": 76,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o76-h3-scn1",
+      "origin": 76,
+      "target": 79,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 79,
+          "kind": "scenario",
+          "formed_at": 76,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o76-h4-point",
+      "origin": 76,
+      "target": 80,
+      "features": []
+    },
+    {
+      "id": "o76-h4-scn0",
+      "origin": 76,
+      "target": 80,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 80,
+          "kind": "scenario",
+          "formed_at": 76,
+          "note": "预先固定情景 promo=0，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o76-h4-scn1",
+      "origin": 76,
+      "target": 80,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 80,
+          "kind": "scenario",
+          "formed_at": 76,
+          "note": "预先固定情景 promo=1，原点形成，不使用目标周真值"
+        }
+      ]
+    },
+    {
+      "id": "o80-h1",
+      "origin": 80,
+      "target": 81,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 81,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o80-h2",
+      "origin": 80,
+      "target": 82,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 82,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o80-h3-point",
+      "origin": 80,
+      "target": 83,
+      "features": []
+    },
+    {
+      "id": "o80-h3-scn0",
+      "origin": 80,
+      "target": 83,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 83,
+          "kind": "scenario",
+          "formed_at": 80,
+          "note": "83-84 周促销原点未知；预先固定情景 promo=0，不使用真值"
+        }
+      ]
+    },
+    {
+      "id": "o80-h3-scn1",
+      "origin": 80,
+      "target": 83,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 83,
+          "kind": "scenario",
+          "formed_at": 80,
+          "note": "83-84 周促销原点未知；预先固定情景 promo=1，不使用真值"
+        }
+      ]
+    },
+    {
+      "id": "o80-h4-point",
+      "origin": 80,
+      "target": 84,
+      "features": []
+    },
+    {
+      "id": "o80-h4-scn0",
+      "origin": 80,
+      "target": 84,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 84,
+          "kind": "scenario",
+          "formed_at": 80,
+          "note": "83-84 周促销原点未知；预先固定情景 promo=0，不使用真值"
+        }
+      ]
+    },
+    {
+      "id": "o80-h4-scn1",
+      "origin": 80,
+      "target": 84,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 84,
+          "kind": "scenario",
+          "formed_at": 80,
+          "note": "83-84 周促销原点未知；预先固定情景 promo=1，不使用真值"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "root_python": "3.9.6",
+  "first_pass_probe_outputs": "All3 reproduced; only the outer ######## probe_X ######## wrapper line differs from direct script stdout.",
+  "audit_numeric_json_matches": true,
+  "public_audit_script_portability_change": "Only INPUT/OUT path setup made relative; mathematical code unchanged.",
+  "scope": "Reproduction of observed outputs, not correctness certification. Independent elementary oracle checks stored separately."
+}

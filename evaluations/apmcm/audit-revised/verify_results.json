@@ -1,0 +1,50 @@
+{
+  "q1": {
+    "proxy_drop": 0.19999999999999996,
+    "energy_drop": 0.05,
+    "cost_drop": 0.2
+  },
+  "q2": {
+    "original_states": [
+      0.9,
+      -1.3222222222222222,
+      -1.3222222222222222
+    ],
+    "original_violations": 3,
+    "min_cap_exact": "1024/181",
+    "min_cap_float": 5.657458563535911,
+    "exact_plan_feasible": true,
+    "rounded3d_E2": -0.0009222222222222222,
+    "lp_cap5_status": 2,
+    "lp_min_cap": 5.657458518784534
+  },
+  "q3_guard": {
+    "draft_status": "fail",
+    "draft_errors": [
+      {
+        "code": "FUTURE_INFORMATION",
+        "forecast": "o80-h1-tickets",
+        "feature": "resolved_service_tickets",
+        "source_time": 81,
+        "available_at": 82,
+        "origin": 80
+      },
+      {
+        "code": "FUTURE_INFORMATION",
+        "forecast": "o80-h3-promotion",
+        "feature": "realized_promotion",
+        "source_time": 83,
+        "available_at": 83,
+        "origin": 80
+      }
+    ],
+    "repaired_status": "pass"
+  },
+  "q4": {
+    "probability_model_null": true
+  },
+  "q5": {
+    "present_in_paper": false,
+    "present_in_results": false
+  }
+}

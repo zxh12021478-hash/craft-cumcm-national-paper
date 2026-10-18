@@ -1,0 +1,823 @@
+{
+  "availability_lags": {
+    "promotion": -2
+  },
+  "forecasts": [
+    {
+      "id": "o60-h1",
+      "origin": 60,
+      "target": 61,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 61,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o60-h2",
+      "origin": 60,
+      "target": 62,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 62,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o60-h3",
+      "origin": 60,
+      "target": 63,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 63,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o60-h4",
+      "origin": 60,
+      "target": 64,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 64,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o61-h1",
+      "origin": 61,
+      "target": 62,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 62,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o61-h2",
+      "origin": 61,
+      "target": 63,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 63,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o61-h3",
+      "origin": 61,
+      "target": 64,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 64,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o61-h4",
+      "origin": 61,
+      "target": 65,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 65,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o62-h1",
+      "origin": 62,
+      "target": 63,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 63,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o62-h2",
+      "origin": 62,
+      "target": 64,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 64,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o62-h3",
+      "origin": 62,
+      "target": 65,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 65,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o62-h4",
+      "origin": 62,
+      "target": 66,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 66,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o63-h1",
+      "origin": 63,
+      "target": 64,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 64,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o63-h2",
+      "origin": 63,
+      "target": 65,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 65,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o63-h3",
+      "origin": 63,
+      "target": 66,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 66,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o63-h4",
+      "origin": 63,
+      "target": 67,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 67,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o64-h1",
+      "origin": 64,
+      "target": 65,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 65,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o64-h2",
+      "origin": 64,
+      "target": 66,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 66,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o64-h3",
+      "origin": 64,
+      "target": 67,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 67,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o64-h4",
+      "origin": 64,
+      "target": 68,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 68,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o65-h1",
+      "origin": 65,
+      "target": 66,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 66,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o65-h2",
+      "origin": 65,
+      "target": 67,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 67,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o65-h3",
+      "origin": 65,
+      "target": 68,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 68,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o65-h4",
+      "origin": 65,
+      "target": 69,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 69,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o66-h1",
+      "origin": 66,
+      "target": 67,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 67,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o66-h2",
+      "origin": 66,
+      "target": 68,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 68,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o66-h3",
+      "origin": 66,
+      "target": 69,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 69,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o66-h4",
+      "origin": 66,
+      "target": 70,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 70,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o67-h1",
+      "origin": 67,
+      "target": 68,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 68,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o67-h2",
+      "origin": 67,
+      "target": 69,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 69,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o67-h3",
+      "origin": 67,
+      "target": 70,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 70,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o67-h4",
+      "origin": 67,
+      "target": 71,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 71,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o68-h1",
+      "origin": 68,
+      "target": 69,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 69,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o68-h2",
+      "origin": 68,
+      "target": 70,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 70,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o68-h3",
+      "origin": 68,
+      "target": 71,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 71,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o68-h4",
+      "origin": 68,
+      "target": 72,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 72,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o69-h1",
+      "origin": 69,
+      "target": 70,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 70,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o69-h2",
+      "origin": 69,
+      "target": 71,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 71,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o69-h3",
+      "origin": 69,
+      "target": 72,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 72,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o69-h4",
+      "origin": 69,
+      "target": 73,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 73,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o70-h1",
+      "origin": 70,
+      "target": 71,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 71,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o70-h2",
+      "origin": 70,
+      "target": 72,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 72,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o70-h3",
+      "origin": 70,
+      "target": 73,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 73,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o70-h4",
+      "origin": 70,
+      "target": 74,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 74,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o71-h1",
+      "origin": 71,
+      "target": 72,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 72,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o71-h2",
+      "origin": 71,
+      "target": 73,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 73,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o71-h3",
+      "origin": 71,
+      "target": 74,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 74,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o71-h4",
+      "origin": 71,
+      "target": 75,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 75,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o72-h1",
+      "origin": 72,
+      "target": 73,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 73,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o72-h2",
+      "origin": 72,
+      "target": 74,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 74,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o72-h3",
+      "origin": 72,
+      "target": 75,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 75,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o72-h4",
+      "origin": 72,
+      "target": 76,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 76,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o73-h1",
+      "origin": 73,
+      "target": 74,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 74,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o73-h2",
+      "origin": 73,
+      "target": 75,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 75,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o73-h3",
+      "origin": 73,
+      "target": 76,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 76,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o73-h4",
+      "origin": 73,
+      "target": 77,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 77,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o74-h1",
+      "origin": 74,
+      "target": 75,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 75,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o74-h2",
+      "origin": 74,
+      "target": 76,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 76,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o74-h3",
+      "origin": 74,
+      "target": 77,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 77,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o74-h4",
+      "origin": 74,
+      "target": 78,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 78,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o75-h1",
+      "origin": 75,
+      "target": 76,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 76,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o75-h2",
+      "origin": 75,
+      "target": 77,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 77,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o75-h3",
+      "origin": 75,
+      "target": 78,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 78,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o75-h4",
+      "origin": 75,
+      "target": 79,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 79,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o76-h1",
+      "origin": 76,
+      "target": 77,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 77,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o76-h2",
+      "origin": 76,
+      "target": 78,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 78,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o76-h3",
+      "origin": 76,
+      "target": 79,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 79,
+          "kind": "observed"
+        }
+      ]
+    },
+    {
+      "id": "o76-h4",
+      "origin": 76,
+      "target": 80,
+      "features": [
+        {
+          "name": "promotion",
+          "source_time": 80,
+          "kind": "observed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "draft_trace": {
+    "status": "fail",
+    "checked_feature_uses": 2,
+    "errors": [
+      {
+        "code": "FUTURE_INFORMATION",
+        "forecast": "o80-h1-tickets",
+        "feature": "resolved_service_tickets",
+        "source_time": 81,
+        "available_at": 82,
+        "origin": 80
+      },
+      {
+        "code": "FUTURE_INFORMATION",
+        "forecast": "o80-h3-promotion",
+        "feature": "realized_promotion",
+        "source_time": 83,
+        "available_at": 83,
+        "origin": 80
+      }
+    ],
+    "non_observed_inputs": [],
+    "scope": "Declared feature availability only; compare trace to actual code and source metadata. A pass does not establish forecast accuracy or prove scenarios are true."
+  },
+  "repaired_trace": {
+    "status": "pass",
+    "checked_feature_uses": 2,
+    "errors": [],
+    "non_observed_inputs": [
+      {
+        "forecast": "o80-h3-promotion",
+        "feature": "planned_promotion",
+        "kind": "scenario",
+        "note": "Promotion schedule announced by week 80 for week 83; explicitly assumed scenario, no realized post-origin values."
+      }
+    ],
+    "scope": "Declared feature availability only; compare trace to actual code and source metadata. A pass does not establish forecast accuracy or prove scenarios are true."
+  }
+}

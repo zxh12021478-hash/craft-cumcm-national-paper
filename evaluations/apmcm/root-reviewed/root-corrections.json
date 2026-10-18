@@ -1,0 +1,16 @@
+{
+  "scope": "Root targeted repairs after feedback-informed Doubao revisions; originals remain immutable. Not an independent blinded trial.",
+  "corrections": [
+    "R: C does not dominate D everywhere; exact A/B/C winning regions verified separately",
+    "R: changed dominance-set frequency is not probability B ceases to dominate or D wins; add admissible nondominance counterexample",
+    "F: breakpoint candidate window label matched to executed code",
+    "O: distinguish exact values from rounded display",
+    "Audit paper: include storage upper bound and avoid inferring unknown cause of bad solver status"
+  ],
+  "unresolved": [
+    "Real Modex end-to-end execution",
+    "Broader official-paper blind benchmark",
+    "Measured Codex quota savings",
+    "Current official AI/format clearance"
+  ]
+}

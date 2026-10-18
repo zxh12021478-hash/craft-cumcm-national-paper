@@ -1,0 +1,50 @@
+=== Q1 recomputed changes from results.json ===
+comfort proxy  0.5 -> 0.4: drop = 20.00%
+electrical kWh 100 -> 95: drop = 5.00%
+cost CNY       100 -> 80: drop = 20.00%
+paper summary claims electricity consumption -20%  -> matches energy? False; matches proxy? True
+paper Q1 claims cost -25% -> recomputed 20%: CONTRADICTION
+
+=== Q2 claimed plan ===
+load=[4, 7, 5], grid=[5, 5, 5], charge=[1, 0, 0], discharge=[0, 2, 0]
+supplied dispatch.py states (E_t = E_{t-1} + 0.9 c - 0.9 d): [0.9, -0.9, -0.9]
+any negative stored energy: True
+final stored energy == 0: False (actual -0.9)
+
+-- Convention A (draft literal): E += 0.9c - 0.9d; load balance g + 0.9d - c = L --
+h1: E=+0.900, served=4.00, load=4, balance_ok=True, E>=0=True
+h2: E=-0.900, served=6.80, load=7, balance_ok=False, E>=0=False
+h3: E=-0.900, served=5.00, load=5, balance_ok=True, E>=0=False
+
+-- Convention B (standard): E += 0.9c - d/0.9; balance g + d - c = L --
+h1: E=+0.900, served=4.00, load=4, balance_ok=True, E>=0=True
+h2: E=-1.322, served=7.00, load=7, balance_ok=True, E>=0=False
+h3: E=-1.322, served=5.00, load=5, balance_ok=True, E>=0=False
+final E == 0 under B: False (actual -1.322)
+
+=== Analytic feasibility bounds (solar = 0, E0 = E3 = 0) ===
+total load = 16; max grid over 3 h = 15; battery round-trip eta^2 = 0.81 < 1
+Convention B aggregate: sum(g) = 16 + (1-eta^2) sum(c) >= 16 > 15  -> infeasible
+Convention A aggregate: sum(g) = 16 + 0.1 sum(c) >= 16 > 15  -> infeasible
+h1: c1 <= 1 (grid cap after serving load 4) -> E1 <= 0.90
+h2: max delivered from storage = 0.9*E1 = 0.81; max served = 5 + 0.81 = 5.81 < 7
+
+LP feasibility at grid cap 5, convention A: status=2 (The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None))
+
+LP feasibility at grid cap 5, convention B: status=2 (The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None))
+
+Minimal UNIFORM hourly grid cap for feasibility (convention B): 5.6575 kWh
+example plan at that cap: grid=[5.657, 5.657, 5.0], charge=[1.657, 0.0, 0.0], discharge=[0.0, 1.343, 0.0], E=[1.492, 0.0, 0.0]
+
+=== Q3/Q4/Q5 structural evidence ===
+results.json forecast.out_of_sample_error = None
+results.json ranking.probability_model = None
+results.json has sensitivity key: False
+Q3_leakage_tickets: True
+Q3_random_split: True
+Q3_trainR2_as_accuracy: True
+Q3_future_promotion_realized: True
+Q4_frequency_as_probability: True
+Q5_present: False
+
+Wrote EVAL_ROOT/independent-audit/verify_results.json

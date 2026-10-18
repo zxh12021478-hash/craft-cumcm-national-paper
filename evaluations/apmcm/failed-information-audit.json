@@ -1,0 +1,280 @@
+{
+  "status": "fail",
+  "checked_feature_uses": 68,
+  "errors": [
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o60-h3",
+      "feature": "promotion",
+      "source_time": 63,
+      "available_at": 61,
+      "origin": 60
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o60-h4",
+      "feature": "promotion",
+      "source_time": 64,
+      "available_at": 62,
+      "origin": 60
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o61-h3",
+      "feature": "promotion",
+      "source_time": 64,
+      "available_at": 62,
+      "origin": 61
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o61-h4",
+      "feature": "promotion",
+      "source_time": 65,
+      "available_at": 63,
+      "origin": 61
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o62-h3",
+      "feature": "promotion",
+      "source_time": 65,
+      "available_at": 63,
+      "origin": 62
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o62-h4",
+      "feature": "promotion",
+      "source_time": 66,
+      "available_at": 64,
+      "origin": 62
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o63-h3",
+      "feature": "promotion",
+      "source_time": 66,
+      "available_at": 64,
+      "origin": 63
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o63-h4",
+      "feature": "promotion",
+      "source_time": 67,
+      "available_at": 65,
+      "origin": 63
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o64-h3",
+      "feature": "promotion",
+      "source_time": 67,
+      "available_at": 65,
+      "origin": 64
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o64-h4",
+      "feature": "promotion",
+      "source_time": 68,
+      "available_at": 66,
+      "origin": 64
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o65-h3",
+      "feature": "promotion",
+      "source_time": 68,
+      "available_at": 66,
+      "origin": 65
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o65-h4",
+      "feature": "promotion",
+      "source_time": 69,
+      "available_at": 67,
+      "origin": 65
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o66-h3",
+      "feature": "promotion",
+      "source_time": 69,
+      "available_at": 67,
+      "origin": 66
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o66-h4",
+      "feature": "promotion",
+      "source_time": 70,
+      "available_at": 68,
+      "origin": 66
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o67-h3",
+      "feature": "promotion",
+      "source_time": 70,
+      "available_at": 68,
+      "origin": 67
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o67-h4",
+      "feature": "promotion",
+      "source_time": 71,
+      "available_at": 69,
+      "origin": 67
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o68-h3",
+      "feature": "promotion",
+      "source_time": 71,
+      "available_at": 69,
+      "origin": 68
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o68-h4",
+      "feature": "promotion",
+      "source_time": 72,
+      "available_at": 70,
+      "origin": 68
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o69-h3",
+      "feature": "promotion",
+      "source_time": 72,
+      "available_at": 70,
+      "origin": 69
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o69-h4",
+      "feature": "promotion",
+      "source_time": 73,
+      "available_at": 71,
+      "origin": 69
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o70-h3",
+      "feature": "promotion",
+      "source_time": 73,
+      "available_at": 71,
+      "origin": 70
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o70-h4",
+      "feature": "promotion",
+      "source_time": 74,
+      "available_at": 72,
+      "origin": 70
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o71-h3",
+      "feature": "promotion",
+      "source_time": 74,
+      "available_at": 72,
+      "origin": 71
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o71-h4",
+      "feature": "promotion",
+      "source_time": 75,
+      "available_at": 73,
+      "origin": 71
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o72-h3",
+      "feature": "promotion",
+      "source_time": 75,
+      "available_at": 73,
+      "origin": 72
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o72-h4",
+      "feature": "promotion",
+      "source_time": 76,
+      "available_at": 74,
+      "origin": 72
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o73-h3",
+      "feature": "promotion",
+      "source_time": 76,
+      "available_at": 74,
+      "origin": 73
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o73-h4",
+      "feature": "promotion",
+      "source_time": 77,
+      "available_at": 75,
+      "origin": 73
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o74-h3",
+      "feature": "promotion",
+      "source_time": 77,
+      "available_at": 75,
+      "origin": 74
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o74-h4",
+      "feature": "promotion",
+      "source_time": 78,
+      "available_at": 76,
+      "origin": 74
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o75-h3",
+      "feature": "promotion",
+      "source_time": 78,
+      "available_at": 76,
+      "origin": 75
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o75-h4",
+      "feature": "promotion",
+      "source_time": 79,
+      "available_at": 77,
+      "origin": 75
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o76-h3",
+      "feature": "promotion",
+      "source_time": 79,
+      "available_at": 77,
+      "origin": 76
+    },
+    {
+      "code": "FUTURE_INFORMATION",
+      "forecast": "o76-h4",
+      "feature": "promotion",
+      "source_time": 80,
+      "available_at": 78,
+      "origin": 76
+    }
+  ],
+  "non_observed_inputs": [],
+  "scope": "Declared feature availability only; compare trace to actual code and source metadata. A pass does not establish forecast accuracy or prove scenarios are true."
+}

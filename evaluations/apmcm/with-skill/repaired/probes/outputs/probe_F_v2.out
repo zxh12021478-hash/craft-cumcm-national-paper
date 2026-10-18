@@ -1,0 +1,30 @@
+== tickets/demand 描述性统计（不据此证明派生关系） ==
+ratio mean=1.6001 sd=0.0071 min=1.5873 max=1.6115
+入模与否的决定性依据是发布滞后：tickets_t 在 t+1 周才结算，目标周原点不可用。
+
+== 分 horizon 回测（每格 n=17；point=合法信息集点预测） ==
+-- single --
+h=1 point: {'n': 17, 'MAE': 15.781, 'RMSE': 17.203, 'bias': -15.781}
+h=2 point: {'n': 17, 'MAE': 17.261, 'RMSE': 18.665, 'bias': -17.261}
+h=3 point: {'n': 17, 'MAE': 18.581, 'RMSE': 19.914, 'bias': -18.581}
+h=4 point: {'n': 17, 'MAE': 20.153, 'RMSE': 21.284, 'bias': -20.153}
+pooled h1..4: {'n': 68, 'MAE': 17.944, 'RMSE': 19.325, 'bias': -17.944}（明确为 pooled，非 h=4）
+h=3 情景 scn0: {'n': 17, 'MAE': 20.178, 'RMSE': 21.383, 'bias': -20.178}；scn1: {'n': 17, 'MAE': 14.509, 'RMSE': 16.237, 'bias': -14.509}（两情景均报）
+h=4 情景 scn0: {'n': 17, 'MAE': 21.75, 'RMSE': 22.78, 'bias': -21.75}；scn1: {'n': 17, 'MAE': 16.081, 'RMSE': 17.533, 'bias': -16.081}（两情景均报）
+-- piecewise --
+h=1 point: {'n': 17, 'MAE': 5.082, 'RMSE': 6.402, 'bias': -0.995}
+h=2 point: {'n': 17, 'MAE': 5.585, 'RMSE': 6.26, 'bias': -0.913}
+h=3 point: {'n': 17, 'MAE': 5.936, 'RMSE': 6.986, 'bias': -0.784}
+h=4 point: {'n': 17, 'MAE': 4.999, 'RMSE': 6.282, 'bias': -0.826}
+pooled h1..4: {'n': 68, 'MAE': 5.401, 'RMSE': 6.489, 'bias': -0.88}（明确为 pooled，非 h=4）
+h=3 情景 scn0: {'n': 17, 'MAE': 5.377, 'RMSE': 6.32, 'bias': -2.554}；scn1: {'n': 17, 'MAE': 5.287, 'RMSE': 6.58, 'bias': 3.202}（两情景均报）
+h=4 情景 scn0: {'n': 17, 'MAE': 4.819, 'RMSE': 6.362, 'bias': -2.646}；scn1: {'n': 17, 'MAE': 5.412, 'RMSE': 6.555, 'bias': 3.11}（两情景均报）
+
+== 原点 80 分段模型（k=55，折内选） ==
+week 81 point=160.09 (observed promo=0（metadata 给定）)
+week 82 point=168.44 (observed promo=1（metadata 给定）)
+week 83 trend-only point=166.27；情景 promo=0 -> 164.39；promo=1 -> 170.59
+week 84 trend-only point=168.42；情景 promo=0 -> 166.54；promo=1 -> 172.74
+
+trace 已写出：178 条预测记录 -> information/information-trace.json
+审计命令：python3 <skill>/scripts/check_information.py --trace .../information-trace.json

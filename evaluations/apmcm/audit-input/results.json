@@ -1,0 +1,41 @@
+{
+  "comfort_proxy": {
+    "baseline": 0.5,
+    "design": 0.4
+  },
+  "electrical_energy_kWh": {
+    "baseline": 100,
+    "design": 95
+  },
+  "cost_CNY": {
+    "baseline": 100,
+    "design": 80
+  },
+  "dispatch": {
+    "grid": [
+      5,
+      5,
+      5
+    ],
+    "charge": [
+      1,
+      0,
+      0
+    ],
+    "discharge": [
+      0,
+      2,
+      0
+    ],
+    "solver_status": "optimal"
+  },
+  "forecast": {
+    "training_r2": 0.99,
+    "out_of_sample_error": null
+  },
+  "ranking": {
+    "B_wins": 82,
+    "analyst_scenarios": 100,
+    "probability_model": null
+  }
+}

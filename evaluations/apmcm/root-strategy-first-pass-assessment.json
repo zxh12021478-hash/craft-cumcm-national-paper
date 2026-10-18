@@ -1,0 +1,42 @@
+{
+  "scope": "First pass only; assess executed code as well as strategy text; targeted synthetic development probes, not a broad skill effect estimate.",
+  "with_skill_first_pass": {
+    "F": {
+      "status": "fail-executed-probe",
+      "material_failures": [
+        "34 future-promotion feature uses unavailable at historical origins",
+        "pooled1..4 metrics mislabeled h4",
+        "text says cost-symmetric although FN/FP are asymmetric"
+      ]
+    },
+    "R": {
+      "status": "fail-unit-label; other useful conditional strategy present",
+      "material_failures": [
+        "million CNY translated to 亿元 (100x unit mismatch)",
+        "grid step0.05 labeled0.02"
+      ],
+      "strengths": [
+        "explicit normalization rank reversal",
+        "cost budget perturbation mentioned",
+        "conditional rather than unconditional ranking"
+      ]
+    },
+    "O": {
+      "status": "Q1-certificate-pass; Q2-implementation-needs-repair",
+      "material_failures": [
+        "curtailment declared but missing from power-balance equation",
+        "terminal-side label inconsistent with efficiency equation"
+      ],
+      "strengths": [
+        "aggregate and hourly infeasibility certificate",
+        "future solar not used for day-ahead decisions"
+      ]
+    }
+  },
+  "baseline": {
+    "F": "explicit information masking and temporal CV; no proof of broad superiority either way",
+    "R": "nominal dominance and conditions present; permanent nominal exclusion and probabilistic language need review",
+    "O": "correct infeasibility certificate; probability-free interval later turned into expectation with assumed distribution and curtailment variable marked as relaxation"
+  },
+  "paired_inference": "No demonstrated superiority or token-saving effect. Both conditions need content-level checking. Native executor reported relative-path write issues before final absolute-path output; preserve logs rather than claiming strict sandbox isolation."
+}

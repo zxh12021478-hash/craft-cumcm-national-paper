@@ -1,0 +1,79 @@
+{
+  "status": "pass-targeted-repair-checks",
+  "forecast_numpy_crosscheck": [
+    {
+      "model": "single",
+      "horizon": 1,
+      "n": 17,
+      "MAE": 15.781,
+      "RMSE": 17.203,
+      "bias": -15.781
+    },
+    {
+      "model": "single",
+      "horizon": 2,
+      "n": 17,
+      "MAE": 17.261,
+      "RMSE": 18.665,
+      "bias": -17.261
+    },
+    {
+      "model": "single",
+      "horizon": 3,
+      "n": 17,
+      "MAE": 18.581,
+      "RMSE": 19.914,
+      "bias": -18.581
+    },
+    {
+      "model": "single",
+      "horizon": 4,
+      "n": 17,
+      "MAE": 20.153,
+      "RMSE": 21.284,
+      "bias": -20.153
+    },
+    {
+      "model": "piecewise",
+      "horizon": 1,
+      "n": 17,
+      "MAE": 5.082,
+      "RMSE": 6.402,
+      "bias": -0.995
+    },
+    {
+      "model": "piecewise",
+      "horizon": 2,
+      "n": 17,
+      "MAE": 5.585,
+      "RMSE": 6.26,
+      "bias": -0.913
+    },
+    {
+      "model": "piecewise",
+      "horizon": 3,
+      "n": 17,
+      "MAE": 5.936,
+      "RMSE": 6.986,
+      "bias": -0.784
+    },
+    {
+      "model": "piecewise",
+      "horizon": 4,
+      "n": 17,
+      "MAE": 4.999,
+      "RMSE": 6.282,
+      "bias": -0.826
+    }
+  ],
+  "information_audit": {
+    "status": "pass",
+    "checked_feature_uses": 142,
+    "errors": 0
+  },
+  "ranking_exact_grid_points": 5151,
+  "ranking_false_global_dominance_rejected": true,
+  "dispatch_exact_relaxed_examples_checked": 5,
+  "original_dispatch_still_infeasible": true,
+  "scope": "Independent numerical checks of feedback-informed repairs, not blinded performance, future forecast accuracy, actual Modex output, quota savings or prize certification."
+}
