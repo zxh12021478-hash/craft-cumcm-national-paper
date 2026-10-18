@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "rerun_matches_original": true,
+  "original_files_preserved": true,
+  "rerun_adaptation": "Only output destination redirected into root-reviewed",
+  "explicit_original_balances_and_all_bounds": "pass",
+  "root_analytic_bound_matches_receiver_cost": true,
+  "stress_certificate_matches": true,
+  "scope": "Synthetic two-period model only; not real Modex or contest performance"
+}

@@ -22,6 +22,8 @@ Select methods from problem structure and observable data, not a model catalogue
 
 Use one concise handoff plus necessary attachments. Do not repeat the same advice across reports or read every reference. Reuse code and verified results; scripts return compact metrics and paths. `scripts/context_cache.py` binds a brief to evidence hashes: changed dependencies invalidate it; unchanged hashes establish freshness, not truth. The complete first draft needs review; later revisions need changed/affected claims and unresolved issues, not another complete solve. Stop when the requested handoff or necessary repairs are complete. Do not claim usage savings without measured usage.
 
+For repeated revisions use `references/review-reuse.md`: the existing cache can optionally propagate changes through an explicit review map and retain unresolved issues. Do not require this map for simple edits. Paid Modex round trips are deferred in current skill development; authorized development substitutes test the handoff, not actual Modex compatibility.
+
 ## Conditional routes
 
 - **Prize-focused preparation / 评奖与优秀案例:** `references/judging-priorities.md`; selectively use `references/exemplar-decisions.md`. Apply sourced historical principles as evidence checks, without invented official weights or prize probabilities. For image/metrology problems use `references/image-geometry.md`.

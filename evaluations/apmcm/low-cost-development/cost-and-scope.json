@@ -1,0 +1,23 @@
+{
+  "development_scope": "No paid Modex invocation; existing authorized Doubao app only",
+  "runtime_workflow": "Skill -> Modex initial draft -> Skill audit; Doubao never a runtime dependency",
+  "codex_token_usage": "not available; not measured",
+  "modex_calls": 0,
+  "dependency_additions": 0,
+  "script_regression_tests": 40,
+  "measurement_boundary": "Changed-file and check counts indicate work scope only; no token or monetary saving inference",
+  "incremental_demo": {
+    "summary_change_review_ids": [
+      "summary",
+      "sources"
+    ],
+    "model_change_review_ids": [
+      "result",
+      "figure",
+      "summary",
+      "sources"
+    ],
+    "unchanged_unresolved_item": "sources",
+    "semantic_change": "stale; previous facts withheld"
+  }
+}

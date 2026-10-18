@@ -1,0 +1,1 @@
+Reviewed facts; source independence remains unresolved

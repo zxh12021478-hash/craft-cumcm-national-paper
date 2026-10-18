@@ -1,0 +1,110 @@
+{
+  "baseline": {
+    "status": "fresh",
+    "changed_files": [],
+    "checked_files": 9,
+    "scope": "Freshness of listed dependencies only. Contents and completeness require review.",
+    "review_plan": {
+      "requires_full_review": false,
+      "affected_items": [],
+      "unresolved_items": [
+        "sources"
+      ],
+      "review_items": [
+        "sources"
+      ],
+      "unaffected_items": [
+        "result",
+        "figure",
+        "summary"
+      ],
+      "scope": "Explicit file/item dependencies only; unaffected does not mean verified. Rebaseline changed maps and review omitted dependencies."
+    }
+  },
+  "summary_only": {
+    "status": "stale",
+    "changed_files": [
+      {
+        "path": "summary.md",
+        "reason": "changed"
+      }
+    ],
+    "checked_files": 9,
+    "scope": "Freshness of listed dependencies only. Contents and completeness require review.",
+    "review_plan": {
+      "requires_full_review": false,
+      "affected_items": [
+        "summary"
+      ],
+      "unresolved_items": [
+        "sources"
+      ],
+      "review_items": [
+        "summary",
+        "sources"
+      ],
+      "unaffected_items": [
+        "result",
+        "figure"
+      ],
+      "scope": "Explicit file/item dependencies only; unaffected does not mean verified. Rebaseline changed maps and review omitted dependencies."
+    }
+  },
+  "model_change": {
+    "status": "stale",
+    "changed_files": [
+      {
+        "path": "model.py",
+        "reason": "changed"
+      }
+    ],
+    "checked_files": 9,
+    "scope": "Freshness of listed dependencies only. Contents and completeness require review.",
+    "review_plan": {
+      "requires_full_review": false,
+      "affected_items": [
+        "result",
+        "figure",
+        "summary"
+      ],
+      "unresolved_items": [
+        "sources"
+      ],
+      "review_items": [
+        "result",
+        "figure",
+        "summary",
+        "sources"
+      ],
+      "unaffected_items": [],
+      "scope": "Explicit file/item dependencies only; unaffected does not mean verified. Rebaseline changed maps and review omitted dependencies."
+    }
+  },
+  "semantic_change": {
+    "status": "stale",
+    "changed_files": [],
+    "checked_files": 9,
+    "scope": "Freshness of listed dependencies only. Contents and completeness require review.",
+    "context_changed": true,
+    "review_plan": {
+      "requires_full_review": true,
+      "affected_items": [
+        "result",
+        "figure",
+        "summary",
+        "sources"
+      ],
+      "unresolved_items": [
+        "sources"
+      ],
+      "review_items": [
+        "result",
+        "figure",
+        "summary",
+        "sources"
+      ],
+      "unaffected_items": [],
+      "scope": "Explicit file/item dependencies only; unaffected does not mean verified. Rebaseline changed maps and review omitted dependencies."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "scope": "synthetic batches of 100 requests",
+  "unit": "CNY per batch",
+  "service_floor": 0.85,
+  "Q1": {
+    "baseline": {
+      "cost": 100,
+      "service_rate": 0.86
+    },
+    "L": {
+      "cost": 88,
+      "service_rate": 0.92
+    },
+    "R": {
+      "cost": 96,
+      "service_rate": 0.97
+    },
+    "L_relative_cost_reduction": 0.12,
+    "L_service_gain_percentage_points": 6
+  },
+  "Q2": {
+    "L": {
+      "cost": 91,
+      "service_rate": 0.78
+    },
+    "R": {
+      "cost": 103,
+      "service_rate": 0.88
+    }
+  },
+  "Q3": {
+    "base_policy": "L",
+    "stress_policy": "R",
+    "untested": "intermediate and external settings"
+  }
+}

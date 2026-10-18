@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-18",
+  "status": "Targeted development checks supported; template and root summaries refined after producer trial",
+  "modex_calls": 0,
+  "development_executor": "Existing authorized Doubao app; two separate tasks",
+  "contest_workflow_unchanged": "Skill strategy -> Modex initial draft -> Skill audit; no Doubao dependency at contest runtime",
+  "case_A": {
+    "receiver_used": "Original micro-problem and frozen producer packet, no root expected answer or chat history",
+    "executed": "Independent Fraction implementation; root rerun agrees with receiver output and analytic lower bound",
+    "result": "q1=2, q2=3/10, cost=29/10; stress infeasible, deficit=11/200",
+    "limits": "One synthetic two-variable LP, not a full official problem or actual Modex test"
+  },
+  "case_B": {
+    "reader_used": "Producer Summary and output requirements only; no full paper or result record",
+    "recovered": "Q1/Q2/Q3 answers, units, cost percent vs service percentage points, hard constraint and conditional recommendation",
+    "truth_check": "Root separately matched original body/results",
+    "limits": "Reader recovery is not factual or empirical verification; source policy definitions/settings remain abstract"
+  },
+  "observed_repairs": [
+    "Compact template shares parameters/results once",
+    "Optional recovery-cap analysis no longer promoted as original requirement",
+    "Separate root Summary compresses shared limits without new metrics",
+    "Receiver audit q1 upper bound checked explicitly by root, not inferred from pass labels"
+  ],
+  "incremental_review": {
+    "tests": "10 new behavior tests; 40 total APMCM tests pass",
+    "demo": "Unchanged open issue remains; summary-only edit narrows scope; model edit propagates; semantic change forces stale and hides old facts",
+    "limits": "Explicit dependencies only; no automatic semantic completeness or correctness certificate"
+  },
+  "validation_boundaries": [
+    "Final compact template not independently regenerated in a second producer trial",
+    "Root compressed Summary not independently re-read in a second reader trial",
+    "No full new official rehearsal",
+    "No actual Modex round trip",
+    "No human panel judging or award probability calibration",
+    "No measured Codex token or monetary saving"
+  ],
+  "skill_structure": "pass",
+  "new_dependencies": 0,
+  "installed_files": 34,
+  "final_skill_sha256": {
+    "SKILL.md": "8fc98c7aaf2338ab6924d082bb1fa056e2102cf4c3cf5c6ce7842fbf4355b8a5",
+    "references/bundle-contract.md": "0259a3200c6fd77690b25d014fb71f779123a98164de178f15a5621340e722ef",
+    "references/modex-handoff.md": "f68bbcab6fa7147fe0de896949813ae74f70819f28ffba9645518613ed1d970b",
+    "references/exemplar-decisions.md": "c9c0a44ba705456ee18a751020e81c4ead10985b5ebad60a208b599a5ad7b4b3",
+    "references/route-challenge.md": "a59f73137e2a172b8f72dd7bfd2b4aec365ba876cd44d3fd9c65d292f8506c73",
+    "references/abstract-priority.md": "3aea509d7c37d5c65afab0cebd1bdc33a3fad9c49a87887f086f501eb52b7228",
+    "references/english-audit.md": "efcc8092b68ce135e28ee03b51423894e711049bea2a7af2f70e8ac119bdd1c1",
+    "references/task-families.md": "8f0683c88cedd712c8da6a5a3893491ea0c1b4d8505c55d3f71f32450b3bb6eb",
+    "references/terminology.md": "7ee3946d37f78fecd778b965b7c2497cceb6f90aa34718e365cea199af127553",
+    "references/review-reuse.md": "e88e6c75ae5adea9b328ba54e5b64790da0571bcaf5be2396f0888a5d4a73895",
+    "references/rules-2026.md": "92bf46406761b714cfe87be7595780d461554eb93afbec2cb995f1e3f249d58d",
+    "references/quick-strategy.md": "6a43ec669b82aadbd6c5aa846e4941cd27def6a09157523e7c2d1d9d7bbbef0d",
+    "references/image-geometry.md": "c09ca2e72d6545543455e2c6933510eb832fe17434e0dceff5477891c03097cd",
+    "references/rehearsal.md": "211533704ba27602ea378260b006b3ecfa9703a4f385151fa609ceff0f6acef0",
+    "references/solver-review.md": "8d3eb690f279481f5c20ae81ecab3f1e80ddf41e9985f699a5283268c216af5c",
+    "references/forecast-information.md": "866d1780aed0b3ca686b62534bf15dfc52ce3a78674da9975a6abf09f5b21c1c",
+    "references/physical-validation.md": "22a7047c5c7ea094ef0ee116e611b6f0634aaf656ff8fdd0e464c28c893e485f",
+    "references/judging-priorities.md": "f0f69ddac34a1b7f6055ff5c43ff8d1cfb9eaef42d3ef58a1fdc29ca8621a4a4",
+    "references/polishing-examples.md": "f6adffb251cf506e5cb87cfdc7b7ac17fdfa9007df2f703c4c75101fd65b4c5c",
+    "tests/test_linear_solution.py": "eeb0c25dca7928bf03c0e9ded3136e2369abdbc441e4572a0106e840866c2684",
+    "tests/test_information.py": "6047b9636690f09c1335c1636e07b8d9ab14c396fa1bf939f68ea5064a61ee85",
+    "tests/test_context_cache.py": "4fa80ae01cbc6232183d897808236c3200f47dea770c12dd0b7ecb1ed2ed188c",
+    "tests/test_review_impact.py": "147accd1a335055fdd4cc9b1b18fc04c6b3e97f51f2f5ba3c72e2c57438f1370",
+    "tests/test_independent_negative.py": "62b9b2a59e0affb0ab9bccb412261718497f08073a99c6fdf5bf359e8105a23e",
+    "agents/openai.yaml": "cf869e912c5a5b8a1f4ac56de841def7958ad6110d42472e8dfaec8bc4a88edc",
+    "scripts/check_linear_solution.py": "9c63d3b13630c5e5d3030d51e6e7a3b458b6ee64c58df6388314f1a6f4b05e3e",
+    "scripts/package_bundle.py": "dc7761b70638cc5bb679b496243cb50ad7749fa64261bc07671ce7e975d57e03",
+    "scripts/context_cache.py": "0d40f445acd155875070090a8a70efb7df7fc218f90d673457d55760a9aa5b76",
+    "scripts/check_information.py": "d71dd1d6ae0d32feaa8401bb30dbbd90670d19adb68b3b856f5d410a1771ed8e",
+    "scripts/audit_bundle.py": "231073c66768baae168cb888bf3dd5c7b689b68c8cdd46a1d8e3af2900fb8a99",
+    "assets/paper-template.md": "36d7aa792b36360a582cc25a4dfaf4813480d092630245d1e1cd812b640d0ff4",
+    "assets/modex-return.md": "09d13461942c3cf6c4002ba340a2fd174d856aad2b82ac52877b4e103c7d7e6f",
+    "assets/strategy-handoff.md": "efcacd67a0c5fb489698d56f97a981285d236902b957f13d4dbf06a90ee33db3",
+    "assets/rules-2026.json": "84ae7c7f72238cc73d46c516d137072029a644ad064fbe3e836d8755d8705521"
+  },
+  "producer_output_sha256": {
+    "probe-A-linear-audit.json": "8cfb50315400f337c7f72b5690118e4a3ce0be5df2cd91f73bea1fd9786904ff",
+    "probe-A.py": "ef411026b1eb23158b640ce9e64fcb4376f0a61db6091201a2d737af00ed43a5",
+    "handoff-A.md": "5d06328cf57cbe30e35b3f9ceda85a7f431f308ab84fe7b4e083c05193e62d92",
+    "summary-B.md": "19bc4a982dbc653ab20dfbd1e15f6adbe35d6a5865a795ff9ac163b1f0dd23f4",
+    "audit-B.md": "e3b53cffb82c7b3c9d19e5aa8b6efb546400759f5a663540f64011bbc7986215",
+    "probe-A-result.json": "5704a31c14d4505b48e2670a2c4c25b412ed8af7ce5d11275eeda0ce3c201274",
+    "probe-A-linear-check.json": "8811a5fc9f02c071502d079b659369603fad848b9e1567e729b3a87199b0eb30"
+  },
+  "receiver_output_sha256": {
+    "reader-B.md": "40cf7e2f818d1b4487a51cb0328c52ecd2f1566de2605eb94086b0a56e4ec3ab",
+    "receiver-A.md": "41e9be3cf977e3840e59dc27435511afc135e5e5d2d52661ea549af0dc4cfa34",
+    "run-A.log": "8b9ee23c984f1a51f9b2a2ac4ca26bfdc3d61985620ca9fd435e4dc184b15f41",
+    "results-A.json": "8d0fa991da5b40174220bc82b147071bff60e7592767028d606bc168015c22cf",
+    "solve-A.py": "85e29db7862c7f82da63b1d8b7ba90383ed1028f79dbe057876fca42ee338e0a"
+  },
+  "visible_completion": "Both Doubao tasks completed in app; producer 5m28s; receiver completion confirmed"
+}

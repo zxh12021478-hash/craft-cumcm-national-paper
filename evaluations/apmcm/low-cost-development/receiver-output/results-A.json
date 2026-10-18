@@ -1,0 +1,110 @@
+{
+  "parameters": {
+    "S0": 3,
+    "I1": 1,
+    "I2": 0,
+    "D1": 3,
+    "D2": 3,
+    "alpha": "0.10",
+    "S_cap": 4,
+    "p1": 1,
+    "p2": 3,
+    "q2max": 2
+  },
+  "units": {
+    "flows_and_storage": "m^3",
+    "prices": "CNY/m^3",
+    "cost": "CNY"
+  },
+  "method": "standard-library Fraction; M1 analytic reduction vs M2 vertex enumeration (must agree), M3 substitution audit",
+  "scenarios": {
+    "Q1_base": {
+      "q1cap_m3": 2.0,
+      "solution": {
+        "feasible": true,
+        "q1_m3": 2.0,
+        "q2_m3": 0.3,
+        "S1_m3": 3.0,
+        "S2_m3": 0.0,
+        "cost_CNY": 2.9,
+        "exact": {
+          "q1": "2",
+          "q2": "3/10",
+          "S1": "3",
+          "S2": "0",
+          "cost": "29/10"
+        }
+      },
+      "M2_all_vertices": [
+        {
+          "q1_m3": 0.1111111111111111,
+          "q2_m3": 2.0,
+          "S1_m3": 1.1111111111111112,
+          "S2_m3": 0.0,
+          "cost_CNY": 6.111111111111111
+        },
+        {
+          "q1_m3": 2.0,
+          "q2_m3": 0.3,
+          "S1_m3": 3.0,
+          "S2_m3": 0.0,
+          "cost_CNY": 2.9
+        },
+        {
+          "q1_m3": 2.0,
+          "q2_m3": 2.0,
+          "S1_m3": 3.0,
+          "S2_m3": 1.7,
+          "cost_CNY": 8.0
+        }
+      ],
+      "solver_status": "optimal (exact; M1==M2; substitution audit pass)",
+      "substitution_checks": {
+        "day1_balance_S1=S0+I1+q1-D1": "True",
+        "day2_balance_S2=0.9S1+I2+q2-D2": "True",
+        "q1>=0": "True",
+        "q2>=0": "True",
+        "q2<=2": "True",
+        "0<=S1<=4": "True",
+        "0<=S2<=4": "True",
+        "objective=q1+3q2": "True"
+      }
+    },
+    "Q2_stress": {
+      "q1cap_m3": 0.05,
+      "solution": {
+        "feasible": false
+      },
+      "solver_status": "infeasible (empty polygon; both methods agree)",
+      "infeasibility_certificate": {
+        "q1_cap": 0.05,
+        "S1_max": 1.05,
+        "day2_max_supply": 2.945,
+        "D2": 3.0,
+        "deficit": 0.055,
+        "q2_required_if_q1_at_cap": 2.055,
+        "q2_cap": 2.0,
+        "q1cap_required_if_q2_cap_2": 0.1111111111111111,
+        "feasible": false
+      },
+      "certificate_exact": {
+        "q1_cap": "1/20",
+        "S1_max": "21/20",
+        "day2_max_supply": "589/200",
+        "D2": "3",
+        "deficit": "11/200",
+        "q2_required_if_q1_at_cap": "411/200",
+        "q2_cap": "2",
+        "q1cap_required_if_q2_cap_2": "1/9",
+        "feasible": "False"
+      }
+    }
+  },
+  "baseline_no_carry_check": {
+    "q1=0 -> S1": 1.0,
+    "day2_starting_water_0.9S1": 0.9,
+    "q2_required": 2.1,
+    "q2_cap": 2.0,
+    "baseline_feasible": false
+  }
+}

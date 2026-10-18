@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "stdout_matches_saved_result": true,
+  "root_analytic_check": "same optimum and infeasibility certificate",
+  "source_inputs_unchanged": true,
+  "receiver_inputs_unchanged": true,
+  "candidate_changes_since_producer_freeze": [
+    "assets/strategy-handoff.md"
+  ]
+}

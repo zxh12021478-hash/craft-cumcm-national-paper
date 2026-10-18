@@ -1,0 +1,45 @@
+{
+  "Q1_base_q1cap_2": {
+    "feasible": true,
+    "vertices": [
+      {
+        "S1": 1.111111,
+        "q1": 0.111111,
+        "q2": 2.0,
+        "S2": -0.0,
+        "cost": 6.111111
+      },
+      {
+        "S1": 3.0,
+        "q1": 2.0,
+        "q2": 0.3,
+        "S2": 0.0,
+        "cost": 2.9
+      },
+      {
+        "S1": 3.0,
+        "q1": 2.0,
+        "q2": 2.0,
+        "S2": 1.7,
+        "cost": 8.0
+      }
+    ],
+    "optimum": {
+      "S1": 3.0,
+      "q1": 2.0,
+      "q2": 0.3,
+      "S2": 0.0,
+      "cost": 2.9
+    }
+  },
+  "Q2_stress_q1cap_0.05": {
+    "feasible": false
+  },
+  "Q2_analytic_bound": {
+    "s1_max": 1.05,
+    "max_day2_supply": 2.945,
+    "deficit": 0.055,
+    "q2_required_if_q1_at_cap": 2.055,
+    "q1_cap_required_if_q2_cap_2": 0.111111
+  }
+}

@@ -14,6 +14,8 @@ Suggested drafting request:
 
 ## Summary priority in the handoff
 
+The package plus original inputs must be usable without this conversation. Specify answer-changing conventions: index/time order, sign and units, initial/terminal conditions, boundary scope, missing-data handling, solver stopping/acceptance and output format where relevant. A receiver may choose a harmless implementation default and record it; an unresolved convention that changes the answer must be flagged rather than silently guessed. This does not require an extra paid readback round in the contest workflow.
+
 Follow `abstract-priority.md`. Ask Modex to write the Summary after the body and actual results, with direct answers for each original question, the main mechanism, a comparable baseline and decisive validation/limits. Return body/result locators for headline claims, reusing the existing coverage table and ledger. Before execution specify these as required outputs, never promised gains. The skill will prioritize evidence-based Summary reconstruction after substantive repairs.
 
 ## Audit and revision

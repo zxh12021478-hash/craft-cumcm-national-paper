@@ -1,0 +1,19 @@
+{
+  "A": {
+    "q1_m3": "2",
+    "q2_m3": "3/10",
+    "S1_m3": "3",
+    "S2_m3": "0",
+    "cost_CNY": "29/10",
+    "analytic_lower_bound_CNY": "29/10",
+    "stress_max_day2_supply_m3": "589/200",
+    "stress_shortfall_m3": "11/200",
+    "stress_feasible": false
+  },
+  "B": {
+    "cost_reduction_percent": 12.0,
+    "service_gain_percentage_points": 6.0,
+    "base_policy": "L",
+    "stress_feasible_policy": "R"
+  }
+}

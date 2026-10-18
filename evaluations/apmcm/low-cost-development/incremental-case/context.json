@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "facts": "brief.md",
+  "files": [
+    {
+      "path": "problem.md",
+      "sha256": "b3708e8fff8847c761b9b4cc7df4941471fe7ec52d39b5eb47dc65f5c0f0c67b"
+    },
+    {
+      "path": "review-map.json",
+      "sha256": "795e15ccb004f84cd6d12c2ca9584a6e299cfabcba70b84007a41553af9fac89"
+    },
+    {
+      "path": "data.csv",
+      "sha256": "81bf9fa83c6f7f151bd491a98cd7d933de3965289e3ebd77c6c425f7eaa16392"
+    },
+    {
+      "path": "model.py",
+      "sha256": "4cf86e2379868abc2b0783a2c94113b27abcd7c6a2c42136c762cf1be3975412"
+    },
+    {
+      "path": "results.json",
+      "sha256": "c4ecf0dcecfcafd4124b20d8e524b22453dbb4fa1596bd99f0eef949e4c0cec9"
+    },
+    {
+      "path": "figure.svg",
+      "sha256": "900fbe934249ad120004bd24adf66aad8817d89586273c0cc50e187bddebb601"
+    },
+    {
+      "path": "summary.md",
+      "sha256": "581c0ae14cc71718b0502f8335696f3158468ec51daad4624de9a13b23286a84"
+    },
+    {
+      "path": "source-review.md",
+      "sha256": "6a7713d7dd733a128150fb5d9dc175f8a20c04ae5fa66d4d9a17c2b6b990ff4d"
+    },
+    {
+      "path": "brief.md",
+      "sha256": "1a054d16cf5c4b222c2cfe7b44595ae07a911290686227f1f9d47929dc666cba"
+    }
+  ],
+  "scope": "Freshness of listed dependencies only. Contents and completeness require review.",
+  "impact_path": "review-map.json",
+  "impact_map": {
+    "version": 1,
+    "items": [
+      {
+        "id": "result",
+        "files": [
+          "data.csv",
+          "model.py",
+          "results.json"
+        ],
+        "depends_on": []
+      },
+      {
+        "id": "figure",
+        "files": [
+          "figure.svg"
+        ],
+        "depends_on": [
+          "result"
+        ]
+      },
+      {
+        "id": "summary",
+        "files": [
+          "summary.md"
+        ],
+        "depends_on": [
+          "result"
+        ]
+      },
+      {
+        "id": "sources",
+        "files": [
+          "source-review.md"
+        ],
+        "depends_on": []
+      }
+    ],
+    "open_items": [
+      "sources"
+    ]
+  }
+}

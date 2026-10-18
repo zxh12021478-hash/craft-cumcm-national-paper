@@ -1,0 +1,99 @@
+{
+  "status": "pass",
+  "linear_feasible": true,
+  "optimality_verified": false,
+  "scope": "Declared linear constraints, explicit bounds, integrality and objective only; not optimality, model fidelity, units, nonlinear or undeclared constraints.",
+  "objective": 2.9,
+  "sense": "min",
+  "checks": [
+    {
+      "id": "A_eq[0]",
+      "lhs": 1.0,
+      "rhs": 1,
+      "violation": 0.0,
+      "tolerance": 1.0099999999999999e-07,
+      "passed": true
+    },
+    {
+      "id": "A_eq[1]",
+      "lhs": -3.0,
+      "rhs": -3,
+      "violation": 0.0,
+      "tolerance": 1.03e-07,
+      "passed": true
+    },
+    {
+      "id": "lower[0]",
+      "lhs": 0,
+      "rhs": 2,
+      "violation": 0.0,
+      "tolerance": 1.02e-07,
+      "passed": true
+    },
+    {
+      "id": "upper[0]",
+      "lhs": 2,
+      "rhs": 2,
+      "violation": 0.0,
+      "tolerance": 1.02e-07,
+      "passed": true
+    },
+    {
+      "id": "lower[1]",
+      "lhs": 0,
+      "rhs": 0.3,
+      "violation": 0.0,
+      "tolerance": 1.0029999999999999e-07,
+      "passed": true
+    },
+    {
+      "id": "upper[1]",
+      "lhs": 0.3,
+      "rhs": 2,
+      "violation": 0.0,
+      "tolerance": 1.02e-07,
+      "passed": true
+    },
+    {
+      "id": "lower[2]",
+      "lhs": 0,
+      "rhs": 3,
+      "violation": 0.0,
+      "tolerance": 1.03e-07,
+      "passed": true
+    },
+    {
+      "id": "upper[2]",
+      "lhs": 3,
+      "rhs": 4,
+      "violation": 0.0,
+      "tolerance": 1.0399999999999999e-07,
+      "passed": true
+    },
+    {
+      "id": "lower[3]",
+      "lhs": 0,
+      "rhs": 0,
+      "violation": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "id": "upper[3]",
+      "lhs": 0,
+      "rhs": 4,
+      "violation": 0.0,
+      "tolerance": 1.0399999999999999e-07,
+      "passed": true
+    },
+    {
+      "id": "objective",
+      "lhs": 2.9,
+      "rhs": 2.9,
+      "violation": 0.0,
+      "tolerance": 1.029e-07,
+      "passed": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "result",
+      "files": [
+        "data.csv",
+        "model.py",
+        "results.json"
+      ]
+    },
+    {
+      "id": "figure",
+      "files": [
+        "figure.svg"
+      ],
+      "depends_on": [
+        "result"
+      ]
+    },
+    {
+      "id": "summary",
+      "files": [
+        "summary.md"
+      ],
+      "depends_on": [
+        "result"
+      ]
+    },
+    {
+      "id": "sources",
+      "files": [
+        "source-review.md"
+      ]
+    }
+  ],
+  "open_items": [
+    "sources"
+  ]
+}
