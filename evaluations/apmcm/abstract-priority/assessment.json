@@ -1,0 +1,53 @@
+{
+  "kind": "targeted synthetic development trial",
+  "executor": "Doubao (development only)",
+  "provided": "raw request, complete synthetic short paper, frozen results, candidate skill; no evaluator findings supplied",
+  "input_sha256": {
+    "input/results.json": "98055293e3656a6c275696e775d7cc3c3722f01dc4538bd1b36f7dcc57eaa855",
+    "input/paper.md": "0a4ec989c63f8601febe2a2b077b18f8a35fec4480be333abef572f9ee7cc153",
+    "input/request.md": "7ea779103a557ef0d8af75f1fc7671f414f7020ee40f005b4f9dc820984ea15a"
+  },
+  "protocol_sha256": "b5b20aa379b04003646a52368910d3f8c2bf5055ff28c5d197112f6eff0f7c1c",
+  "checks": {
+    "skill_structure": "pass",
+    "existing_apmcm_tests": 30,
+    "original_cumcm_core": "unchanged; no repeat of unrelated suite"
+  },
+  "limitations": [
+    "No real Modex round trip",
+    "No code/PDF supplied in micro-fixture",
+    "Not a full competition case or award validation",
+    "No measured quota saving"
+  ],
+  "assessment": {
+    "status": "targeted behavior supported with root compression",
+    "corrected": [
+      "unsupported global optimality",
+      "simulated cost mislabeled measured energy",
+      "wrong 25% reduction",
+      "invented 92% accuracy",
+      "scenario frequency mislabeled probability",
+      "unsupported broad robustness/applicability"
+    ],
+    "coverage": "Q1 Q2 Q3 represented with direct answers",
+    "reproduction": "not claimed; no executable code supplied",
+    "observed_issues": [
+      "Executor summary repeats shared limitations and recommendations; root compressed without removing direct answers or material boundaries",
+      "Audit intro counts 4 conflicting/unsupported claims while its table treats all 6 groups; advanced optimizer is unsupported praise, not logically proof of claiming a new algorithm"
+    ],
+    "root_edits": "Preserved raw executor output; separately wrote concise summary and added functional deduplication guidance",
+    "not_proven": [
+      "full-case performance",
+      "official format compliance",
+      "real Modex interaction",
+      "quota savings",
+      "award quality"
+    ]
+  },
+  "output_sha256": {
+    "output/summary.md": "26bb0a94375891956cbb40722f3138ba079511100ee63e510ee33f78f879f73d",
+    "output/audit.md": "194e699e50a7473e2d1ceb598cf21cb6c78504fe7c88e6e4e4f0ea2e21ffa484",
+    "root-reviewed/summary.md": "45df27289f365f7f3103bc8cf222a8a0a2093ebc54bf38dd320b35b2143a78d5"
+  },
+  "final_protocol_sha256": "446bfcb5c717e027611141e7cf8a2e4a1a62acf4ce3408493ac9d90dfb8b7838"
+}

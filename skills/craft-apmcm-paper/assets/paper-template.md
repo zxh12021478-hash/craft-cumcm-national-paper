@@ -6,7 +6,7 @@ Problem: <letter> | Team: <identifier or REHEARSAL>
 ## Summary
 
 <Problem and objective in context.>
-<For each subproblem: method, quantified answer with units, and evidence.>
+<For each subproblem: direct answer with units and scope, the operative mechanism, and decisive evidence; write after the body/results.>
 <Validation or uncertainty that materially changes confidence.>
 <Actionable recommendation and limitations.>
 

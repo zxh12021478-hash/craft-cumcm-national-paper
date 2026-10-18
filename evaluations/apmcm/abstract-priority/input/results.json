@@ -1,0 +1,31 @@
+{
+  "scope": "synthetic, not field deployment",
+  "Q1": {
+    "horizon_weeks": 4,
+    "test_targets": 20,
+    "rmse_unit": "items",
+    "baseline_rmse": 10,
+    "candidate_rmse": 8,
+    "relative_rmse_reduction": 0.2
+  },
+  "Q2": {
+    "candidate_count": 12,
+    "recommended": "P",
+    "baseline_cost": 150,
+    "candidate_cost": 120,
+    "cost_unit": "CNY",
+    "relative_cost_reduction": 0.2,
+    "constraint_tolerance": 1e-08,
+    "optimality_scope": "evaluated feasible candidate set only"
+  },
+  "Q3": {
+    "P_best_count": 18,
+    "scenario_count": 20,
+    "demand_perturbation_percent": [
+      -10,
+      10
+    ],
+    "probabilities_assigned": false,
+    "exceptions": "R preferred in two tested +10% cases"
+  }
+}

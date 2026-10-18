@@ -14,6 +14,8 @@ Independent APMCM mode: do not load the CUMCM entrypoint, rubric, rules or packa
 
 Modex implements, calculates and writes the initial paper. Doubao is for authorized skill development/testing only; never invoke it as a contest participant, dependency or handoff recipient. Explicitly requested historical rehearsals can include full solving/drafting.
 
+**Abstract priority:** the English Summary is a key deliverable. Use `references/abstract-priority.md`: before Modex drafting specify the evidence needed for each answer; after the complete draft and substantive repairs reconstruct an answer-led summary with the operative contribution, decisive comparisons and material limits. No invented gains, fixed word quotas or mandatory multiple versions.
+
 ## Strategy and cost discipline
 
 Select methods from problem structure and observable data, not a model catalogue. Check feasibility and identifiability before optimizing or fitting. Read only the relevant section of `references/task-families.md` for forecasting, ranking, optimization or engineering risks. If ambiguity or route choice remains consequential, use `references/route-challenge.md` for one decisive refutation, not a mandatory model tournament. A cheap falsification or analytic bound can be more valuable than a large simulation. Keep useful innovation as a hypothesis until evidence supports it.
