@@ -24,6 +24,7 @@ Use one concise handoff plus necessary attachments. Do not repeat the same advic
 
 ## Conditional routes
 
+- **Prize-focused preparation / 评奖与优秀案例:** `references/judging-priorities.md`; selectively use `references/exemplar-decisions.md`. Apply sourced historical principles as evidence checks, without invented official weights or prize probabilities. For image/metrology problems use `references/image-geometry.md`.
 - **Rules:** choose `training`, `historical-rehearsal` or `live-contest`. Distinguish November English APMCM from separate Chinese/LLM events. Read `references/rules-2026.md` and `assets/rules-2026.json`, verify actual current official notices when rules matter. Unknown AI permission blocks live assistance, not preparation. Historical templates cannot fill missing current requirements.
 - **Full rehearsal / material model failure:** `references/rehearsal.md`. Freeze strategy before reading same-case solutions. Preserve baseline and failed evidence. For physical claims, also use `references/physical-validation.md`; numerical verification alone is not empirical validation.
 - **English / visuals:** `references/english-audit.md`; `assets/paper-template.md` is an authoring aid, not an official template. Check formulas, quantities, axes/captions and English scope together; render and inspect every paper page.

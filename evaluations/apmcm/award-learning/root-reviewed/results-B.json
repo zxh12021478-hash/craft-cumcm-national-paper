@@ -1,0 +1,49 @@
+{
+  "Q1": {
+    "unit": "degC",
+    "model": [
+      [
+        10,
+        20
+      ],
+      [
+        10,
+        20
+      ]
+    ],
+    "CFD": [
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ]
+    ],
+    "range_overlap": 1,
+    "derived_audit": {
+      "MAE_degC": 10,
+      "RMSE_degC": 10,
+      "source": "independent_checks.py; supplied arrays only"
+    }
+  },
+  "Q2": {
+    "metric": "simulated discomfort score",
+    "baseline": 100,
+    "H": 80,
+    "J": 90,
+    "relative_proxy_reduction_H": 0.2
+  },
+  "Q3": {
+    "parameter_interval_multiplier": [
+      0.95,
+      1.05
+    ],
+    "upper_endpoint_scores": {
+      "H": 105,
+      "J": 92
+    },
+    "probability_model": null
+  }
+}

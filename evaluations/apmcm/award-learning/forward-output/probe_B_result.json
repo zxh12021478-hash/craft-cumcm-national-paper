@@ -1,0 +1,40 @@
+{
+  "Q1_matched_cell": {
+    "cellwise_diffs_model_minus_CFD": [
+      -10,
+      10,
+      -10,
+      10
+    ],
+    "exact_agreement_rate": 0.0,
+    "MAE_degC": 10.0,
+    "RMSE_degC": 10.0,
+    "cellwise_correlation": -1.0,
+    "mean_model": 15.0,
+    "mean_CFD": 15.0,
+    "range_model": [
+      10,
+      20
+    ],
+    "range_CFD": [
+      10,
+      20
+    ],
+    "range_overlap_flag": 1
+  },
+  "Q2_check": {
+    "base_ordering": "H(80) < J(90) < baseline(100)",
+    "relative_proxy_reduction_H_recomputed": 0.2,
+    "matches_json_value": true,
+    "metric": "simulated discomfort score"
+  },
+  "Q3_check": {
+    "deterministic_multiplier": [
+      0.95,
+      1.05
+    ],
+    "upper_endpoint_ordering": "J(92) < H(105) -> J preferred at 1.05p0",
+    "probability_model": null,
+    "lower_endpoint_scores_present": false
+  }
+}

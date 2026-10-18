@@ -1,0 +1,71 @@
+{
+  "nominal_pixel": {
+    "perimeter_px": 400.0,
+    "area_px2": 9600.0,
+    "signed_shoelace": 19200,
+    "orientation": "CCW (positive shoelace, x-right y-up)"
+  },
+  "nominal_physical": {
+    "scale_mm_per_px": 0.05,
+    "perimeter_mm": 20.0,
+    "area_mm2": 24.0
+  },
+  "scale_interval": {
+    "s_min": 0.04950495049504951,
+    "s_max": 0.050505050505050504,
+    "worst_relative": 0.010101010101009944
+  },
+  "pixel_extrema_corner_search": {
+    "edge_lims_px": [
+      [
+        119.0,
+        121.00413216084813
+      ],
+      [
+        79.0,
+        81.00617260431454
+      ],
+      [
+        119.0,
+        121.00413216084813
+      ],
+      [
+        79.0,
+        81.00617260431454
+      ]
+    ],
+    "perimeter_min_px": 396.0,
+    "perimeter_max_px": 404.0,
+    "area_min_px2": 9401.0,
+    "area_max_px2": 9801.0
+  },
+  "pixel_perimeter_grid_check": {
+    "min": 396.0,
+    "max": 404.0
+  },
+  "physical_extrema": {
+    "long_edge_120px_mm": [
+      5.891089108910891,
+      6.111319806103441
+    ],
+    "short_edge_80px_mm": [
+      3.9108910891089113,
+      4.091220838601744
+    ],
+    "perimeter_mm": [
+      19.603960396039604,
+      20.404040404040405
+    ],
+    "area_mm2": [
+      23.039407901186163,
+      25.0
+    ]
+  },
+  "long_edge_error_budget_mm": {
+    "localization_+-1px": 0.05,
+    "scale_at_120px": 0.060606060606059664,
+    "single_vertex_0.5px_alone": 0.025,
+    "target_0.02_mm": 0.02,
+    "max_edge_localization_px_if_perfect_scale": 0.39999999999999997
+  }
+}

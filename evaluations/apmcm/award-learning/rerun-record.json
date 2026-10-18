@@ -1,0 +1,18 @@
+{
+  "probe_A": {
+    "status": "pass",
+    "max_absolute_numeric_difference": 1.4210854715202004e-14,
+    "abs_tol": 1e-12,
+    "rel_tol": 1e-12
+  },
+  "probe_B": {
+    "status": "pass",
+    "max_absolute_numeric_difference": 0,
+    "abs_tol": 1e-12,
+    "rel_tol": 1e-12
+  },
+  "root_summary": {
+    "replacement_matches_paper_summary": true,
+    "new_metric_present_in_body_and_results": true
+  }
+}

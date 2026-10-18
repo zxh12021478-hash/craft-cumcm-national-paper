@@ -1,0 +1,123 @@
+{
+  "checked_at": "2026-10-18",
+  "criteria_sources": [
+    {
+      "name": "charter-2021",
+      "url": "https://www.apmcm.org/detail/2415",
+      "file": "sources/charter-2021.html",
+      "sha256": "ad69cf6cb67d5310283f67851d89a09da85c021180a074bb64ae869387d02a76",
+      "bytes": 29949,
+      "status": "downloaded"
+    },
+    {
+      "name": "rules-2021",
+      "url": "https://www.apmcm.org/detail/2416",
+      "file": "sources/rules-2021.html",
+      "sha256": "3c7c203fcb87043560506528fa02f7fc8e3c52f64ee65b2ced2ab5968d1511ff",
+      "bytes": 36650,
+      "status": "downloaded"
+    },
+    {
+      "name": "special-prizes-2025",
+      "url": "https://www.apmcm.org/detail/2502",
+      "file": "sources/special-prizes-2025.html",
+      "sha256": "a1b800aac4038a6697cb00158b20c9fb6ff671b502043eea21f6070f3a4520ec",
+      "bytes": 27988,
+      "status": "downloaded"
+    }
+  ],
+  "cases": [
+    {
+      "year": 2021,
+      "track": "November English APMCM",
+      "problem": "A",
+      "team": "apmcm2103847",
+      "mirror_release": "https://github.com/BernardW18/mcm_resources/releases/tag/v0.1.0",
+      "mirror_asset": "https://github.com/BernardW18/mcm_resources/releases/download/v0.1.0/APMCM.zip",
+      "archive_sha256": "a8e39f21f5ae7fa74bb4c1ecbe8434f84776be5fab84d4c56c1c4d9226e4f673",
+      "archive_entry": "APMCM/02-优秀论文/2021/2021年A题优秀论文.pdf",
+      "pdf_sha256": "e0fe3121fe79b0a12c63c3da8d63f30860c76ad431d5626772eeebb6ea15e900",
+      "physical_pages": 29,
+      "official_award": {
+        "team_exact_match": true,
+        "prize": "First Prize",
+        "source_url": "https://www.apmcm.org/uploads/files/20220123/1642929898334166.pdf",
+        "pdf_sha256": "9879c4345412fa2c34e5a4d6c463c17f33aeaaaded7102b9d05625414e9c6c2c",
+        "pdf_page": 2,
+        "group": "undergraduate"
+      },
+      "boundaries": [
+        "Team award verified; final submitted PDF identity not verified",
+        "Reading and selected-page visual inspection, not code reproduction"
+      ]
+    },
+    {
+      "year": 2022,
+      "track": "November English APMCM",
+      "problem": "C",
+      "team": "apmcm2203180",
+      "mirror_release": "https://github.com/BernardW18/mcm_resources/releases/tag/v0.1.0",
+      "mirror_asset": "https://github.com/BernardW18/mcm_resources/releases/download/v0.1.0/APMCM.zip",
+      "archive_sha256": "a8e39f21f5ae7fa74bb4c1ecbe8434f84776be5fab84d4c56c1c4d9226e4f673",
+      "archive_entry": "APMCM/02-优秀论文/2022/2022年C题优秀论文.pdf",
+      "pdf_sha256": "812623d7253427163bc6c144c3550d1bd83373cc19bd310231215bdcaf51aa48",
+      "physical_pages": 66,
+      "official_award": {
+        "team_exact_match": true,
+        "prize": "First Prize",
+        "source_url": "https://www.apmcm.org/uploads/files/20230113/1673605325986961.pdf",
+        "pdf_sha256": "988cfd45b4b1c95ff492f492656d6db7c4852158619512269c9ee7ceb7629655",
+        "pdf_page": 2,
+        "group": "undergraduate"
+      },
+      "boundaries": [
+        "Team award verified; final submitted PDF identity not verified",
+        "Reading and selected-page visual inspection, not code reproduction"
+      ]
+    },
+    {
+      "year": 2023,
+      "track": "November English APMCM",
+      "problem": "B",
+      "team": "apmcm2307379",
+      "mirror_release": "https://github.com/BernardW18/mcm_resources/releases/tag/v0.1.0",
+      "mirror_asset": "https://github.com/BernardW18/mcm_resources/releases/download/v0.1.0/APMCM.zip",
+      "archive_sha256": "a8e39f21f5ae7fa74bb4c1ecbe8434f84776be5fab84d4c56c1c4d9226e4f673",
+      "archive_entry": "APMCM/02-优秀论文/2023/2023年B题优秀论文.pdf",
+      "pdf_sha256": "c88bd30c3e3ce8585cf28292a058db850062f2a19ab3caa19af85374d180383e",
+      "physical_pages": 23,
+      "official_award": {
+        "team_exact_match": true,
+        "prize": "First Prize",
+        "source_url": "https://www.apmcm.org/uploads/files/20240119/1705659562138254.pdf",
+        "pdf_sha256": "0d4f90b99dd28e06dc1653fa19f09dbf2abf82689ceee2676358af880a262ad9",
+        "pdf_page": 1,
+        "group": "postgraduate"
+      },
+      "boundaries": [
+        "Team award verified; final submitted PDF identity not verified",
+        "Reading and selected-page visual inspection, not code reproduction",
+        "PDF page-header denominator 44 differs from 23 physical pages; version/completeness unresolved"
+      ]
+    }
+  ],
+  "screened_out": [
+    {
+      "name": "APMCM2024a_paper.pdf",
+      "reason": "Truncated: linearized header declares 8572912 bytes but mirror file has 3948544; no EOF, parser fails. Not treated as complete excellent paper."
+    },
+    {
+      "name": "handbook-excellent.pdf",
+      "sha256": "6cff4ceef58cbe16a72902cd993d67b0c9a027e7d866031f97124111d0bb9fb0",
+      "reason": "Actually 2024 Chinese-track handbook; excluded from English-track exemplar synthesis."
+    },
+    {
+      "name": "A91237-LaTeX创新奖.pdf",
+      "reason": "Official 2019 notices identify LaTeX layout award and innovation finalist, not final modeling innovation winner. Not counted as a modeling innovation winner.",
+      "official_urls": [
+        "https://www.apmcm.org/detail/2374",
+        "https://www.apmcm.org/detail/2376"
+      ]
+    }
+  ]
+}

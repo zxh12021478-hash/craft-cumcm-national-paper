@@ -1,0 +1,29 @@
+{
+  "case_2021_A": {
+    "source_pdf_page": 27,
+    "detection_times_ms": [
+      103,
+      142,
+      1.5,
+      130,
+      109
+    ],
+    "table_fastest": "Zernike matrix",
+    "table_fastest_ms": 1.5,
+    "review": "Check narrative rather than inherit its fastest-method claim."
+  },
+  "case_2022_C": {
+    "source_pdf_page": 14,
+    "ARIMA_absolute_errors_transcribed_from_table": [
+      0.17,
+      0.21,
+      0.07,
+      0.25,
+      0.1
+    ],
+    "recomputed_mean": 0.16,
+    "table_mean": 0.16,
+    "prose_value": 0.016,
+    "review": "Confirmed prose/table decimal mismatch by rendered page; no original-code reproduction."
+  }
+}

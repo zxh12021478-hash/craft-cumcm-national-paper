@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-18",
+  "development_only": true,
+  "case_study_executor": "Doubao",
+  "forward_trial_executor": "Doubao",
+  "input": "Original synthetic raw requests and complete short paper/results; evaluator oracle/findings not provided",
+  "freeze_boundary": "Targeted development trial; final instructions refined after observing outputs, not an independent frozen-final-version test",
+  "case_study": "Three full available case texts read by executor; root verified official award matches and selected body/rendered pages. Full original-code reproduction not performed.",
+  "forward_status": "supported with root repairs; not a clean first-pass success",
+  "correct_behavior": [
+    "A nominal perimeter/area and rejection of physical accuracy claim",
+    "B matched-point error instead of range-overlap accuracy",
+    "B simulated proxy separated from electricity",
+    "B deterministic range and endpoint recommendation reversal",
+    "Missing empirical/code/PDF/template checks not called passed"
+  ],
+  "observed_issues": [
+    "Overlong A handoff and unnecessary dense error-box scan",
+    "Convex-minimum/continuous-bound justification too broad",
+    "Component precision suggestions did not ensure a joint budget",
+    "New B audit metrics introduced into Summary before body/results repair",
+    "Replaceable Summary file mixed in audit notes",
+    "Several reported manuscript line locators inaccurate"
+  ],
+  "root_repairs": [
+    "Compact A with sufficient calibration-only counterexample",
+    "Trace new B metrics into revised body and results before clean Summary",
+    "Record bounds/precision budget qualifications and exact review locators",
+    "Keep raw executor outputs and independently rerun probes"
+  ],
+  "rerun_record": "rerun-record.json",
+  "limitations": [
+    "No actual Modex drafting round trip",
+    "No full new official problem rehearsal",
+    "No human panel judging or prize probability calibration",
+    "No measured Codex usage saving",
+    "No final-version independent retest"
+  ],
+  "input_sha256": {
+    "forward-input/results.json": "ebb15234739d5169b9ae229664f8f2a543c81ed9ac4837dd15dd35ff4d7c14f5",
+    "forward-input/paper.md": "06e835973b5382fecbde00eab1b50f2f8624629ee0ab0494369c739221c19b5c",
+    "forward-input/request.md": "7ee52efd865617a9e1cd0065fbd1c4570665318f0c28a99e3bb81b1fc5b386c2"
+  },
+  "source_case_outputs_sha256": {
+    "case-cards.md": "ee139cdbce74826810829d9aa012b6f60f1e72d68a2144766fe4eb8d5d86f877",
+    "suggestions.md": "3ab03e67846ead6196ebade9f00e49aefa64e0d68c1b6228d5b75be2c9def7b3"
+  },
+  "runtime_files": 32,
+  "existing_apmcm_tests": 30,
+  "skill_structure": "pass",
+  "executor_completion": {
+    "case_study": "16m49s plus 21s path verification as displayed in app",
+    "forward_trial": "7m31s as displayed in app"
+  },
+  "final_skill_sha256": {
+    "SKILL.md": "6b58dbf689a9610f8171bdb65afa8be9d4e51193ffa1a1afcad5d43a7ce6bf57",
+    "references/bundle-contract.md": "0259a3200c6fd77690b25d014fb71f779123a98164de178f15a5621340e722ef",
+    "references/modex-handoff.md": "e2014b8b87e7656a58beb9852c1d54286cc5329a689849f1790ec9adfa6373c3",
+    "references/exemplar-decisions.md": "c9c0a44ba705456ee18a751020e81c4ead10985b5ebad60a208b599a5ad7b4b3",
+    "references/route-challenge.md": "f3f5c392ce0133e0b4caed1a7da7c315938d164d1e3256490ff67c8661234fe2",
+    "references/abstract-priority.md": "3aea509d7c37d5c65afab0cebd1bdc33a3fad9c49a87887f086f501eb52b7228",
+    "references/english-audit.md": "efcc8092b68ce135e28ee03b51423894e711049bea2a7af2f70e8ac119bdd1c1",
+    "references/task-families.md": "8f0683c88cedd712c8da6a5a3893491ea0c1b4d8505c55d3f71f32450b3bb6eb",
+    "references/terminology.md": "7ee3946d37f78fecd778b965b7c2497cceb6f90aa34718e365cea199af127553",
+    "references/rules-2026.md": "92bf46406761b714cfe87be7595780d461554eb93afbec2cb995f1e3f249d58d",
+    "references/quick-strategy.md": "67f495edf9eff17d35ec2c10d6e3c7dc58d07078f89a8190d52d485c9d5abd95",
+    "references/image-geometry.md": "c09ca2e72d6545543455e2c6933510eb832fe17434e0dceff5477891c03097cd",
+    "references/rehearsal.md": "211533704ba27602ea378260b006b3ecfa9703a4f385151fa609ceff0f6acef0",
+    "references/solver-review.md": "8d3eb690f279481f5c20ae81ecab3f1e80ddf41e9985f699a5283268c216af5c",
+    "references/forecast-information.md": "866d1780aed0b3ca686b62534bf15dfc52ce3a78674da9975a6abf09f5b21c1c",
+    "references/physical-validation.md": "22a7047c5c7ea094ef0ee116e611b6f0634aaf656ff8fdd0e464c28c893e485f",
+    "references/judging-priorities.md": "f0f69ddac34a1b7f6055ff5c43ff8d1cfb9eaef42d3ef58a1fdc29ca8621a4a4",
+    "references/polishing-examples.md": "f6adffb251cf506e5cb87cfdc7b7ac17fdfa9007df2f703c4c75101fd65b4c5c",
+    "tests/test_linear_solution.py": "eeb0c25dca7928bf03c0e9ded3136e2369abdbc441e4572a0106e840866c2684",
+    "tests/test_information.py": "6047b9636690f09c1335c1636e07b8d9ab14c396fa1bf939f68ea5064a61ee85",
+    "tests/test_context_cache.py": "4fa80ae01cbc6232183d897808236c3200f47dea770c12dd0b7ecb1ed2ed188c",
+    "tests/test_independent_negative.py": "62b9b2a59e0affb0ab9bccb412261718497f08073a99c6fdf5bf359e8105a23e",
+    "agents/openai.yaml": "cf869e912c5a5b8a1f4ac56de841def7958ad6110d42472e8dfaec8bc4a88edc",
+    "scripts/check_linear_solution.py": "9c63d3b13630c5e5d3030d51e6e7a3b458b6ee64c58df6388314f1a6f4b05e3e",
+    "scripts/package_bundle.py": "dc7761b70638cc5bb679b496243cb50ad7749fa64261bc07671ce7e975d57e03",
+    "scripts/context_cache.py": "9354ab9cc817c80e1a4cc262fbb99cb23f6612595fb92e2f2468236d20ffbb90",
+    "scripts/check_information.py": "d71dd1d6ae0d32feaa8401bb30dbbd90670d19adb68b3b856f5d410a1771ed8e",
+    "scripts/audit_bundle.py": "231073c66768baae168cb888bf3dd5c7b689b68c8cdd46a1d8e3af2900fb8a99",
+    "assets/paper-template.md": "36d7aa792b36360a582cc25a4dfaf4813480d092630245d1e1cd812b640d0ff4",
+    "assets/modex-return.md": "fe345ce7465613bb1b5a568986aab99900ca2d1a52cbf81e3fc0cc1ddca8588d",
+    "assets/strategy-handoff.md": "da58e9664c0df2ec23c676da260850f77bc623d8aa13490c33c58778fff3dbfb",
+    "assets/rules-2026.json": "84ae7c7f72238cc73d46c516d137072029a644ad064fbe3e836d8755d8705521"
+  }
+}

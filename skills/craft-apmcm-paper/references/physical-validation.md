@@ -18,4 +18,8 @@ Before a large sweep, run a small pilot at a stable time step and one additional
 
 ## Report and repair
 
+For spatial or temporal fields, align coordinates, times, units and observables before comparison. Use matched-point errors or appropriate profiles with residual maps and failure regions; equal extrema or overlapping value ranges can hide a reversed field. A commercial simulator is a numerical comparator with its own assumptions, not measured truth. Shared model error can survive agreement between two solvers. Scale the comparison to the decision and available budget rather than requiring full CFD for every problem.
+
+Apply each constraint to its actual variable, spatial region and time scope. For example, a supply-air control temperature outside a crop comfort band does not by itself prove the crop-zone field violates that band. Trace the constrained observable before declaring infeasibility; do not repair a model by imposing a bound on the wrong quantity.
+
 Use a validation ledger with test, status, metric, threshold/rationale, evidence, model version and effect on claims. Distinguish pass, fail, not-applicable and unverified. When a failed mechanism affects the answer, repair and rerun it, or narrow/withdraw the answer. Update the Modex handoff so rejected claims are not polished back into the paper. Empirical gaps that require new hardware measurements must be named specifically; do not manufacture an experiment or rename a synthetic benchmark as measured data.

@@ -19,6 +19,8 @@ Prioritize answer-changing errors and missing tasks, then unsupported evidence/u
 
 ## Cross-equation and experiment checks
 
+For prize-focused review use `judging-priorities.md` as historical evidence checks, not an official numeric rubric. Do not exempt a cited winning paper from scrutiny. For image/metrology claims use `image-geometry.md` to separate subpixel repeatability from calibrated physical accuracy.
+
 For coupled models, trace the same conserved quantity across equations: state definitions, reference density, changing volume and boundary flux must agree. A small residual in each separate equation does not establish consistent coupling. Use a simple independent balance, such as the energy associated with one unit of transferred mass.
 
 Bind each result to its run configuration: inputs, code hash, grid, time step, scenario and baseline. Compare ablations at the same configuration or quantify the difference separately. For asymmetric sensitivity, report deviations from the stated baseline in both directions; half the response range is not a worst-case departure from an off-center baseline. Single-factor sums are not a proven joint bound. A jointly refined space/time experiment does not isolate spatial order.
