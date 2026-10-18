@@ -6,6 +6,8 @@ Match validation to the claim. Numerical verification tests the implemented equa
 
 Keep the submitted baseline immutable. Record model/input hashes, observables, domain, boundary conditions, calibration versus holdout split, comparison metrics and decision tolerances before inspecting test outcomes. Set tolerances from the intended decision and measurement uncertainty; label analyst-chosen screening thresholds as such. Keep a failed test failed after a repair and record a separate revised model/version.
 
+Before a large sweep, run a small pilot at a stable time step and one additional resolution. Resolve a failed conservation, stability or model-definition check before increasing candidate count. Keep numerical failure separate from physical discrepancy; a divergent integrator is not evidence against the continuous equations.
+
 ## Check consequential mechanisms
 
 - Trace energy, dry air, water and pollutant mass across equations and device boundaries. Account for fan/pump heat, latent loads and external heat rejection at the accuracy level needed by the claim.
