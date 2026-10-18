@@ -1,0 +1,149 @@
+{
+  "event": "APMCM",
+  "event_year": 2026,
+  "track": "November English event",
+  "checked_on": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "status": "partial-confirmation",
+  "rules": {
+    "schedule": {
+      "status": "verified",
+      "value": {
+        "start": "2026-11-26T06:00:00+08:00",
+        "end": "2026-11-30T09:00:00+08:00",
+        "registration_deadline_date": "2026-11-25",
+        "registration_deadline": "2026-11-25T23:59:00+08:00"
+      },
+      "event_year": 2026,
+      "source_url": "https://www.apmcm.org/detail/2512",
+      "registration_cutoff_source": "https://m.saikr.com/vse/apmcm26"
+    },
+    "language": {
+      "status": "verified",
+      "value": "English",
+      "event_year": 2026,
+      "source_url": "https://www.apmcm.org/detail/2512"
+    },
+    "team_size": {
+      "status": "verified",
+      "value": "1-3 students",
+      "event_year": 2026,
+      "source_url": "https://www.apmcm.org/detail/2512"
+    },
+    "submission_medium": {
+      "status": "verified",
+      "value": "electronic paper; no mailed paper copy",
+      "event_year": 2026,
+      "source_url": "https://www.apmcm.org/detail/2512"
+    },
+    "ai_policy": {
+      "status": "unverified",
+      "value": null,
+      "event_year": 2026,
+      "source_url": null,
+      "reason": "Organizer reply on registration page dated 2026-10-09 says format and AI requirements will be released before contest; 2026-10-10 follow-up says notices. No actual policy verified as of 2026-10-18.",
+      "pending_notice_source": "https://m.saikr.com/vse/apmcm26"
+    },
+    "page_limit": {
+      "status": "unverified",
+      "value": null,
+      "event_year": 2026,
+      "source_url": null,
+      "reason": "Not established by the current-year official material retrieved on 2026-10-17; verify registration notices and later updates."
+    },
+    "page_structure": {
+      "status": "unverified",
+      "value": null,
+      "event_year": 2026,
+      "source_url": null,
+      "reason": "Not established by the current-year official material retrieved on 2026-10-17; verify registration notices and later updates."
+    },
+    "anonymity": {
+      "status": "unverified",
+      "value": null,
+      "event_year": 2026,
+      "source_url": null,
+      "reason": "Not established by the current-year official material retrieved on 2026-10-17; verify registration notices and later updates."
+    },
+    "file_naming": {
+      "status": "verified",
+      "value": "Paper: problem letter + team control number, PDF; control sheet: same stem + cns, PDF/JPG; support archive: same stem + fj, RAR/ZIP. Use actual assigned control number, not invented example.",
+      "event_year": 2026,
+      "source_url": "https://m.saikr.com/contest/notice_detail/47643",
+      "source_sha256": "6dcdff18c0ebc0b7f095555e375ac832fc5003ab33e4d97095916368bc052502",
+      "checked_on": "2026-10-18"
+    },
+    "support_materials": {
+      "status": "verified",
+      "value": "Conditional unless required by the problem; source programs must be in the paper appendix and supplied as support files when programs are written. Related data except original problem data and results belong in the support archive. Reconcile exact inclusions with final 2026 rules.",
+      "event_year": 2026,
+      "source_url": "https://m.saikr.com/contest/notice_detail/47643",
+      "source_sha256": "6dcdff18c0ebc0b7f095555e375ac832fc5003ab33e4d97095916368bc052502",
+      "checked_on": "2026-10-18"
+    },
+    "control_sheet": {
+      "status": "verified",
+      "value": "Print and genuinely sign the control sheet, then scan/photo as PDF or JPG. Actual 2026 form/template not yet verified.",
+      "event_year": 2026,
+      "source_url": "https://m.saikr.com/contest/notice_detail/47643",
+      "source_sha256": "6dcdff18c0ebc0b7f095555e375ac832fc5003ab33e4d97095916368bc052502",
+      "checked_on": "2026-10-18"
+    },
+    "submission_channel": {
+      "status": "verified",
+      "value": "Upload paper, control sheet, and applicable support archive separately to corresponding electronic submission fields on the registration site https://www.saikr.com/vse/apmcm26. Final portal UI not yet inspected.",
+      "event_year": 2026,
+      "source_url": "https://m.saikr.com/contest/notice_detail/47643",
+      "source_sha256": "6dcdff18c0ebc0b7f095555e375ac832fc5003ab33e4d97095916368bc052502",
+      "checked_on": "2026-10-18"
+    },
+    "english_template": {
+      "status": "unverified",
+      "value": null,
+      "event_year": 2026,
+      "source_url": null,
+      "reason": "2026 template not retrieved. Organizer replied Oct9 that paper format and AI requirements will be published before the contest, with Oct10 follow-up specifying notices."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.apmcm.org/detail/2512",
+      "kind": "2026 notice image",
+      "sha256": "7772500856495bc467e1c423015f8b282188f38bcd1700a31a7f0a03aebc807a"
+    },
+    {
+      "url": "https://www.apmcm.org/list/information",
+      "kind": "current notices checked"
+    },
+    {
+      "url": "https://www.apmcm.org/detail/2497",
+      "kind": "2025 FAQ, historical only"
+    },
+    {
+      "url": "https://www.apmcm.org/detail/2487",
+      "kind": "2024 official problem/template package, historical only"
+    },
+    {
+      "url": "https://new.saikr.com/vse/apmcm26?ces=gw",
+      "kind": "official-linked registration page; text fetch returned JS shell, not fully verified"
+    },
+    {
+      "url": "https://m.saikr.com/contest/notice_detail/47643",
+      "kind": "2026 organizer collective-registration notice, submission clauses",
+      "sha256": "6dcdff18c0ebc0b7f095555e375ac832fc5003ab33e4d97095916368bc052502",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://m.saikr.com/vse/apmcm26",
+      "kind": "current organizer registration page and pending AI/format reply",
+      "sha256": "e952262387fd10d1e82ee4b4ccac0adfab6b1e1dde81b63a17c121ff22964974",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://m.saikr.com/contest/notice_detail/49050",
+      "kind": "2026 FAQ, adviser restrictions",
+      "sha256": "fdbab025975d167a71b38c7539fb7b63734d1da9398328176ebfe3c2a83e5eaf",
+      "checked_on": "2026-10-18"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "APMCM 亚太杯建模与英文审查"
+  short_description: "独立亚太杯模式：规则核验、可复现建模演练、英文摘要与论文一致性审查"
+  default_prompt: "使用 $craft-apmcm-paper，先核对当前赛项规则，再检查我的建模结果、英文论文与提交材料。"

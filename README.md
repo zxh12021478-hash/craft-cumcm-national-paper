@@ -6,6 +6,12 @@
 
 [三分钟上手](docs/quickstart.md) · [看审查示例](examples/first-audit/audit-report.md) · [提交试用反馈](https://github.com/zxh12021478-hash/craft-cumcm-national-paper/issues/new?template=trial-feedback.md)
 
+## 独立 APMCM 模式
+
+新增 [craft-apmcm-paper](skills/craft-apmcm-paper/SKILL.md)，用于亚太杯赛前演练、英文摘要与全文审查、公式/数字/图表一致性和证据打包。国赛入口、运行流程和校验器保持原样。
+
+APMCM 需独立安装：[安装与使用](docs/apmcm-mode.md)。截至 2026-10-18，本届日期、语言及部分提交要求已核对；AI 政策、英文模板和详细排版规范仍待赛前公告，技能不会把历史模板当作本届规定，也不承诺奖项。
+
 ## 先看一个能自己验证的例子
 
 一份配送方案论文声称：**满足所有约束，总成本 24 元，比基线降低 40%，达到全局最优。**
