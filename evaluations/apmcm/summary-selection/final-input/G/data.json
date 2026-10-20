@@ -1,0 +1,25 @@
+{
+  "initial_C": 30,
+  "ambient_C": 20,
+  "steady_power_W": 50,
+  "steady_rise_K": 10,
+  "target_C": 24,
+  "transient": [
+    {
+      "hours": 0,
+      "temperature_C": 30.0
+    },
+    {
+      "hours": 1,
+      "temperature_C": 27.78800783071405
+    },
+    {
+      "hours": 2,
+      "temperature_C": 26.065306597126334
+    },
+    {
+      "hours": 4,
+      "temperature_C": 23.678794411714424
+    }
+  ]
+}

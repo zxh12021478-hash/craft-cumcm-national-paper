@@ -1,0 +1,30 @@
+{
+  "F": {
+    "answers": [
+      "base B cost210 vs A240, reduction12.5%",
+      "stress D sole feasible cost255, service94%, max5.7h; B84% fails90% floor"
+    ],
+    "mechanism": "hard service/time screening before complete-cost comparison",
+    "scope": "five fixed policies and specified synthetic batches; no controller/field validation",
+    "unnecessary": "all five input rows, every losing policy, duplicate counts and rates, full list of negated claims"
+  },
+  "G": {
+    "answers": [
+      "transient only identifies k=h/C=.25 per hour, not separate h,C",
+      "separate steady-state50W/10K identifies h5 W/K then C20 Wh/K",
+      "cooling time3.67h exceeds3h, deadline not met"
+    ],
+    "mechanism": "combine transient rate and independent steady-state scale; use exponential cooling instead of initial tangent",
+    "scope": "synthetic fixed lumped model, no empirical validation",
+    "unnecessary": "all observed time-temperature pairs, both C units, alternative matching parameter pairs, derivation and every assumption"
+  },
+  "C": {
+    "answers": [
+      "A+B unique min cost12",
+      "after A/B failure supply3/4units/day",
+      "20% less than defined BC15"
+    ],
+    "scope": "complete finite model only",
+    "unnecessary": "all candidate capacities/costs and all feasible designs"
+  }
+}

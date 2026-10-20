@@ -1,0 +1,32 @@
+{
+  "F": {
+    "chosen": {
+      "base": "B",
+      "stress": "D"
+    },
+    "base_saving_exact": "1/8",
+    "base_saving_percent": 12.5
+  },
+  "G": {
+    "rate_per_hour": 0.24999999999999992,
+    "h_W_per_K": 5,
+    "C_Wh_per_K": 20,
+    "C_J_per_K": 72000,
+    "time_hours": 3.6651629274966204,
+    "temperature_at_3h_C": 24.723665527410148,
+    "meets_deadline": false,
+    "transient_scale_symmetry": "h and C jointly rescaled give identical transient"
+  },
+  "C": {
+    "lower_bound": 12,
+    "attained_by": [
+      "A",
+      "B"
+    ],
+    "post_failure_supply": [
+      3,
+      4
+    ]
+  },
+  "scope": "Synthetic source-fact checks; not field validation, a prize model or usage measurement"
+}

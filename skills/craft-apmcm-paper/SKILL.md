@@ -14,7 +14,7 @@ Independent APMCM mode: do not load the CUMCM entrypoint, rubric, rules or packa
 
 Modex implements, calculates and writes the initial paper. Doubao is for authorized skill development/testing only; never invoke it as a contest participant, dependency or handoff recipient. Explicitly requested historical rehearsals can include full solving/drafting.
 
-**Abstract priority:** the English Summary is a key deliverable. Use `references/abstract-priority.md`: before Modex drafting specify the evidence needed for each answer; after the complete draft and substantive repairs reconstruct an answer-led summary with the operative contribution, decisive comparisons and material limits. No invented gains, fixed word quotas or mandatory multiple versions.
+**Abstract priority:** the English Summary is a key deliverable. Use `references/abstract-priority.md`: plan answer evidence before drafting; after complete-draft review and substantive repairs, select the required answers, operative mechanism, decisive evidence and material limits before writing. Draft from that selection, then edit the candidate by deletion/merging only, preserving those functions and adding no facts. This is an internal editing pass, not an extra model call. Verified facts need not all appear in the Summary. No invented gains, fixed word quotas or mandatory multiple versions.
 
 ## Strategy and cost discipline
 

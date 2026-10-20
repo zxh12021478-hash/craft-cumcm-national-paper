@@ -1,0 +1,2 @@
+Synthetic repeated regression control. Q1. Choose a subset of three available modules, at most one of each, with minimum installation cost. Under normal operation total supply must be at least 7 units/day. Under loss of any one installed module, remaining supply must be at least 3 units/day. Modules are indivisible; capacities add without losses. Q2. For the selected design, give remaining supply under each of its single-module failures. These are the entire finite set of stipulated conditions, not random samples or forecasts.
+

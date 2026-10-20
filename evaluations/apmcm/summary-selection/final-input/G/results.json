@@ -1,0 +1,11 @@
+{
+  "rate_per_hour": 0.24999999999999992,
+  "transient_separately_identifies_h_C": false,
+  "conductance_W_per_K": 5.0,
+  "capacitance_Wh_per_K": 20.000000000000007,
+  "capacitance_J_per_K": 72000.00000000003,
+  "time_hours": 3.6651629274966218,
+  "meets_3_hour_deadline": false,
+  "tangent_hours": 2.400000000000001,
+  "scope": "Exact synthetic model; no physical validation or measured uncertainty"
+}

@@ -1,0 +1,31 @@
+{
+  "package": {
+    "R1/question.md": "567cabf8bb02910153522764afce9007ef24ec41d46ed4c6bb623b320883ad02",
+    "R1/summary.md": "09d75dcb2a31820ff67cec9f1bd4e0455bddf7dac6de1f0662c28b288ce0671e",
+    "R2/question.md": "8b0a744f928c29fdfd8a5236a73f9e43162830e5a11223790c772650c0af2b7c",
+    "R2/summary.md": "9606100f8e3e60d433ae4ee066fc79017b3a569cec8f71474d5d9d09f553a929",
+    "R3/question.md": "e13a0104fb53771c4ccbcea872cda48c8091f594c51a57d98805e316770b88a6",
+    "R3/summary.md": "51742de047e8ff6fce4148c9a0bedf2694f0616207c534386c4b9326ffc66443",
+    "R4/question.md": "45dd178ac45044393eb5a246ceb5bcd16907b84be3f2f00dda35e8502df3ce13",
+    "R4/summary.md": "e5c15d5b6f9f528d9e26048b11b25b4b806faf91dbc7af4df8a756d0bbad41ef",
+    "request.md": "3494cc08030211fd9054c6136adc6317a9c8917da9322650ec4ae1b4d3a6f7aa"
+  },
+  "edited_outputs": {
+    "C/changes.md": "2a4886bb9eb7dafab99cffcac6e2d6852f80eab1be560bc48a2ae98527969907",
+    "C/summary.md": "e5c15d5b6f9f528d9e26048b11b25b4b806faf91dbc7af4df8a756d0bbad41ef",
+    "F/changes.md": "a3adfbf876d62ba934ed6f606676e1111a6ca630cdc3e3ec5764d08c59594d0b",
+    "F/summary.md": "51742de047e8ff6fce4148c9a0bedf2694f0616207c534386c4b9326ffc66443",
+    "G/changes.md": "99f2f6cd7cdb830cc6b5371ca973e9cc3ec35496a1186385641c32789053ae11",
+    "G/summary.md": "09d75dcb2a31820ff67cec9f1bd4e0455bddf7dac6de1f0662c28b288ce0671e",
+    "H/changes.md": "248cd7a036dc09d577dca344c20ff3457abf33c32fb5f3626739cee08b285be2",
+    "H/summary.md": "9606100f8e3e60d433ae4ee066fc79017b3a569cec8f71474d5d9d09f553a929"
+  },
+  "exclusions": [
+    "full papers",
+    "machine results",
+    "author notes",
+    "skill",
+    "expected findings"
+  ],
+  "task": "Read literal Summary claims without computing absent answers from the question."
+}

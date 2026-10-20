@@ -1,0 +1,16 @@
+{
+  "fixed_weight": "2/5",
+  "scores": {
+    "X": "27/5",
+    "Y": "36/5",
+    "Z": "16/5"
+  },
+  "winner": "Y",
+  "nominal_tie_weight": "5/8",
+  "robust_Y_no_worse_max_weight": "1/2",
+  "robust_X_no_worse_min_weight": "5/6",
+  "middle_region": "depends on actual criterion values",
+  "boundary_ties_possible": true,
+  "Z_dominated": true,
+  "scope": "Exact interval inequalities, not probabilities"
+}

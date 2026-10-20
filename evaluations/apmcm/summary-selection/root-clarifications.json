@@ -1,0 +1,14 @@
+{
+  "G": {
+    "change": "no measurement uncertainty -> no supplied measurement-error model",
+    "reason": "Full paper supplies no error model; avoid implying measured uncertainty is zero.",
+    "numeric_answers_changed": false
+  },
+  "H": {
+    "change": "at the boundary -> at w=1/2 or w=5/6",
+    "reason": "Full paper explicitly allows extreme ties at these two thresholds, not all set endpoints.",
+    "numeric_answers_changed": false
+  },
+  "F_C": "unchanged from independently read raw edited outputs",
+  "scope": "Minimal root clarification, original executor files preserved; not a new model or calculation."
+}

@@ -1,0 +1,31 @@
+{
+  "baseline-output": {
+    "F": {
+      "whitespace_words": 210,
+      "sha256": "9cf9b9f6be7f50895f637a90ec9364adc7e666172a7844d22b37e99e668f4c42"
+    },
+    "G": {
+      "whitespace_words": 229,
+      "sha256": "17d4707cbfb7f784b24b8d14df20d91e572a68222611d25815d618fb7cc3c4fd"
+    },
+    "C": {
+      "whitespace_words": 178,
+      "sha256": "a23aa5be3e70e96ce095e5bdf8bbbee93323883f25b8222927eba93faf874028"
+    }
+  },
+  "candidate-output": {
+    "F": {
+      "whitespace_words": 204,
+      "sha256": "436caa6f641c287ce15605a1eabe3b5c25767f4b284bb4ca935eb133484bba8b"
+    },
+    "G": {
+      "whitespace_words": 186,
+      "sha256": "b90d2a088e68d52b2be8d78daadf213092275b55cf6a54ad30a8c908921d0a59"
+    },
+    "C": {
+      "whitespace_words": 149,
+      "sha256": "d88ace9ca43646f3a31de2bb36f6ab3a468e4e940129aaf45cad620fc692db5c"
+    }
+  },
+  "interpretation": "Descriptive text length only; first candidate still failed semantic deletion despite some shortening. No token, fee or prize inference."
+}

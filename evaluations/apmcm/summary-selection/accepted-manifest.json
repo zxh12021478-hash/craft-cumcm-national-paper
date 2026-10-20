@@ -1,0 +1,19 @@
+{
+  "accepted": {
+    "C/changes.md": "2a4886bb9eb7dafab99cffcac6e2d6852f80eab1be560bc48a2ae98527969907",
+    "C/summary.md": "e5c15d5b6f9f528d9e26048b11b25b4b806faf91dbc7af4df8a756d0bbad41ef",
+    "F/changes.md": "a3adfbf876d62ba934ed6f606676e1111a6ca630cdc3e3ec5764d08c59594d0b",
+    "F/summary.md": "51742de047e8ff6fce4148c9a0bedf2694f0616207c534386c4b9326ffc66443",
+    "G/changes.md": "99f2f6cd7cdb830cc6b5371ca973e9cc3ec35496a1186385641c32789053ae11",
+    "G/summary.md": "701cc084c58c7537bbd051ca3605057bdd24654398fd2bc0b435b93f79fdbf2b",
+    "H/changes.md": "248cd7a036dc09d577dca344c20ff3457abf33c32fb5f3626739cee08b285be2",
+    "H/summary.md": "f23db70b3745071de4e2017dd6530988cc05f1a5d88b34b739f435b042d1dcf1"
+  },
+  "revision_reader_package": {
+    "R1/question.md": "567cabf8bb02910153522764afce9007ef24ec41d46ed4c6bb623b320883ad02",
+    "R1/summary.md": "701cc084c58c7537bbd051ca3605057bdd24654398fd2bc0b435b93f79fdbf2b",
+    "R2/question.md": "8b0a744f928c29fdfd8a5236a73f9e43162830e5a11223790c772650c0af2b7c",
+    "R2/summary.md": "f23db70b3745071de4e2017dd6530988cc05f1a5d88b34b739f435b042d1dcf1",
+    "request.md": "fc0fdca737f7e385b281e5049f1782ee4bbded92e0141de8d6b1b26e6bc1abe7"
+  }
+}

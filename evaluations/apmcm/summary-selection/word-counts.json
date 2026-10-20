@@ -1,0 +1,33 @@
+{
+  "method": "whitespace split, headings excluded; math notation affects counts",
+  "counts": {
+    "F": {
+      "baseline-output": 210,
+      "candidate-output": 204,
+      "final-output": 174,
+      "edited-output": 148,
+      "accepted-output": 148
+    },
+    "G": {
+      "baseline-output": 229,
+      "candidate-output": 186,
+      "final-output": 189,
+      "edited-output": 173,
+      "accepted-output": 174
+    },
+    "C": {
+      "baseline-output": 178,
+      "candidate-output": 149,
+      "final-output": 119,
+      "edited-output": 108,
+      "accepted-output": 108
+    },
+    "H": {
+      "final-output": 224,
+      "edited-output": 197,
+      "accepted-output": 202
+    }
+  },
+  "scope": "Not tokens, fees, official preferred length or proof of quality.",
+  "accepted_notes": "G/H only received root precision clarifications after initial readback; raw editor counts remain separate."
+}

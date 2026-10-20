@@ -1,0 +1,66 @@
+{
+  "base": [
+    {
+      "policy": "A",
+      "cost_cny": 240,
+      "served": 92,
+      "max_hours": 5.5
+    },
+    {
+      "policy": "B",
+      "cost_cny": 210,
+      "served": 95,
+      "max_hours": 5.0
+    },
+    {
+      "policy": "C",
+      "cost_cny": 205,
+      "served": 96,
+      "max_hours": 7.0
+    },
+    {
+      "policy": "D",
+      "cost_cny": 230,
+      "served": 91,
+      "max_hours": 4.5
+    },
+    {
+      "policy": "E",
+      "cost_cny": 260,
+      "served": 99,
+      "max_hours": 6.0
+    }
+  ],
+  "stress": [
+    {
+      "policy": "A",
+      "cost_cny": 250,
+      "served": 88,
+      "max_hours": 5.8
+    },
+    {
+      "policy": "B",
+      "cost_cny": 225,
+      "served": 84,
+      "max_hours": 5.5
+    },
+    {
+      "policy": "C",
+      "cost_cny": 220,
+      "served": 87,
+      "max_hours": 8.0
+    },
+    {
+      "policy": "D",
+      "cost_cny": 255,
+      "served": 94,
+      "max_hours": 5.7
+    },
+    {
+      "policy": "E",
+      "cost_cny": 280,
+      "served": 97,
+      "max_hours": 6.5
+    }
+  ]
+}

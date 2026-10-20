@@ -1,0 +1,8 @@
+{
+  "Q1": "Y score7.2 atw.4",
+  "Q2": "Y below5/8, tieX/Y at5/8, Xabove5/8",
+  "Q3": "Y guaranteed no worse w<=1/2, X guaranteed no worse w>=5/6, interior conditional; boundary ties possible",
+  "mechanism": "dominance plus analytic nominal/interval score inequalities, not weight sampling",
+  "unnecessary": "all raw criterion pairs, all fixed-weight scores, corner table, repeated decimals/fractions and derivation",
+  "scope": "bounded inputs and preferences only, no probability/field guarantee"
+}

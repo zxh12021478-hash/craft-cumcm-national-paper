@@ -1,0 +1,5 @@
+# These frozen task excerpts retain their original final blank line for hash checks.
+input/C/problem.md whitespace=blank-at-eol,space-before-tab,-blank-at-eof
+final-input/C/problem.md whitespace=blank-at-eol,space-before-tab,-blank-at-eof
+editing-input/C/problem.md whitespace=blank-at-eol,space-before-tab,-blank-at-eof
+reader-input/R4/question.md whitespace=blank-at-eol,space-before-tab,-blank-at-eof
