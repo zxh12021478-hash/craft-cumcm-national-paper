@@ -1,0 +1,77 @@
+{
+  "input_file": "/Users/kevinzhang/Documents/ChatGPT/New project/apmcm-preparation-2026/innovation-evidence-20261020/input/case-B/runs.csv",
+  "check_scope": "fixture internal consistency only; not implementation or freeze-process verification",
+  "per_policy": {
+    "P": {
+      "days": 12,
+      "total_requests": 12000,
+      "total_served": 11280,
+      "aggregate_service_rate": 0.94,
+      "min_daily_service_rate": 0.94,
+      "max_daily_service_rate": 0.94,
+      "total_cost": 12000.0,
+      "all_complete": true,
+      "all_hard_feasible": true,
+      "all_cost_complete": true,
+      "days_below_90pct_floor": []
+    },
+    "R": {
+      "days": 12,
+      "total_requests": 12000,
+      "total_served": 11520,
+      "aggregate_service_rate": 0.96,
+      "min_daily_service_rate": 0.96,
+      "max_daily_service_rate": 0.96,
+      "total_cost": 11400.0,
+      "all_complete": true,
+      "all_hard_feasible": true,
+      "all_cost_complete": true,
+      "days_below_90pct_floor": []
+    }
+  },
+  "paired_day_level": {
+    "units": "days (n=12); requests within a day are not independent replications",
+    "cost_difference_R_minus_P": [
+      -50.0,
+      -50.0,
+      -50.0,
+      -50.0,
+      -50.0,
+      -50.0,
+      -50.0,
+      -50.0,
+      -50.0,
+      -50.0,
+      -50.0,
+      -50.0
+    ],
+    "served_difference_R_minus_P": [
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "days_R_cost_favored": 12,
+    "days_R_service_favored": 12,
+    "mean_daily_cost_diff": -50.0,
+    "sd_daily_cost_diff": 0.0,
+    "note": "zero variance -> t-statistic/CI degenerate; paper makes no significance claim"
+  },
+  "headline_totals": {
+    "P_total_cost": 12000.0,
+    "R_total_cost": 11400.0,
+    "cost_reduction_relative_to_P": 0.05,
+    "P_aggregate_service_rate": 0.94,
+    "R_aggregate_service_rate": 0.96,
+    "service_gain_percentage_points": 2.0000000000000018,
+    "both_meet_90pct_floor_every_day": true
+  }
+}

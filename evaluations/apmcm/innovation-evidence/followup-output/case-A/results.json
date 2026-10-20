@@ -1,0 +1,567 @@
+{
+  "source": "../../input/case-A/runs.csv",
+  "n_scenarios": 20,
+  "group_membership": {
+    "quiet": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08"
+    ],
+    "peak": [
+      "S09",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16"
+    ],
+    "boundary": [
+      "S17",
+      "S18",
+      "S19",
+      "S20"
+    ]
+  },
+  "cells": {
+    "B|quiet": {
+      "n_scenarios": 8,
+      "complete": 8,
+      "hard_feasible": 8,
+      "complete_cost_sum": 800.0,
+      "complete_cost_mean": 100.0,
+      "partial_logged_cost_sum": 0
+    },
+    "B|peak": {
+      "n_scenarios": 8,
+      "complete": 8,
+      "hard_feasible": 8,
+      "complete_cost_sum": 800.0,
+      "complete_cost_mean": 100.0,
+      "partial_logged_cost_sum": 0
+    },
+    "B|boundary": {
+      "n_scenarios": 4,
+      "complete": 4,
+      "hard_feasible": 4,
+      "complete_cost_sum": 400.0,
+      "complete_cost_mean": 100.0,
+      "partial_logged_cost_sum": 0
+    },
+    "T|quiet": {
+      "n_scenarios": 8,
+      "complete": 8,
+      "hard_feasible": 8,
+      "complete_cost_sum": 760.0,
+      "complete_cost_mean": 95.0,
+      "partial_logged_cost_sum": 0
+    },
+    "T|peak": {
+      "n_scenarios": 8,
+      "complete": 8,
+      "hard_feasible": 8,
+      "complete_cost_sum": 760.0,
+      "complete_cost_mean": 95.0,
+      "partial_logged_cost_sum": 0
+    },
+    "T|boundary": {
+      "n_scenarios": 4,
+      "complete": 4,
+      "hard_feasible": 4,
+      "complete_cost_sum": 380.0,
+      "complete_cost_mean": 95.0,
+      "partial_logged_cost_sum": 0
+    },
+    "TM|quiet": {
+      "n_scenarios": 8,
+      "complete": 8,
+      "hard_feasible": 8,
+      "complete_cost_sum": 640.0,
+      "complete_cost_mean": 80.0,
+      "partial_logged_cost_sum": 0
+    },
+    "TM|peak": {
+      "n_scenarios": 8,
+      "complete": 8,
+      "hard_feasible": 8,
+      "complete_cost_sum": 1040.0,
+      "complete_cost_mean": 130.0,
+      "partial_logged_cost_sum": 0
+    },
+    "TM|boundary": {
+      "n_scenarios": 4,
+      "complete": 0,
+      "hard_feasible": 0,
+      "complete_cost_sum": 0,
+      "complete_cost_mean": null,
+      "partial_logged_cost_sum": 40.0
+    }
+  },
+  "overall": {
+    "B": {
+      "n_scenarios": 20,
+      "complete": 20,
+      "hard_feasible": 20,
+      "feasible_share": 1.0,
+      "valid_cost_sum": 2000.0,
+      "valid_cost_mean": 100.0
+    },
+    "T": {
+      "n_scenarios": 20,
+      "complete": 20,
+      "hard_feasible": 20,
+      "feasible_share": 1.0,
+      "valid_cost_sum": 1900.0,
+      "valid_cost_mean": 95.0
+    },
+    "TM": {
+      "n_scenarios": 20,
+      "complete": 16,
+      "hard_feasible": 16,
+      "feasible_share": 0.8,
+      "valid_cost_sum": 1680.0,
+      "valid_cost_mean": 105.0
+    }
+  },
+  "paired": {
+    "T_vs_B": {
+      "n_paired": 20,
+      "sum_B": 2000.0,
+      "sum_T": 1900.0,
+      "n_favoring_T": 20,
+      "n_favoring_B": 0,
+      "n_ties": 0,
+      "relative_change_vs_B": -0.05,
+      "rows": [
+        {
+          "scenario": "S01",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S02",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S03",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S04",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S05",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S06",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S07",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S08",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S09",
+          "group": "peak",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S10",
+          "group": "peak",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S11",
+          "group": "peak",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S12",
+          "group": "peak",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S13",
+          "group": "peak",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S14",
+          "group": "peak",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S15",
+          "group": "peak",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S16",
+          "group": "peak",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S17",
+          "group": "boundary",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S18",
+          "group": "boundary",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S19",
+          "group": "boundary",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        },
+        {
+          "scenario": "S20",
+          "group": "boundary",
+          "B_cost": 100.0,
+          "T_cost": 95.0,
+          "diff_T_minus_B": -5.0
+        }
+      ]
+    },
+    "TM_vs_T": {
+      "n_paired": 16,
+      "sum_T": 1520.0,
+      "sum_TM": 1680.0,
+      "n_favoring_TM": 8,
+      "n_favoring_T": 8,
+      "n_ties": 0,
+      "relative_change_vs_T": 0.10526315789473684,
+      "rows": [
+        {
+          "scenario": "S01",
+          "group": "quiet",
+          "T_cost": 95.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_T": -15.0
+        },
+        {
+          "scenario": "S02",
+          "group": "quiet",
+          "T_cost": 95.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_T": -15.0
+        },
+        {
+          "scenario": "S03",
+          "group": "quiet",
+          "T_cost": 95.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_T": -15.0
+        },
+        {
+          "scenario": "S04",
+          "group": "quiet",
+          "T_cost": 95.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_T": -15.0
+        },
+        {
+          "scenario": "S05",
+          "group": "quiet",
+          "T_cost": 95.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_T": -15.0
+        },
+        {
+          "scenario": "S06",
+          "group": "quiet",
+          "T_cost": 95.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_T": -15.0
+        },
+        {
+          "scenario": "S07",
+          "group": "quiet",
+          "T_cost": 95.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_T": -15.0
+        },
+        {
+          "scenario": "S08",
+          "group": "quiet",
+          "T_cost": 95.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_T": -15.0
+        },
+        {
+          "scenario": "S09",
+          "group": "peak",
+          "T_cost": 95.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_T": 35.0
+        },
+        {
+          "scenario": "S10",
+          "group": "peak",
+          "T_cost": 95.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_T": 35.0
+        },
+        {
+          "scenario": "S11",
+          "group": "peak",
+          "T_cost": 95.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_T": 35.0
+        },
+        {
+          "scenario": "S12",
+          "group": "peak",
+          "T_cost": 95.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_T": 35.0
+        },
+        {
+          "scenario": "S13",
+          "group": "peak",
+          "T_cost": 95.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_T": 35.0
+        },
+        {
+          "scenario": "S14",
+          "group": "peak",
+          "T_cost": 95.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_T": 35.0
+        },
+        {
+          "scenario": "S15",
+          "group": "peak",
+          "T_cost": 95.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_T": 35.0
+        },
+        {
+          "scenario": "S16",
+          "group": "peak",
+          "T_cost": 95.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_T": 35.0
+        }
+      ]
+    },
+    "TM_vs_B": {
+      "n_paired": 16,
+      "sum_B": 1600.0,
+      "sum_TM": 1680.0,
+      "n_favoring_TM": 8,
+      "n_favoring_B": 8,
+      "n_ties": 0,
+      "relative_change_vs_B": 0.05,
+      "rows": [
+        {
+          "scenario": "S01",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_B": -20.0
+        },
+        {
+          "scenario": "S02",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_B": -20.0
+        },
+        {
+          "scenario": "S03",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_B": -20.0
+        },
+        {
+          "scenario": "S04",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_B": -20.0
+        },
+        {
+          "scenario": "S05",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_B": -20.0
+        },
+        {
+          "scenario": "S06",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_B": -20.0
+        },
+        {
+          "scenario": "S07",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_B": -20.0
+        },
+        {
+          "scenario": "S08",
+          "group": "quiet",
+          "B_cost": 100.0,
+          "TM_cost": 80.0,
+          "diff_TM_minus_B": -20.0
+        },
+        {
+          "scenario": "S09",
+          "group": "peak",
+          "B_cost": 100.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_B": 30.0
+        },
+        {
+          "scenario": "S10",
+          "group": "peak",
+          "B_cost": 100.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_B": 30.0
+        },
+        {
+          "scenario": "S11",
+          "group": "peak",
+          "B_cost": 100.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_B": 30.0
+        },
+        {
+          "scenario": "S12",
+          "group": "peak",
+          "B_cost": 100.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_B": 30.0
+        },
+        {
+          "scenario": "S13",
+          "group": "peak",
+          "B_cost": 100.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_B": 30.0
+        },
+        {
+          "scenario": "S14",
+          "group": "peak",
+          "B_cost": 100.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_B": 30.0
+        },
+        {
+          "scenario": "S15",
+          "group": "peak",
+          "B_cost": 100.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_B": 30.0
+        },
+        {
+          "scenario": "S16",
+          "group": "peak",
+          "B_cost": 100.0,
+          "TM_cost": 130.0,
+          "diff_TM_minus_B": 30.0
+        }
+      ]
+    }
+  },
+  "claim_checks": {
+    "quiet_only_saving_TM_vs_B": {
+      "B_sum": 800.0,
+      "TM_sum": 640.0,
+      "saving": -0.2,
+      "paper_quote": "-20% (20% saving)"
+    },
+    "peak_TM_vs_B": {
+      "B_sum": 800.0,
+      "TM_sum": 1040.0,
+      "relative_change": 0.3
+    },
+    "boundary_TM": {
+      "complete": 0,
+      "hard_feasible": 0,
+      "partial_logged_cost_sum": 40.0
+    },
+    "reliability_share_on_set": {
+      "B": 1.0,
+      "T": 1.0,
+      "TM": 0.8,
+      "paper_abstract_reports_TM": 0.9
+    },
+    "TM_aggregate_on_its_16_completed": {
+      "B_sum": 1600.0,
+      "T_sum": 1520.0,
+      "TM_sum": 1680.0,
+      "TM_vs_B_relative": 0.05,
+      "TM_vs_T_relative": 0.10526315789473684
+    },
+    "full_fixture_valid_totals": {
+      "B": 2000.0,
+      "T": 1900.0,
+      "TM": "not definable: 4 infeasible plans (partial costs only)"
+    }
+  }
+}

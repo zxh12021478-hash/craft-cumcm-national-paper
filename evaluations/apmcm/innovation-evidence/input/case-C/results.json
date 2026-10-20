@@ -1,0 +1,120 @@
+{
+  "candidates": [
+    {
+      "installed": [],
+      "normal_supply": 0,
+      "single_failure_supply": {},
+      "cost_cny": 0,
+      "feasible": false
+    },
+    {
+      "installed": [
+        "C"
+      ],
+      "normal_supply": 5,
+      "single_failure_supply": {
+        "C": 0
+      },
+      "cost_cny": 10,
+      "feasible": false
+    },
+    {
+      "installed": [
+        "B"
+      ],
+      "normal_supply": 3,
+      "single_failure_supply": {
+        "B": 0
+      },
+      "cost_cny": 5,
+      "feasible": false
+    },
+    {
+      "installed": [
+        "B",
+        "C"
+      ],
+      "normal_supply": 8,
+      "single_failure_supply": {
+        "B": 5,
+        "C": 3
+      },
+      "cost_cny": 15,
+      "feasible": true
+    },
+    {
+      "installed": [
+        "A"
+      ],
+      "normal_supply": 4,
+      "single_failure_supply": {
+        "A": 0
+      },
+      "cost_cny": 7,
+      "feasible": false
+    },
+    {
+      "installed": [
+        "A",
+        "C"
+      ],
+      "normal_supply": 9,
+      "single_failure_supply": {
+        "A": 5,
+        "C": 4
+      },
+      "cost_cny": 17,
+      "feasible": true
+    },
+    {
+      "installed": [
+        "A",
+        "B"
+      ],
+      "normal_supply": 7,
+      "single_failure_supply": {
+        "A": 3,
+        "B": 4
+      },
+      "cost_cny": 12,
+      "feasible": true
+    },
+    {
+      "installed": [
+        "A",
+        "B",
+        "C"
+      ],
+      "normal_supply": 12,
+      "single_failure_supply": {
+        "A": 8,
+        "B": 9,
+        "C": 7
+      },
+      "cost_cny": 22,
+      "feasible": true
+    }
+  ],
+  "optimal_designs": [
+    {
+      "installed": [
+        "A",
+        "B"
+      ],
+      "normal_supply": 7,
+      "single_failure_supply": {
+        "A": 3,
+        "B": 4
+      },
+      "cost_cny": 12,
+      "feasible": true
+    }
+  ],
+  "reference": [
+    "B",
+    "C"
+  ],
+  "reference_cost_cny": 15,
+  "cost_reduction": 0.2,
+  "scope": "Complete finite specified model only"
+}

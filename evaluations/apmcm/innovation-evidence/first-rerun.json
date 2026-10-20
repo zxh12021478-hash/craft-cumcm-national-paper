@@ -1,0 +1,16 @@
+[
+  {
+    "case": "case-A",
+    "raw_output_preserved": true,
+    "input_copy_identical": true,
+    "json_match_except_input_path": true,
+    "stdout": "scenarios: 20\nB: feasible 20/20 (100.0%), complete-cost sum 2000, logged-all sum 2000\nT: feasible 20/20 (100.0%), complete-cost sum 1900, logged-all sum 1900\nTM: feasible 16/20 (80.0%), complete-cost sum 1680, logged-all sum 1720\npooled feasibility: 56/60 = 0.9333\nB_vs_T: n=20 base=2000 cand=1900 saving=0.0500\nB_vs_TM: n=16 base=1600 cand=1680 saving=-0.0500\nT_vs_TM: n=16 base=1520 cand=1680 saving=-0.1053\nresults -> TEMP/output/case-A/results.json\n"
+  },
+  {
+    "case": "case-B",
+    "raw_output_preserved": true,
+    "input_copy_identical": true,
+    "json_match_except_input_path": true,
+    "stdout": "days: 12\nP: cost 12000, served 11280/12000 = 94.00%, daily min 94.00%, complete=True feasible=True\nR: cost 11400, served 11520/12000 = 96.00%, daily min 96.00%, complete=True feasible=True\ncost reduction vs P: 0.0500; service gain: 2.0 pp; floor ok: True\nR cost-favored days: 12/12\nresults -> TEMP/output/case-B/results.json\n"
+  }
+]

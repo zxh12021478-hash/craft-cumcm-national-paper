@@ -1,0 +1,212 @@
+{
+  "input_file": "/Users/kevinzhang/Documents/ChatGPT/New project/apmcm-preparation-2026/innovation-evidence-20261020/input/case-A/runs.csv",
+  "check_scope": "fixture internal consistency only; not implementation verification, not held-out validation",
+  "n_scenarios": 20,
+  "per_policy": {
+    "B": {
+      "runs": 20,
+      "complete": 20,
+      "hard_feasible": 20,
+      "complete_and_feasible": 20,
+      "feasibility_rate": 1.0,
+      "logged_cost_sum_all_rows": 2000.0,
+      "complete_cost_sum": 2000.0,
+      "incomplete_logged_costs": {}
+    },
+    "T": {
+      "runs": 20,
+      "complete": 20,
+      "hard_feasible": 20,
+      "complete_and_feasible": 20,
+      "feasibility_rate": 1.0,
+      "logged_cost_sum_all_rows": 1900.0,
+      "complete_cost_sum": 1900.0,
+      "incomplete_logged_costs": {}
+    },
+    "TM": {
+      "runs": 20,
+      "complete": 16,
+      "hard_feasible": 16,
+      "complete_and_feasible": 16,
+      "feasibility_rate": 0.8,
+      "logged_cost_sum_all_rows": 1720.0,
+      "complete_cost_sum": 1680.0,
+      "incomplete_logged_costs": {
+        "S17": 10.0,
+        "S18": 10.0,
+        "S19": 10.0,
+        "S20": 10.0
+      }
+    }
+  },
+  "pooled_feasibility": {
+    "pass_runs": 56,
+    "total_runs": 60,
+    "rate": 0.9333333333333333
+  },
+  "group_breakdown": {
+    "quiet": {
+      "B": {
+        "scenarios": 8,
+        "complete_and_feasible": 8,
+        "complete_cost_sum": 800.0,
+        "logged_cost_incomplete_sum": 0
+      },
+      "T": {
+        "scenarios": 8,
+        "complete_and_feasible": 8,
+        "complete_cost_sum": 760.0,
+        "logged_cost_incomplete_sum": 0
+      },
+      "TM": {
+        "scenarios": 8,
+        "complete_and_feasible": 8,
+        "complete_cost_sum": 640.0,
+        "logged_cost_incomplete_sum": 0
+      }
+    },
+    "peak": {
+      "B": {
+        "scenarios": 8,
+        "complete_and_feasible": 8,
+        "complete_cost_sum": 800.0,
+        "logged_cost_incomplete_sum": 0
+      },
+      "T": {
+        "scenarios": 8,
+        "complete_and_feasible": 8,
+        "complete_cost_sum": 760.0,
+        "logged_cost_incomplete_sum": 0
+      },
+      "TM": {
+        "scenarios": 8,
+        "complete_and_feasible": 8,
+        "complete_cost_sum": 1040.0,
+        "logged_cost_incomplete_sum": 0
+      }
+    },
+    "boundary": {
+      "B": {
+        "scenarios": 4,
+        "complete_and_feasible": 4,
+        "complete_cost_sum": 400.0,
+        "logged_cost_incomplete_sum": 0
+      },
+      "T": {
+        "scenarios": 4,
+        "complete_and_feasible": 4,
+        "complete_cost_sum": 380.0,
+        "logged_cost_incomplete_sum": 0
+      },
+      "TM": {
+        "scenarios": 4,
+        "complete_and_feasible": 0,
+        "complete_cost_sum": 0,
+        "logged_cost_incomplete_sum": 40.0
+      }
+    }
+  },
+  "paired_comparisons_on_common_valid_scenarios": {
+    "B_vs_T": {
+      "common_valid_scenarios": 20,
+      "common_scenario_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "base_cost": 2000.0,
+      "candidate_cost": 1900.0,
+      "candidate_relative_saving": 0.05
+    },
+    "B_vs_TM": {
+      "common_valid_scenarios": 16,
+      "common_scenario_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16"
+      ],
+      "base_cost": 1600.0,
+      "candidate_cost": 1680.0,
+      "candidate_relative_saving": -0.05
+    },
+    "T_vs_TM": {
+      "common_valid_scenarios": 16,
+      "common_scenario_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16"
+      ],
+      "base_cost": 1520.0,
+      "candidate_cost": 1680.0,
+      "candidate_relative_saving": -0.10526315789473684
+    }
+  },
+  "paper_claim_checks": {
+    "claimed_quiet_20pct_saving": {
+      "quiet_B_complete_cost": 800.0,
+      "quiet_TM_complete_cost": 640.0,
+      "quiet_TM_vs_B_saving": 0.2,
+      "scope": "arithmetic valid for the 8 quiet scenarios only; not an overall result"
+    },
+    "claimed_peak_table": {
+      "peak_B_complete_cost": 800.0,
+      "peak_TM_complete_cost": 1040.0,
+      "peak_TM_vs_B_saving": -0.3
+    },
+    "claimed_reliability_90pct": {
+      "TM_feasibility_rate": 0.8,
+      "pooled_feasibility_rate": 0.9333333333333333,
+      "matches_90pct_for_TM": false,
+      "matches_90pct_pooled": false
+    },
+    "boundary_group": {
+      "B_complete_cost": 400.0,
+      "T_complete_cost": 380.0,
+      "TM_valid_runs": 0,
+      "TM_logged_partial_cost": 40.0
+    }
+  }
+}

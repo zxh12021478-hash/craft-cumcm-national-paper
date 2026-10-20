@@ -1,0 +1,142 @@
+{
+  "A": {
+    "policy_metrics": {
+      "B": {
+        "scenarios": 20,
+        "valid": 20,
+        "valid_fraction": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "complete_valid_cost_sum_cny": {
+          "exact": "2000",
+          "decimal": 2000.0
+        },
+        "all_scenario_cost_available": true
+      },
+      "T": {
+        "scenarios": 20,
+        "valid": 20,
+        "valid_fraction": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "complete_valid_cost_sum_cny": {
+          "exact": "1900",
+          "decimal": 1900.0
+        },
+        "all_scenario_cost_available": true
+      },
+      "TM": {
+        "scenarios": 20,
+        "valid": 16,
+        "valid_fraction": {
+          "exact": "4/5",
+          "decimal": 0.8
+        },
+        "complete_valid_cost_sum_cny": {
+          "exact": "1680",
+          "decimal": 1680.0
+        },
+        "all_scenario_cost_available": false
+      }
+    },
+    "common_complete_scenarios": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16"
+    ],
+    "common_complete_costs_cny": {
+      "B": {
+        "exact": "1600",
+        "decimal": 1600.0
+      },
+      "T": {
+        "exact": "1520",
+        "decimal": 1520.0
+      },
+      "TM": {
+        "exact": "1680",
+        "decimal": 1680.0
+      }
+    },
+    "TM_cost_increase_vs_B_on_common_complete": {
+      "exact": "1/20",
+      "decimal": 0.05
+    },
+    "TM_cost_increase_vs_T_on_common_complete": {
+      "exact": "2/19",
+      "decimal": 0.10526315789473684
+    },
+    "quiet_only_saving_vs_B": {
+      "exact": "1/5",
+      "decimal": 0.2
+    },
+    "T_all_scenario_saving_vs_B": {
+      "exact": "1/20",
+      "decimal": 0.05
+    },
+    "retained_candidate": "T on the supplied 20 scenarios, subject to absent implementation verification",
+    "limits": [
+      "no independent evaluation set",
+      "unequal tuning budgets",
+      "missing M-only variant and tuning scores",
+      "failed-run partial costs cannot establish total policy cost",
+      "scenario fractions are not deployment probabilities"
+    ]
+  },
+  "B": {
+    "units": "12 paired synthetic days, not 12000 independent requests",
+    "totals": {
+      "P": {
+        "cost_cny": {
+          "exact": "12000",
+          "decimal": 12000.0
+        },
+        "service": {
+          "exact": "47/50",
+          "decimal": 0.94
+        }
+      },
+      "R": {
+        "cost_cny": {
+          "exact": "11400",
+          "decimal": 11400.0
+        },
+        "service": {
+          "exact": "24/25",
+          "decimal": 0.96
+        }
+      }
+    },
+    "relative_cost_reduction": {
+      "exact": "1/20",
+      "decimal": 0.05
+    },
+    "service_gain_percentage_points": {
+      "exact": "2",
+      "decimal": 2.0
+    },
+    "lower_cost_days": 12,
+    "retained_candidate": "R for these held-out synthetic days",
+    "limits": [
+      "source code unavailable",
+      "no field validation",
+      "no universal or probabilistic claim"
+    ]
+  },
+  "scope": "Exact arithmetic from supplied synthetic tables. Does not verify absent controllers, provenance of claimed execution logs, future performance or prizes."
+}

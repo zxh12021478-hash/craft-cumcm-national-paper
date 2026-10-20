@@ -1,0 +1,167 @@
+{
+  "source": "../../input/case-B/runs.csv",
+  "per_policy": {
+    "P": {
+      "n_days": 12,
+      "complete": 12,
+      "hard_feasible": 12,
+      "total_cost": 12000.0,
+      "mean_daily_cost": 1000.0,
+      "total_requests": 12000,
+      "total_served": 11280,
+      "aggregate_service_rate": 0.94,
+      "daily_service_min": 0.94,
+      "daily_service_max": 0.94,
+      "days_below_90pct_floor": 0
+    },
+    "R": {
+      "n_days": 12,
+      "complete": 12,
+      "hard_feasible": 12,
+      "total_cost": 11400.0,
+      "mean_daily_cost": 950.0,
+      "total_requests": 12000,
+      "total_served": 11520,
+      "aggregate_service_rate": 0.96,
+      "daily_service_min": 0.96,
+      "daily_service_max": 0.96,
+      "days_below_90pct_floor": 0
+    }
+  },
+  "paired_days": [
+    {
+      "day": "D01",
+      "cost_P": 1000.0,
+      "cost_R": 950.0,
+      "cost_diff_R_minus_P": -50.0,
+      "served_P": 940,
+      "served_R": 960,
+      "served_diff_R_minus_P": 20,
+      "both_complete_feasible": true
+    },
+    {
+      "day": "D02",
+      "cost_P": 1000.0,
+      "cost_R": 950.0,
+      "cost_diff_R_minus_P": -50.0,
+      "served_P": 940,
+      "served_R": 960,
+      "served_diff_R_minus_P": 20,
+      "both_complete_feasible": true
+    },
+    {
+      "day": "D03",
+      "cost_P": 1000.0,
+      "cost_R": 950.0,
+      "cost_diff_R_minus_P": -50.0,
+      "served_P": 940,
+      "served_R": 960,
+      "served_diff_R_minus_P": 20,
+      "both_complete_feasible": true
+    },
+    {
+      "day": "D04",
+      "cost_P": 1000.0,
+      "cost_R": 950.0,
+      "cost_diff_R_minus_P": -50.0,
+      "served_P": 940,
+      "served_R": 960,
+      "served_diff_R_minus_P": 20,
+      "both_complete_feasible": true
+    },
+    {
+      "day": "D05",
+      "cost_P": 1000.0,
+      "cost_R": 950.0,
+      "cost_diff_R_minus_P": -50.0,
+      "served_P": 940,
+      "served_R": 960,
+      "served_diff_R_minus_P": 20,
+      "both_complete_feasible": true
+    },
+    {
+      "day": "D06",
+      "cost_P": 1000.0,
+      "cost_R": 950.0,
+      "cost_diff_R_minus_P": -50.0,
+      "served_P": 940,
+      "served_R": 960,
+      "served_diff_R_minus_P": 20,
+      "both_complete_feasible": true
+    },
+    {
+      "day": "D07",
+      "cost_P": 1000.0,
+      "cost_R": 950.0,
+      "cost_diff_R_minus_P": -50.0,
+      "served_P": 940,
+      "served_R": 960,
+      "served_diff_R_minus_P": 20,
+      "both_complete_feasible": true
+    },
+    {
+      "day": "D08",
+      "cost_P": 1000.0,
+      "cost_R": 950.0,
+      "cost_diff_R_minus_P": -50.0,
+      "served_P": 940,
+      "served_R": 960,
+      "served_diff_R_minus_P": 20,
+      "both_complete_feasible": true
+    },
+    {
+      "day": "D09",
+      "cost_P": 1000.0,
+      "cost_R": 950.0,
+      "cost_diff_R_minus_P": -50.0,
+      "served_P": 940,
+      "served_R": 960,
+      "served_diff_R_minus_P": 20,
+      "both_complete_feasible": true
+    },
+    {
+      "day": "D10",
+      "cost_P": 1000.0,
+      "cost_R": 950.0,
+      "cost_diff_R_minus_P": -50.0,
+      "served_P": 940,
+      "served_R": 960,
+      "served_diff_R_minus_P": 20,
+      "both_complete_feasible": true
+    },
+    {
+      "day": "D11",
+      "cost_P": 1000.0,
+      "cost_R": 950.0,
+      "cost_diff_R_minus_P": -50.0,
+      "served_P": 940,
+      "served_R": 960,
+      "served_diff_R_minus_P": 20,
+      "both_complete_feasible": true
+    },
+    {
+      "day": "D12",
+      "cost_P": 1000.0,
+      "cost_R": 950.0,
+      "cost_diff_R_minus_P": -50.0,
+      "served_P": 940,
+      "served_R": 960,
+      "served_diff_R_minus_P": 20,
+      "both_complete_feasible": true
+    }
+  ],
+  "claim_checks": {
+    "cost_reduction_R_vs_P": 0.05,
+    "paper_quote_cost_reduction": 0.05,
+    "service_rate_P": 0.94,
+    "service_rate_R": 0.96,
+    "service_gain_percentage_points": 2.0000000000000018,
+    "paper_quote_service": "94% -> 96%, +2 pp",
+    "all_days_complete_and_feasible": true,
+    "all_days_above_floor": true,
+    "paired_days_favoring_R_cost": 12,
+    "paired_days_favoring_R_service": 12,
+    "n_evaluation_units": 12,
+    "note": "days are the evaluation units; 12,000 requests are not independent replications"
+  }
+}

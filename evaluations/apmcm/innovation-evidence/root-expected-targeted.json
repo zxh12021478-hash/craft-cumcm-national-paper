@@ -1,0 +1,12 @@
+{
+  "D": {
+    "check": "(2,4) passes all constraints, cost8. 2x+y=2(x+y)-y >=12-4=8 proves exact optimality. (1,1) invalid. No need to reduce demand or continue searching.",
+    "no_claim": "60 failed solver attempts are not an original-problem infeasibility certificate."
+  },
+  "E": {
+    "check": "Descriptive selected-policy difference is10% on supplied fixed cases; it does not isolate M because tuning budgets and parameters differ. First obtain exact P+M chosen config and code; hold backbone, parameters, cases, information and cost fixed, then compare M on/off at that config, check feasibility and complete costs.",
+    "scope": "Conditional effect at the chosen configuration only; no mandatory2x2, equal-large-budget retuning or heldout evaluation for this request. Failure of an off/on variant does not prove original problem infeasible.",
+    "limits": "Cannot invent missing implementation/config or future results."
+  },
+  "input_sha256": "47fabf8b5f7daced82c4be97010e54d55ca98d011cf9cce739a40c7a4a26f3f5"
+}

@@ -1,0 +1,3 @@
+## Summary
+
+We compare a reference storage-dispatch policy B, a retuned policy T, and its adaptive extension TM on twenty synthetic scenarios, requiring feasibility before minimizing complete operating cost. T satisfies every recorded hard constraint at a total cost of CNY 1,900, 5% below B's CNY 2,000. TM fails four boundary scenarios; even on the sixteen commonly completed scenarios, its cost is 5% higher than B's. We therefore recommend T for the specified set. Unequal tuning budgets and reuse of the selection scenarios prevent attributing the differences to the adaptive module or establishing performance on unseen cases. Implementation fidelity remains unverified because source code is unavailable.

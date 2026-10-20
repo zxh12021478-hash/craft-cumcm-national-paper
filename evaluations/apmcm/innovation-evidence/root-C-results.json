@@ -1,0 +1,15 @@
+{
+  "lower_bound_cny": 12,
+  "attaining_design": [
+    "A",
+    "B"
+  ],
+  "cost_cny": 12,
+  "normal_supply": 7,
+  "single_failure_supply": {
+    "A": 3,
+    "B": 4
+  },
+  "proof": "One module supplies at most 5 < 7, so at least two are necessary; their cost is at least 5+7=12. A+B attains this bound and passes both specified outages. All other pairs have greater cost and costs are positive, so the optimum is unique.",
+  "scope": "Exact specified mathematical model, not physical capacity validation or future reliability."
+}

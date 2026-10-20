@@ -1,0 +1,12 @@
+{
+  "C": {
+    "answer": "A+B cost12, normal7, after failures3/4; unique exact minimum for specified model",
+    "proof": "Need at least two modules because max single capacity5<7. Any pair costs at least5+7=12, attained by A+B and feasible under all specified single failures.",
+    "false_positive_controls": [
+      "Do not call same-instance optimization data leakage",
+      "Do not require held-out data or random repeats to prove this complete deterministic model",
+      "Do not withdraw exact optimality merely because field capacity is unverified",
+      "Do not call finite contingency satisfaction an empirical reliability probability"
+    ]
+  }
+}

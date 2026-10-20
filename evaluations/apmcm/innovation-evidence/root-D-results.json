@@ -1,0 +1,16 @@
+{
+  "feasible_candidate": [
+    2,
+    4
+  ],
+  "cost": 8,
+  "lower_bound": 8,
+  "proof": "2x+y=2(x+y)-y >= 2*6-4=8",
+  "optimality": "proved for declared full model",
+  "failed_candidate": [
+    1,
+    1
+  ],
+  "failed_candidate_feasible": false,
+  "relaxation_required": false
+}

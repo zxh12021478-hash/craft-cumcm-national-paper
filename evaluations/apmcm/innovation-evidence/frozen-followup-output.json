@@ -1,0 +1,19 @@
+{
+  "case-A/audit.md": "4a929fa384637b7b0453ac6a98c480bb6121d7afa4c912be074a29e5c23d6458",
+  "case-A/body-patch.md": "04a2c25a37212a51a9d46627830e33593ae96c292e99096f2b88f88bb4ce8687",
+  "case-A/next-handoff.md": "c973f6d728f65c9f77e2e868ce0cbeaebeeaeb677dac03ca32b03e28d409d543",
+  "case-A/recompute.py": "0478c767c9e987b1407d118524c029e50e8208e98e358aaa5a59c37be98f7f09",
+  "case-A/results.json": "e647dc15b48ad9b545151a2c3308b8a42c4a81bd9342674d4fd68751f5f4f9bd",
+  "case-A/summary.md": "a94fc71864dc605fc60815919112967ed7508bdb45582e0146756901be0f6ee5",
+  "case-B/audit.md": "5e80cd82cdbe83048d8843f0ee53d7b719737922d6ae8bd4fd7b5c9609ac18e2",
+  "case-B/next-handoff.md": "fc3ae2f05d127c30c74a45b9424d6553b08f964432339c58ec086cca46d29dc9",
+  "case-B/recompute.py": "e7c2c7ae46550ace7615a8d150ca32d83504dd96ec867f86771ab45db3d208d7",
+  "case-B/results.json": "cbedf4d03ed135d297476f4508bedc8ae4506dbdfd5fb676d92f172f0404cb02",
+  "case-B/summary.md": "9d19634189c11c40b498cdb25ad2a35bc1cec23b8768633432945487d7a4d189",
+  "case-C/audit.md": "619f862ba5315bd223a5f783510273b4e388502f0b8fc93ae5b343d33a0c3fbc",
+  "case-C/independent_recompute.py": "c322490f99ef6f42a537dccd2b05928a07c3d2eefec2e78aa8eb9473936d5e16",
+  "case-C/next-handoff.md": "8ca87fc52b5ac2f7e792ef6ca4072ea370b2f3ffae40d7e6d8b198c24811a5de",
+  "case-C/reproduced_results.json": "2f5c394eb22023832d0a2002dfe6ea44e1af5bcb0a6ba831f156f6e10b703a73",
+  "case-C/results.json": "d89b67375701ec117701dc2e38638be9694e112d6e2ab14cbb36db4cd8267c02",
+  "case-C/summary.md": "427e338c7b5ec19789fdcc664cf31482f7907d091b69509e4414948c932465e4"
+}

@@ -1,0 +1,227 @@
+{
+  "independent_evaluations": [
+    {
+      "design": [],
+      "normal_supply": 0,
+      "residual_after_failure": {},
+      "cost": 0,
+      "normal_ok": false,
+      "contingency_ok": true,
+      "feasible": false
+    },
+    {
+      "design": [
+        "A"
+      ],
+      "normal_supply": 4,
+      "residual_after_failure": {
+        "A": 0
+      },
+      "cost": 7,
+      "normal_ok": false,
+      "contingency_ok": false,
+      "feasible": false
+    },
+    {
+      "design": [
+        "B"
+      ],
+      "normal_supply": 3,
+      "residual_after_failure": {
+        "B": 0
+      },
+      "cost": 5,
+      "normal_ok": false,
+      "contingency_ok": false,
+      "feasible": false
+    },
+    {
+      "design": [
+        "A",
+        "B"
+      ],
+      "normal_supply": 7,
+      "residual_after_failure": {
+        "A": 3,
+        "B": 4
+      },
+      "cost": 12,
+      "normal_ok": true,
+      "contingency_ok": true,
+      "feasible": true
+    },
+    {
+      "design": [
+        "C"
+      ],
+      "normal_supply": 5,
+      "residual_after_failure": {
+        "C": 0
+      },
+      "cost": 10,
+      "normal_ok": false,
+      "contingency_ok": false,
+      "feasible": false
+    },
+    {
+      "design": [
+        "A",
+        "C"
+      ],
+      "normal_supply": 9,
+      "residual_after_failure": {
+        "A": 5,
+        "C": 4
+      },
+      "cost": 17,
+      "normal_ok": true,
+      "contingency_ok": true,
+      "feasible": true
+    },
+    {
+      "design": [
+        "B",
+        "C"
+      ],
+      "normal_supply": 8,
+      "residual_after_failure": {
+        "B": 5,
+        "C": 3
+      },
+      "cost": 15,
+      "normal_ok": true,
+      "contingency_ok": true,
+      "feasible": true
+    },
+    {
+      "design": [
+        "A",
+        "B",
+        "C"
+      ],
+      "normal_supply": 12,
+      "residual_after_failure": {
+        "A": 8,
+        "B": 9,
+        "C": 7
+      },
+      "cost": 22,
+      "normal_ok": true,
+      "contingency_ok": true,
+      "feasible": true
+    }
+  ],
+  "claim_checks": {
+    "n_candidates": 8,
+    "paper_quote_n_candidates": 8,
+    "n_feasible": 4,
+    "feasible_designs_costs": [
+      {
+        "design": [
+          "A",
+          "B"
+        ],
+        "cost": 12,
+        "normal_supply": 7,
+        "residual": {
+          "A": 3,
+          "B": 4
+        }
+      },
+      {
+        "design": [
+          "B",
+          "C"
+        ],
+        "cost": 15,
+        "normal_supply": 8,
+        "residual": {
+          "B": 5,
+          "C": 3
+        }
+      },
+      {
+        "design": [
+          "A",
+          "C"
+        ],
+        "cost": 17,
+        "normal_supply": 9,
+        "residual": {
+          "A": 5,
+          "C": 4
+        }
+      },
+      {
+        "design": [
+          "A",
+          "B",
+          "C"
+        ],
+        "cost": 22,
+        "normal_supply": 12,
+        "residual": {
+          "A": 8,
+          "B": 9,
+          "C": 7
+        }
+      }
+    ],
+    "paper_quote_feasible": "A+B 12, B+C 15, A+C 17, A+B+C 22",
+    "optimum_design": [
+      "A",
+      "B"
+    ],
+    "optimum_cost": 12,
+    "unique_optimum": true,
+    "Q2_optimum_residual": {
+      "A": 3,
+      "B": 4
+    },
+    "Q2_paper_quote": "A fails -> B = 3; B fails -> A = 4",
+    "reference_design": [
+      "B",
+      "C"
+    ],
+    "reference_cost": 15,
+    "reference_reduction": 0.2,
+    "paper_quote_reduction": 0.2,
+    "rows_mismatch_vs_original_results": [],
+    "analytic_lower_bound_certificate": {
+      "designs_costing_below_12": [
+        {
+          "design": [],
+          "cost": 0,
+          "normal_supply": 0,
+          "feasible": false
+        },
+        {
+          "design": [
+            "A"
+          ],
+          "cost": 7,
+          "normal_supply": 4,
+          "feasible": false
+        },
+        {
+          "design": [
+            "B"
+          ],
+          "cost": 5,
+          "normal_supply": 3,
+          "feasible": false
+        },
+        {
+          "design": [
+            "C"
+          ],
+          "cost": 10,
+          "normal_supply": 5,
+          "feasible": false
+        }
+      ],
+      "any_feasible": false,
+      "argument": "No design costing < 12 is feasible, so no feasible design can beat cost 12."
+    }
+  }
+}

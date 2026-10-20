@@ -1,0 +1,70 @@
+{
+  "status": "completed with explicit remaining Summary compression gap",
+  "task_ids": [
+    "38448325283503106",
+    "38448273771507458",
+    "38448154070256386"
+  ],
+  "inputs_immutable": true,
+  "final_candidate": {
+    "SKILL.md": "3536b21604afd7658ee4712d994944afb9b506cc9138b08b9a36e4f58fd9cd1e",
+    "agents/openai.yaml": "cf869e912c5a5b8a1f4ac56de841def7958ad6110d42472e8dfaec8bc4a88edc",
+    "assets/modex-return.md": "09d13461942c3cf6c4002ba340a2fd174d856aad2b82ac52877b4e103c7d7e6f",
+    "assets/paper-template.md": "36d7aa792b36360a582cc25a4dfaf4813480d092630245d1e1cd812b640d0ff4",
+    "assets/rules-2026.json": "84ae7c7f72238cc73d46c516d137072029a644ad064fbe3e836d8755d8705521",
+    "assets/strategy-handoff.md": "efcacd67a0c5fb489698d56f97a981285d236902b957f13d4dbf06a90ee33db3",
+    "references/abstract-priority.md": "5d10e6e7ed63703feb024321fc5d48235bb14e9ad90fc9a627f68f4903662c76",
+    "references/bundle-contract.md": "0259a3200c6fd77690b25d014fb71f779123a98164de178f15a5621340e722ef",
+    "references/english-audit.md": "365aa2ac10bf0a1c5ce5714c54e6c58b48422142e9ff80a9906e1a0d19a905f1",
+    "references/exemplar-decisions.md": "c9c0a44ba705456ee18a751020e81c4ead10985b5ebad60a208b599a5ad7b4b3",
+    "references/forecast-information.md": "866d1780aed0b3ca686b62534bf15dfc52ce3a78674da9975a6abf09f5b21c1c",
+    "references/image-geometry.md": "c09ca2e72d6545543455e2c6933510eb832fe17434e0dceff5477891c03097cd",
+    "references/judging-priorities.md": "f0f69ddac34a1b7f6055ff5c43ff8d1cfb9eaef42d3ef58a1fdc29ca8621a4a4",
+    "references/modex-handoff.md": "f68bbcab6fa7147fe0de896949813ae74f70819f28ffba9645518613ed1d970b",
+    "references/physical-validation.md": "22a7047c5c7ea094ef0ee116e611b6f0634aaf656ff8fdd0e464c28c893e485f",
+    "references/polishing-examples.md": "f6adffb251cf506e5cb87cfdc7b7ac17fdfa9007df2f703c4c75101fd65b4c5c",
+    "references/quick-strategy.md": "6a43ec669b82aadbd6c5aa846e4941cd27def6a09157523e7c2d1d9d7bbbef0d",
+    "references/rehearsal.md": "211533704ba27602ea378260b006b3ecfa9703a4f385151fa609ceff0f6acef0",
+    "references/review-reuse.md": "e88e6c75ae5adea9b328ba54e5b64790da0571bcaf5be2396f0888a5d4a73895",
+    "references/route-challenge.md": "56fc07094590dde2798eeea39daa0485aa6f32bbdc7c654594dd708a130da60e",
+    "references/rules-2026.md": "92bf46406761b714cfe87be7595780d461554eb93afbec2cb995f1e3f249d58d",
+    "references/solver-review.md": "8d3eb690f279481f5c20ae81ecab3f1e80ddf41e9985f699a5283268c216af5c",
+    "references/task-families.md": "8f0683c88cedd712c8da6a5a3893491ea0c1b4d8505c55d3f71f32450b3bb6eb",
+    "references/terminology.md": "7ee3946d37f78fecd778b965b7c2497cceb6f90aa34718e365cea199af127553",
+    "scripts/audit_bundle.py": "231073c66768baae168cb888bf3dd5c7b689b68c8cdd46a1d8e3af2900fb8a99",
+    "scripts/check_information.py": "d71dd1d6ae0d32feaa8401bb30dbbd90670d19adb68b3b856f5d410a1771ed8e",
+    "scripts/check_linear_solution.py": "9c63d3b13630c5e5d3030d51e6e7a3b458b6ee64c58df6388314f1a6f4b05e3e",
+    "scripts/context_cache.py": "0d40f445acd155875070090a8a70efb7df7fc218f90d673457d55760a9aa5b76",
+    "scripts/package_bundle.py": "dc7761b70638cc5bb679b496243cb50ad7749fa64261bc07671ce7e975d57e03",
+    "tests/test_context_cache.py": "4fa80ae01cbc6232183d897808236c3200f47dea770c12dd0b7ecb1ed2ed188c",
+    "tests/test_independent_negative.py": "62b9b2a59e0affb0ab9bccb412261718497f08073a99c6fdf5bf359e8105a23e",
+    "tests/test_information.py": "6047b9636690f09c1335c1636e07b8d9ab14c396fa1bf939f68ea5064a61ee85",
+    "tests/test_linear_solution.py": "eeb0c25dca7928bf03c0e9ded3136e2369abdbc441e4572a0106e840866c2684",
+    "tests/test_review_impact.py": "147accd1a335055fdd4cc9b1b18fc04c6b3e97f51f2f5ba3c72e2c57438f1370"
+  },
+  "targeted_output": {
+    "decision-D.md": "660e434b75198918dafdb7bdfcba31f1da0d1a9d2e4f61ef309fb9131019281f",
+    "decision-E.md": "e173db3fd9097b1fcda9c591cf418177fcec1635b292f4c17344ea33a0bbea45",
+    "note-C.md": "24de612440df9f875a5f41f23c845b4c2f6770df20245131c41044af3dba3afa",
+    "summary-C.md": "1d569d317263d224885a13ffc17db35689ef3c7bd2f6ae0706ba9b4485054edd"
+  },
+  "checks": {
+    "APMCM_script_tests": 40,
+    "skill_structure": "pass",
+    "source_install_byte_match_files": 34,
+    "new_runtime_dependencies": 0,
+    "paid_Modex_calls": 0,
+    "D_early_stop_and_exact_bound": "pass",
+    "E_conditional_module_design": "pass; English feasibility branch remains more conservative than Chinese branch",
+    "C_mathematical_solution": "pass",
+    "C_executor_Summary_compression": "not passed; root-edited examples not independently re-read"
+  },
+  "limits": [
+    "No actual Modex round trip",
+    "No full official-problem generalization",
+    "No empirical physical validation",
+    "No measured token or monetary saving",
+    "No prize probability"
+  ],
+  "cumcm_core": "unchanged; original102 tests not rerun this cycle"
+}

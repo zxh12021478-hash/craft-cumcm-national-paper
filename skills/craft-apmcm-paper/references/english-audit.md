@@ -17,6 +17,8 @@ Prioritize answer-changing errors and missing tasks, then unsupported evidence/u
 3. **English and visuals:** check equation symbols against prose; figure axes, legends, colorbars, units and caption numbers against source tables; abstract and conclusion against results. Read every rendered PDF page. Flag unfinished placeholders or internal workflow instructions accidentally left in the paper; do not blanket-reject legitimate filenames/paths in required code appendices or reproducibility notes. Automated text matching cannot inspect text baked into an image. Review numerical precision and rounding; never replace 'up to' with 'on average' or 'best among candidates' with 'optimal'.
 4. **Decision value:** assess baseline fairness, ablation, sensitivity and failure regimes. Explain why the recommended model or design is preferable given the evidence and uncertainty. Repair evidence first, then prose. Log unresolved issues and avoid asserting what was not reproduced.
 
+When further computation is justified, use `route-challenge.md` to choose the next decision-changing check and its stop condition. Distinguish a valid comparison on the specified instances from attribution to a module and generalization to unseen cases. Keep stronger optional claims optional; do not turn an audit into an unconditional retuning/ablation/held-out experiment chain or require extra experiments before reporting an already supported, limited result.
+
 ## Cross-equation and experiment checks
 
 For prize-focused review use `judging-priorities.md` as historical evidence checks, not an official numeric rubric. Do not exempt a cited winning paper from scrutiny. For image/metrology claims use `image-geometry.md` to separate subpixel repeatability from calibrated physical accuracy.

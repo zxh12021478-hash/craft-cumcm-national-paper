@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "A_T_cost": true,
+    "A_TM_feasible_share": true,
+    "A_common_cost_direction": true,
+    "B_cost_reduction": true,
+    "B_service_pp": true
+  },
+  "first_pass_semantics": {
+    "A_core_errors_and_recommendation": "caught; T retained, M contribution not established",
+    "B_correct_control": "retained without requiring extra experiments for descriptive report",
+    "remaining_failures": [
+      "Summary replays invalid original claims and repeats multiple cost/service presentations",
+      "B Summary adds per-day difference and total served counts absent from reported body without a body patch",
+      "A next-handoff lists an experiment chain with no explicit immediate stop at the first failed feasibility check",
+      "B optional expansion gate treats positive CI lower bound and zero observed failures as sufficient to expand recommendation; fallback nonnormal-to-Wilcoxon lacks its own assumptions"
+    ]
+  },
+  "not_claimed": [
+    "full controller or field validation",
+    "actual Modex compatibility",
+    "prize probability",
+    "measured quota savings",
+    "paired causal effect of revised instructions"
+  ]
+}

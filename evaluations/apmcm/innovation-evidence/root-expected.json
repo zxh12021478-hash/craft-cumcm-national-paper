@@ -1,0 +1,32 @@
+{
+  "A": {
+    "recommendation": "T for supplied scenarios, conditional on implementation fidelity",
+    "material_issues": [
+      "failed TM runs and incomplete costs excluded",
+      "quiet-only improvement is not aggregate benefit",
+      "tuning budget and missing ablation confound mechanism attribution",
+      "same scenarios used for selection and evaluation",
+      "80% descriptive feasible share, not 90% or deployment probability"
+    ],
+    "correct_controls": [
+      "all policies have the same dispatch-time information; do not invent future-data leakage",
+      "quiet-only 20% is arithmetically valid for that subset",
+      "no global-optimality assertion was made"
+    ]
+  },
+  "B": {
+    "retain": [
+      "5% total-cost reduction on 12 held-out synthetic days",
+      "2 percentage-point service gain",
+      "each daily service floor met",
+      "R recommended over P for these tested days"
+    ],
+    "avoid": [
+      "12000 independent evaluation replicates",
+      "require significance or more samples before honest descriptive report",
+      "invent leakage despite declared frozen configuration",
+      "claim source code or field validation completed"
+    ]
+  },
+  "limits": "Synthetic development fixture; exact arithmetic does not authenticate execution provenance or absent source code."
+}
