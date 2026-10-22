@@ -1,0 +1,20 @@
+{
+  "doubao_conversation": "38448155411751938",
+  "title": "APMCM技能制作期试用要求",
+  "scope": "Single continuing conversation; candidate regression shares prior context, not blind or independent AI review.",
+  "stages": [
+    {
+      "stage": "initialproducer",
+      "UI_elapsed": "15m8s",
+      "outcome": "interrupted to close development scope; three probe outputs retained, no handoff then"
+    },
+    {
+      "stage": "scopeclosure",
+      "UI_elapsed": "7m16s",
+      "outcome": "handoff,requirements,exposure frozen; no bug answers supplied before baseline closure"
+    }
+  ],
+  "paid_Modex_calls": 0,
+  "billing": "not measured",
+  "new_windows_after_user_preference": 0
+}

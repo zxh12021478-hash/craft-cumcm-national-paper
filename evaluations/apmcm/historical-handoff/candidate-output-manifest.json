@@ -1,0 +1,16 @@
+{
+  "scope": "File snapshot reviewed by root; nativeUI completion could not be checked afterMaclocked. Same-conversation regression, not blind. Outputs contain rejected claims; do not treat as acceptedhandoff.",
+  "files": {
+    "audit.md": "05896912f7990a4b802dd431f06d47c5ee965df65a842c1e2b8265516e5077d2",
+    "fixes/check_t1_common_window_bic.py": "03f6d0a324d49ab0cd802d8d245410f112ae5f8c0615fb453bfef4181b21c572",
+    "fixes/check_t2_integer_grid.py": "482ffe6652b5bb47a136565a962f38b2088ba67c6f1a702dce3db2c128b1e424",
+    "fixes/check_t3_gate24.py": "0287d396dfdcd4814dce4fa85b2a40fab8e028d4bb957bbd01eaba70108cf265",
+    "fixes/t1_common_window_bic.json": "ef2250cebac1ad670134fd776a9305bf702e3f39737db68372259715b1783135",
+    "fixes/t1_common_window_bic.log": "0bad6c77e91ade027328f8e04f86e728247317ca88fa20a536bc5b4f179cef7e",
+    "fixes/t2_integer_grid.json": "80169f18aff610f830458a39fb783a1a259f62c0ae1eebd7fe79f4ce78b0e306",
+    "fixes/t2_integer_grid.log": "7a44166133c7d7de4dd93909062ba6502c4b00446c7914923b8f6bf9a7177b30",
+    "fixes/t3_gate24.json": "8ec4bb125271193c7b3f026c4e61ba38d220a8351cd59767f19f25bdc1838f6f",
+    "fixes/t3_gate24.log": "2ad5659a0a5c6ca0024a723869e3c6cc08d7e74fb412e03852f102900034ef66",
+    "revised-handoff.md": "bfbea18d7066e36b4d56e00cb47754eb09f5a8543051354f317f83e238c395d2"
+  }
+}

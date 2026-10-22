@@ -1,0 +1,19 @@
+{
+  "scope": "Hashes of14frozenproducerfiles. Publicpackageincludesownprobe code/results; fullhandoff/requirements/exposure are private to avoid redistributing question excerpts, rawbrowserdata or fullmachinecontext.",
+  "files": {
+    "exposure.json": "9adc8fc3af0171d70bb402067d017900414d6a9f609fb19232ee3a16605f83d0",
+    "handoff.md": "46d9a4576b498dfbb0285b08b1e5dea8a148038ba8e7addd6f353ff6e75250d5",
+    "probes/probe_task1_ar.py": "17a81639e36c715e0878550c49d1f97134ec6d4e3971addbfffc0fea03a371c0",
+    "probes/probe_task2_svm.py": "c42f445b9e7d91d2345df93a3d3dcbce6c91953cb72e4d9c317fd4d080dbbe0d",
+    "probes/probe_task3_bnn.py": "a970d2434a366aab098a3ea9dbdaf40aa40c4e86722e446d9780a5d4b1799ba0",
+    "probes/qubo_sa.py": "26a2154fdd17c058ff8d54d1ddb85fd1ff14ded2b2146b7f2ea8f75459870566",
+    "probes/results/task1_probe.json": "878ab5ba384aaecc197d3b4bf117db26dd89837a1c6f4626b4ace75f15b72dba",
+    "probes/results/task1_run.log": "06f70e7a69252fe397aa0757bed3867345f47e8f7f47bf84b6cd9cc9ce93f851",
+    "probes/results/task2_probe.json": "f2b750d698da724b6217de035d834797bb2286ecc899e6e42eb94cfa978db715",
+    "probes/results/task2_run.log": "38729b95346bf2f5b44904e3f59b7806eb2523a1ff03a0af4d6f242b9e59e67a",
+    "probes/results/task3_diagnostic.log": "af407e13b71a35c686eab4d53cd026c5179458739a13a3abb7548dafc4bd9abd",
+    "probes/results/task3_probe.json": "825459b10f00fb5d3bebd103ffd9b873ce6df19a80f7ee419ce7966bba4020bd",
+    "probes/results/task3_run.log": "27e100f0460909bf85e6a11d5364b4b13a5baed8d5f28650b54df6f2ead2a5e0",
+    "requirements.json": "b559180b93969a6113e3f7c144c985164507793cc7971a94bbb5f41f8ce93c25"
+  }
+}

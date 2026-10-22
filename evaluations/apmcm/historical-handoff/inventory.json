@@ -1,0 +1,38 @@
+[
+  {
+    "file": "2024 APMCM Problem D.pdf",
+    "sha256": "e2ea8d3e4da5cfe17c98752f68e89d74f6b898375f026b18e776ff5513bb3b28",
+    "pages": 4,
+    "chars": 6572
+  },
+  {
+    "file": "Attachment 1.pdf",
+    "sha256": "64093692f10ed56d3b26c27849a24c6c4346645ba50805e9343c2cc949f85e6f",
+    "pages": 14,
+    "chars": 61250
+  },
+  {
+    "file": "Attachment 2.pdf",
+    "sha256": "82b14205eed92fdcdf76ff9205716993ea01bda1bf3321b965818449532573f7",
+    "pages": 46,
+    "chars": 95268
+  },
+  {
+    "file": "Attachment 3.pdf",
+    "sha256": "19a5f2e01ae02b9aa81b75c9d8a69df5b535acc9b8c897d2c7c62469aa31a9ee",
+    "pages": 8,
+    "chars": 36713
+  },
+  {
+    "file": "Attachment 4.pdf",
+    "sha256": "a4bb63464ca0f8406fac806f90ebf8965a106911ae92797f46e0aa33d369cb0f",
+    "pages": 6,
+    "chars": 28506
+  },
+  {
+    "file": "Attachment 5.pdf",
+    "sha256": "4d3d11ab1fd172ad1972cb7d055d20f967929fd409110cb342a9c902c04cc772",
+    "pages": 7,
+    "chars": 30387
+  }
+]

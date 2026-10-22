@@ -1,0 +1,208 @@
+{
+  "scope": "Small exhaustive algebra checks against original objectives plus deterministic counterexamples; no full-data SA rerun or SDK execution",
+  "algebra": {
+    "AR_assignments": 64,
+    "AR_max_error": 7.105427357601002e-15,
+    "SVM_assignments": 64,
+    "SVM_max_error": 8.881784197001252e-16,
+    "binary_head_assignments": 16,
+    "binary_head_max_error": 3.552713678800501e-15,
+    "upper_vs_symmetric_max_error": 7.105427357601002e-15
+  },
+  "prediction_label_leak": {
+    "source": "probe_task2_svm.py: Kall uses Xp selected by y_all; only votes[idx] updated",
+    "frozen_pair_winners": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        2
+      ]
+    ],
+    "labels_first": [
+      0,
+      1,
+      2
+    ],
+    "predictions_first": [
+      0,
+      1,
+      0
+    ],
+    "labels_changed_only": [
+      0,
+      0,
+      0
+    ],
+    "predictions_after_label_change": [
+      0,
+      0,
+      0
+    ],
+    "correct_all_pairs_predictions": [
+      0,
+      0,
+      0
+    ],
+    "consequence": "Withdraw original full_corpus_vote_acc; even an in-sample label does not excuse label-dependent prediction. Original aggregate outputs cannot recover corrected accuracy without models/predictions."
+  },
+  "equality_acceptance": {
+    "one_LSB_exact": "1/15",
+    "one_LSB_is_zero": false,
+    "original_rows_marked_acceptable_despite_nonzero_residual": [
+      {
+        "kind": "rbf",
+        "n_train": 40,
+        "bits": 160,
+        "P": 1.0,
+        "resid": 0.06667,
+        "resid_in_lsb": true,
+        "alpha_nonzero": 11,
+        "acc_qubo": 1.0,
+        "acc_sklearn": 1.0,
+        "delta": 0.06667
+      }
+    ],
+    "consequence": "Discretization resolution is not equality-feasibility tolerance; integer signed bit-sums can be checked exactly on this shared grid."
+  },
+  "failed_head_route": {
+    "source_status": "Original producer numerical outputs read, not independently rerun",
+    "binary_accuracy": 0.1335,
+    "random_median": 0.1129,
+    "random_max": 0.1491,
+    "continuous_head_accuracy": 0.9588,
+    "consequence": "Does not approach continuous head. Do not describe route as validated or improved; future fallback still needs a check."
+  },
+  "learned_scale_quadratization": {
+    "tiny_loss": "(beta*(w1+2*w2)-1)^2; beta=1+u+2v, wi=2bi-1",
+    "Boolean_assignments": 16,
+    "highest_degree": 4,
+    "quartic_coefficient": 64,
+    "consequence": "Adding jointly learned beta does not preserve QUBO. Count beta and any reduction variables; fixed scaling or a derived quadratic alternative is different."
+  },
+  "AR_common_response_window": {
+    "source_issue": "Original BIC rows use8/7/6responses for p1/2/3; raw ranks not same-response likelihood comparisons",
+    "recomputed_same6responses": {
+      "1": {
+        "n": 6,
+        "k": 2,
+        "SSE": 0.034098665448790255,
+        "conditional_BIC": -27.438020068057988
+      },
+      "2": {
+        "n": 6,
+        "k": 3,
+        "SSE": 0.03353396297588198,
+        "conditional_BIC": -25.74645760894893
+      },
+      "3": {
+        "n": 6,
+        "k": 4,
+        "SSE": 0.029114869289370807,
+        "conditional_BIC": -24.80255651743517
+      }
+    },
+    "boundary": "Conditional-model comparison only, tiny9pointseries; no predictive accuracy or unique correct order claim"
+  },
+  "candidate_regression_findings": {
+    "AND_truth_table": [
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "valid": true,
+        "candidate_penalty": 0,
+        "corrected_penalty": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "valid": false,
+        "candidate_penalty": 1,
+        "corrected_penalty": 3
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "z": 0,
+        "valid": true,
+        "candidate_penalty": 0,
+        "corrected_penalty": 0
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "z": 1,
+        "valid": false,
+        "candidate_penalty": 0,
+        "corrected_penalty": 1
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "z": 0,
+        "valid": true,
+        "candidate_penalty": 0,
+        "corrected_penalty": 0
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "z": 1,
+        "valid": false,
+        "candidate_penalty": 0,
+        "corrected_penalty": 1
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "z": 0,
+        "valid": false,
+        "candidate_penalty": 1,
+        "corrected_penalty": 1
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "z": 1,
+        "valid": true,
+        "candidate_penalty": 0,
+        "corrected_penalty": 0
+      }
+    ],
+    "invalid_zero_penalty_rows": [
+      {
+        "x": 0,
+        "y": 1,
+        "z": 1,
+        "valid": false,
+        "candidate_penalty": 0,
+        "corrected_penalty": 1
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "z": 1,
+        "valid": false,
+        "candidate_penalty": 0,
+        "corrected_penalty": 1
+      }
+    ],
+    "OVO": "All3pair classifiers must evaluate every3-class test sample; candidate's2voteprotocol still requires knowing its true class",
+    "split_counts": "150Iris samples,30test/class leaves20train/class; a pair has40trainrows, not60or70. K4 gives160bits.",
+    "causal_scope": "Candidate's0.9611 result changed classes10->2, features72->16, pooling/filtercount, thresholdrange, sampling and solver as well as normalization. It does not isolate normalization as cause.",
+    "invariance_scope": "Candidate code repeats acc(Xte,ste) with identical inputs; its true boolean does not document a label permutation/hiding experiment"
+  },
+  "SDK": "Not executed; generic local NumPy SA is not Kaiwu SA, and neither alone establishes hardware advantage",
+  "passed_algebra_only": true
+}

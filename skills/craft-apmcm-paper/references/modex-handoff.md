@@ -8,6 +8,8 @@ Use `assets/strategy-handoff.md` and attach `assets/modex-return.md` as the retu
 
 Mark which conclusions are supported and which remain hypotheses. When validation rejects a recommendation, include the failed evidence and withdraw the claim before writing. A polished abstract cannot resolve a physical discrepancy. Do not convert simulated gains to measured gains, finite-set minima to unrestricted optima, or held-in calibration to held-out validation.
 
+Keep original requirements distinct from chosen implementation and local acceptance criteria. A bit width, model order, kernel, restart count or performance threshold chosen for the route is not an organizer requirement. Preserve its rationale and revisability without rewriting the frozen original question; a fallback must still cover that question.
+
 Suggested drafting request:
 
 > Implement the recommended route and produce the complete English initial manuscript, executable code, machine-readable results, source figures and reproducibility instructions. Cover every problem requirement. Run the baseline and planned validation; distinguish actual runs from unfinished work. Preserve supplied facts and the scope of existing evidence. Explain consequential departures from the proposed route. Cite only verified sources; do not invent values, experiments or validation. Flag unresolved gaps. Return traceable equation, figure, table and claim identifiers so the skill can audit the actual artifacts.

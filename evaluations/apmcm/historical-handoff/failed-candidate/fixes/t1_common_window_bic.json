@@ -1,0 +1,74 @@
+{
+  "common_response_indices_1based": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "n_common": 6,
+  "bic_formula": "n*ln(SSE/n)+k*ln(n)",
+  "orders": {
+    "1": {
+      "k": 2,
+      "sse_scaled": 0.03409867,
+      "bic_common_window": -27.438,
+      "aic_common_window": -27.0215,
+      "theta_scaled_common_fit": [
+        1.250587,
+        0.892003
+      ]
+    },
+    "2": {
+      "k": 3,
+      "sse_scaled": 0.03353396,
+      "bic_common_window": -25.7465,
+      "aic_common_window": -25.1217,
+      "theta_scaled_common_fit": [
+        1.22817,
+        0.75983,
+        0.136931
+      ]
+    },
+    "3": {
+      "k": 4,
+      "sse_scaled": 0.02911487,
+      "bic_common_window": -24.8026,
+      "aic_common_window": -23.9696,
+      "theta_scaled_common_fit": [
+        1.80258,
+        0.717696,
+        -0.159682,
+        0.287649
+      ]
+    }
+  },
+  "max_sample_final_fits_ols": {
+    "1": {
+      "theta_max_sample": [
+        1.74628,
+        0.842615
+      ],
+      "oct_forecast_ols": 10667.891
+    },
+    "2": {
+      "theta_max_sample": [
+        1.196229,
+        0.744848,
+        0.155393
+      ],
+      "oct_forecast_ols": 10716.18
+    },
+    "3": {
+      "theta_max_sample": [
+        1.80258,
+        0.717696,
+        -0.159682,
+        0.287649
+      ],
+      "oct_forecast_ols": 10688.344
+    }
+  },
+  "note": "Selection is restricted to common-window BIC above; final fit per p uses all usable observations and is not an order-selection statistic."
+}

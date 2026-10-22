@@ -1,0 +1,14 @@
+=== Task 2 SVM-QUBO probe ===
+linear P=    0.1 bits=160 resid=+0.2667 lsbOK=False nSV=  3 accQ=1.000 accSK=1.000
+linear P=    1.0 bits=160 resid=+0.0667 lsbOK=False nSV=  4 accQ=1.000 accSK=1.000
+linear P=   10.0 bits=160 resid=+0.0000 lsbOK=True nSV=  7 accQ=1.000 accSK=1.000
+linear P=  100.0 bits=160 resid=+0.0000 lsbOK=True nSV=  9 accQ=1.000 accSK=1.000
+linear P= 1000.0 bits=160 resid=-0.0000 lsbOK=True nSV= 19 accQ=1.000 accSK=1.000
+rbf    P=    0.1 bits=160 resid=+0.3333 lsbOK=False nSV= 12 accQ=1.000 accSK=1.000
+rbf    P=    1.0 bits=160 resid=+0.0667 lsbOK=True nSV= 11 accQ=1.000 accSK=1.000
+rbf    P=   10.0 bits=160 resid=-0.0000 lsbOK=True nSV= 20 accQ=1.000 accSK=1.000
+rbf    P=  100.0 bits=160 resid=+0.0000 lsbOK=True nSV= 27 accQ=1.000 accSK=1.000
+rbf    P= 1000.0 bits=160 resid=-0.0000 lsbOK=True nSV= 33 accQ=1.000 accSK=1.000
+bit budget: {'n100_K3': 300, 'n100_K4': 400, 'n100_K5': 500, 'n150_K3': 450, 'n150_K4': 600, 'n150_K5': 750}
+OvO: {'linear': {'bits_per_pair': 240, 'pair_heldout_acc': [1.0, 1.0, 0.975], 'full_corpus_vote_acc': 0.9933}, 'rbf': {'bits_per_pair': 240, 'pair_heldout_acc': [1.0, 1.0, 0.925], 'full_corpus_vote_acc': 0.9733}}
+sklearn rbf full in-sample: 0.9733

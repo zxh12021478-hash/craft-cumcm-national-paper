@@ -1,0 +1,7 @@
+common window (1-based t): [4, 5, 6, 7, 8, 9]
+p=1 k=2 SSE=0.034099 BIC=-27.438 AIC=-27.0215
+p=2 k=3 SSE=0.033534 BIC=-25.7465 AIC=-25.1217
+p=3 k=4 SSE=0.029115 BIC=-24.8026 AIC=-23.9696
+max-sample OLS p=1 Oct=10667.891
+max-sample OLS p=2 Oct=10716.18
+max-sample OLS p=3 Oct=10688.344

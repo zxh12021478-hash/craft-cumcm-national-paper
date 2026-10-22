@@ -1,0 +1,65 @@
+{
+  "frozen_before_producer_outcome": true,
+  "question_visual_check": "All4originalquestionpagesrendered/read; table values and AR equation checked againstPDF, not extraction alone.",
+  "requirements": [
+    {
+      "id": "T1",
+      "must": [
+        "AR model",
+        "explicit QUBO objective and binary decisions",
+        "Kaiwu SDK simulated annealing solve",
+        "October demand forecast"
+      ],
+      "given_demand": [
+        9000,
+        9400,
+        9594,
+        9859,
+        9958,
+        10043,
+        10309,
+        10512,
+        10588
+      ]
+    },
+    {
+      "id": "T2",
+      "must": [
+        "Iris150samples4features3classes",
+        "SVM model to explicit QUBO",
+        "Kaiwu SDK simulated annealing solve"
+      ]
+    },
+    {
+      "id": "T3",
+      "must": [
+        "selected application scenario",
+        "specified deep-learning architecture",
+        "related optimization to QUBO",
+        "Kaiwu SDK simulated annealing solve"
+      ]
+    },
+    {
+      "id": "DELIVERABLES",
+      "must": [
+        "complete preprocessing/model/conversion/solve code",
+        "scenario and AI architecture explanation",
+        "QUBO equations",
+        "solution process and actual solve times",
+        "model performance evaluation/interpretation",
+        "external data/reference sources"
+      ]
+    },
+    {
+      "id": "ENGINE",
+      "must": [
+        "under600bits literal historicalquestion wording",
+        "latest supportedSDK historicalrequirement; record current version in2026rehearsal separately",
+        "CPQC is optional,5historicalquotas not actual2026access",
+        "SDK SA run != hardware acceleration evidence"
+      ]
+    }
+  ],
+  "criteria": "Handoff completeness and receiver implementability; original SDK execution may remain explicitly blocked, independent local algebra check not substituted as mandatory SDK success. This is not full paper/rehearsal completion.",
+  "known_unresolved": "No actual Modex run. No current Kaiwu SDK availability established. No quantum advantage measurement."
+}

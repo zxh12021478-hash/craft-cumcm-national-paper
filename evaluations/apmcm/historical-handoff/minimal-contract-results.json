@@ -1,0 +1,65 @@
+{
+  "scope": "Root independently implemented corrected interfaces on frozen toy models; not a repaired Iris training pipeline or measured accuracy",
+  "label_invariance": [
+    {
+      "evaluation_labels": [
+        0,
+        1,
+        2
+      ],
+      "predictions": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "evaluation_labels": [
+        0,
+        0,
+        0
+      ],
+      "predictions": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "evaluation_labels": [
+        2,
+        0,
+        1
+      ],
+      "predictions": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "third_classifier_decisive": {
+    "two_only": [
+      0,
+      0,
+      0
+    ],
+    "all_three": [
+      1,
+      1,
+      1
+    ]
+  },
+  "integer_grid": {
+    "balanced": [
+      true,
+      0
+    ],
+    "one_LSB_violation": [
+      false,
+      1
+    ]
+  },
+  "training_runs": 0,
+  "SDK_runs": 0
+}

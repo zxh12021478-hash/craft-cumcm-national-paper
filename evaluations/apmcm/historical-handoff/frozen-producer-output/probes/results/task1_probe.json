@@ -1,0 +1,280 @@
+{
+  "scale": 1000.0,
+  "orders": {
+    "1": {
+      "n_train": 8,
+      "k_params": 2,
+      "ols_theta_scaled": {
+        "c": 1.74628,
+        "phi1": 0.842615
+      },
+      "ols_sse_scaled": 0.04563547,
+      "ols_bic": -37.1732,
+      "oct_ols": 10667.891,
+      "qubo": [
+        {
+          "bits_per_param": 6,
+          "total_bits": 12,
+          "theta_sa": [
+            1.619048,
+            0.857143
+          ],
+          "sse_actual_sa": 0.04794751,
+          "sse_rel_vs_ols_sa": 0.050663,
+          "oct_forecast_sa": 10694.476,
+          "sa_energy": 0.04794751,
+          "run_energy_spread": 0.42509703,
+          "theta_exact": [
+            1.619048,
+            0.857143
+          ],
+          "sse_actual_exact": 0.04794751,
+          "sse_rel_vs_ols_exact": 0.050663,
+          "oct_forecast_exact": 10694.476,
+          "sa_hits_exact": true
+        },
+        {
+          "bits_per_param": 8,
+          "total_bits": 16,
+          "theta_sa": [
+            1.623529,
+            0.854902
+          ],
+          "sse_actual_sa": 0.04591953,
+          "sse_rel_vs_ols_sa": 0.006225,
+          "oct_forecast_sa": 10675.231,
+          "sa_energy": 0.04591953,
+          "run_energy_spread": 0.16227231,
+          "theta_exact": [
+            1.780392,
+            0.839216
+          ],
+          "sse_actual_exact": 0.04565865,
+          "sse_rel_vs_ols_exact": 0.000508,
+          "oct_forecast_exact": 10666.008,
+          "sa_hits_exact": false
+        },
+        {
+          "bits_per_param": 10,
+          "total_bits": 20,
+          "theta_sa": [
+            1.519062,
+            0.86608
+          ],
+          "sse_actual_sa": 0.04666451,
+          "sse_rel_vs_ols_sa": 0.022549,
+          "oct_forecast_sa": 10689.118,
+          "sa_energy": 0.04666451,
+          "run_energy_spread": 0.15584727,
+          "theta_exact": [
+            1.745846,
+            0.84262
+          ],
+          "sse_actual_exact": 0.04563669,
+          "sse_rel_vs_ols_exact": 2.7e-05,
+          "oct_forecast_exact": 10667.503,
+          "sa_hits_exact": false
+        },
+        {
+          "bits_per_param": 12,
+          "total_bits": 24,
+          "theta_sa": [
+            1.295726,
+            0.8884
+          ],
+          "sse_actual_sa": 0.0491715,
+          "sse_rel_vs_ols_sa": 0.077484,
+          "oct_forecast_sa": 10702.111,
+          "sa_energy": 0.0491715,
+          "run_energy_spread": 0.18017903,
+          "theta_exact": [
+            1.747985,
+            0.842491
+          ],
+          "sse_actual_exact": 0.04563735,
+          "sse_rel_vs_ols_exact": 4.1e-05,
+          "oct_forecast_exact": 10668.278,
+          "sa_hits_exact": false
+        }
+      ]
+    },
+    "2": {
+      "n_train": 7,
+      "k_params": 3,
+      "ols_theta_scaled": {
+        "c": 1.196229,
+        "phi1": 0.744848,
+        "phi2": 0.155393
+      },
+      "ols_sse_scaled": 0.03355495,
+      "ols_bic": -31.5456,
+      "oct_ols": 10716.18,
+      "qubo": [
+        {
+          "bits_per_param": 6,
+          "total_bits": 18,
+          "theta_sa": [
+            0.095238,
+            0.603175,
+            0.412698
+          ],
+          "sse_actual_sa": 0.05630797,
+          "sse_rel_vs_ols_sa": 0.678083,
+          "oct_forecast_sa": 10819.937,
+          "sa_energy": 0.05630797,
+          "run_energy_spread": 0.25561378,
+          "theta_exact": [
+            1.301587,
+            0.730159,
+            0.15873
+          ],
+          "sse_actual_exact": 0.03415277,
+          "sse_rel_vs_ols_exact": 0.017816,
+          "oct_forecast_exact": 10701.079,
+          "sa_hits_exact": false
+        },
+        {
+          "bits_per_param": 8,
+          "total_bits": 24,
+          "theta_sa": [
+            1.639216,
+            0.415686,
+            0.447059
+          ],
+          "sse_actual_sa": 0.03891043,
+          "sse_rel_vs_ols_sa": 0.159603,
+          "oct_forecast_sa": 10739.984,
+          "sa_energy": 0.03891043,
+          "run_energy_spread": 2.01413728,
+          "theta_exact": [
+            1.262745,
+            0.713725,
+            0.180392
+          ],
+          "sse_actual_exact": 0.03360173,
+          "sse_rel_vs_ols_exact": 0.001394,
+          "oct_forecast_exact": 10715.953,
+          "sa_hits_exact": false
+        },
+        {
+          "bits_per_param": 10,
+          "total_bits": 30,
+          "theta_sa": [
+            0.623656,
+            0.568915,
+            0.392962
+          ],
+          "sse_actual_sa": 0.04459906,
+          "sse_rel_vs_ols_sa": 0.329135,
+          "oct_forecast_sa": 10778.143,
+          "sa_energy": 0.04459906,
+          "run_energy_spread": 0.3297382
+        },
+        {
+          "bits_per_param": 12,
+          "total_bits": 36,
+          "theta_sa": [
+            1.400244,
+            0.486935,
+            0.398046
+          ],
+          "sse_actual_sa": 0.03715712,
+          "sse_rel_vs_ols_sa": 0.107351,
+          "oct_forecast_sa": 10740.179,
+          "sa_energy": 0.03715712,
+          "run_energy_spread": 0.34895512
+        }
+      ]
+    },
+    "3": {
+      "n_train": 6,
+      "k_params": 4,
+      "ols_theta_scaled": {
+        "c": 1.80258,
+        "phi1": 0.717696,
+        "phi2": -0.159682,
+        "phi3": 0.287649
+      },
+      "ols_sse_scaled": 0.02911487,
+      "ols_bic": -24.8026,
+      "oct_ols": 10688.344,
+      "qubo": [
+        {
+          "bits_per_param": 6,
+          "total_bits": 24,
+          "theta_sa": [
+            1.555556,
+            0.984127,
+            -0.095238,
+            -0.031746
+          ],
+          "sse_actual_sa": 0.03867882,
+          "sse_rel_vs_ols_sa": 0.32849,
+          "oct_forecast_sa": 10647.079,
+          "sa_energy": 0.03867882,
+          "run_energy_spread": 0.37730063,
+          "theta_exact": [
+            1.68254,
+            0.730159,
+            -0.15873,
+            0.285714
+          ],
+          "sse_actual_exact": 0.02928321,
+          "sse_rel_vs_ols_exact": 0.005782,
+          "oct_forecast_exact": 10690.317,
+          "sa_hits_exact": false
+        },
+        {
+          "bits_per_param": 8,
+          "total_bits": 32,
+          "theta_sa": [
+            -1.309804,
+            0.917647,
+            0.14902,
+            0.086275
+          ],
+          "sse_actual_sa": 0.06990733,
+          "sse_rel_vs_ols_sa": 1.401087,
+          "oct_forecast_sa": 10862.141,
+          "sa_energy": 0.06990733,
+          "run_energy_spread": 0.40142783
+        },
+        {
+          "bits_per_param": 10,
+          "total_bits": 40,
+          "theta_sa": [
+            0.717498,
+            1.143695,
+            0.021505,
+            -0.228739
+          ],
+          "sse_actual_sa": 0.04716134,
+          "sse_rel_vs_ols_sa": 0.619837,
+          "oct_forecast_sa": 10694.935,
+          "sa_energy": 0.04716134,
+          "run_energy_spread": 0.35945655
+        },
+        {
+          "bits_per_param": 12,
+          "total_bits": 48,
+          "theta_sa": [
+            1.058364,
+            0.362882,
+            0.505495,
+            0.054212
+          ],
+          "sse_actual_sa": 0.03768193,
+          "sse_rel_vs_ols_sa": 0.29425,
+          "oct_forecast_sa": 10773.188,
+          "sa_energy": 0.03768193,
+          "run_energy_spread": 0.39058096
+        }
+      ]
+    }
+  },
+  "baselines": {
+    "naive_last": 10588.0,
+    "linear_trend_oct": 10859.944444444449,
+    "mean_growth_oct": 10786.5
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "C": 1.0,
+  "penalty_sweep": [
+    {
+      "kind": "linear",
+      "n_train": 40,
+      "bits": 160,
+      "P": 0.1,
+      "resid": 0.26667,
+      "resid_in_lsb": false,
+      "alpha_nonzero": 3,
+      "acc_qubo": 1.0,
+      "acc_sklearn": 1.0,
+      "delta": 0.06667
+    },
+    {
+      "kind": "linear",
+      "n_train": 40,
+      "bits": 160,
+      "P": 1.0,
+      "resid": 0.06667,
+      "resid_in_lsb": false,
+      "alpha_nonzero": 4,
+      "acc_qubo": 1.0,
+      "acc_sklearn": 1.0,
+      "delta": 0.06667
+    },
+    {
+      "kind": "linear",
+      "n_train": 40,
+      "bits": 160,
+      "P": 10.0,
+      "resid": 0.0,
+      "resid_in_lsb": true,
+      "alpha_nonzero": 7,
+      "acc_qubo": 1.0,
+      "acc_sklearn": 1.0,
+      "delta": 0.06667
+    },
+    {
+      "kind": "linear",
+      "n_train": 40,
+      "bits": 160,
+      "P": 100.0,
+      "resid": 0.0,
+      "resid_in_lsb": true,
+      "alpha_nonzero": 9,
+      "acc_qubo": 1.0,
+      "acc_sklearn": 1.0,
+      "delta": 0.06667
+    },
+    {
+      "kind": "linear",
+      "n_train": 40,
+      "bits": 160,
+      "P": 1000.0,
+      "resid": -0.0,
+      "resid_in_lsb": true,
+      "alpha_nonzero": 19,
+      "acc_qubo": 1.0,
+      "acc_sklearn": 1.0,
+      "delta": 0.06667
+    },
+    {
+      "kind": "rbf",
+      "n_train": 40,
+      "bits": 160,
+      "P": 0.1,
+      "resid": 0.33333,
+      "resid_in_lsb": false,
+      "alpha_nonzero": 12,
+      "acc_qubo": 1.0,
+      "acc_sklearn": 1.0,
+      "delta": 0.06667
+    },
+    {
+      "kind": "rbf",
+      "n_train": 40,
+      "bits": 160,
+      "P": 1.0,
+      "resid": 0.06667,
+      "resid_in_lsb": true,
+      "alpha_nonzero": 11,
+      "acc_qubo": 1.0,
+      "acc_sklearn": 1.0,
+      "delta": 0.06667
+    },
+    {
+      "kind": "rbf",
+      "n_train": 40,
+      "bits": 160,
+      "P": 10.0,
+      "resid": -0.0,
+      "resid_in_lsb": true,
+      "alpha_nonzero": 20,
+      "acc_qubo": 1.0,
+      "acc_sklearn": 1.0,
+      "delta": 0.06667
+    },
+    {
+      "kind": "rbf",
+      "n_train": 40,
+      "bits": 160,
+      "P": 100.0,
+      "resid": 0.0,
+      "resid_in_lsb": true,
+      "alpha_nonzero": 27,
+      "acc_qubo": 1.0,
+      "acc_sklearn": 1.0,
+      "delta": 0.06667
+    },
+    {
+      "kind": "rbf",
+      "n_train": 40,
+      "bits": 160,
+      "P": 1000.0,
+      "resid": -0.0,
+      "resid_in_lsb": true,
+      "alpha_nonzero": 33,
+      "acc_qubo": 1.0,
+      "acc_sklearn": 1.0,
+      "delta": 0.06667
+    }
+  ],
+  "bit_budget": {
+    "n100_K3": 300,
+    "n100_K4": 400,
+    "n100_K5": 500,
+    "n150_K3": 450,
+    "n150_K4": 600,
+    "n150_K5": 750
+  },
+  "multiclass_ovo": {
+    "linear": {
+      "bits_per_pair": 240,
+      "pair_heldout_acc": [
+        1.0,
+        1.0,
+        0.975
+      ],
+      "full_corpus_vote_acc": 0.9933
+    },
+    "rbf": {
+      "bits_per_pair": 240,
+      "pair_heldout_acc": [
+        1.0,
+        1.0,
+        0.925
+      ],
+      "full_corpus_vote_acc": 0.9733
+    }
+  },
+  "sklearn_rbf_full_in_sample": 0.9733
+}

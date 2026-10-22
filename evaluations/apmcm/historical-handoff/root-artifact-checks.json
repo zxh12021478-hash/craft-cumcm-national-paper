@@ -1,0 +1,87 @@
+{
+  "scope": "Root hashes computed after producer declared frozen; raw exposure preserved unchanged.",
+  "matches": 13,
+  "total": 13,
+  "checks": [
+    {
+      "path": "handoff.md",
+      "claimed": "46d9a4576b498dfbb0285b08b1e5dea8a148038ba8e7addd6f353ff6e75250d5",
+      "actual": "46d9a4576b498dfbb0285b08b1e5dea8a148038ba8e7addd6f353ff6e75250d5",
+      "match": true
+    },
+    {
+      "path": "requirements.json",
+      "claimed": "b559180b93969a6113e3f7c144c985164507793cc7971a94bbb5f41f8ce93c25",
+      "actual": "b559180b93969a6113e3f7c144c985164507793cc7971a94bbb5f41f8ce93c25",
+      "match": true
+    },
+    {
+      "path": "probes/qubo_sa.py",
+      "claimed": "26a2154fdd17c058ff8d54d1ddb85fd1ff14ded2b2146b7f2ea8f75459870566",
+      "actual": "26a2154fdd17c058ff8d54d1ddb85fd1ff14ded2b2146b7f2ea8f75459870566",
+      "match": true
+    },
+    {
+      "path": "probes/probe_task1_ar.py",
+      "claimed": "17a81639e36c715e0878550c49d1f97134ec6d4e3971addbfffc0fea03a371c0",
+      "actual": "17a81639e36c715e0878550c49d1f97134ec6d4e3971addbfffc0fea03a371c0",
+      "match": true
+    },
+    {
+      "path": "probes/probe_task2_svm.py",
+      "claimed": "c42f445b9e7d91d2345df93a3d3dcbce6c91953cb72e4d9c317fd4d080dbbe0d",
+      "actual": "c42f445b9e7d91d2345df93a3d3dcbce6c91953cb72e4d9c317fd4d080dbbe0d",
+      "match": true
+    },
+    {
+      "path": "probes/probe_task3_bnn.py",
+      "claimed": "a970d2434a366aab098a3ea9dbdaf40aa40c4e86722e446d9780a5d4b1799ba0",
+      "actual": "a970d2434a366aab098a3ea9dbdaf40aa40c4e86722e446d9780a5d4b1799ba0",
+      "match": true
+    },
+    {
+      "path": "probes/results/task1_probe.json",
+      "claimed": "878ab5ba384aaecc197d3b4bf117db26dd89837a1c6f4626b4ace75f15b72dba",
+      "actual": "878ab5ba384aaecc197d3b4bf117db26dd89837a1c6f4626b4ace75f15b72dba",
+      "match": true
+    },
+    {
+      "path": "probes/results/task2_probe.json",
+      "claimed": "f2b750d698da724b6217de035d834797bb2286ecc899e6e42eb94cfa978db715",
+      "actual": "f2b750d698da724b6217de035d834797bb2286ecc899e6e42eb94cfa978db715",
+      "match": true
+    },
+    {
+      "path": "probes/results/task3_probe.json",
+      "claimed": "825459b10f00fb5d3bebd103ffd9b873ce6df19a80f7ee419ce7966bba4020bd",
+      "actual": "825459b10f00fb5d3bebd103ffd9b873ce6df19a80f7ee419ce7966bba4020bd",
+      "match": true
+    },
+    {
+      "path": "probes/results/task1_run.log",
+      "claimed": "06f70e7a69252fe397aa0757bed3867345f47e8f7f47bf84b6cd9cc9ce93f851",
+      "actual": "06f70e7a69252fe397aa0757bed3867345f47e8f7f47bf84b6cd9cc9ce93f851",
+      "match": true
+    },
+    {
+      "path": "probes/results/task2_run.log",
+      "claimed": "38729b95346bf2f5b44904e3f59b7806eb2523a1ff03a0af4d6f242b9e59e67a",
+      "actual": "38729b95346bf2f5b44904e3f59b7806eb2523a1ff03a0af4d6f242b9e59e67a",
+      "match": true
+    },
+    {
+      "path": "probes/results/task3_run.log",
+      "claimed": "27e100f0460909bf85e6a11d5364b4b13a5baed8d5f28650b54df6f2ead2a5e0",
+      "actual": "27e100f0460909bf85e6a11d5364b4b13a5baed8d5f28650b54df6f2ead2a5e0",
+      "match": true
+    },
+    {
+      "path": "probes/results/task3_diagnostic.log",
+      "claimed": "af407e13b71a35c686eab4d53cd026c5179458739a13a3abb7548dafc4bd9abd",
+      "actual": "af407e13b71a35c686eab4d53cd026c5179458739a13a3abb7548dafc4bd9abd",
+      "match": true
+    }
+  ],
+  "date_note": "Producer labelsJST; clientdateAsia/Shanghai2026-10-20 used for this development cycle.",
+  "SDK_note": "Producer community-install/matrix-API verification claims have no retained standalonecommand/output in this package; supported-not-reproduced, not independently confirmed."
+}

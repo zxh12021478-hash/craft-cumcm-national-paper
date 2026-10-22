@@ -1,0 +1,22 @@
+{
+  "instance": "digits 0 vs 1, 4 frozen conv filters -> 16 features + 8 threshold bits",
+  "bits": 24,
+  "solver": "exact Gray-code enumeration",
+  "fixed_normalization": "z := standardize(train)/sqrt(d); quadraticity preserved",
+  "theta_grid": {
+    "lo": -2.0,
+    "hi": 2.0,
+    "lsb": 0.01569
+  },
+  "qubo_energy_exact": -1030.8691,
+  "binary_head_acc_train": 0.9556,
+  "binary_head_acc_test": 0.9611,
+  "continuous_head_acc_train": 0.9944,
+  "continuous_head_acc_test": 0.9889,
+  "random_binary_test_median": 0.3472,
+  "local_gate_criterion": "test >= 0.95 and gap vs continuous <= 0.05",
+  "gate_passed": true,
+  "n_train": 180,
+  "n_test": 180,
+  "hidden_label_invariance": true
+}

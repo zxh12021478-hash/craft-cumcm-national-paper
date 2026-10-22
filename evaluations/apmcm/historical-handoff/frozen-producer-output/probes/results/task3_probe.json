@@ -1,0 +1,14 @@
+{
+  "features": "fixed random conv3x3-ReLU-avgpool on 8x8 digits",
+  "n_features": 72,
+  "threshold_bits": 8,
+  "bits_per_class_qubo": 80,
+  "n_classes": 10,
+  "n_train": 898,
+  "n_test": 899,
+  "acc_qubo_binary_head": 0.1335,
+  "acc_logistic_baseline": 0.9577,
+  "acc_continuous_ls_head": 0.9588,
+  "acc_random_binary_median": 0.1129,
+  "acc_random_binary_max": 0.1491
+}

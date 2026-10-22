@@ -1,0 +1,37 @@
+{
+  "check": "equality on rational integer grid, not LSB tolerance",
+  "instances": [
+    {
+      "instance": "A: 8 samples, K=3, exact",
+      "n": 8,
+      "K": 3,
+      "bits": 24,
+      "P": 10.0,
+      "delta": 0.14285714,
+      "integer_residual_sum(d_i*y_i)": 0,
+      "integer_grid_feasible": true,
+      "float_residual": 0.0,
+      "old_lsb_check_abs_resid_le_delta": true,
+      "decoded_dual_objective": -0.206479,
+      "qubo_energy": -0.206479,
+      "n_alpha_positive": 3,
+      "solver": "exact enumeration"
+    },
+    {
+      "instance": "B: 40 samples, K=4, P=10",
+      "n": 40,
+      "K": 4,
+      "bits": 160,
+      "P": 10.0,
+      "delta": 0.06666667,
+      "integer_residual_sum(d_i*y_i)": 0,
+      "integer_grid_feasible": true,
+      "float_residual": 0.0,
+      "old_lsb_check_abs_resid_le_delta": true,
+      "decoded_dual_objective": -0.298684,
+      "qubo_energy": -0.298684,
+      "n_alpha_positive": 7,
+      "solver": "numpy SA (not Kaiwu)"
+    }
+  ]
+}

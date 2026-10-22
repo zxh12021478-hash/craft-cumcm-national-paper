@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-20",
+  "selected_problem": "2024 November English APMCM D, Exploring Frontiers in Quantum-Accelerated AI",
+  "official_notice": "https://www.apmcm.org/detail/2487",
+  "archive_sha256": "43d6a52ecb08ad345f98f15a03d31acc48c019b9214a505af60c47a057e0b8c1",
+  "mode": "solution-isolated historical handoff trial; not zero-knowledge",
+  "exposure": [
+    "Original2024archive downloaded before this cycle, previously fully exercised2024B; previous2024A title/partial exemplar exposure,2024C title only; no known previous2024D solution inspection.",
+    "2022B download attempted direct and proxy SSL timeouts; switched to existing verified2024D official archive, not fabricated replacement.",
+    "This cycle root read full original2024D question and filenames/page counts of its five official attachments. No same-case solutions/code/winning manuscripts opened.",
+    "Pretrained familiarity cannot be excluded; official attachments are allowed materials, even if they include methodology examples."
+  ],
+  "rules_scope": "2024 historical question requirements; not2026 live policy",
+  "paid_Modex_calls": 0,
+  "archive_url": "https://www.apmcm.org/uploads/files/20241120/1732111242440930.zip",
+  "original_sources_not_redistributed": "Question/attachments are linked with hashes; PDF and extracted text retained privately, not copied into this repository."
+}

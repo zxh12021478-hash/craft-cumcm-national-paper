@@ -1,0 +1,17 @@
+=== Task 1 AR-QUBO probe ===
+p=1 n=8 OLS theta={'c': 1.74628, 'phi1': 0.842615} SSE=0.045635 BIC=-37.1732 Oct(OLS)=10667.891
+  B= 6 bits= 12 SSErel(SA)=+0.05066 Oct(SA)=10694.476 spread=4.25e-01 | exact SSErel=+0.05066 Oct(exact)=10694.476 SA==exact:True
+  B= 8 bits= 16 SSErel(SA)=+0.00622 Oct(SA)=10675.231 spread=1.62e-01 | exact SSErel=+0.00051 Oct(exact)=10666.008 SA==exact:False
+  B=10 bits= 20 SSErel(SA)=+0.02255 Oct(SA)=10689.118 spread=1.56e-01 | exact SSErel=+0.00003 Oct(exact)=10667.503 SA==exact:False
+  B=12 bits= 24 SSErel(SA)=+0.07748 Oct(SA)=10702.111 spread=1.80e-01 | exact SSErel=+0.00004 Oct(exact)=10668.278 SA==exact:False
+p=2 n=7 OLS theta={'c': 1.196229, 'phi1': 0.744848, 'phi2': 0.155393} SSE=0.033555 BIC=-31.5456 Oct(OLS)=10716.18
+  B= 6 bits= 18 SSErel(SA)=+0.67808 Oct(SA)=10819.937 spread=2.56e-01 | exact SSErel=+0.01782 Oct(exact)=10701.079 SA==exact:False
+  B= 8 bits= 24 SSErel(SA)=+0.15960 Oct(SA)=10739.984 spread=2.01e+00 | exact SSErel=+0.00139 Oct(exact)=10715.953 SA==exact:False
+  B=10 bits= 30 SSErel(SA)=+0.32914 Oct(SA)=10778.143 spread=3.30e-01
+  B=12 bits= 36 SSErel(SA)=+0.10735 Oct(SA)=10740.179 spread=3.49e-01
+p=3 n=6 OLS theta={'c': 1.80258, 'phi1': 0.717696, 'phi2': -0.159682, 'phi3': 0.287649} SSE=0.029115 BIC=-24.8026 Oct(OLS)=10688.344
+  B= 6 bits= 24 SSErel(SA)=+0.32849 Oct(SA)=10647.079 spread=3.77e-01 | exact SSErel=+0.00578 Oct(exact)=10690.317 SA==exact:False
+  B= 8 bits= 32 SSErel(SA)=+1.40109 Oct(SA)=10862.141 spread=4.01e-01
+  B=10 bits= 40 SSErel(SA)=+0.61984 Oct(SA)=10694.935 spread=3.59e-01
+  B=12 bits= 48 SSErel(SA)=+0.29425 Oct(SA)=10773.188 spread=3.91e-01
+baselines: {'naive_last': 10588.0, 'linear_trend_oct': 10859.944444444449, 'mean_growth_oct': 10786.5}

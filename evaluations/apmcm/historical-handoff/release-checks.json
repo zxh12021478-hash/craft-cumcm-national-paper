@@ -1,0 +1,10 @@
+{
+  "apmcm-tests": {
+    "returncode": 0,
+    "summary": "........................................\n----------------------------------------------------------------------\nRan 40 tests in 0.367s\n\nOK\n"
+  },
+  "skill-structure": {
+    "returncode": 0,
+    "summary": "Skill is valid!\n"
+  }
+}
