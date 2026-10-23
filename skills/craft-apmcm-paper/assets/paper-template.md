@@ -1,4 +1,4 @@
-<!-- Working authoring template, NOT an official 2026 APMCM form. Replace all angle-bracket fields. The summary/control sheet and pagination must be confirmed from the current official template before submission. -->
+<!-- Working authoring aid, NOT an official 2026 form. Replace angle-bracket fields. The October20 general rules confirm Summary on the first page, team identifier/page number at the top of every solution page, and anonymity apart from team identifier. Apply these when rendering and inspect the PDF. The actual English form, page cap and complete ordering remain unverified; see rules-2026.md. -->
 # <Precise title describing the decision and modeling mechanism>
 
 Problem: <letter> | Team: <identifier or REHEARSAL>
@@ -12,7 +12,7 @@ Problem: <letter> | Team: <identifier or REHEARSAL>
 
 Keywords: <terms that describe the actual contribution>
 
-<!-- For historical 2024 rehearsals, put a page break after Summary and use the official historical contents-page structure. Do not assert this is a 2026 requirement. -->
+<!-- Optional authoring placeholder: the 2026 contents requirement/position is unverified. For historical 2024 rehearsals use that year's official sequence; do not turn it into a 2026 second-page requirement. -->
 ## Contents
 
 <Generate after sections and page layout stabilize.>

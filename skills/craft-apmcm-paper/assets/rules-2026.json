@@ -2,7 +2,7 @@
   "event": "APMCM",
   "event_year": 2026,
   "track": "November English event",
-  "checked_on": "2026-10-18",
+  "checked_on": "2026-10-23",
   "timezone": "Asia/Shanghai",
   "status": "partial-confirmation",
   "rules": {
@@ -12,97 +12,204 @@
         "start": "2026-11-26T06:00:00+08:00",
         "end": "2026-11-30T09:00:00+08:00",
         "registration_deadline_date": "2026-11-25",
-        "registration_deadline": "2026-11-25T23:59:00+08:00"
+        "registration_deadline": "2026-11-26T00:00:00+08:00",
+        "registration_deadline_exclusive": true,
+        "registration_deadline_wording": "Before 24:00 on November 25; normalize as midnight starting November 26, keeping registration_deadline_date November 25",
+        "paper_deadline": "2026-11-30T09:00:00+08:00",
+        "control_support_deadline": "2026-11-30T09:00:00+08:00"
       },
       "event_year": 2026,
-      "source_url": "https://www.apmcm.org/detail/2512",
-      "registration_cutoff_source": "https://m.saikr.com/vse/apmcm26"
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "registration_cutoff_source": "https://m.saikr.com/vse/apmcm26",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p1 sectionII; p2 sectionV(A)1(1)",
+      "prior_mobile_cutoff_display": "2026-11-25T23:59:00+08:00 (Oct18 retrieved registration page; minute-level display, register early)"
     },
     "language": {
       "status": "verified",
-      "value": "English",
+      "value": "English; readable type, typically 11 or 12 point (typical guidance, not a new hard-only font-size test)",
       "event_year": 2026,
-      "source_url": "https://www.apmcm.org/detail/2512"
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p4 sectionV(B)3(5)"
     },
     "team_size": {
       "status": "verified",
-      "value": "1-3 students",
+      "value": "Maximum 3; contestants must be full-time enrolled university students; one team per student in this competition",
       "event_year": 2026,
-      "source_url": "https://www.apmcm.org/detail/2512"
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p3 sectionV(A)2(2)-(4)"
     },
     "submission_medium": {
       "status": "verified",
-      "value": "electronic paper; no mailed paper copy",
+      "value": "One paper PDF uploaded through registration website, separate from control sheet/support files; uploader may be a student or adviser (upload permission does not authorize solving help)",
       "event_year": 2026,
-      "source_url": "https://www.apmcm.org/detail/2512"
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p4 sectionV(C)1"
     },
     "ai_policy": {
       "status": "unverified",
       "value": null,
       "event_year": 2026,
       "source_url": null,
-      "reason": "Organizer reply on registration page dated 2026-10-09 says format and AI requirements will be released before contest; 2026-10-10 follow-up says notices. No actual policy verified as of 2026-10-18.",
-      "pending_notice_source": "https://m.saikr.com/vse/apmcm26"
+      "reason": "Read all 6 pages of current October 20 rules: p3 permits nonliving resources/software but prohibits outside-team help and online chat/other Q&A systems. Generative AI/LLM-specific permission/disclosure not explicit. Do not infer permission from software allowance or import a 2025 AI policy; live assistance stays blocked pending actual current clarification.",
+      "pending_notice_source": "https://m.saikr.com/vse/apmcm26",
+      "general_rules_source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "general_rules_source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23"
     },
     "page_limit": {
       "status": "unverified",
       "value": null,
       "event_year": 2026,
       "source_url": null,
-      "reason": "Not established by the current-year official material retrieved on 2026-10-17; verify registration notices and later updates."
+      "reason": "The six-page October 20 general rules do not establish a paper page cap. Do not carry over the historical 25-page limit."
     },
     "page_structure": {
       "status": "unverified",
-      "value": null,
+      "value": {
+        "confirmed": "Summary first; required sections and per-page identifiers now separately recorded",
+        "unresolved": "Complete ordering/contents placement not established by this general rules PDF"
+      },
       "event_year": 2026,
       "source_url": null,
-      "reason": "Not established by the current-year official material retrieved on 2026-10-17; verify registration notices and later updates."
+      "reason": "Partial page facts verified from Oct20 rules, but full sequence/contents requirement unresolved; keep this aggregate field unverified.",
+      "partial_source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "partial_source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8"
     },
     "anonymity": {
-      "status": "unverified",
-      "value": null,
+      "status": "verified",
+      "value": "No member/adviser names, institution names or other identifying information in any solution page except the assigned team identifier. Keep identity-bearing control sheet separate.",
       "event_year": 2026,
-      "source_url": null,
-      "reason": "Not established by the current-year official material retrieved on 2026-10-17; verify registration notices and later updates."
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p4 sectionV(B)3(8)"
     },
     "file_naming": {
       "status": "verified",
-      "value": "Paper: problem letter + team control number, PDF; control sheet: same stem + cns, PDF/JPG; support archive: same stem + fj, RAR/ZIP. Use actual assigned control number, not invented example.",
+      "value": "Paper PDF stem: problem letter+actual assigned team identifier. Control PDF/JPG/PNG: same stem+cns. Applicable support RAR/ZIP: same stem+fj. Do not infer team-id length or reuse the sample number.",
       "event_year": 2026,
-      "source_url": "https://m.saikr.com/contest/notice_detail/47643",
-      "source_sha256": "6dcdff18c0ebc0b7f095555e375ac832fc5003ab33e4d97095916368bc052502",
-      "checked_on": "2026-10-18"
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p4 sectionV(C)1-2; p5 sectionV(C)3"
     },
     "support_materials": {
       "status": "verified",
-      "value": "Conditional unless required by the problem; source programs must be in the paper appendix and supplied as support files when programs are written. Related data except original problem data and results belong in the support archive. Reconcile exact inclusions with final 2026 rules.",
+      "value": "Conditional unless required by the question; written source programs belong in both paper appendix and support archive. Related non-original-question data and outputs accompany support materials.",
       "event_year": 2026,
-      "source_url": "https://m.saikr.com/contest/notice_detail/47643",
-      "source_sha256": "6dcdff18c0ebc0b7f095555e375ac832fc5003ab33e4d97095916368bc052502",
-      "checked_on": "2026-10-18"
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p5 sectionV(C)3"
     },
     "control_sheet": {
       "status": "verified",
-      "value": "Print and genuinely sign the control sheet, then scan/photo as PDF or JPG. Actual 2026 form/template not yet verified.",
+      "value": "Form is to be released with questions. Each member signs; scan/photo as PDF/JPG/PNG. Electronic signing allowed when printing is inconvenient. Use genuine signatures, not AI-generated identity. Actual form not yet retrieved.",
       "event_year": 2026,
-      "source_url": "https://m.saikr.com/contest/notice_detail/47643",
-      "source_sha256": "6dcdff18c0ebc0b7f095555e375ac832fc5003ab33e4d97095916368bc052502",
-      "checked_on": "2026-10-18"
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p4 sectionV(C)2 and p5 opening note"
     },
     "submission_channel": {
       "status": "verified",
-      "value": "Upload paper, control sheet, and applicable support archive separately to corresponding electronic submission fields on the registration site https://www.saikr.com/vse/apmcm26. Final portal UI not yet inspected.",
+      "value": "Paper through registration website; control sheet through its control-sheet field; applicable support through its support-materials field. https://new.saikr.com/vse/apmcm26; live portal UI not inspected.",
       "event_year": 2026,
-      "source_url": "https://m.saikr.com/contest/notice_detail/47643",
-      "source_sha256": "6dcdff18c0ebc0b7f095555e375ac832fc5003ab33e4d97095916368bc052502",
-      "checked_on": "2026-10-18"
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p2 sectionV(A)1; p4-p5 sectionV(C)1-3"
     },
     "english_template": {
       "status": "unverified",
       "value": null,
       "event_year": 2026,
       "source_url": null,
-      "reason": "2026 template not retrieved. Organizer replied Oct9 that paper format and AI requirements will be published before the contest, with Oct10 follow-up specifying notices."
+      "reason": "No 2026 English-template attachment retrieved from the October 20 general-rules notice. Control form is described as released with questions; actual English summary/form/layout templates remain unverified."
+    },
+    "summary_position": {
+      "status": "verified",
+      "value": "Summary is the first paper page; describe solution method and most important conclusions; no official numeric weight specified.",
+      "event_year": 2026,
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p3 sectionV(B)3(4), continuing p4"
+    },
+    "page_headers": {
+      "status": "verified",
+      "value": "Top of every solution page contains the actual team identifier and page number; headers suggested. Sample total page count is illustrative.",
+      "event_year": 2026,
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p4 sectionV(B)3(7)"
+    },
+    "required_sections": {
+      "status": "verified",
+      "value": "Besides Summary, include problem restatement, assumptions, notation, model evaluation, model analysis, references and appendix. Listed components do not establish a complete fixed page sequence or contents rule.",
+      "event_year": 2026,
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p4 sectionV(B)3(4) continuation"
+    },
+    "judging_principles": {
+      "status": "verified",
+      "value": [
+        "Problem interpretation and necessary clarification",
+        "Assumptions and justification",
+        "Analysis supports modeling approach",
+        "Effective mathematical model",
+        "Stability tests",
+        "Strengths/weaknesses and clear conclusions",
+        "Accurate complete Summary"
+      ],
+      "event_year": 2026,
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p1-p2 sectionIV; p3 sectionV(B)3(3)-(4)"
+    },
+    "award_structure": {
+      "status": "verified",
+      "value": {
+        "highest_table_label": "APMCM Innovation Prize",
+        "highest_table_allocation": "2 teams per problem; section says judging separated by group and problem; do not infer whole-event total",
+        "first_prize_share_stated": 0.05,
+        "interpretation": "Planned rule allocation, not an observed final rate or this team award probability"
+      },
+      "event_year": 2026,
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p6 sectionV(D)3 table1"
+    },
+    "assistance_boundaries": {
+      "status": "verified",
+      "value": "Nonliving resources/software may be used with citations; help/discussion outside own team is prohibited, including online chat and other Q&A systems. This literal general clause does not resolve generative-AI-specific permission.",
+      "event_year": 2026,
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p3 sectionV(B)3(1)-(2)"
+    },
+    "retention": {
+      "status": "verified",
+      "value": "Retain paper PDF and Word versions plus code/results/attachments until after final award list. This is retention, not a second paper-upload requirement; LaTeX-to-Word applicability needs current format clarification.",
+      "event_year": 2026,
+      "source_url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "source_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "source_clause": "p5 sectionV(C)4"
     }
   },
   "sources": [
@@ -144,6 +251,14 @@
       "kind": "2026 FAQ, adviser restrictions",
       "sha256": "fdbab025975d167a71b38c7539fb7b63734d1da9398328176ebfe3c2a83e5eaf",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+      "notice_url": "https://www.apmcm.org/detail/2513",
+      "kind": "2026 official participation rules; image-only 6-page PDF, all pages rendered and visually read",
+      "sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+      "checked_on": "2026-10-23",
+      "published_on": "2026-10-20"
     }
   ]
 }

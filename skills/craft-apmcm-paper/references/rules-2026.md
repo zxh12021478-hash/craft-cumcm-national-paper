@@ -1,37 +1,27 @@
-# 2026 APMCM rules audit — checked 2026-10-18
+# 2026 APMCM rules audit — checked 2026-10-23
 
-## Current official evidence
+Scope: November English APMCM, not the separate Chinese event. The organizer published [current participation rules on October 20](https://www.apmcm.org/detail/2513), [six-page PDF](https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf). All six rendered pages were read; SHA-256 `f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8`. The PDF is image-only: empty text extraction is not evidence of an absent clause. Machine facts and locators are in `assets/rules-2026.json`.
 
-Event: November English APMCM, not the separate Chinese event.
+## Confirmed current requirements
 
-The [2026 official notice](https://www.apmcm.org/detail/2512) is an image. It gives:
+- **Schedule:** p1 §II gives November 26 06:00 to November 30 09:00, China time: 99 hours. Paper, control sheet and applicable attachments share the latter deadline. P2 §V(A)1(1) says register before November 25 24:00, normalized as the exclusive midnight starting November 26. The previously retrieved mobile display said 23:59; do not treat its minute precision as a different contest date or wait until cutoff.
+- **Paper:** p3–4 §V(B)3(4) puts Summary on the first page. Describe methods and the most important conclusions; repeating the question or introduction boilerplate is uncompetitive. Other listed components include restatement, assumptions, notation, model evaluation/analysis, references and appendix. This list does not specify a full page sequence or a contents-page position.
+- **Language and identity:** p4 §V(B)3(5),(7),(8) requires English and readable type, typically 11/12 points. Each solution page has actual team identifier and page number at the top. Member/adviser names, institution names and other identifying information apart from team number are excluded throughout the solution. Keep the identity-bearing control sheet separate. The sample total page count and identifier are examples, not a page limit or a required identifier length.
+- **Upload files:** p4–5 §V(C)1–3 gives paper PDF stem `problem letter + actual assigned team identifier`; separate signed control PDF/JPG/PNG adds `cns`, applicable support RAR/ZIP adds `fj`. Use the corresponding registration-platform fields; the final live UI has not been inspected. A student or adviser may upload; that does not authorize adviser help in solving.
+- **Control and support:** form is described as released with the questions; the actual form has not been retrieved. Each member signs; p5 allows electronic signing when printing is inconvenient. Use genuine signatures. Support is conditional unless the question requires it, but written source programs belong in both paper appendix and support archive; include related data except original problem data and the outputs.
+- **Retention:** p5 §V(C)4 asks teams to retain PDF and Word paper versions, programs, results and attachments until after the final award list. This is a retention clause, not a second paper-upload instruction. If using LaTeX, reconcile the explicit Word wording with current format guidance instead of silently replacing it with a `.tex`-only rule.
+- **Judging:** p1–2 §IV confirms seven principles already used by this skill: interpretation, justified assumptions, modeling rationale, effective model, stability, strengths/weaknesses and clear conclusions, accurate complete Summary. P3 accepts incomplete papers and describes no numeric score; missing answers remain a competitive weakness, not automatically a disqualification rule.
+- **Awards:** p6 §V(D)3 table lists Innovation Prize as the highest tier, two teams per problem, and First Prize at 5%. Judging is described by group and problem; do not infer a whole-event total from the table. These are stated allocations, not observed final rates or this team's probability. Use `judging-priorities.md` for the work implications.
 
-- November 26, 2026 06:00 to November 30, 2026 09:00 (China/Asia-Shanghai context). Exact interval is 99 hours; the notice calls it four days. Do not silently allocate 96 hours or move the deadline.
-- Registration deadline date November 25, without a specific cutoff time in this notice.
-- Teams of 1–3 students; English paper; electronic submission, no mailed paper copy.
-- Three stated problems A/B/C; verify the actual released list because past years differed.
+The [September collective-registration notice](https://m.saikr.com/contest/notice_detail/47643) and [September general notice](https://www.apmcm.org/detail/2512) remain provenance for earlier partial facts; the October general rules now supply the clauses above. The [October FAQ](https://m.saikr.com/contest/notice_detail/49050) also restricts adviser guidance during the contest.
 
-Machine record: `assets/rules-2026.json`. Its source-image hash binds the read evidence. This is partial confirmation, not full rule clearance.
+## AI and remaining unknowns
 
-## Further current-year evidence
+P3 §V(B)3(1) permits nonliving resources/software with citations; (2) prohibits help/discussion outside the team, including online chat and other Q&A systems. The general document does **not explicitly resolve generative-AI/LLM permission or disclosure**. Do not convert its software allowance into permission for Codex/Modex, or import a 2025 AI notice as a current authorization. Current specific organizer clarification is needed before live assistance; preparation and historical rehearsals may continue. Do not contact organizers without user authorization.
 
-The organizer's [2026 collective-registration notice](https://m.saikr.com/contest/notice_detail/47643), published September 9, states these submission requirements:
+The actual English template, page cap and complete sequence/contents rule remain unverified. Machine `summary_position`, `page_headers` and `anonymity` now hold confirmed facts, while aggregate `page_structure` stays unverified because full ordering is unresolved. An anonymous Summary-first rehearsal is still not a fully cleared official-format submission. Unknown required fields must keep `--final` failing.
 
-- Paper PDF stem: problem letter plus assigned team control number. Separate control sheet PDF/JPG uses the same stem plus `cns`; support RAR/ZIP uses the same stem plus `fj`. Use the real assigned identifier, not a generated example.
-- Print and sign the control sheet, then scan or photograph it. No AI-generated signature. The current actual form is still unverified.
-- Support materials are conditional unless required by the problem; when code is written, source programs must appear in the appendix and also be supplied as support files. Related data (except original problem data) and outputs belong in that archive. Reconcile any ambiguities with the complete final rules.
-- Upload each applicable file separately into the registration platform's corresponding fields. The actual submission UI has not been inspected.
-
-The [current registration page](https://m.saikr.com/vse/apmcm26) provides a November 25 23:59 registration cutoff. The [October 13 FAQ](https://m.saikr.com/contest/notice_detail/49050) confirms that an adviser may teach before the competition but cannot help during it. This clause alone does not establish an AI policy.
-
-## Unresolved current-year fields
-
-Actual AI/LLM permission and disclosure policy, English template, page limit, page sequence and anonymity details remain unverified. On the current registration page, an organizer reply dated October 9 says format and AI requirements will be published before the contest; the October 10 follow-up specifies the notices section. Preserve this as evidence of a pending policy, not as permission to use AI during the contest.
-
-The initial new.saikr.com text fetch returned only a JavaScript shell; the mobile page was subsequently retrieved. Check current notices and the team portal again before live work or final formatting. If unclear, seek written organizer clarification; do not send messages without user authorization. An internal assistance log is preparation practice, not a fabricated official mandate.
-
-
-Rechecked the current notice, registration page and collective-registration notice on October 18 during skill hardening. The visible notice list includes the October 14 registration guide; no complete English-format/AI policy was established from these retrieved pages. The October 9–10 organizer replies remain pending-policy evidence. This recheck does not change unresolved fields to verified.
+The October 9–10 pending-policy replies were evidence available in the earlier snapshot, not permission. The current mobile registration page was inaccessible in this recheck; the new PDF was retrieved directly and its clauses are recorded separately. No new AI-specific notice or English-template attachment was established by this bounded search.
 
 ## Historical materials (not 2026 requirements)
 

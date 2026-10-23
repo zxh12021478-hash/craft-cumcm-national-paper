@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-23",
+  "base_commit": "8c7ac30b5c37b399b29742818e2861e1141b5b6f",
+  "source_notice": "https://www.apmcm.org/detail/2513",
+  "source_pdf": "https://files.apmcm.org/uploads/files/20261020/1792484391858628.pdf",
+  "source_pdf_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+  "source_issue": "亚太赛[2026]07号；落款2026年10月；网页发布2026-10-20",
+  "review": "Codex visually read all 6 rendered pages; image-only PDF; not human confirmation",
+  "rendered_page_sha256": {
+    "page-1.png": "1fcc57b59edebcd69a1d884bd7cb9fd82149d6896d2cf690bf8ed2499bcc8744",
+    "page-2.png": "a7c3ce5e0e497d2743b1516332b71229fa1eda86fed3b1c2f0ba2e1810410edc",
+    "page-3.png": "ac2ce2d6cb229af58954c1ac3fa4fd27f6cd0d012fa7d0dba2fc3f02ef15ecda",
+    "page-4.png": "0e18ea06d2279ec1fd008858d558eecd4bf6e2ce51c66be81d8d4ae8ea856dcf",
+    "page-5.png": "087251b4635d2b045888404ad580b6f23a286bf670edfecb8b6554f497c13979",
+    "page-6.png": "c5cc6f0a8e076594bdacb65a41c37da510d18ab6a0d675a2e27406454003eab8"
+  },
+  "status_changes": {
+    "schedule": {
+      "before": "verified",
+      "after": "verified",
+      "locator": "p1 sectionII; p2 sectionV(A)1(1)"
+    },
+    "language": {
+      "before": "verified",
+      "after": "verified",
+      "locator": "p4 sectionV(B)3(5)"
+    },
+    "team_size": {
+      "before": "verified",
+      "after": "verified",
+      "locator": "p3 sectionV(A)2(2)-(4)"
+    },
+    "submission_medium": {
+      "before": "verified",
+      "after": "verified",
+      "locator": "p4 sectionV(C)1"
+    },
+    "ai_policy": {
+      "before": "unverified",
+      "after": "unverified",
+      "locator": null
+    },
+    "page_limit": {
+      "before": "unverified",
+      "after": "unverified",
+      "locator": null
+    },
+    "page_structure": {
+      "before": "unverified",
+      "after": "unverified",
+      "locator": null
+    },
+    "anonymity": {
+      "before": "unverified",
+      "after": "verified",
+      "locator": "p4 sectionV(B)3(8)"
+    },
+    "file_naming": {
+      "before": "verified",
+      "after": "verified",
+      "locator": "p4 sectionV(C)1-2; p5 sectionV(C)3"
+    },
+    "support_materials": {
+      "before": "verified",
+      "after": "verified",
+      "locator": "p5 sectionV(C)3"
+    },
+    "control_sheet": {
+      "before": "verified",
+      "after": "verified",
+      "locator": "p4 sectionV(C)2 and p5 opening note"
+    },
+    "submission_channel": {
+      "before": "verified",
+      "after": "verified",
+      "locator": "p2 sectionV(A)1; p4-p5 sectionV(C)1-3"
+    },
+    "english_template": {
+      "before": "unverified",
+      "after": "unverified",
+      "locator": null
+    },
+    "summary_position": {
+      "before": null,
+      "after": "verified",
+      "locator": "p3 sectionV(B)3(4), continuing p4"
+    },
+    "page_headers": {
+      "before": null,
+      "after": "verified",
+      "locator": "p4 sectionV(B)3(7)"
+    },
+    "required_sections": {
+      "before": null,
+      "after": "verified",
+      "locator": "p4 sectionV(B)3(4) continuation"
+    },
+    "judging_principles": {
+      "before": null,
+      "after": "verified",
+      "locator": "p1-p2 sectionIV; p3 sectionV(B)3(3)-(4)"
+    },
+    "award_structure": {
+      "before": null,
+      "after": "verified",
+      "locator": "p6 sectionV(D)3 table1"
+    },
+    "assistance_boundaries": {
+      "before": null,
+      "after": "verified",
+      "locator": "p3 sectionV(B)3(1)-(2)"
+    },
+    "retention": {
+      "before": null,
+      "after": "verified",
+      "locator": "p5 sectionV(C)4"
+    }
+  },
+  "validation": {
+    "date": "2026-10-23",
+    "pdf_sha256": "f50d011b6aa99c6ecff3877973fc1f67e95ceb87ff86c1e9db5eb589cf318fa8",
+    "all6pages_rendered_and_read_by": "Codex visual review, not human confirmation",
+    "source_bindings": "pass",
+    "final_audit_status": "fail",
+    "unresolved_rule_errors": [
+      "ai_policy",
+      "page_limit",
+      "page_structure",
+      "english_template"
+    ],
+    "rule_profile_sha256": "3eb3666b5db7194154a16951d0438bc84624072a725c6c963d7cd6a4181c59b5",
+    "no_paid_Modex": true,
+    "new_runtime_dependencies": 0
+  },
+  "tests": {
+    "apmcm-tests": {
+      "returncode": 0,
+      "summary": "........................................\n----------------------------------------------------------------------\nRan 40 tests in 0.382s\n\nOK\n"
+    },
+    "skill-structure": {
+      "returncode": 0,
+      "summary": "Skill is valid!\n"
+    }
+  },
+  "runtime_files_changed": 4,
+  "original_CUMCM_core": "Unchanged; historical 102 tests not rerun",
+  "actual_template_or_AI_specific_clearance": false,
+  "boundaries": [
+    "Do not promote confirmed Summary position to complete page_structure clearance",
+    "Do not infer LLM permission from the software clause",
+    "Do not use award allocation as personal probability",
+    "Do not rebrand the historical 25-page cap or contents rule as 2026"
+  ],
+  "rule_profile_sha256": "3eb3666b5db7194154a16951d0438bc84624072a725c6c963d7cd6a4181c59b5"
+}
