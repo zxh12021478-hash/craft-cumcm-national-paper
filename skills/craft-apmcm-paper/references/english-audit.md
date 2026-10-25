@@ -29,6 +29,10 @@ Bind each result to its run configuration: inputs, code hash, grid, time step, s
 
 ## Headline ledger
 
+Before admitting an aggregate, establish what is being counted and which IDs belong to it. For a complete list with one row per object, object count is the number of distinct IDs, not the sum of observations/points within them. A unique-point union may differ from summed per-object point counts at shared endpoints. Recompute totals only when rows partition the reported quantity; overlaps, weights, exclusions and open/closed-curve conventions may change the aggregation. Conflicting image/scenario labels or an incomplete roster require the authoritative export, not an invented corrected count.
+
+Distinguish display rounding from a substantive discrepancy. For an additive total rounded to nearest increments, a conservative compatibility bound is half the sum of the row increments plus half the total increment, in the same units. This establishes compatibility with that rounding assumption, not which rounding the producer used; truncation, transformations or other precision rules need their own bound. Integer object counts need no floating tolerance. A total that reconciles arithmetically still needs the calibration, feasibility or validation evidence required by its interpretation. Retain the raw conflict and its scope in the existing ledger until resolved.
+
 Use the format in `bundle-contract.md`. Include repeated summary/conclusion/table occurrences as separate entries when necessary. Each entry needs an exact quote, numeric token, JSON pointer into result output, tolerance, unit, and interpretation. Context must be reviewed: matching the number 32 somewhere in a paper is not evidence that the right cost was reported.
 
 A local automated pass checks bound files and mapped numbers. A reviewer separately marks all headline claims as covered, figure captions/labels reviewed, all question outputs covered, and core physical/model semantics checked. These declarations are evidence records, not automatic proof.

@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-25",
+  "base_commit": "035e844668b67a8852cc217fc959f5f517e827d6",
+  "case": "2021 November English APMCM A, public mirror manuscript29pages",
+  "input_provenance": {
+    "paper_sha256": "e0fe3121fe79b0a12c63c3da8d63f30860c76ad431d5626772eeebb6ea15e900",
+    "archive_sha256": "a8e39f21f5ae7fa74bb4c1ecbe8434f84776be5fab84d4c9226e4f673",
+    "mirror_release": "https://github.com/BernardW18/mcm_resources/releases/tag/v0.1.0",
+    "question_sha256": "8b8de343a404ccc5d9e9a6b12310e880ffbd02591c84e75b71c6c8d2961bb762",
+    "source_boundary": "Raw complete papers/annexes retained privately; archive and historical award match reused from Oct18, not newly fetched or proof of exact final submission"
+  },
+  "exposure": {
+    "Codex": "Previously selected pages seen; current full29page texts and all rendered page overviews plus original7page question text/images read",
+    "Doubao": "Same existing conversation38448155411751938, initial prompt and follow-up disclose prior exposure; not independent/blind",
+    "Modex": "No paid run; actual Modex round trip untested",
+    "input_version_limit": "Initial prompt referenced live sources; two refs edited during run; exact consumed baseline not established. Follow-up references frozen candidate snapshot. Not a clean paired old/new experiment."
+  },
+  "original_failures": {
+    "paper": [
+      "Count fields disagree with listed object IDs; Table3 image caption conflicts with adjacent prose",
+      "Third-question actual segmentation parameter tables not found in available manuscript",
+      "Calibration scales conflict; original implementation and physical reference provenance unavailable"
+    ],
+    "Doubao_v1": [
+      "Unwarranted actual14/33 count conclusion from listed rows",
+      "Unseen rendered images called grayscale; actual figures contain color",
+      "Invented40point/task equal-weight claims absent from supplied original question",
+      "Proposed choosing one calibration scale as correction without original output/configuration",
+      "Called unparsed XLS inputs empty templates"
+    ],
+    "frozen_Doubao_v1_hashes": {
+      "claim-selection.json": "ab603f8040a814e19b106cdc6ccd6cbb4b67eee9bc73c510568df6b5b4c613bd",
+      "done.json": "e89a6f8894fbda971cefd0b4117dfd89a2aedd8e6790e505c8ccf0ab364acf2d",
+      "review.md": "460dbe1e6f5bf887aa7d0a98c6c6780687a142e255fa0392d9751b747f7bc63f",
+      "checks/checks-results.txt": "292d99234179f3e079eb5afcc1f2ae2759e2af60563ba5b9019975e10cff3a63",
+      "checks/checks-results.json": "a0af7deb0a7ea6baa9f28279efdacc41ac61d6023c8bad4a441927d6ecb89bb3",
+      "checks/checks.py": "823058a55da9e1803a1476bc84e98a63b4f4dcbf9c7d8ed1c6c5b26c72639f87"
+    }
+  },
+  "retained_improvement": {
+    "runtime_files": [
+      "references/english-audit.md",
+      "references/abstract-priority.md"
+    ],
+    "behavior": "Resolve object/ID/aggregation semantics before admitting headline totals; use stated precision rules to distinguish rounding compatibility from a substantive discrepancy; preserve unresolved conflicts",
+    "scope": "No new runtime script/dependency/word cap/mandatory agent call"
+  },
+  "independent_numeric_evidence": {
+    "script": "check_tables.py",
+    "facts": "table-facts.json",
+    "results": "check-results.json",
+    "status": "pass",
+    "qualification": "Only arithmetic on transcribed facts; does not recover original contour objects or validate physical accuracy"
+  },
+  "directed_followup": {
+    "status": "completed; targeted corrections checked with independent arithmetic; root review required",
+    "candidate_reference_hashes": {
+      "references/abstract-priority.md": "07d3c169494350cba6f4ebcd7afb682bc969dad5e012c91361825a5309c69299",
+      "references/english-audit.md": "35727eef7b27222d590a18744817fc02e88dd70ae14cbdcea50292187db3f6b1"
+    },
+    "context": "Explicit corrective feedback in same conversation; cannot attribute outcome solely to skill change",
+    "v2_frozen_hashes": {
+      "checks-results.txt": "a0009eeb347763e53885876f3bed546dc0ded80ed227d53b938d9164a45c1603",
+      "claim-selection.json": "05cc8afbebc952e4c81f8f148c03a60784580c8d2d70138f54b708d87aa7b260",
+      "checks-results.json": "865e0395269e17ccd45aad8d55e2ef122421ec87fbb7d0b138572473c5928724",
+      "checks.py": "2b1c7c627da82c3c574fee836151a4164688c85b26a8d3617d68018eb6320af0",
+      "done.json": "2cd02ddc3e159099bb3ce4c79954f9ffff9e05608cd7cde4db30d6fbb285187d",
+      "correction-note.md": "b85374b802e206f31977eb5a88af99edd7d19517fd0a8d268f682f7cf07c2781",
+      "review.md": "1ac7d8be38baf38f2f736b851260ba4c14f6825f9180de1ee5480ca8300fe754"
+    },
+    "local_replay_matches_saved": true,
+    "candidate_hashes_verified": true,
+    "retained_corrections": [
+      "No invented scores; embedded color distinguished from standalone deliverables",
+      "Listed IDs not true contour roster; point sum not unique-point union",
+      "Both scale claims retained; no typo verdict",
+      "Explicit nearest-rounding compatibility bounds",
+      "Unparsed cells not declared empty; Pic1_3 statement/example granularity distinguished"
+    ],
+    "root_residual_repairs": [
+      "Excluded new frame-size impossibility inference: Table10 camera/frame/scale context unestablished",
+      "Correction-note reverses Canny black/white background; primary colored-overlay observation is correct"
+    ],
+    "final_scope": "Root-reviewed negative long-paper regression; not verbatim acceptance or positive full-manuscript transfer"
+  },
+  "validation": {
+    "date": "2026-10-25",
+    "apmcm_tests": {
+      "status": "pass",
+      "count": 40,
+      "elapsed_seconds": 0.454,
+      "evidence": "exec returned code0 and unittest OK in this cycle"
+    },
+    "skill_structure": {
+      "status": "pass",
+      "evidence": "quick_validate.py returned Skill is valid! in this cycle"
+    },
+    "original_CUMCM": "core unchanged; previous102 tests not rerun",
+    "runtime_scripts_changed": false,
+    "runtime_dependencies_added": 0,
+    "numeric_regression": {
+      "status": "pass",
+      "scope": "Decimal table arithmetic only",
+      "command": [
+        "python3",
+        "evaluations/apmcm/long-summary/check_tables.py"
+      ]
+    },
+    "producer_replay": {
+      "status": "pass",
+      "scope": "Saved v2 arithmetic replay matches; canonical Decimal checks agree"
+    },
+    "local_install": {
+      "tracked_files": 34,
+      "byte_match": true
+    }
+  },
+  "remaining_limits": [
+    "No ready replacement Summary or successful positive long-manuscript transfer",
+    "No author-generated code, coordinate XLS/PNG exports, calibration experiments or Q3 outputs available in review packet; absence is not proof of what original team submitted",
+    "Point-count sums need not equal unique-point unions with shared endpoints; listed IDs are not ground truth roster",
+    "Nearest-rounding compatibility does not establish actual producer rounding",
+    "No measured Codex quota reduction or award probability claim"
+  ]
+}

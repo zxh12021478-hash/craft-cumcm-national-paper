@@ -1,0 +1,43 @@
+{
+  "contour_tables": [
+    {
+      "table": "Table3",
+      "distinct_listed_ids": 14,
+      "duplicate_ids": false,
+      "reported_count": 3610,
+      "count_matches_listed_ids": false,
+      "summed_point_counts": 3623,
+      "sum_displayed_lengths_px": "3183.20",
+      "length_gap_px": "0.01",
+      "nearest_rounding_bound_px": "0.075",
+      "length_compatible_with_rounding": true,
+      "true_contour_count_status": "unresolved: original exported roster unavailable"
+    },
+    {
+      "table": "Table4",
+      "distinct_listed_ids": 33,
+      "duplicate_ids": false,
+      "reported_count": 7970,
+      "count_matches_listed_ids": false,
+      "summed_point_counts": 7995,
+      "sum_displayed_lengths_px": "6763.46",
+      "length_gap_px": "0.00",
+      "nearest_rounding_bound_px": "0.17",
+      "length_compatible_with_rounding": true,
+      "true_contour_count_status": "unresolved: original exported roster unavailable"
+    }
+  ],
+  "calibration": {
+    "mean_spacing_px": "58.8176",
+    "scale_mm_per_px": "0.03400342754549658605587443214",
+    "converted_total_mm": "234.3193193873942493403335056",
+    "converted_total_rounds_to_reported": true,
+    "sum_displayed_parts_mm": "234.3192",
+    "sum_total_gap_mm": "0.0001",
+    "nearest_rounding_bound_mm": "0.00035",
+    "sum_compatible_with_rounding": true,
+    "ratio_to_conflicting_scale": "309.122068595423509598858474",
+    "physical_accuracy_status": "not verified by table arithmetic"
+  },
+  "scope": "Original table claims remain unresolved; no model reproduction or ready Summary"
+}
