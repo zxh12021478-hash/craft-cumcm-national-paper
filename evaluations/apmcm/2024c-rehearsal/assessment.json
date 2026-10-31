@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-31",
+  "case": "Official 2024 C pet industry, Q1–Q4 bounded rehearsal",
+  "base_commit": "87a394fe603a14d44b106b5259a41496dcd7b020",
+  "status": "Bounded numeric rehearsal accepted; complete historical submission INCOMPLETE",
+  "full_case_gate": "Not passed: empirical global-demand/industrial linkage and calibrated policy answers, full paper/figures/PDF and delivery artifacts remain missing. No average score overrides missing evidence.",
+  "producer": {
+    "app": "Native Doubao",
+    "rounds": 2,
+    "same_existing_conversation": true,
+    "new_window_or_conversation": false,
+    "privacy": "Only public original question, own strategy/data and audit feedback supplied. No original handbook/full excellent paper or private CUMCM submission.",
+    "isolation": "Same-conversation exposed regression, not blind; Modex replaced for development only"
+  },
+  "strategy": {
+    "hash": "b381f347028b44d51d1744926cde80992eada782368c5d1e9e0df49de7791da9",
+    "same_case_pre_exposure": "About 200 opening characters/headers; full visible case body/results read only after freeze/receiver dispatch",
+    "later_observations": "2025/2026 headline exposure excluded from fitting and selection; no prospective validation claimed",
+    "route_changes": "Food-intensity bounds, corrected policy coupling and production-accounting supplement explicitly post-freeze audit amendments"
+  },
+  "original_failure": {
+    "forecast_arithmetic": "Pass against independent reference",
+    "policy": "Fail: producer price changed but demand used pure tariff ratio; original scalar counterexample retained",
+    "v1_source_sha256": "933f06a07b86f579bf0d1034c2164aeb73bf8be36256655f50a372a3a0ac01e6",
+    "technical_NameError": "Producer reported repair before final v1; failed code unavailable, not root reproduced"
+  },
+  "repair": {
+    "receiver_v2": "Actual directed code produced and run; unified buyer price, demand, revenue, profit and attainable restoration",
+    "root_supplement": "Versioned global preliminary production source and conditional consumption scenarios, not empirical fit",
+    "independent_AI": "Isolated task per rehearsal protocol; received original question/data and accepted code/manuscript, no exemplar or root expected issues; independently recomputed 60 holdout predictions and 81 policy rows",
+    "AI_findings_confirmed": 3,
+    "root_fixes": [
+      "Currency correction does not erase actual 56.13% decline",
+      "Q0_consumption versus production, and Q3 missing calibrated global-consumption link",
+      "No-tie model-selection reasons corrected"
+    ],
+    "independent_second_review": "Not performed; root arithmetic/clean rerun after repairs"
+  },
+  "actual_checks": {
+    "status": "pass-with-stated-limitations",
+    "series": 10,
+    "chronological_origin_rows": 20,
+    "max_forecast_difference": 2.637534635141492e-11,
+    "policy_rows_independently_recomputed": 81,
+    "restoration_cost_values": 243,
+    "demand_bound_years": 3,
+    "global_conditional_rows": 6,
+    "clean_execution": [
+      {
+        "script": "solve.py",
+        "exit_code": 0
+      },
+      {
+        "script": "add_global_anchor.py",
+        "exit_code": 0
+      }
+    ],
+    "clean_results_equal": true,
+    "raw_policy_failure_retained": true,
+    "holdout_predictions_independently_recomputed": 60,
+    "candidate_forecasts_independently_recomputed": 90,
+    "scope": "Arithmetic, temporal index and declared economic-model checks only. Pet data release times, global demand dynamics, tariff elasticities, mitigation feasibility and award quality remain unverified."
+  },
+  "preservation": {
+    "initial_bound_input_files": 41,
+    "raw_v1_output_files": 6,
+    "v2_files_with_manifest_hash_verified": 6,
+    "strategy_hash_unchanged": true,
+    "forecast_numbers_unchanged_from_v1": true,
+    "accepted_numeric_and_prose_files": 7,
+    "original_version_full_outputs": "Frozen locally; public sparse failure plus source hashes"
+  },
+  "source_scope": {
+    "official_question": "All 3 pages read, attachment page visually checked",
+    "handbook": "31 visible pages physical244–274 read; key262/263/270 visual checks. End Page28/39; complete version, appendix/code and exact award unverified",
+    "global_anchor": "CONAFAB2024 physical12/printed10 downloaded and visually checked. Preliminary production, not consumption; file metadata alone cannot prove public availability at historical cutoff",
+    "FX": "NBS annual2019 CNY/USD verified",
+    "release_dates": "Annual pet-data release dates not audited, chronological not verified real-time holdouts"
+  },
+  "retained_runtime_changes": [
+    "references/english-audit.md",
+    "references/exemplar-decisions.md",
+    "references/forecast-information.md",
+    "references/task-families.md"
+  ],
+  "validation": {
+    "skill_structure": "actual pass",
+    "installed_34_byte_match": true,
+    "production_scripts_assets_tests": "Unchanged; previous40 production tests reused, not rerun",
+    "CUMCM": "Core unchanged; previous102 checks not rerun",
+    "new_rules": "None asserted; current English format and AI policy unknowns retained"
+  },
+  "remaining_limits": [
+    "Only two one-step origins; no three-year forecast accuracy or causal drivers established",
+    "Three-market fixed-intensity point-forecast bounds are not global or confidence intervals",
+    "Global growth0/5%, loss2%, inventories0 remain assumptions, not calibrated demand evidence",
+    "Q3 monetary extrapolations not an identified global-demand linkage",
+    "Policy elasticities, costs, restoration ability and optimal sustainable actions remain uncalibrated",
+    "No complete paper/figures/PDF, human judges, actual Modex transfer or award probability",
+    "New guidance supported by direct examples and directed repair; no blind forward test of its causal benefit"
+  ],
+  "paid_Modex_calls": 0,
+  "token_usage": "Unavailable; no billing/quota savings claimed",
+  "new_PDF_created": false,
+  "private_material_publication": false
+}

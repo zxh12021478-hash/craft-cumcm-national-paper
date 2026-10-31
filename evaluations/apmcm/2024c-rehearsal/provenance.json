@@ -1,0 +1,25 @@
+{
+  "base_commit": "87a394fe603a14d44b106b5259a41496dcd7b020",
+  "original_receiver_source_sha256": "933f06a07b86f579bf0d1034c2164aeb73bf8be36256655f50a372a3a0ac01e6",
+  "directed_receiver_v2_source_sha256": "fc7de3f629e81645d67aba6251d6dad2672bcf41c594842d53d6d0fa99ddc242",
+  "raw_forecast_series_canonical_sha256_ignoring_selection_reason": "6b860c984e9cd4c81f92b55c1242c85f07be1aab4ce3dae19242d79db808b0f8",
+  "accepted_source_sha256": "44c3f175d0248e82a312ef6c78e202e18521fd2a9b4a8f46fe6dbd32ccf063d5",
+  "frozen_strategy_sha256": "b381f347028b44d51d1744926cde80992eada782368c5d1e9e0df49de7791da9",
+  "source_html_sha256": "14111a0fb521af738520bde1c9714e29dc017ed169060e5e806047e584e09965",
+  "handbook_sha256": "c67cf32ddc9d1febbf6dadc9803fd6b272b33bf9bb9e685afd738490583e1d16",
+  "handbook_case": "2024 C, team apmcm24200658; physical pages 244–274; 31 visible pages end Page 28 of 39",
+  "case_award": "Handbook excellent-case designation; exact award and complete version unverified",
+  "privacy": "Original handbook, question/source PDFs, full paper text and private CUMCM materials excluded; only own analysis, source identities and numerical data published",
+  "original_outputs": "Both receiver versions frozen locally; sparse original failure retained publicly",
+  "producer_reported_failure": "Initial NameError fixed before finished v1; no failed source snapshot available, not root reproduced",
+  "phases": [
+    "Root route freeze, after limited opening exposure",
+    "Same existing Doubao receiver v1, no same-case paper supplied",
+    "Root local calculations and visible exemplar comparison; Q4 coupling failed",
+    "Same conversation directed v2 repair",
+    "Root production-anchor source/accounting supplement",
+    "Isolated AI assessor, without expected findings or exemplar",
+    "Root confirmed and repaired three review findings; clean rerun"
+  ],
+  "validation_limit": "Same Doubao conversation is exposed regression, not blind. No actual Modex, human panel or prize probability. Historical release dates/public source availability not independently archived."
+}

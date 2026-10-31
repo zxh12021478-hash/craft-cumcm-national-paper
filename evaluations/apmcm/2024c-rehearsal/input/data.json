@@ -1,0 +1,91 @@
+{
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "pet_count_unit": "10000 animals",
+  "pets": {
+    "China_cat": [
+      4412,
+      4862,
+      5806,
+      6536,
+      6980
+    ],
+    "China_dog": [
+      5503,
+      5222,
+      5429,
+      5119,
+      5175
+    ],
+    "America_cat": [
+      9420,
+      6500,
+      9420,
+      7380,
+      7380
+    ],
+    "America_dog": [
+      8970,
+      8500,
+      8970,
+      8970,
+      8010
+    ],
+    "France_cat": [
+      1300,
+      1490,
+      1510,
+      1490,
+      1660
+    ],
+    "France_dog": [
+      740,
+      775,
+      750,
+      760,
+      990
+    ],
+    "Germany_cat": [
+      1470,
+      1570,
+      1670,
+      1520,
+      1570
+    ],
+    "Germany_dog": [
+      1010,
+      1070,
+      1030,
+      1060,
+      1050
+    ]
+  },
+  "production_value_100m_CNY": [
+    440.7,
+    727.3,
+    1554,
+    1508,
+    2793
+  ],
+  "exports_value_original": [
+    154.1,
+    9.8,
+    12.2,
+    24.7,
+    39.6
+  ],
+  "exports_currency": [
+    "CNY",
+    "USD",
+    "USD",
+    "USD",
+    "USD"
+  ],
+  "value_scale": 100000000,
+  "provenance": "Originalofficialquestiontablepage3 visuallychecked; chronological order reversesoriginaltable"
+}

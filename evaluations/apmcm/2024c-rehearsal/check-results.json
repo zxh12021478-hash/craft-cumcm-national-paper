@@ -1,0 +1,25 @@
+{
+  "status": "pass-with-stated-limitations",
+  "series": 10,
+  "chronological_origin_rows": 20,
+  "max_forecast_difference": 2.637534635141492e-11,
+  "policy_rows_independently_recomputed": 81,
+  "restoration_cost_values": 243,
+  "demand_bound_years": 3,
+  "global_conditional_rows": 6,
+  "clean_execution": [
+    {
+      "script": "solve.py",
+      "exit_code": 0
+    },
+    {
+      "script": "add_global_anchor.py",
+      "exit_code": 0
+    }
+  ],
+  "clean_results_equal": true,
+  "raw_policy_failure_retained": true,
+  "holdout_predictions_independently_recomputed": 60,
+  "candidate_forecasts_independently_recomputed": 90,
+  "scope": "Arithmetic, temporal index and declared economic-model checks only. Pet data release times, global demand dynamics, tariff elasticities, mitigation feasibility and award quality remain unverified."
+}

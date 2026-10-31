@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-31",
+  "base_commit": "87a394fe603a14d44b106b5259a41496dcd7b020",
+  "strategy_sha256": "b381f347028b44d51d1744926cde80992eada782368c5d1e9e0df49de7791da9",
+  "question_sha256": "c0fc14649d90acc5309efb3ca68a244603166a42b03d190b6eba526f7440d627",
+  "sequence": "Question read -> rootroutefreeze -> receiverexecution -> excellentcasecomparison (not yetread)",
+  "same_case_pre_exposure": "~200chars/headers of2024Copening; no body/results reviewed beforefreeze",
+  "other_exposure": "2025BfullSummaryread duringselection; futureAlltechheadlinevaluesseen insearchresultsbutexcluded",
+  "claim_limit": "Notzero-knowledge/blind/prospectiveawardtest"
+}

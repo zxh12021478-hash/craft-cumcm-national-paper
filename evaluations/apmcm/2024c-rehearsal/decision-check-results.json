@@ -1,0 +1,136 @@
+{
+  "FX2019_exports_100mUSD": "22.33818946147713271000942233818946147713",
+  "2019_to_2020_corrected_change_pct": "-56.12894224529526281635301752109020116807",
+  "mixed_currency_change_pct": "-93.64049318624269954574951330304996755354",
+  "target_feature_toy": {
+    "P": 10,
+    "Y": [
+      100,
+      150,
+      210,
+      280
+    ],
+    "E_equals_Y_over_P": [
+      10.0,
+      15.0,
+      21.0,
+      28.0
+    ],
+    "reconstructed_Y": [
+      100.0,
+      150.0,
+      210.0,
+      280.0
+    ],
+    "future_feature_depends_on_unknown_target": {
+      "300": 30.0,
+      "600": 60.0
+    },
+    "scope": "Analytic counterexample, not reproduction of paper regression."
+  },
+  "visible_case_game": {
+    "rows": [
+      {
+        "price": 50,
+        "tariff": 0.25,
+        "share": 0.9994472213630764,
+        "literal_eq31_profit": 19.73908262192076,
+        "alternative_advalorem_profit": 7.495854160223073,
+        "US_visible_profit": 0.01105557273847202
+      },
+      {
+        "price": 50,
+        "tariff": 0.3,
+        "share": 0.9994472213630764,
+        "literal_eq31_profit": 19.689110260852605,
+        "alternative_advalorem_profit": 4.997236106815382,
+        "US_visible_profit": 0.01105557273847202
+      },
+      {
+        "price": 45,
+        "tariff": 0.25,
+        "share": 0.999999694097773,
+        "literal_eq31_profit": 14.749995487942153,
+        "alternative_advalorem_profit": 3.7499988528666486,
+        "US_visible_profit": 6.1180445398711925e-06
+      },
+      {
+        "price": 45,
+        "tariff": 0.3,
+        "share": 0.999999694097773,
+        "literal_eq31_profit": 14.699995503237263,
+        "alternative_advalorem_profit": 1.499999541146656,
+        "US_visible_profit": 6.1180445398711925e-06
+      }
+    ],
+    "pure_equilibria": {
+      "literal_eq31_profit": [
+        [
+          50,
+          0.25
+        ],
+        [
+          50,
+          0.3
+        ]
+      ],
+      "alternative_advalorem_profit": [
+        [
+          50,
+          0.25
+        ],
+        [
+          50,
+          0.3
+        ]
+      ]
+    },
+    "interpretation": "US payoff independent oftariff in visible formula, so no stricttariff preference is established. Alternativeformula is a reconstruction, not authorcode."
+  },
+  "three_market_food_ratio_bounds": [
+    {
+      "year": 2024,
+      "minimum_ratio": 0.954265343759799,
+      "maximum_ratio": 1.0142857142857142,
+      "growth_sign_identified": false,
+      "ratios": {
+        "America_cat": 0.9645292275052533,
+        "America_dog": 1.0,
+        "France_cat": 1.0,
+        "France_dog": 0.954265343759799,
+        "Germany_cat": 1.0,
+        "Germany_dog": 1.0142857142857142
+      }
+    },
+    {
+      "year": 2025,
+      "minimum_ratio": 0.9303166307118814,
+      "maximum_ratio": 1.020952380952381,
+      "growth_sign_identified": false,
+      "ratios": {
+        "America_cat": 0.9303166307118814,
+        "America_dog": 1.0,
+        "France_cat": 1.0,
+        "France_dog": 1.0094877093254466,
+        "Germany_cat": 1.0,
+        "Germany_dog": 1.020952380952381
+      }
+    },
+    {
+      "year": 2026,
+      "minimum_ratio": 0.8973175811558232,
+      "maximum_ratio": 1.0679057370605396,
+      "growth_sign_identified": false,
+      "ratios": {
+        "America_cat": 0.8973175811558232,
+        "America_dog": 1.0,
+        "France_cat": 1.0,
+        "France_dog": 1.0679057370605396,
+        "Germany_cat": 1.0,
+        "Germany_dog": 1.0276190476190477
+      }
+    }
+  ],
+  "bound_assumptions": "Fixed nonnegative per-pet coefficients within six observed market/species groups; pointstockforecasts treated as given. Ratio is convexcombination of groupstockratios. Not global or confidencebounds; rest-of-world and changingintensity unbounded here.",
+  "source": "Official2024Cquestion and userhandbookcase physical262-263,265,270-272; case fullimplementation notavailable."
+}

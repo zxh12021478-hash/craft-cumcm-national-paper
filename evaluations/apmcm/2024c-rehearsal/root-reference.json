@@ -1,0 +1,817 @@
+{
+  "reference": "Fraction-basedlevelOLS anddirectlognormal-equations; only twoforwardone-steporigins, not three-yearvalidation",
+  "series": {
+    "China_cat": {
+      "observed": [
+        4412,
+        4862,
+        5806,
+        6536,
+        6980
+      ],
+      "validation": {
+        "last_value": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 5806.0,
+            "actual": 6536
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 6536.0,
+            "actual": 6980
+          }
+        ],
+        "level_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 6420.666666666667,
+            "actual": 6536
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 7233.0,
+            "actual": 6980
+          }
+        ],
+        "log_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 6571.795252520946,
+            "actual": 6536
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 7497.781971449088,
+            "actual": 6980
+          }
+        ]
+      },
+      "MAE": {
+        "last_value": 587.0,
+        "level_linear": 184.16666666666652,
+        "log_linear": 276.7886119850168
+      },
+      "selected": "level_linear",
+      "forecast_2024_2026": [
+        7762.2,
+        8443.2,
+        9124.2
+      ],
+      "all_candidate_forecasts": {
+        "last_value": [
+          6980.0,
+          6980.0,
+          6980.0
+        ],
+        "level_linear": [
+          7762.2,
+          8443.2,
+          9124.2
+        ],
+        "log_linear": [
+          8109.238417920394,
+          9155.32491936495,
+          10336.355901672992
+        ]
+      }
+    },
+    "China_dog": {
+      "observed": [
+        5503,
+        5222,
+        5429,
+        5119,
+        5175
+      ],
+      "validation": {
+        "last_value": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 5429.0,
+            "actual": 5119
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 5119.0,
+            "actual": 5175
+          }
+        ],
+        "level_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 5310.666666666667,
+            "actual": 5119
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 5082.0,
+            "actual": 5175
+          }
+        ],
+        "log_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 5310.952324241829,
+            "actual": 5119
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 5084.465372889472,
+            "actual": 5175
+          }
+        ]
+      },
+      "MAE": {
+        "last_value": 183.0,
+        "level_linear": 142.33333333333348,
+        "log_linear": 141.2434756761786
+      },
+      "selected": "log_linear",
+      "forecast_2024_2026": [
+        5065.721672514065,
+        4993.882491872437,
+        4923.062093589757
+      ],
+      "all_candidate_forecasts": {
+        "last_value": [
+          5175.0,
+          5175.0,
+          5175.0
+        ],
+        "level_linear": [
+          5061.9,
+          4986.0,
+          4910.1
+        ],
+        "log_linear": [
+          5065.721672514065,
+          4993.882491872437,
+          4923.062093589757
+        ]
+      }
+    },
+    "America_cat": {
+      "observed": [
+        9420,
+        6500,
+        9420,
+        7380,
+        7380
+      ],
+      "validation": {
+        "last_value": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 9420.0,
+            "actual": 7380
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 7380.0,
+            "actual": 7380
+          }
+        ],
+        "level_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 8446.666666666666,
+            "actual": 7380
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 7380.0,
+            "actual": 7380
+          }
+        ],
+        "log_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 8324.121055380427,
+            "actual": 7380
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 7379.9999999999945,
+            "actual": 7380
+          }
+        ]
+      },
+      "MAE": {
+        "last_value": 1020.0,
+        "level_linear": 533.333333333333,
+        "log_linear": 472.0605276902161
+      },
+      "selected": "log_linear",
+      "forecast_2024_2026": [
+        7118.225698988769,
+        6865.736734653685,
+        6622.203748929975
+      ],
+      "all_candidate_forecasts": {
+        "last_value": [
+          7380.0,
+          7380.0,
+          7380.0
+        ],
+        "level_linear": [
+          7060.0,
+          6740.0,
+          6420.0
+        ],
+        "log_linear": [
+          7118.225698988769,
+          6865.736734653685,
+          6622.203748929975
+        ]
+      }
+    },
+    "America_dog": {
+      "observed": [
+        8970,
+        8500,
+        8970,
+        8970,
+        8010
+      ],
+      "validation": {
+        "last_value": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 8970.0,
+            "actual": 8970
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 8970.0,
+            "actual": 8010
+          }
+        ],
+        "level_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 8813.333333333334,
+            "actual": 8970
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 8970.0,
+            "actual": 8010
+          }
+        ],
+        "log_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 8810.51450666976,
+            "actual": 8970
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 8970.0,
+            "actual": 8010
+          }
+        ]
+      },
+      "MAE": {
+        "last_value": 480.0,
+        "level_linear": 558.333333333333,
+        "log_linear": 559.7427466651197
+      },
+      "selected": "last_value",
+      "forecast_2024_2026": [
+        8010.0,
+        8010.0,
+        8010.0
+      ],
+      "all_candidate_forecasts": {
+        "last_value": [
+          8010.0,
+          8010.0,
+          8010.0
+        ],
+        "level_linear": [
+          8249.0,
+          8104.0,
+          7959.0
+        ],
+        "log_linear": [
+          8237.621878891969,
+          8096.684554240643,
+          7958.158523743371
+        ]
+      }
+    },
+    "France_cat": {
+      "observed": [
+        1300,
+        1490,
+        1510,
+        1490,
+        1660
+      ],
+      "validation": {
+        "last_value": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 1510.0,
+            "actual": 1490
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 1490.0,
+            "actual": 1660
+          }
+        ],
+        "level_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 1643.3333333333333,
+            "actual": 1490
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 1595.0,
+            "actual": 1660
+          }
+        ],
+        "log_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 1661.125522324844,
+            "actual": 1490
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 1605.8429370463166,
+            "actual": 1660
+          }
+        ]
+      },
+      "MAE": {
+        "last_value": 95.0,
+        "level_linear": 109.16666666666663,
+        "log_linear": 112.64129263926372
+      },
+      "selected": "last_value",
+      "forecast_2024_2026": [
+        1660.0,
+        1660.0,
+        1660.0
+      ],
+      "all_candidate_forecasts": {
+        "last_value": [
+          1660.0,
+          1660.0,
+          1660.0
+        ],
+        "level_linear": [
+          1706.0,
+          1778.0,
+          1850.0
+        ],
+        "log_linear": [
+          1720.2003287660946,
+          1806.3918846271554,
+          1896.9021144109674
+        ]
+      }
+    },
+    "France_dog": {
+      "observed": [
+        740,
+        775,
+        750,
+        760,
+        990
+      ],
+      "validation": {
+        "last_value": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 750.0,
+            "actual": 760
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 760.0,
+            "actual": 990
+          }
+        ],
+        "level_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 765.0,
+            "actual": 760
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 765.0,
+            "actual": 990
+          }
+        ],
+        "log_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 765.0581375166962,
+            "actual": 760
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 765.1179029439872,
+            "actual": 990
+          }
+        ]
+      },
+      "MAE": {
+        "last_value": 120.0,
+        "level_linear": 115.0,
+        "log_linear": 114.97011728635448
+      },
+      "selected": "log_linear",
+      "forecast_2024_2026": [
+        944.722690322201,
+        999.3928322321921,
+        1057.2266796899341
+      ],
+      "all_candidate_forecasts": {
+        "last_value": [
+          990.0,
+          990.0,
+          990.0
+        ],
+        "level_linear": [
+          948.5,
+          997.0,
+          1045.5
+        ],
+        "log_linear": [
+          944.722690322201,
+          999.3928322321921,
+          1057.2266796899341
+        ]
+      }
+    },
+    "Germany_cat": {
+      "observed": [
+        1470,
+        1570,
+        1670,
+        1520,
+        1570
+      ],
+      "validation": {
+        "last_value": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 1670.0,
+            "actual": 1520
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 1520.0,
+            "actual": 1570
+          }
+        ],
+        "level_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 1770.0,
+            "actual": 1520
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 1620.0,
+            "actual": 1570
+          }
+        ],
+        "log_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 1781.1901678609352,
+            "actual": 1520
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 1620.1049768624323,
+            "actual": 1570
+          }
+        ]
+      },
+      "MAE": {
+        "last_value": 100.0,
+        "level_linear": 150.0,
+        "log_linear": 155.64757236168373
+      },
+      "selected": "last_value",
+      "forecast_2024_2026": [
+        1570.0,
+        1570.0,
+        1570.0
+      ],
+      "all_candidate_forecasts": {
+        "last_value": [
+          1570.0,
+          1570.0,
+          1570.0
+        ],
+        "level_linear": [
+          1605.0,
+          1620.0,
+          1635.0
+        ],
+        "log_linear": [
+          1605.712953839849,
+          1621.730811735209,
+          1637.9084564535779
+        ]
+      }
+    },
+    "Germany_dog": {
+      "observed": [
+        1010,
+        1070,
+        1030,
+        1060,
+        1050
+      ],
+      "validation": {
+        "last_value": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 1030.0,
+            "actual": 1060
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 1060.0,
+            "actual": 1050
+          }
+        ],
+        "level_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 1056.6666666666667,
+            "actual": 1060
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 1070.0,
+            "actual": 1050
+          }
+        ],
+        "log_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 1056.8904564595039,
+            "actual": 1060
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 1070.4436019475738,
+            "actual": 1050
+          }
+        ]
+      },
+      "MAE": {
+        "last_value": 20.0,
+        "level_linear": 11.666666666666629,
+        "log_linear": 11.77657274403498
+      },
+      "selected": "level_linear",
+      "forecast_2024_2026": [
+        1065.0,
+        1072.0,
+        1079.0
+      ],
+      "all_candidate_forecasts": {
+        "last_value": [
+          1050.0,
+          1050.0,
+          1050.0
+        ],
+        "level_linear": [
+          1065.0,
+          1072.0,
+          1079.0
+        ],
+        "log_linear": [
+          1065.3808582968218,
+          1072.6812350628365,
+          1080.031636663173
+        ]
+      }
+    },
+    "production_100m_CNY": {
+      "observed": [
+        440.7,
+        727.3,
+        1554,
+        1508,
+        2793
+      ],
+      "validation": {
+        "last_value": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 1554.0,
+            "actual": 1508
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 1508.0,
+            "actual": 2793
+          }
+        ],
+        "level_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 2020.6333333333334,
+            "actual": 1508
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 2064.65,
+            "actual": 2793
+          }
+        ],
+        "log_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 2795.184728033831,
+            "actual": 1508
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 2831.7527015669766,
+            "actual": 2793
+          }
+        ]
+      },
+      "MAE": {
+        "last_value": 665.5,
+        "level_linear": 620.4916666666667,
+        "log_linear": 662.9687148004039
+      },
+      "selected": "level_linear",
+      "forecast_2024_2026": [
+        3050.19,
+        3598.72,
+        4147.25
+      ],
+      "all_candidate_forecasts": {
+        "last_value": [
+          2793.0,
+          2793.0,
+          2793.0
+        ],
+        "level_linear": [
+          3050.19,
+          3598.72,
+          4147.25
+        ],
+        "log_linear": [
+          4370.378422028745,
+          6801.009722410058,
+          10583.461837349349
+        ]
+      }
+    },
+    "exports_100m_USD": {
+      "observed": [
+        22.338189461477132,
+        9.8,
+        12.2,
+        24.7,
+        39.6
+      ],
+      "validation": {
+        "last_value": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 12.2,
+            "actual": 24.7
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 24.7,
+            "actual": 39.6
+          }
+        ],
+        "level_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 4.641207025681912,
+            "actual": 24.7
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 19.630905269261433,
+            "actual": 39.6
+          }
+        ],
+        "log_linear": [
+          {
+            "origin": 2021,
+            "target": 2022,
+            "forecast": 7.577451280528605,
+            "actual": 24.7
+          },
+          {
+            "origin": 2022,
+            "target": 2023,
+            "forecast": 18.253783008303007,
+            "actual": 39.6
+          }
+        ]
+      },
+      "MAE": {
+        "last_value": 13.700000000000001,
+        "level_linear": 20.013943852528328,
+        "log_linear": 19.234382855584194
+      },
+      "selected": "last_value",
+      "forecast_2024_2026": [
+        39.6,
+        39.6,
+        39.6
+      ],
+      "all_candidate_forecasts": {
+        "last_value": [
+          39.6,
+          39.6,
+          39.6
+        ],
+        "level_linear": [
+          36.554724215409145,
+          41.49708632311372,
+          46.439448430818295
+        ],
+        "log_linear": [
+          35.73014641848627,
+          43.94518800768756,
+          54.049024216476234
+        ]
+      }
+    }
+  },
+  "FX2019_CNY_per_USD": 6.8985,
+  "exports2019_100mUSD": 22.338189461477132
+}

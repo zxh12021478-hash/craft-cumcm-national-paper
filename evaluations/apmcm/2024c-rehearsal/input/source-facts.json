@@ -1,0 +1,14 @@
+{
+  "FX2019": {
+    "value_CNY_per_USD": 6.8985,
+    "source": "https://www.stats.gov.cn/xxgk/sjfb/tjgb2020/202006/t20200617_1768655.html",
+    "publication_date": "2020-02-28",
+    "role": "Annual2019flowconversion; original2019CNY value dividedbythisrate toUSD",
+    "status": "verified downloadedNBSHTML containsvalue, snapshot hash recorded"
+  },
+  "global_anchor": {
+    "status": "unable-to-verify-full-primary-report",
+    "search_index_exposure": "Alltech2024v5/v12 reports andsecondarynumbersconflict; later2025/26revisions excluded. DirectPDFURL returnsHTML notPDF. Do notinventverifiedglobalanchor or use2025/26observations.",
+    "allowable_output": "Globalquantity parameterized byQ_global2023 and growth/stock assumptions. Threecountries forecast mustretaincoverage; absoluteglobalforecast remainsuncompletedunless independentlysourced."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "issues_confirmed": 3,
+  "fixes": [
+    "Qualifycurrencydecline ratherthaneraseit",
+    "Q0_consumption defined andQ3 distinguishesproductionanchorfromconsumptioncalibration",
+    "Record actualMAEtie status"
+  ],
+  "changed_forecast_numbers": false,
+  "root_recheck": "Actual root-acceptance.py pass after all three confirmed fixes; clean results and ledger reproduced",
+  "independent_recheck": "Not performed; root acceptance only after repairs"
+}

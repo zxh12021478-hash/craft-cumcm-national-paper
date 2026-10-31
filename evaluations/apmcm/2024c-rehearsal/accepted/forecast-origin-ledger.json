@@ -1,0 +1,502 @@
+{
+  "America_cat": {
+    "origin_mae": {
+      "last_value": 1020.0,
+      "level_linear": 533.333333333333,
+      "log_linear": 472.0605276902161
+    },
+    "origins": [
+      {
+        "abs_errors": {
+          "last_value": 2040,
+          "level_linear": 1066.666666666666,
+          "log_linear": 944.1210553804267
+        },
+        "actual": 7380,
+        "predictions": {
+          "last_value": 9420,
+          "level_linear": 8446.666666666666,
+          "log_linear": 8324.121055380427
+        },
+        "target_year": 2022,
+        "train_years": [
+          2019,
+          2020,
+          2021
+        ]
+      },
+      {
+        "abs_errors": {
+          "last_value": 0,
+          "level_linear": 0.0,
+          "log_linear": 5.4569682106375694e-12
+        },
+        "actual": 7380,
+        "predictions": {
+          "last_value": 7380,
+          "level_linear": 7380.0,
+          "log_linear": 7379.9999999999945
+        },
+        "target_year": 2023,
+        "train_years": [
+          2019,
+          2020,
+          2021,
+          2022
+        ]
+      }
+    ],
+    "selected_model": "log_linear",
+    "unit": "10000 animals"
+  },
+  "America_dog": {
+    "origin_mae": {
+      "last_value": 480.0,
+      "level_linear": 558.333333333333,
+      "log_linear": 559.7427466651197
+    },
+    "origins": [
+      {
+        "abs_errors": {
+          "last_value": 0,
+          "level_linear": 156.66666666666606,
+          "log_linear": 159.48549333023948
+        },
+        "actual": 8970,
+        "predictions": {
+          "last_value": 8970,
+          "level_linear": 8813.333333333334,
+          "log_linear": 8810.51450666976
+        },
+        "target_year": 2022,
+        "train_years": [
+          2019,
+          2020,
+          2021
+        ]
+      },
+      {
+        "abs_errors": {
+          "last_value": 960,
+          "level_linear": 960.0,
+          "log_linear": 960.0
+        },
+        "actual": 8010,
+        "predictions": {
+          "last_value": 8970,
+          "level_linear": 8970.0,
+          "log_linear": 8970.0
+        },
+        "target_year": 2023,
+        "train_years": [
+          2019,
+          2020,
+          2021,
+          2022
+        ]
+      }
+    ],
+    "selected_model": "last_value",
+    "unit": "10000 animals"
+  },
+  "China_cat": {
+    "origin_mae": {
+      "last_value": 587.0,
+      "level_linear": 184.16666666666652,
+      "log_linear": 276.7886119850168
+    },
+    "origins": [
+      {
+        "abs_errors": {
+          "last_value": 730,
+          "level_linear": 115.33333333333303,
+          "log_linear": 35.79525252094572
+        },
+        "actual": 6536,
+        "predictions": {
+          "last_value": 5806,
+          "level_linear": 6420.666666666667,
+          "log_linear": 6571.795252520946
+        },
+        "target_year": 2022,
+        "train_years": [
+          2019,
+          2020,
+          2021
+        ]
+      },
+      {
+        "abs_errors": {
+          "last_value": 444,
+          "level_linear": 253.0,
+          "log_linear": 517.7819714490879
+        },
+        "actual": 6980,
+        "predictions": {
+          "last_value": 6536,
+          "level_linear": 7233.0,
+          "log_linear": 7497.781971449088
+        },
+        "target_year": 2023,
+        "train_years": [
+          2019,
+          2020,
+          2021,
+          2022
+        ]
+      }
+    ],
+    "selected_model": "level_linear",
+    "unit": "10000 animals"
+  },
+  "China_dog": {
+    "origin_mae": {
+      "last_value": 183.0,
+      "level_linear": 142.33333333333348,
+      "log_linear": 141.2434756761786
+    },
+    "origins": [
+      {
+        "abs_errors": {
+          "last_value": 310,
+          "level_linear": 191.66666666666697,
+          "log_linear": 191.95232424182905
+        },
+        "actual": 5119,
+        "predictions": {
+          "last_value": 5429,
+          "level_linear": 5310.666666666667,
+          "log_linear": 5310.952324241829
+        },
+        "target_year": 2022,
+        "train_years": [
+          2019,
+          2020,
+          2021
+        ]
+      },
+      {
+        "abs_errors": {
+          "last_value": 56,
+          "level_linear": 93.0,
+          "log_linear": 90.53462711052816
+        },
+        "actual": 5175,
+        "predictions": {
+          "last_value": 5119,
+          "level_linear": 5082.0,
+          "log_linear": 5084.465372889472
+        },
+        "target_year": 2023,
+        "train_years": [
+          2019,
+          2020,
+          2021,
+          2022
+        ]
+      }
+    ],
+    "selected_model": "log_linear",
+    "unit": "10000 animals"
+  },
+  "France_cat": {
+    "origin_mae": {
+      "last_value": 95.0,
+      "level_linear": 109.16666666666663,
+      "log_linear": 112.64129263926372
+    },
+    "origins": [
+      {
+        "abs_errors": {
+          "last_value": 20,
+          "level_linear": 153.33333333333326,
+          "log_linear": 171.12552232484404
+        },
+        "actual": 1490,
+        "predictions": {
+          "last_value": 1510,
+          "level_linear": 1643.3333333333333,
+          "log_linear": 1661.125522324844
+        },
+        "target_year": 2022,
+        "train_years": [
+          2019,
+          2020,
+          2021
+        ]
+      },
+      {
+        "abs_errors": {
+          "last_value": 170,
+          "level_linear": 65.0,
+          "log_linear": 54.15706295368341
+        },
+        "actual": 1660,
+        "predictions": {
+          "last_value": 1490,
+          "level_linear": 1595.0,
+          "log_linear": 1605.8429370463166
+        },
+        "target_year": 2023,
+        "train_years": [
+          2019,
+          2020,
+          2021,
+          2022
+        ]
+      }
+    ],
+    "selected_model": "last_value",
+    "unit": "10000 animals"
+  },
+  "France_dog": {
+    "origin_mae": {
+      "last_value": 120.0,
+      "level_linear": 115.0,
+      "log_linear": 114.97011728635414
+    },
+    "origins": [
+      {
+        "abs_errors": {
+          "last_value": 10,
+          "level_linear": 5.0,
+          "log_linear": 5.058137516696206
+        },
+        "actual": 760,
+        "predictions": {
+          "last_value": 750,
+          "level_linear": 765.0,
+          "log_linear": 765.0581375166962
+        },
+        "target_year": 2022,
+        "train_years": [
+          2019,
+          2020,
+          2021
+        ]
+      },
+      {
+        "abs_errors": {
+          "last_value": 230,
+          "level_linear": 225.0,
+          "log_linear": 224.88209705601207
+        },
+        "actual": 990,
+        "predictions": {
+          "last_value": 760,
+          "level_linear": 765.0,
+          "log_linear": 765.1179029439879
+        },
+        "target_year": 2023,
+        "train_years": [
+          2019,
+          2020,
+          2021,
+          2022
+        ]
+      }
+    ],
+    "selected_model": "log_linear",
+    "unit": "10000 animals"
+  },
+  "Germany_cat": {
+    "origin_mae": {
+      "last_value": 100.0,
+      "level_linear": 150.0,
+      "log_linear": 155.64757236168373
+    },
+    "origins": [
+      {
+        "abs_errors": {
+          "last_value": 150,
+          "level_linear": 250.0,
+          "log_linear": 261.19016786093516
+        },
+        "actual": 1520,
+        "predictions": {
+          "last_value": 1670,
+          "level_linear": 1770.0,
+          "log_linear": 1781.1901678609352
+        },
+        "target_year": 2022,
+        "train_years": [
+          2019,
+          2020,
+          2021
+        ]
+      },
+      {
+        "abs_errors": {
+          "last_value": 50,
+          "level_linear": 50.0,
+          "log_linear": 50.104976862432295
+        },
+        "actual": 1570,
+        "predictions": {
+          "last_value": 1520,
+          "level_linear": 1620.0,
+          "log_linear": 1620.1049768624323
+        },
+        "target_year": 2023,
+        "train_years": [
+          2019,
+          2020,
+          2021,
+          2022
+        ]
+      }
+    ],
+    "selected_model": "last_value",
+    "unit": "10000 animals"
+  },
+  "Germany_dog": {
+    "origin_mae": {
+      "last_value": 20.0,
+      "level_linear": 11.666666666666629,
+      "log_linear": 11.776572744035434
+    },
+    "origins": [
+      {
+        "abs_errors": {
+          "last_value": 30,
+          "level_linear": 3.3333333333332575,
+          "log_linear": 3.1095435404961336
+        },
+        "actual": 1060,
+        "predictions": {
+          "last_value": 1030,
+          "level_linear": 1056.6666666666667,
+          "log_linear": 1056.8904564595039
+        },
+        "target_year": 2022,
+        "train_years": [
+          2019,
+          2020,
+          2021
+        ]
+      },
+      {
+        "abs_errors": {
+          "last_value": 10,
+          "level_linear": 20.0,
+          "log_linear": 20.443601947574734
+        },
+        "actual": 1050,
+        "predictions": {
+          "last_value": 1060,
+          "level_linear": 1070.0,
+          "log_linear": 1070.4436019475747
+        },
+        "target_year": 2023,
+        "train_years": [
+          2019,
+          2020,
+          2021,
+          2022
+        ]
+      }
+    ],
+    "selected_model": "level_linear",
+    "unit": "10000 animals"
+  },
+  "exports_100m_USD": {
+    "origin_mae": {
+      "last_value": 13.700000000000001,
+      "level_linear": 20.013943852528328,
+      "log_linear": 19.234382855584194
+    },
+    "origins": [
+      {
+        "abs_errors": {
+          "last_value": 12.5,
+          "level_linear": 20.058792974318088,
+          "log_linear": 17.122548719471396
+        },
+        "actual": 24.7,
+        "predictions": {
+          "last_value": 12.2,
+          "level_linear": 4.641207025681911,
+          "log_linear": 7.577451280528605
+        },
+        "target_year": 2022,
+        "train_years": [
+          2019,
+          2020,
+          2021
+        ]
+      },
+      {
+        "abs_errors": {
+          "last_value": 14.900000000000002,
+          "level_linear": 19.96909473073857,
+          "log_linear": 21.346216991696995
+        },
+        "actual": 39.6,
+        "predictions": {
+          "last_value": 24.7,
+          "level_linear": 19.630905269261433,
+          "log_linear": 18.253783008303007
+        },
+        "target_year": 2023,
+        "train_years": [
+          2019,
+          2020,
+          2021,
+          2022
+        ]
+      }
+    ],
+    "selected_model": "last_value",
+    "unit": "100 millions USD"
+  },
+  "production_100m_CNY": {
+    "origin_mae": {
+      "last_value": 665.5,
+      "level_linear": 620.4916666666666,
+      "log_linear": 662.968714800405
+    },
+    "origins": [
+      {
+        "abs_errors": {
+          "last_value": 46,
+          "level_linear": 512.6333333333332,
+          "log_linear": 1287.1847280338334
+        },
+        "actual": 1508,
+        "predictions": {
+          "last_value": 1554,
+          "level_linear": 2020.6333333333332,
+          "log_linear": 2795.1847280338334
+        },
+        "target_year": 2022,
+        "train_years": [
+          2019,
+          2020,
+          2021
+        ]
+      },
+      {
+        "abs_errors": {
+          "last_value": 1285,
+          "level_linear": 728.3499999999999,
+          "log_linear": 38.75270156697661
+        },
+        "actual": 2793,
+        "predictions": {
+          "last_value": 1508,
+          "level_linear": 2064.65,
+          "log_linear": 2831.7527015669766
+        },
+        "target_year": 2023,
+        "train_years": [
+          2019,
+          2020,
+          2021,
+          2022
+        ]
+      }
+    ],
+    "selected_model": "level_linear",
+    "unit": "100 millions CNY"
+  }
+}

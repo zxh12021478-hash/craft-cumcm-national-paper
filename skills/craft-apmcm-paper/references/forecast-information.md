@@ -2,6 +2,8 @@
 
 Use when a forecast probe or returned code uses delayed or future exogenous variables. A historical CSV contains values known today; that does not mean they were known at each historical forecast origin. A one-period lag may still be unavailable if publication is delayed. Check the actual code, not just its prose description.
 
+Trace derived features back to their ingredients as well as their release times. A contemporaneous ratio, per-capita value, share or residual computed from the target still contains that target: if `E_t = M_t / N_t`, supplying actual `E_t` to forecast unknown `M_t` is not an independent predictor. A new column name or high fitted R² does not remove the dependence. Use genuinely available lags or independently formed forecasts/scenarios for the ingredients; if solving a simultaneous structural system, state and identify that system instead of treating the constructed feature as observed input. The optional timestamp checker below cannot discover hidden construction dependencies or validate a falsely labeled scenario.
+
 Optionally emit a small feature-use trace from the calculation and check it with:
 
 ```bash

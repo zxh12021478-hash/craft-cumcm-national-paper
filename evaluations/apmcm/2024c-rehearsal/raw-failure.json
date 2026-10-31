@@ -1,0 +1,16 @@
+{
+  "forecast_machine_results": "pass vs independentFraction/normal-equationreference",
+  "max_forecast_difference": 1.2732925824820995e-11,
+  "raw_absorption_example": {
+    "eta": 1.0,
+    "kappa": 1.0,
+    "producer_price_mult": 0.6363636363636364,
+    "quantity_mult": 0.7333333333333334,
+    "share": 1.0,
+    "t1": 0.5,
+    "total_revenue_mult": 0.4666666666666667
+  },
+  "buyer_price_ratio_from_both_changes": 0.8677685950413223,
+  "demand_ratio_if_consistent": 1.1523809523809523,
+  "analysis_numeric_check": "ForecastMAEs andmitigationexamples agree with rawmachineoutput todisplayedrounding. However mitigationoutputdepends on aninconsistent pass-throughmodel, andSummarycurrencyunits need explicit100mUSD labels."
+}
