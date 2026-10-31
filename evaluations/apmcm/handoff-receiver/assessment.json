@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-31",
+  "base_commit": "1ba90c6a2857c35a7529637dfd4fb86ba85aaef6",
+  "case": "2024D reviewed handoff, bounded new receiver kickoff",
+  "producer": {
+    "app": "nativeDoubao",
+    "same_conversation": true,
+    "new_window_or_conversation": false,
+    "rounds": "Initial2m57s, directedrepair1m49s pervisibleUI",
+    "scope": "Readpublichistoricalquestion/selfmadehandoff; no paidModex, training/fullsolve ororiginalprivateCUMCMmaterial"
+  },
+  "original_failure": {
+    "sha256": "4ea3728e411db9a0b1cdc4b0bd22c23b05d631b86d3a6b460ffece2ef1af6ac4",
+    "observed": "Zero-score and three-way vote ties used classes-list position rather than declared smallernumericID. Classorder[2,0,1] gave2 instead of0.",
+    "root_failure_log": "Initialindependentreference checkfailed after60QUBOassignments passed. Two explicit counterexamples reproduced in raw-failure.json.",
+    "raw_output_preserved": true,
+    "producer_selfcheck": "Four frozenpoints and aggregateaccuracy1.0 did not catch this semanticerror; notIris/testperformance"
+  },
+  "repair": {
+    "sha256": "73d4e3544d555119b4215ac832386a19f1f1066f8ec68e8d83f609db28aa98a6",
+    "changed_functions": [
+      "_smaller",
+      "predict_ovo"
+    ],
+    "semantic_change": "minactualpairID forzero margin and minwinnerID forvote ties; preserve score->pairclass direction",
+    "unchanged": "least_squares_qubo, SDKdiscovery andremainingfunctions ASTidentical",
+    "candidate_status": "Actualdirectedreceiverrepair followedbyrootexecution, not merely suggestedcorrection"
+  },
+  "retained_skill_change": "Oneclassificationparagraph: bindtiepolicytoIDs/explicitpriority and cheaplycheckrepresentation-orderinvariance whereorderhasnosemanticpriority. Doesnotprescribeoneuniversalpolicy.",
+  "actual_root_checks": {
+    "new_QUBO_assignments": 60,
+    "cases": 4,
+    "maximum_absolute_gap": 1.4210854715202004e-14,
+    "distinct_model_point_cases": 72,
+    "class_order_reference_evaluations": 144,
+    "also_checked": [
+      "Classifierlistreverse",
+      "Classlistreorder",
+      "Pairorientationreversewithscore-signflip",
+      "Thirdpairdecisive",
+      "Predictioninterfaceanddependenciesnolabelinput"
+    ],
+    "two_original_counterexamples": "Bothreproducedonrawextractandrepairedonv2extract",
+    "receiver_code_review": "Full generated source reviewed before execution; only selected pure functions AST-equivalent extracted for public reproducer",
+    "input_copy_files_unchanged": 36,
+    "original_frozen_output_files_unchanged": 5,
+    "skill_structure": "quick_validate.py actual passOct31",
+    "installed_source_files_byte_match": 34
+  },
+  "SDK_status": {
+    "producer_report": "NoKaiwuimport/metadatafound inproducerPython3.12.14",
+    "root_status": "supported-not-reproduced; discoverymethod/code reviewed, not rerun or installed",
+    "scope": "Thisinterpreteronly; notproofalluserenvironmentslackSDK",
+    "original_requirement": "ActualspecifiedSDKsolve/decode remainsunverified; no generic replacementcounted"
+  },
+  "public_artifacts": "AST-equivalentthreefunctionbefore/afterextracts, check.py, results, rawfailureandassessment. No fullprivateinput oruserPDFpublished.",
+  "remaining_limits": [
+    "Sameconversationhaspriorfeedback; notblind/isolated or actualModextransfer",
+    "Tinyrepresentation/interfacechecks, notARforecast/SVMtraining/deepmodelorfull2024Dsolve",
+    "SVMrealdataexactfeasibility/metrics anddeepfeatureheadremainpending",
+    "No SDKexecution, speedup, physicalaccuracy, awardprobability orquota-savingclaim",
+    "Updatedoneparagraph has directcounterexample support anddirectedrepairregression, notblindforward-testcausality"
+  ],
+  "reuse": "Prior40productiontests unaffected andnotrerun; earlierhistorical144representationchecksandaccepted2024BSummaryPDFnotrepeated.",
+  "paid_Modex_calls": 0,
+  "private_material_publication": false
+}

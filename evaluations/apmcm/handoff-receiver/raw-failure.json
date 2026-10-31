@@ -1,0 +1,133 @@
+{
+  "status": "fail",
+  "cause": "DeclaredsmallerclassIDimplementedaslistposition",
+  "receiver_sha256": "4ea3728e411db9a0b1cdc4b0bd22c23b05d631b86d3a6b460ffece2ef1af6ac4",
+  "counterexamples": [
+    {
+      "case": "zero_pair_scores",
+      "X": [
+        [
+          0
+        ]
+      ],
+      "models": [
+        {
+          "classes": [
+            0,
+            1
+          ],
+          "w": [
+            0
+          ],
+          "bias": 0
+        },
+        {
+          "classes": [
+            0,
+            2
+          ],
+          "w": [
+            0
+          ],
+          "bias": 0
+        },
+        {
+          "classes": [
+            1,
+            2
+          ],
+          "w": [
+            0
+          ],
+          "bias": 0
+        }
+      ],
+      "class_orders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "expected": [
+        0
+      ],
+      "raw_ordered": [
+        0
+      ],
+      "raw_reordered": [
+        2
+      ],
+      "status": "fail"
+    },
+    {
+      "case": "three_way_vote_tie",
+      "X": [
+        [
+          0
+        ]
+      ],
+      "models": [
+        {
+          "classes": [
+            0,
+            1
+          ],
+          "w": [
+            0
+          ],
+          "bias": 1
+        },
+        {
+          "classes": [
+            0,
+            2
+          ],
+          "w": [
+            0
+          ],
+          "bias": -1
+        },
+        {
+          "classes": [
+            1,
+            2
+          ],
+          "w": [
+            0
+          ],
+          "bias": 1
+        }
+      ],
+      "class_orders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "expected": [
+        0
+      ],
+      "raw_ordered": [
+        0
+      ],
+      "raw_reordered": [
+        2
+      ],
+      "status": "fail"
+    }
+  ],
+  "prior_root_execution": "root-check-raw.log reached OVOclass-orderassert after60newQUBOassignments passed; nofullsolverrun",
+  "scope": "Receiverimplementation failure, notoriginalproblem/dataissue."
+}

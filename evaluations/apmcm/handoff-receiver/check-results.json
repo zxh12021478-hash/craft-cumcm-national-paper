@@ -1,0 +1,76 @@
+{
+  "status": "pass",
+  "receiver_sha256": "c165f071ca1834f7595cdd1bee437958901b1d23c806de1f023c9ca02c822c84",
+  "qubo_cases": [
+    {
+      "rows": 3,
+      "parameters": 2,
+      "bits": 4,
+      "assignments": 16,
+      "max_abs_error": 7.105427357601002e-15
+    },
+    {
+      "rows": 2,
+      "parameters": 4,
+      "bits": 3,
+      "assignments": 8,
+      "max_abs_error": 3.552713678800501e-15
+    },
+    {
+      "rows": 4,
+      "parameters": 3,
+      "bits": 5,
+      "assignments": 32,
+      "max_abs_error": 1.4210854715202004e-14
+    },
+    {
+      "rows": 1,
+      "parameters": 1,
+      "bits": 2,
+      "assignments": 4,
+      "max_abs_error": 8.881784197001252e-16
+    }
+  ],
+  "total_assignments": 60,
+  "maximum_qubo_gap": 1.4210854715202004e-14,
+  "OVO_reference_evaluations": 144,
+  "OVO_distinct_model_point_cases": 72,
+  "pair_orientation_and_sign_consistency_checked": true,
+  "OVO_model_order_and_class_order_checked": true,
+  "third_pair_decisive": {
+    "before": [
+      1
+    ],
+    "after": [
+      0
+    ]
+  },
+  "prediction_signature": "X,models,classes only",
+  "scope": "Independent direct arithmetic and prediction reference on AST-equivalent extracts of NEW received implementation. Exposed same-conversation regression, not blind or original solver/SDK/model-performance validation.",
+  "original_failure_reproduced_and_repaired": [
+    {
+      "case": "zero_pair_scores",
+      "expected": [
+        0
+      ],
+      "original": [
+        2
+      ],
+      "repaired": [
+        0
+      ]
+    },
+    {
+      "case": "three_way_vote_tie",
+      "expected": [
+        0
+      ],
+      "original": [
+        2
+      ],
+      "repaired": [
+        0
+      ]
+    }
+  ]
+}
