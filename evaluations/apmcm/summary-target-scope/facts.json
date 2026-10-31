@@ -1,0 +1,70 @@
+{
+  "case": "Self-made2024B rehearsal, frozen24compartment v1; not the newly supplied excellent paper",
+  "sources": {
+    "results_sha256": "d0e38cdb4d12e5e27e2854858355184b320eb478421487b30a0e7406526b1578",
+    "code_sha256": "ea07290ccb935cadff43cf1e8e9fd593ff95d0dbe031daf00e5cc3ceb5862274",
+    "paper_sha256": "162c38151a7003b937ab0c657f64f7b0fa4717d6cedb58dd993cfbad0dd5c9ea"
+  },
+  "question_objectives": {
+    "Q1": {
+      "component_index": 0,
+      "meaning": "thermal error"
+    },
+    "Q2": {
+      "component_index": 1,
+      "meaning": "particle exposure"
+    },
+    "Q3": {
+      "component_index": 2,
+      "meaning": "humidity deficit"
+    },
+    "Q4": {
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "meaning": "integrated score"
+    }
+  },
+  "selected": {
+    "design": {
+      "shape": "tower",
+      "location": "middle",
+      "z": 0.0,
+      "angle": 25,
+      "nout": 1,
+      "q": 600,
+      "zin": 0.2,
+      "nin": 1
+    },
+    "score": 0.3763977791508557
+  },
+  "baseline": {
+    "design": {
+      "shape": "tower",
+      "location": "corner",
+      "z": 0.0,
+      "angle": -25,
+      "nout": 1,
+      "q": 400,
+      "zin": 0.2,
+      "nin": 1
+    },
+    "score": 0.4133839901345433
+  },
+  "same_flow_baseline": {
+    "design": {
+      "shape": "tower",
+      "location": "corner",
+      "z": 0.0,
+      "angle": -25,
+      "nout": 1,
+      "q": 600,
+      "zin": 0.2,
+      "nin": 1
+    },
+    "score": 0.3888221889231742
+  }
+}

@@ -27,6 +27,8 @@ For coupled models, trace the same conserved quantity across equations: state de
 
 Bind each result to its run configuration: inputs, code hash, grid, time step, scenario and baseline. Compare ablations at the same configuration or quantify the difference separately. For asymmetric sensitivity, report deviations from the stated baseline in both directions; half the response range is not a worst-case departure from an off-center baseline. Single-factor sums are not a proven joint bound. A jointly refined space/time experiment does not isolate spatial order.
 
+Keep the optimization target attached to each question: independently minimizing one component is different from minimizing a weighted sum in a later integrated task. A shared set of candidate results does not make every question use that weighted objective. A same-flow comparator controls flow only: if the shell is unchanged and placement/angle differ, the result compares those joint settings, not an isolated shell-shape contribution.
+
 ## Headline ledger
 
 Before admitting an aggregate, establish what is being counted and which IDs belong to it. For a complete list with one row per object, object count is the number of distinct IDs, not the sum of observations/points within them. A unique-point union may differ from summed per-object point counts at shared endpoints. Recompute totals only when rows partition the reported quantity; overlaps, weights, exclusions and open/closed-curve conventions may change the aggregation. Conflicting image/scenario labels or an incomplete roster require the authoritative export, not an invented corrected count.

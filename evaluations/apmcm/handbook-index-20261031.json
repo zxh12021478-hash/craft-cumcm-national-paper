@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-31",
+  "handbook": {
+    "sha256": "c67cf32ddc9d1febbf6dadc9803fd6b272b33bf9bb9e685afd738490583e1d16",
+    "bytes": 73694778,
+    "pages": 441,
+    "role": "user-provided reference; raw file not redistributed"
+  },
+  "scope": "User-supplied handbook triage, current rules admissibility and case indexing; not441page full review",
+  "read_scope": {
+    "visual": [
+      "cover",
+      "physical5-13 (printed1-9) registration/collective notice/charter"
+    ],
+    "text": [
+      "title and contents physical2-4",
+      "first200characters of11case openings",
+      "headers and last-page text of2024B/2024D/2023B only"
+    ]
+  },
+  "edition": "Front matter includes2026August registration and2026-revised charter; old papers are2023-2025 NovemberEnglish",
+  "case_index": [
+    {
+      "year": 2025,
+      "problem": "A",
+      "printed_start": 65,
+      "pdf_start": 69,
+      "pdf_end": 97,
+      "pages": 29,
+      "opening_text_chars": 3450,
+      "status": "section indexed, not full read or award-level verified"
+    },
+    {
+      "year": 2025,
+      "problem": "B",
+      "printed_start": 94,
+      "pdf_start": 98,
+      "pdf_end": 133,
+      "pages": 36,
+      "opening_text_chars": 2781,
+      "status": "section indexed, not full read or award-level verified"
+    },
+    {
+      "year": 2025,
+      "problem": "C",
+      "printed_start": 130,
+      "pdf_start": 134,
+      "pdf_end": 160,
+      "pages": 27,
+      "opening_text_chars": 3383,
+      "status": "section indexed, not full read or award-level verified"
+    },
+    {
+      "year": 2025,
+      "problem": "D",
+      "printed_start": 157,
+      "pdf_start": 161,
+      "pdf_end": 187,
+      "pages": 27,
+      "opening_text_chars": 3719,
+      "status": "section indexed, not full read or award-level verified"
+    },
+    {
+      "year": 2024,
+      "problem": "A",
+      "printed_start": 184,
+      "pdf_start": 188,
+      "pdf_end": 215,
+      "pages": 28,
+      "opening_text_chars": 3713,
+      "status": "section indexed, not full read or award-level verified"
+    },
+    {
+      "year": 2024,
+      "problem": "B",
+      "printed_start": 212,
+      "pdf_start": 216,
+      "pdf_end": 243,
+      "pages": 28,
+      "opening_text_chars": 3456,
+      "status": "section indexed, not full read or award-level verified"
+    },
+    {
+      "year": 2024,
+      "problem": "C",
+      "printed_start": 240,
+      "pdf_start": 244,
+      "pdf_end": 274,
+      "pages": 31,
+      "opening_text_chars": 3242,
+      "status": "section indexed, not full read or award-level verified"
+    },
+    {
+      "year": 2024,
+      "problem": "D",
+      "printed_start": 271,
+      "pdf_start": 275,
+      "pdf_end": 350,
+      "pages": 76,
+      "opening_text_chars": 2501,
+      "status": "section indexed, not full read or award-level verified"
+    },
+    {
+      "year": 2023,
+      "problem": "A",
+      "printed_start": 347,
+      "pdf_start": 351,
+      "pdf_end": 390,
+      "pages": 40,
+      "opening_text_chars": 3728,
+      "status": "section indexed, not full read or award-level verified"
+    },
+    {
+      "year": 2023,
+      "problem": "B",
+      "printed_start": 387,
+      "pdf_start": 391,
+      "pdf_end": 413,
+      "pages": 23,
+      "opening_text_chars": 2645,
+      "status": "section indexed, not full read or award-level verified"
+    },
+    {
+      "year": 2023,
+      "problem": "C",
+      "printed_start": 410,
+      "pdf_start": 414,
+      "pdf_end": 441,
+      "pages": 28,
+      "opening_text_chars": 2452,
+      "status": "section indexed, not full read or award-level verified"
+    }
+  ],
+  "case_completeness": [
+    {
+      "case": "2024B",
+      "physical_range": [
+        216,
+        243
+      ],
+      "listed_pages": 28,
+      "header_sequence": "Page1of72 toPage28of72",
+      "status": "version/completeness not established, not a complete72page audit"
+    },
+    {
+      "case": "2024D",
+      "physical_range": [
+        275,
+        350
+      ],
+      "listed_pages": 76,
+      "header_sequence": "P1of101 toP76of101",
+      "status": "version/completeness not established"
+    },
+    {
+      "case": "2023B",
+      "physical_range": [
+        391,
+        413
+      ],
+      "listed_pages": 23,
+      "last_header": "Page21of44",
+      "status": "same prior team/header issue remains unresolved; handbook does not establish missing appendix/completeness"
+    }
+  ],
+  "rules_status": "No unknown rule field cleared. Prior Oct20 official general rules retain precedence over August handbook; no current AI-specific permission/template established.",
+  "conflicts": [
+    {
+      "locator": "physical5 Chinese vs physical6 English registration notice",
+      "detail": "Chinese1-3members vs English2-3; English before12AM Nov25 ambiguous/earlier than current Oct20 Nov25 24:00. Do not overwrite confirmed current fields."
+    },
+    {
+      "locator": "physical7-8 collective notice",
+      "detail": "Older control PDF/JPG wording and printing instructions do not override Oct20 PDF/JPG/PNG/e-sign clauses."
+    }
+  ],
+  "awards": "11sections labeled excellent papers; exact awards/final-submission identities not newly verified. Prior2023Bteamaward match reused only where applicable.",
+  "exposure": "Read first200characters of11case openings (not full abstracts), including2025case route hints. Record this before any future rehearsal; do not call future same-case solution-isolated/zero-knowledge without acknowledging exposure.",
+  "source_page": "https://newoaa.shisu.edu.cn/3d/92/c6353a212370/page.htm",
+  "source_boundary": "University page links similarly titled handbook. Direct and proxy downloads timed out; equivalence to supplied441page file is unverified. Organizer site charter menu still shows2020, so its page title is not proof of a2026 revision.",
+  "official_current_rules": "https://www.apmcm.org/detail/2513",
+  "raw_manual_redistributed": false
+}

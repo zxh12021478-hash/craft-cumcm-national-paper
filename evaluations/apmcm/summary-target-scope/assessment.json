@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-31",
+  "work_started": "2026-10-26",
+  "base_commit": "7993485965b8502ac1c3fc213f94305eaebe51c3",
+  "original_failure": {
+    "producer": "same existing native Doubao conversation38448155411751938; first output frozen after done.json",
+    "summary_sha256": "107133fe32a3d198bb57e4e29fbf8145285afbd9b2c2d24f850e0804715d9681",
+    "claim": "minimize four equal-weight normalized objectives",
+    "effect": "Conflates three separately minimized components with the later weighted integrated objective",
+    "comparison_error": "Same-flow comparison called shape/geometry isolation although both shells identical and placement/angle differ",
+    "other_unaccepted_items": [
+      "Redundant parameter/outcome copying despite claimed deletion pass",
+      "Previous-case equation-number reference in selection record"
+    ]
+  },
+  "independent_source_checks": {
+    "local_report_sha256": "8a341896ecae8d06f9d0712e29fa0112f30af696292920c9278dce81d70d0164",
+    "inputs": "19core files match archived original evidence ZIP",
+    "candidate_output_arithmetic": "All384 recorded metrics/objective values recomputed without newfullsearch",
+    "small_reexecution": "Five distinct design implementations replayed; maxnumericdifference0; same code, not independentphysicalmodel",
+    "endpoint_arrays": "Both saved field endpoint mean temperature/particles/RH independently recalculated",
+    "comparison_changed_fields": [
+      "angle",
+      "location"
+    ]
+  },
+  "retained_change": "Two short reference edits attach each question to its actual objective and limit interpretation of the comparator",
+  "directed_followup": "Prompt sent in same conversation; no output/v2 done/artifacts established; not counted as passed receiver behavior",
+  "positive_long_paper_status": "Not complete. No accepted revised full manuscript or PDFQA. No actualModex roundtrip",
+  "boundaries": [
+    "Instruction correction supported by source equations, code and output identities, not a prize/usage claim",
+    "Original paper/results retained; local body-repair proposal separate and not a certified new publication",
+    "The user-supplied441page handbook is a separate new reference, not input for this frozen strategy or a validation of this v1 model"
+  ],
+  "validation": {
+    "structure": "pass on2026-10-31",
+    "counterexample": "pass on2026-10-31; facts/configuration only",
+    "existing40tests": "Oct25 pass reused; scripts/tests/assets unchanged and checked against7993485; new reference wording not behavior-tested by those unit tests",
+    "install": "34trackedfiles match source byte-for-byte",
+    "CUMCM": "unchanged; earlier102tests not rerun"
+  }
+}

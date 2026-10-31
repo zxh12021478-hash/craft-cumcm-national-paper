@@ -1,0 +1,11 @@
+{
+  "same_flow_changed_settings": [
+    "angle",
+    "location"
+  ],
+  "same_shell": true,
+  "gain_vs_declared_baseline_pct": 8.94718031330864,
+  "gain_vs_same_flow_baseline_pct": 3.195396282996956,
+  "interpretation": "Q1-Q3 minimize separate components; Q4 uses the weighted sum. The same-flow comparison changes joint placement/angle settings, not shell shape.",
+  "scope": "Checks frozen facts; does not establish successful Summary reconstruction or physical validation."
+}
