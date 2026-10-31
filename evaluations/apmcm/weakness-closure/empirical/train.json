@@ -1,0 +1,53 @@
+{
+  "source": "NIST Misra1a, observed adsorption pressure-volume data",
+  "units": "Not stated in source. Use source pressure and volume units, do not invent SI units.",
+  "calibration_rows": [
+    {
+      "pressure": 77.6,
+      "volume": 10.07
+    },
+    {
+      "pressure": 114.9,
+      "volume": 14.73
+    },
+    {
+      "pressure": 141.1,
+      "volume": 17.94
+    },
+    {
+      "pressure": 190.8,
+      "volume": 23.93
+    },
+    {
+      "pressure": 239.9,
+      "volume": 29.61
+    },
+    {
+      "pressure": 289.0,
+      "volume": 35.18
+    },
+    {
+      "pressure": 332.8,
+      "volume": 40.02
+    },
+    {
+      "pressure": 378.4,
+      "volume": 44.82
+    },
+    {
+      "pressure": 434.8,
+      "volume": 50.76
+    },
+    {
+      "pressure": 477.3,
+      "volume": 55.05
+    }
+  ],
+  "prediction_pressures": [
+    536.8,
+    593.1,
+    689.1,
+    760.0
+  ],
+  "split": "First10 increasing-pressure levels calibration; last4 higher levels reserved for root evaluation. Retrospective experiment, not chronological forecast."
+}

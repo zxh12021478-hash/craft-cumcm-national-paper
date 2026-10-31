@@ -1,0 +1,89 @@
+{
+  "affine": {
+    "RSS": 2.2673991879923476,
+    "a": 2.0798839282462502,
+    "b": 0.11257235325320837,
+    "residuals": [
+      -0.7454985406952197,
+      -0.2844473170398931,
+      -0.02384297227395038,
+      0.37131107104159256,
+      0.5240085263090606,
+      0.5667059815765256,
+      0.47603690908601237,
+      0.1427376007397001,
+      -0.2663431227412545,
+      -0.7606681360026073
+    ]
+  },
+  "data_scope": {
+    "fit_domain": "first 10 increasing-pressure rows only",
+    "n_calibration": 10,
+    "objective": "least squares in original y; no log transform",
+    "source_units": "source units; units not stated, none invented"
+  },
+  "frozen_predictions": [
+    {
+      "affine_volume": 62.5087231545685,
+      "pressure": 536.8,
+      "saturating_volume": 60.849485309288895
+    },
+    {
+      "affine_volume": 68.84654664272414,
+      "pressure": 593.1,
+      "saturating_volume": 66.16763033820367
+    },
+    {
+      "affine_volume": 79.65349255503214,
+      "pressure": 689.1,
+      "saturating_volume": 74.83134093662503
+    },
+    {
+      "affine_volume": 87.63487240068461,
+      "pressure": 760.0,
+      "saturating_volume": 80.91674434954082
+    }
+  ],
+  "limitations": [
+    "four higher-pressure responses were not read; no holdout accuracy claimed",
+    "profiled k is a calibration point estimate with no uncertainty interval",
+    "10 points identify the two/three parameters only within the chosen forms",
+    "predictions are frozen; no refit after later evaluation",
+    "no measurement precision or units supplied; none invented"
+  ],
+  "rss_comparison": {
+    "affine": 2.2673991879923476,
+    "saturating": 0.0064646446450532385,
+    "saturating_lower_RSS": true
+  },
+  "saturating": {
+    "A": 220.83449706645916,
+    "RSS": 0.0064646446450532385,
+    "k": 0.0006004720651733791,
+    "optimization": {
+      "coarse_grid_points": 81,
+      "converged_interior": true,
+      "final_log_window_width": 2.6983393297541625e-10,
+      "lower_boundary_hit": false,
+      "method": "profile LS over k; A = sum(f*y)/sum(f*f), f=1-exp(-k x)",
+      "refinement_rounds": 7,
+      "search_range": [
+        1e-07,
+        0.1
+      ],
+      "upper_boundary_hit": false
+    },
+    "residuals": [
+      0.015918412957246275,
+      0.007418069083914958,
+      0.0001634235992113986,
+      0.024544523665568363,
+      -0.016793489868604183,
+      -0.0019106738044598615,
+      0.01895179718420792,
+      -0.06536877618393788,
+      0.015600947915665131,
+      0.019810391396468674
+    ]
+  }
+}

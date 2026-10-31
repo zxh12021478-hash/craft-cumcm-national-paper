@@ -1,0 +1,6 @@
+{
+  "raw_outputs": "Preserved at raw-frozen; no final holdout model selection or parameter refit",
+  "changed": "Replace fabricated predeclared-selection instruction; separate interior-location and log-window stopping flags; qualify parameter identification",
+  "numeric_effect": "Core fit and four frozen predictions unchanged; root holdout results recorded separately",
+  "independent_math": "Derivative-root fit agrees to prediction maxgap4.05e-9; strong local A/k correlation and signed holdout bias retained"
+}

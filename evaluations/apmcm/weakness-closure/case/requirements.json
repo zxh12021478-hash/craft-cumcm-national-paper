@@ -1,0 +1,28 @@
+{
+  "requirements": [
+    {
+      "id": "Q1",
+      "request": "Analyze China pet industry in2019\u20132023 by pet type, factors, and forecast2024\u20132026",
+      "deliverable": "Cat/dog trends, cautiously scoped drivers and forecasts with validation limits",
+      "acceptance": "Original pet-count units, selected forecast source, chronological errors; no causal inference from fivepoints"
+    },
+    {
+      "id": "Q2",
+      "request": "Analyze overseas pet industry bytype and forecast global pet-food demand2024\u20132026",
+      "deliverable": "Named markets and conditional worldwide quantities, explicit production-to-consumption assumptions",
+      "acceptance": "No three-market-to-world transfer or production-as-consumption claim; uncalibrated global growth remains unverified"
+    },
+    {
+      "id": "Q3",
+      "request": "With policy unchanged, link global demand to China pet-food industry and forecast production/export value2024\u20132026",
+      "deliverable": "Monetary baselines plus conditional quantity-price-share-FX/valuation bridge",
+      "acceptance": "No mixed currencies/tonnes, no inferred matched valuation without evidence; scope assumptions and inspect bridge envelope"
+    },
+    {
+      "id": "Q4",
+      "request": "Quantify tariff/policy impacts and recommend sustainable China pet-food strategies",
+      "deliverable": "Coupled prices/demand/profit; analytic absorption choice, capacity/cost thresholds and validation needs",
+      "acceptance": "Consistent buyer/producer prices, original tariffs not invented, policy feasibility conditional rather than empirically optimal strategy"
+    }
+  ]
+}

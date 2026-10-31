@@ -1,0 +1,56 @@
+{
+  "scope": "Corrected adapter normalizes grouping commas in manuscript, quote and token consistently, as receiver was explicitly allowed to use them",
+  "initial_adapter_rejections": 16,
+  "remaining_claim_errors": 12,
+  "errors": [
+    {
+      "code": "CLAIM",
+      "detail": "C3: Number differs: manuscript=58.2, result=5820.489573889394, tolerance=0.05"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C6: Number differs: manuscript=6.0, result=596.0385244412137, tolerance=0.05"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C7: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C8: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C9: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C10: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C14: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C15: Claim source must be a finite numeric value"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C16: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C17: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C18: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C19: Token is not a numeric string"
+    }
+  ],
+  "root_adapter_failure": "Initial adapter removed commas from tokens only, causing four false format mismatches. Original16-error report preserved. The remaining failures include already-percent values multiplied100 and nonscalar mappings; not all are wrong model predictions."
+}

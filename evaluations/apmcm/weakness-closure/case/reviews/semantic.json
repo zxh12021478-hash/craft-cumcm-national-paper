@@ -1,0 +1,18 @@
+{
+  "raw_v1": "Wrong all-no-move policy conclusion, total/exposed profit mixed, missing overseas horizons, wrong unit conversions in map",
+  "directed_v2": "Core narrative repaired; after consistent comma normalization the received map still has12actual CLAIM errors, including percent multiplied100 twice and nonscalar tokens/sources.",
+  "root_revision": "Reconstruct Summary from reviewed full body/results; remove duplicate inputs and scenario count tally, retain Q1-Q4 answers/mechanisms/limits; replace map with scalar sources and executable scales; clarify active-branch concavity and actual tariff scenario",
+  "source_results": "Forecasts and policy values unchanged; robust tariff metadata made explicit",
+  "accepted_scalar_claims": 29,
+  "summary_words": 268,
+  "unit_spot_check": {
+    "source_count": 4412,
+    "source_unit": "10000animals",
+    "equivalent_million": 44.12
+  },
+  "unresolved": "No calibrated global consumption growth, market-share/valuation or real policy evidence. Full-content readiness not passed.",
+  "annual_supplement": "After independent paper review noted the gap, root added annual policy monetary propagation under eta1 and two production-response modes. Independently reconstructed384endpoints and240interiorcases; source-model assumptions remain conditional.",
+  "independent_review_scope": "AI independently checked full pre-annual draft, including10forecasts,128bridge endpoints/year,27price cases,81tariffrows and12relocationcases. Newannual supplement checked by root, not second independent assessor.",
+  "root_adapter_failure": "Initial16rejections included4falseformatmismatches from stripping groupingcommas in tokens only. Adapter fixed and originalfailure retained separately.",
+  "raw_v2_claim_errors": 12
+}

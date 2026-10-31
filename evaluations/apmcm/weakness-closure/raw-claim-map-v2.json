@@ -1,0 +1,233 @@
+{
+  "schema": "Precise numeric records for every Summary numeric token carrying a finding. scale states the display multiplier (100 for percent); absolute_tolerance bounds the display rounding against the machine value. All pointers resolve in results-revised.json. Historical observations point to source arrays, never to equal future forecasts.",
+  "claims": [
+    {
+      "id": "C1",
+      "numeric_token": "4,412",
+      "paper_quote": "the number of pet cats in China rose from 4,412 to 6,980 (10,000 animals), i.e. from 44.12 million to 69.80 million",
+      "json_pointer": "/input_data/pets/China_cat/0",
+      "unit": "10,000 animals",
+      "scale": 1,
+      "absolute_tolerance": 0.5,
+      "machine_value": 4412,
+      "equivalent_million": 44.12
+    },
+    {
+      "id": "C2",
+      "numeric_token": "6,980",
+      "paper_quote": "the number of pet cats in China rose from 4,412 to 6,980 (10,000 animals), i.e. from 44.12 million to 69.80 million",
+      "json_pointer": "/input_data/pets/China_cat/4",
+      "unit": "10,000 animals",
+      "scale": 1,
+      "absolute_tolerance": 0.5,
+      "machine_value": 6980,
+      "equivalent_million": 69.8
+    },
+    {
+      "id": "C3",
+      "numeric_token": "58.2",
+      "paper_quote": "a 58.2% increase",
+      "json_pointer": "/derived/cat_growth_pct",
+      "unit": "percent",
+      "scale": 100,
+      "absolute_tolerance": 0.05,
+      "machine_value": 58.20489573889394
+    },
+    {
+      "id": "C4",
+      "numeric_token": "5,503",
+      "paper_quote": "the number of pet dogs moved from 5,503 to 5,175 (10,000 animals)",
+      "json_pointer": "/input_data/pets/China_dog/0",
+      "unit": "10,000 animals",
+      "scale": 1,
+      "absolute_tolerance": 0.5,
+      "machine_value": 5503
+    },
+    {
+      "id": "C5",
+      "numeric_token": "5,175",
+      "paper_quote": "the number of pet dogs moved from 5,503 to 5,175 (10,000 animals)",
+      "json_pointer": "/input_data/pets/China_dog/4",
+      "unit": "10,000 animals",
+      "scale": 1,
+      "absolute_tolerance": 0.5,
+      "machine_value": 5175
+    },
+    {
+      "id": "C6",
+      "numeric_token": "6.0",
+      "paper_quote": "a 6.0% net decline after year-to-year fluctuations",
+      "json_pointer": "/derived/dog_decline_pct",
+      "unit": "percent",
+      "scale": 100,
+      "absolute_tolerance": 0.05,
+      "machine_value": 5.960385244412136
+    },
+    {
+      "id": "C7",
+      "numeric_token": "7,762, 8,443, 9,124",
+      "paper_quote": "forecasts 7,762, 8,443 and 9,124 cats for 2024\u20132026",
+      "json_pointer": "/base/series/China_cat/final_forecasts",
+      "unit": "10,000 animals",
+      "scale": 1,
+      "absolute_tolerance": 0.05,
+      "machine_values": {
+        "2024": 7762.2,
+        "2025": 8443.2,
+        "2026": 9124.2
+      }
+    },
+    {
+      "id": "C8",
+      "numeric_token": "5,066, 4,994, 4,923",
+      "paper_quote": "forecasts 5,066, 4,994 and 4,923 dogs, a mild downward trend",
+      "json_pointer": "/base/series/China_dog/final_forecasts",
+      "unit": "10,000 animals",
+      "scale": 1,
+      "absolute_tolerance": 0.05,
+      "machine_values": {
+        "2024": 5065.72,
+        "2025": 4993.88,
+        "2026": 4923.06
+      }
+    },
+    {
+      "id": "C9",
+      "numeric_token": "100, 96.8",
+      "paper_quote": "the six cat/dog series together drift from an index of 100 in 2023 to 96.8 in 2026",
+      "json_pointer": "/base/series",
+      "unit": "index, 2023 = 100",
+      "scale": 1,
+      "absolute_tolerance": 0.05,
+      "derivation_note": "aggregate of six overseas final_forecasts; 19998.4/20660 = 0.968; no dedicated JSON key"
+    },
+    {
+      "id": "C10",
+      "numeric_token": "0.897318, 1.067906",
+      "paper_quote": "the 2026/2023 three-market food-demand ratio is provably bracketed between 0.897318 and 1.067906",
+      "json_pointer": "/base/series",
+      "unit": "dimensionless ratio",
+      "scale": 1,
+      "absolute_tolerance": 5e-07,
+      "derivation_note": "convex-combination proof in paper Section 3.3; endpoint ratios from six series final_forecasts"
+    },
+    {
+      "id": "C11",
+      "numeric_token": "34.96",
+      "paper_quote": "A sourced 2023 worldwide production anchor of 34.96 million tonnes",
+      "json_pointer": "/base/post_review_global_scenarios/source/value",
+      "unit": "million metric tonnes",
+      "scale": 1,
+      "absolute_tolerance": 0.005,
+      "machine_value": 34.96,
+      "scope": "production, not consumption"
+    },
+    {
+      "id": "C12",
+      "numeric_token": "34.2608",
+      "paper_quote": "under assumed 2% loss and unchanged inventories, consumption is 34.2608 million tonnes",
+      "json_pointer": "/base/post_review_global_scenarios/rows/0/consumption_million_tonnes",
+      "unit": "million metric tonnes",
+      "scale": 1,
+      "absolute_tolerance": 5e-05,
+      "machine_value": 34.2608
+    },
+    {
+      "id": "C13",
+      "numeric_token": "39.6611586",
+      "paper_quote": "an analyst 5% growth scenario reaches 39.6611586 million tonnes of consumption by 2026",
+      "json_pointer": "/base/post_review_global_scenarios/rows/5/consumption_million_tonnes",
+      "unit": "million metric tonnes",
+      "scale": 1,
+      "absolute_tolerance": 5e-08,
+      "machine_value": 39.6611586
+    },
+    {
+      "id": "C14",
+      "numeric_token": "3,050.19, 3,598.72, 4,147.25",
+      "paper_quote": "production value is forecast at 3,050.19, 3,598.72 and 4,147.25 (100m CNY)",
+      "json_pointer": "/base/series/production_100m_CNY/final_forecasts",
+      "unit": "100m CNY",
+      "scale": 1,
+      "absolute_tolerance": 0.005,
+      "machine_values": {
+        "2024": 3050.19,
+        "2025": 3598.72,
+        "2026": 4147.25
+      }
+    },
+    {
+      "id": "C15",
+      "numeric_token": "39.6",
+      "paper_quote": "exports at a flat 39.6 (100m USD) per year",
+      "json_pointer": "/base/series/exports_100m_USD/final_forecasts",
+      "unit": "100m USD",
+      "scale": 1,
+      "absolute_tolerance": 0.05,
+      "machine_values": {
+        "2024": 39.6,
+        "2025": 39.6,
+        "2026": 39.6
+      }
+    },
+    {
+      "id": "C16",
+      "numeric_token": "35.08, 51.63, 2,698.09, 3,612.57",
+      "paper_quote": "places 2026 exports between 35.08 and 51.63 (100m USD) and factory production between 2,698.09 and 3,612.57 (100m CNY)",
+      "json_pointer": "/linked/bridge_bounds/2",
+      "unit": "100m USD and 100m CNY",
+      "scale": 1,
+      "absolute_tolerance": {
+        "exports": 0.005,
+        "production": 0.005
+      },
+      "machine_values": {
+        "min_exports": 35.07935828221439,
+        "max_exports": 51.62548131577935,
+        "min_production": 2698.088883714925,
+        "max_production": 3612.571686484004
+      }
+    },
+    {
+      "id": "C17",
+      "numeric_token": "0.96, 15",
+      "paper_quote": "the recommended price is 0.96 of baseline with 15% absorption",
+      "json_pointer": "/linked/robust_price_decision/producer_price_multiplier",
+      "unit": "dimensionless; percent",
+      "scale": 1,
+      "absolute_tolerance": {
+        "mp": 0.005,
+        "absorption_pct": 0.5
+      },
+      "machine_values": {
+        "mp": 0.9600000000000002,
+        "absorption": 0.14999999999999933
+      }
+    },
+    {
+      "id": "C18",
+      "numeric_token": "8, 4",
+      "paper_quote": "Of the 12 analyst diversification scenarios, 8 keep the no-move decision and 4 support a positive move",
+      "json_pointer": "/linked/capacity_cost_decisions",
+      "unit": "scenario count",
+      "scale": 1,
+      "absolute_tolerance": 0,
+      "machine_check": "rows 0-7 move_fraction 0; rows 8-11 move_fraction positive"
+    },
+    {
+      "id": "C19",
+      "numeric_token": "0.005417, 0.000417, 0.008889, 0.003889",
+      "paper_quote": "At capacity 0.25 the move is d = 0.25 with gain 0.005417 before fixed cost and 0.000417 after F = 0.005. At capacity 0.75 the move is d = 2/3 with gain 0.008889 before fixed cost and 0.003889 after F = 0.005",
+      "json_pointer": "/linked/capacity_cost_decisions",
+      "unit": "incremental profit per baseline revenue",
+      "scale": 1,
+      "absolute_tolerance": 5e-07,
+      "machine_pointers": {
+        "cap25_F0": "/linked/capacity_cost_decisions/8/incremental_profit_per_baseline_revenue",
+        "cap25_F005": "/linked/capacity_cost_decisions/9/incremental_profit_per_baseline_revenue",
+        "cap75_F0": "/linked/capacity_cost_decisions/10/incremental_profit_per_baseline_revenue",
+        "cap75_F005": "/linked/capacity_cost_decisions/11/incremental_profit_per_baseline_revenue"
+      }
+    }
+  ]
+}

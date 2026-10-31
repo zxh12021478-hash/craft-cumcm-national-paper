@@ -1,0 +1,110 @@
+{
+  "pages": 16,
+  "summary_first_page": true,
+  "contents_second_page": true,
+  "every_page_training_id_and_number": true,
+  "replacement_glyphs": false,
+  "source_code_appendix": true,
+  "raster_files": [
+    {
+      "path": "page-01.png",
+      "sha256": "3ce6b95fca9522429b013384deeea8633917cf1bc4e41bee323ed0e10278d246"
+    },
+    {
+      "path": "page-02.png",
+      "sha256": "0f51beb5dc494a575c0ca7ff17d850dd2d18c39ab1e0707d7253fe12239eaac7"
+    },
+    {
+      "path": "page-03.png",
+      "sha256": "39651d911a4d67560ede9d61d166f86591dbf832e36d5aa17f375a12d83fdeb7"
+    },
+    {
+      "path": "page-04.png",
+      "sha256": "ee9b37a302a44cf6ea4998d102363f70c23e9c592d2f386c7d578404dca2bec9"
+    },
+    {
+      "path": "page-05.png",
+      "sha256": "de65c2dd01155c643d6d46bc94b90922822ba578d500a68cc49ad2f6864267e9"
+    },
+    {
+      "path": "page-06.png",
+      "sha256": "0ce5341bfdc5fef3ebce210a46724422aef937ff16fcba406abac1a80f1a8806"
+    },
+    {
+      "path": "page-07.png",
+      "sha256": "58e874b7d45074226bcdb3447489056bce8edc7019da4b2b847924fd9fb1fc88"
+    },
+    {
+      "path": "page-08.png",
+      "sha256": "d6819ab6a433e0a26c4297357f2a2785df3034db19914ec537c638924137aa06"
+    },
+    {
+      "path": "page-09.png",
+      "sha256": "fcefded3e93d2dd90756003863cd2ecb8bffe50881e2a9a98997cdb917c00f5a"
+    },
+    {
+      "path": "page-10.png",
+      "sha256": "af5a2e762bfb34e2eaa360df8382fc55fb1f41814dede7f7bf5e99f18bdf3042"
+    },
+    {
+      "path": "page-11.png",
+      "sha256": "56f6f579c3c19738008a9ae358dfac9caf8cf984a0d77d6ee61c71ab8ff64c9f"
+    },
+    {
+      "path": "page-12.png",
+      "sha256": "424f4542c4f397e2b5580d426c4c6dfbd7e2b13885ee5be8164f08ae00c39102"
+    },
+    {
+      "path": "page-13.png",
+      "sha256": "b3bfff41a6d918abf5b823391d565ffb05ec213b1537c0ead83161eb2d40ddec"
+    },
+    {
+      "path": "page-14.png",
+      "sha256": "d567dd6732d27c1ed35b235058a9150766f52d699806d12639c8b309f8e16230"
+    },
+    {
+      "path": "page-15.png",
+      "sha256": "e82b4789a1544f6a65b770897138b10308fef5a54ad61b66ce118eb72a7eb704"
+    },
+    {
+      "path": "page-16.png",
+      "sha256": "572f2306ba9526a7e3a1ea39dc49b5179aeed4acdac0066d2b52fe330736c069"
+    }
+  ],
+  "pdf_sha256": "d301a6059de72591454e29960b62d50946f2b93b16fb98035c70bf546fe9fedf",
+  "visual_review": "pass: all16pages directly visually checked at100dpi; finalbody1-10 rasteridentical to reviewedversion; finalsource11-16 directlyreviewed afterlistingrepair",
+  "scope": "Historical training layout/figure QA; not current2026Englishformatclearance or economic validation",
+  "renderer_failure_and_repair": "Single-star inline emphasis consumed multiplication/optimal-symbol stars in mathematical prose. Restrict emphasis to whole italic paragraphs; formula literal assertion now passes. Model/MD/claims unchanged.",
+  "pages_changed_in_renderer_fix": [
+    7
+  ],
+  "final_visual_review": "pass",
+  "source_listing_layout_repair": "Chunk long code flowables to allow appendix source to start below its introduction; prior nearly empty intro-onlypage removed.",
+  "pages_changed_in_listing_repair": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "direct_visual_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "formula_literal_check": "mp* = eta*a/(eta - 1) preserved in finalPDF"
+}

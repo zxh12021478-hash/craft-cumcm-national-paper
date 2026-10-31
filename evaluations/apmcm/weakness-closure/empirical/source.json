@@ -1,0 +1,7 @@
+{
+  "url": "https://www.itl.nist.gov/div898/strd/nls/data/LINKS/DATA/Misra1a.dat",
+  "sha256": "9d3194d537d9a6bbf92eb819504070923a1885d0191f40b6b3aaeedd130b98e2",
+  "kind": "NIST observed monomolecular adsorption pressure-volume data",
+  "source_units": "Unspecified; preserve source units",
+  "disclosure": "Known public benchmark; all14 responses now disclosed in this fixture; no future blind-test claim. Does not validate original HVAC design."
+}

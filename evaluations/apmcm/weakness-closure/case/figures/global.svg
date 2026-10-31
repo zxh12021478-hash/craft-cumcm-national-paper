@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="493.228346456693" height="230" preserveAspectRatio="xMinYMin meet" viewBox="0 0 493 230" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="493.228346456693" height="230"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-230)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="82.95417322834649" y="218" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,436) scale(1,-1)">Global consumption scenarios: fixed 2% loss, zero inventory change</text>
+			<path d="M 55,40 L 481.228346,40 Z" style="stroke: rgb(50%,50%,50%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 55,40 L 55,200 Z" style="stroke: rgb(50%,50%,50%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 55,40 L 481.228346,40 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="32.0" y="37.0" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,74) scale(1,-1)">33.61</text>
+			<path d="M 55,80 L 481.228346,80 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="32.0" y="76.99999999999996" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,153) scale(1,-1)">35.29</text>
+			<path d="M 55,120 L 481.228346,120 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="32.0" y="117.00000000000009" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,234) scale(1,-1)">36.96</text>
+			<path d="M 55,160 L 481.228346,160 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="32.0" y="157.00000000000003" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,314) scale(1,-1)">38.64</text>
+			<path d="M 55,200 L 481.228346,200 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="32.0" y="197.0" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,394) scale(1,-1)">40.31</text>
+			<text x="47.0" y="27" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,54) scale(1,-1)">2023</text>
+			<text x="189.07611548556432" y="27" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,54) scale(1,-1)">2024</text>
+			<text x="331.15223097112863" y="27" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,54) scale(1,-1)">2025</text>
+			<text x="473.228346456693" y="27" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,54) scale(1,-1)">2026</text>
+			<polyline points="55 55.48387, 197.0761 55.48387, 339.1522 55.48387, 481.2283 55.48387" style="stroke: rgb(9%,41%,52%); stroke-linecap: butt; stroke-width: 1.4; fill: None; fill-rule: evenodd;"/>
+			<circle cx="55.0" cy="55.48387096774188" r="2" style="stroke: rgb(9%,41%,52%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="197.07611548556432" cy="55.48387096774188" r="2" style="stroke: rgb(9%,41%,52%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="339.15223097112863" cy="55.48387096774188" r="2" style="stroke: rgb(9%,41%,52%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="481.228346456693" cy="55.48387096774188" r="2" style="stroke: rgb(9%,41%,52%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 58,24 L 72,24 Z" style="stroke: rgb(9%,41%,52%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<text x="76" y="21" style="font-family: Times-Roman; font-size: 7.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,42) scale(1,-1)">Consumption g=0</text>
+			<polyline points="55 55.48387, 197.0761 96.41401, 339.1522 139.3907, 481.2283 184.5161" style="stroke: rgb(71%,30%,21%); stroke-linecap: butt; stroke-width: 1.4; fill: None; fill-rule: evenodd;"/>
+			<circle cx="55.0" cy="55.48387096774188" r="2" style="stroke: rgb(71%,30%,21%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="197.07611548556432" cy="96.41400833951548" r="2" style="stroke: rgb(71%,30%,21%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="339.15223097112863" cy="139.39065257987784" r="2" style="stroke: rgb(71%,30%,21%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="481.228346456693" cy="184.5161290322581" r="2" style="stroke: rgb(71%,30%,21%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 161,24 L 175,24 Z" style="stroke: rgb(71%,30%,21%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<text x="179" y="21" style="font-family: Times-Roman; font-size: 7.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,42) scale(1,-1)">Consumption g=0.05</text>
+			<text x="260.3421732283465" y="3" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,6) scale(1,-1)">Year</text>
+			<text x="3" y="207" style="font-family: Times-Roman; font-size: 7.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,414) scale(1,-1)">Million tonnes</text>
+		</g>
+	</g>
+</svg>

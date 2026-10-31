@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-31",
+  "baseline_HEAD": "7f5e887e5d38ef35c542442c3738c468cbb47fd0",
+  "status": "Bounded weakness-closure evidence passes; full competition readiness does not",
+  "empirical": {
+    "source": "empirical/source.json",
+    "freeze": "empirical/freeze.json",
+    "observations": 14,
+    "training": 10,
+    "reserved_assessment": 4,
+    "affine_holdout_MAE": 3.495908688,
+    "affine_holdout_RMSE": 3.873399746,
+    "saturation_holdout_MAE": 0.4736997666,
+    "saturation_holdout_RMSE": 0.5551703214,
+    "independent_fit_max_prediction_gap": 4.05e-09,
+    "parameter_local_LS_correlation": -0.999493824,
+    "residual_failure": "All four saturation holdout predictions understate observations, with increasing bias magnitude",
+    "exposure": "Root saw full public benchmark/certified fit before freezing plan; receiver labels withheld by task scope, not filesystem isolation. Not blind or a new experiment.",
+    "raw_handoff_failure": "Retroactive predeclared winner selection using reserved assessment",
+    "accepted_repair": "Keep two frozen candidates; no selection/refit on reserved assessment; signed residuals and valid numerical diagnostics",
+    "boundary": "Transfer probe for validation workflow, not physical validation of 2024B HVAC"
+  },
+  "linked_case": {
+    "original_problem": "APMCM2024C",
+    "exposure": "Post-exemplar disclosed revision",
+    "annual_endpoint_cases": 384,
+    "annual_interior_cases": 240,
+    "annual_money_fields_per_year": 6,
+    "price_cases_compared_to_10001point_grid": 27,
+    "relocation_cases": 12,
+    "no_relocation": 8,
+    "positive_relocation": 4,
+    "calibration": "Unverified global demand dynamics, valuation, shares, elasticities, capacity and alternative-market net margins; conditional calculations only",
+    "independent_review": "AI assessor saw permitted question/case without expected findings and identified missing annual money propagation; subsequent annual supplement independently recomputed by root, not reviewed a second time by assessor"
+  },
+  "manuscript": {
+    "raw_v1_failures": [
+      "All-relocation-rejected claim erased profitable cases",
+      "Exposed versus total profit scope confused",
+      "Overseas2024/2025 forecasts omitted",
+      "10000 animals to million conversion wrong by factor10"
+    ],
+    "directed_v2": "Same-conversation repair, not independent test",
+    "original_raw_ledger_rejections": 16,
+    "root_format_adapter_false_mismatches": 4,
+    "corrected_raw_ledger_rejections": 12,
+    "ledger_failure_scope": "Mapping/unit-scale/non-scalar provenance, not twelve proven numerical prediction errors",
+    "accepted_scalar_summary_claims": 29,
+    "accepted_numeric_claim_errors": 0,
+    "summary_words": 268,
+    "PDF_pages": 16,
+    "PDF_visual_review": "All16pages reviewed; unchanged renders reused and changed pages directly checked",
+    "PDF_record": "case/reviews/pdf-check.json",
+    "PDF_binary_public": false,
+    "renderer_failure": "Math stars consumed by inline emphasis; fixed and literal formula verified; source appendix pagination repaired"
+  },
+  "packaging": {
+    "full_internal_content_gate": "fail",
+    "unverified_outputs": [
+      "Q2",
+      "Q3",
+      "Q4"
+    ],
+    "private_PDF_bundle_audit": "Exactly three OUTPUT errors,29claims and0claim errors",
+    "packager": "Actual rejection, exit1, no approved ZIP",
+    "incomplete_local_archive": "Created and ZIP integrity checked, explicitly incomplete; no generated signatures or approval",
+    "boundary": "Internal evidence gate, not organizer disqualification"
+  },
+  "validation": {
+    "check": "check-results.json",
+    "production40": "Inputs/code unchanged; previous passing evidence reused, not rerun",
+    "CUMCM102": "Core unchanged; not rerun",
+    "structure": "quick_validate actual pass",
+    "runtime_files_changed": 3,
+    "runtime_lines_added": 8,
+    "installed_tracked_files": 34,
+    "installed_byte_match": true,
+    "original_frozen_files_unchanged": 18,
+    "plan_hash_unchanged": true,
+    "directed_v2_matches_raw_receiver": true,
+    "root_checker_failure": "Initial relocation-case count label18 corrected to actual12; original diagnostic retained privately",
+    "private_assembly_failure": "Initial private manifest found missing copied check/review files; identical checked records restored before audit"
+  },
+  "workflow": {
+    "contest": "Skill strategy/handoff -> Modex implementation and draft -> Skill audit/revision",
+    "native_Doubao_development_tasks": 3,
+    "same_existing_conversation": true,
+    "paid_Modex_calls": 0,
+    "private_CUMCM_or_handbook_shared": false,
+    "named_high_level_contest_models": "User plan only; not tested in this cycle",
+    "measured_quota_savings": null
+  },
+  "remaining_limits": [
+    "Original2024B matched physical observations missing",
+    "Actual Modex round trip not exercised",
+    "Current2026 AI/full English format clearance remains unknown",
+    "Conditional2024C results not empirical calibration",
+    "No award probability or human judge assessment"
+  ],
+  "reuse_boundary": "Fixtures now exposed. Reuse unchanged accepted computation/PDF checks; next work should depend on new matched evidence or a useful authorized draft, not repeat these tests."
+}

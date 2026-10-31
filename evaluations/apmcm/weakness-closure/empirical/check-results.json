@@ -1,0 +1,74 @@
+{
+  "status": "reproduced and evaluated, physical generalization limited",
+  "source": "NIST Misra1a observed adsorption data; source units unspecified",
+  "calibration_rows": 10,
+  "withheld_response_rows": 4,
+  "holdout_type": "higher-pressure extrapolation, not chronological or new experiment",
+  "producer_source_sha256": "3d48789bbf433f24fb8d8bffcb22f9a1638d9221bfb473f109c81a28a714ccc1",
+  "independent_fit": {
+    "A": 220.83449716073915,
+    "k": 0.0006004720648865975,
+    "RSS": 0.00646464464505563,
+    "profile_derivative": 4.327337614215882e-09,
+    "bounded_stationary_candidates_including_endpoints": 3
+  },
+  "max_prediction_gap": 4.049809376738267e-09,
+  "clean_rerun_numerically_reproduced": true,
+  "clean_rerun_byte_equal_in_this_interpreter": true,
+  "holdout_metrics": {
+    "affine": {
+      "MAE": 3.4959086882523476,
+      "RMSE": 3.873399745552099,
+      "bias": 3.4959086882523476,
+      "max_abs_error": 5.854872400684613
+    },
+    "saturating": {
+      "MAE": 0.4736997665853995,
+      "RMSE": 0.5551703213740193,
+      "bias": -0.4736997665853995,
+      "max_abs_error": 0.8632556504591804
+    }
+  },
+  "matched_observations": [
+    {
+      "pressure": 536.8,
+      "volume": 61.01,
+      "affine_volume": 62.5087231545685,
+      "saturating_volume": 60.849485309288895,
+      "affine_error_prediction_minus_observation": 1.498723154568502,
+      "saturating_error_prediction_minus_observation": -0.16051469071110347
+    },
+    {
+      "pressure": 593.1,
+      "volume": 66.4,
+      "affine_volume": 68.84654664272414,
+      "saturating_volume": 66.16763033820367,
+      "affine_error_prediction_minus_observation": 2.4465466427241296,
+      "saturating_error_prediction_minus_observation": -0.23236966179634067
+    },
+    {
+      "pressure": 689.1,
+      "volume": 75.47,
+      "affine_volume": 79.65349255503214,
+      "saturating_volume": 74.83134093662503,
+      "affine_error_prediction_minus_observation": 4.183492555032146,
+      "saturating_error_prediction_minus_observation": -0.6386590633749734
+    },
+    {
+      "pressure": 760.0,
+      "volume": 81.78,
+      "affine_volume": 87.63487240068461,
+      "saturating_volume": 80.91674434954082,
+      "affine_error_prediction_minus_observation": 5.854872400684613,
+      "saturating_error_prediction_minus_observation": -0.8632556504591804
+    }
+  ],
+  "local_parameter_correlation_under_unweighted_LS": -0.9994938240237415,
+  "retrospective_exposure": "Root saw complete benchmark/certificates while sourcing; receiver had 10 responses only by task scope. Known benchmark/same conversation, not blind.",
+  "confirmed_issues": [
+    "Handoff invents a predeclared model-selection rule based on final holdout RSS; the frozen plan did not authorize post-test route selection.",
+    "converged_interior flag tests only location, not convergence; independent derivative calculation supplies a separate check for this actual fit.",
+    "Small training residuals and successful point extrapolation do not establish saturation capacity accuracy; parameter correlation and systematic heldout residuals remain."
+  ],
+  "effect_on_claims": "Retain frozen saturation predictions as evaluated descriptive candidate, not select/refit on final test; report both models and all signed errors. No measured device/HVAC or universal physical validity claim."
+}

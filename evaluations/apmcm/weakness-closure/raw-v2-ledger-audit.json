@@ -1,0 +1,97 @@
+{
+  "status": "fail",
+  "final": false,
+  "scope": "file/ledger checks; semantic and review records are declared evidence, not automated proof",
+  "errors": [
+    {
+      "code": "CLAIM",
+      "detail": "C1: Numeric token not present as a whole token in quote"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C2: Numeric token not present as a whole token in quote"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C3: Number differs: manuscript=58.2, result=5820.489573889394, tolerance=0.05"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C4: Numeric token not present as a whole token in quote"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C5: Numeric token not present as a whole token in quote"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C6: Number differs: manuscript=6.0, result=596.0385244412137, tolerance=0.05"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C7: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C8: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C9: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C10: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C14: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C15: Claim source must be a finite numeric value"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C16: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C17: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C18: Token is not a numeric string"
+    },
+    {
+      "code": "CLAIM",
+      "detail": "C19: Token is not a numeric string"
+    },
+    {
+      "code": "COVERAGE_EMPTY",
+      "detail": "No original-problem requirement matrix"
+    },
+    {
+      "code": "REVIEW",
+      "detail": "semantic is incomplete"
+    },
+    {
+      "code": "REVIEW",
+      "detail": "figures is incomplete"
+    },
+    {
+      "code": "REVIEW",
+      "detail": "coverage is incomplete"
+    },
+    {
+      "code": "REVIEW",
+      "detail": "reproduction is incomplete"
+    }
+  ],
+  "warnings": [
+    "No original-question matrix bound; returned output list completeness is unverified.",
+    "Local rehearsal evidence only; no current submission clearance."
+  ],
+  "claim_count": 19,
+  "requirement_count": 0
+}

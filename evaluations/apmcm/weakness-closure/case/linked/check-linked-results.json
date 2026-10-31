@@ -1,0 +1,17 @@
+{
+  "status": "pass within declared conditional models",
+  "analytic_price_cases": 27,
+  "independent_price_grid_points_per_case": 10001,
+  "maximum_analytic_advantage_over_grid": 2.471994831054758e-11,
+  "robust_before_uncertainty_price": 0.9600000000000002,
+  "robust_worst_profit": 0.031790776881102,
+  "capacity_fixed_cost_cases": 12,
+  "maximum_diversification_advantage_over_grid": 1.3888907385295468e-12,
+  "independent_continuous_interior_bridge_cases": 240,
+  "independent_endpoint_bridge_cases": 384,
+  "annual_policy_fields_per_year": 6,
+  "annual_policy_years": 3,
+  "independent_annual_accounting_cases": 624,
+  "annual_envelope_extrema_independently_recomputed": true,
+  "limits": "Grid comparisons support analytic derivation; scenario domain/valuation/realism not empirically validated. Prices and tax rates illustrative, not law."
+}

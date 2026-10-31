@@ -1,0 +1,445 @@
+{
+  "event": "APMCM",
+  "event_year": 2024,
+  "mode": "historical-rehearsal",
+  "paper": "paper.md",
+  "results": "results.json",
+  "requirement_matrix": "requirements.json",
+  "files": [
+    {
+      "path": "baseline/add_global_anchor.py",
+      "sha256": "780928b4cdbdccc9933747ce3d880f7069cf3f67fe5f40aaf6d9b001ea5e4ba9"
+    },
+    {
+      "path": "baseline/forecast-origin-ledger.json",
+      "sha256": "e414a3312eebe457ab2ce10f5de070319e1a28382f794748114b57bc0a7398d4"
+    },
+    {
+      "path": "baseline/global-source.json",
+      "sha256": "d68b7d474c22511496fd5a43c54eabd2aaef744e69d09e3bee0e7c21c2cc7b4f"
+    },
+    {
+      "path": "baseline/results.json",
+      "sha256": "3fa70956a437fe7d9d4477130a3aeeec5d720be894562656a33d114820cc109e"
+    },
+    {
+      "path": "baseline/solve.py",
+      "sha256": "44c3f175d0248e82a312ef6c78e202e18521fd2a9b4a8f46fe6dbd32ccf063d5"
+    },
+    {
+      "path": "claims.json",
+      "sha256": "c8d799f1e3c2a9283676f3182ac653b3710f927ad8da13b25b2bb3594f863c4d"
+    },
+    {
+      "path": "figures/bridge.svg",
+      "sha256": "054d60340e2343817537e7632e7f354d159e8cfb9f3f3c43c5bd95db9c2ecc15"
+    },
+    {
+      "path": "figures/china.svg",
+      "sha256": "6ad155bbef623718b8d4d0d0b83c8e755f97da0cf964fd3f0edefda6d3bf1783"
+    },
+    {
+      "path": "figures/global.svg",
+      "sha256": "e5d6879dc0a1dc29d366e9e2dabad04375b07865004f31e3d4fa888c2082daeb"
+    },
+    {
+      "path": "figures/policy.svg",
+      "sha256": "60b89d975498bcdca2a55130de4297563ebdbd03ce7bcdc16c48183d8c662e47"
+    },
+    {
+      "path": "input/data.json",
+      "sha256": "4c97888b4e9c2f3ca6aa5e7e4e3e63dea2fa519823aba1a87619e9b93da861f1"
+    },
+    {
+      "path": "input/source-facts.json",
+      "sha256": "8dbbab1b1502d6219a0155a9bd1270ed2995bc117ce1923782e221760e158fe7"
+    },
+    {
+      "path": "linked/base-results.json",
+      "sha256": "3fa70956a437fe7d9d4477130a3aeeec5d720be894562656a33d114820cc109e"
+    },
+    {
+      "path": "linked/check-linked-results.json",
+      "sha256": "d18b36d3c1f715205fbe9de49c5934eab14331900d1676bb73c0066fd31ee1f7"
+    },
+    {
+      "path": "linked/check-linked.py",
+      "sha256": "e3dfaaeaaed5eab5608d711e55ae32c14dccf342fcdfd620be01fd743d365e04"
+    },
+    {
+      "path": "linked/fx-source.json",
+      "sha256": "dbb361756458b2dd6fd759ccc47392a681224be990c323e279ab111b39a17de5"
+    },
+    {
+      "path": "linked/linked-results.json",
+      "sha256": "37dac0a7b943be23f5d3c66b7305f9cb2cb4d57d26b878f89e0c045fab0bd5d1"
+    },
+    {
+      "path": "linked/linked.py",
+      "sha256": "3ddd151778fbfd23e8df0809dd6361a41390e7fe4d971d29512cfda903d8da82"
+    },
+    {
+      "path": "paper.md",
+      "sha256": "b0b1b74cd3a3e13c0b4108d34ac7d38713a3340b8ff1b92f5863c7e7f0af32b2"
+    },
+    {
+      "path": "reproduce.py",
+      "sha256": "2561a5ef5f306030256a84372f28635ddfdd6cb90eeb91cfbd98ada45d4c5242"
+    },
+    {
+      "path": "requirements.json",
+      "sha256": "559ab0d40753f97109a9c39b4593bb82fbe19acd6140f9be2157725ac5546984"
+    },
+    {
+      "path": "results.json",
+      "sha256": "5267cef8e3f68feffd8744486b7997a800af87e534755d46d1c67c2b6e709a20"
+    },
+    {
+      "path": "reviews/claim-check.json",
+      "sha256": "cbed6ac2fb28e68d783df6559cf1be67daf2b71fb2dde7c71261a86672767726"
+    },
+    {
+      "path": "reviews/pdf-check.json",
+      "sha256": "8b3122a6d932c64abad884ca537111ede7b1ac8624b62cdb97aafbd8a02b90cd"
+    },
+    {
+      "path": "reviews/reproduction.json",
+      "sha256": "97ea9def0fb877755c30ab1056cf6721f2ef44831eea0310a07a7b074d33f22c"
+    },
+    {
+      "path": "reviews/semantic.json",
+      "sha256": "6bc5b1fe8238c34088c63d52786946cf58b9542e5bfc4b3e47a00adbdfcb864d"
+    },
+    {
+      "path": "summary.md",
+      "sha256": "505dee7e2642f5ac3ed11064d14b79d2832e8c27007574339895f767006a4bbc"
+    }
+  ],
+  "claims": [
+    {
+      "id": "H1",
+      "quote": "China's cat population increased 58.2% from 2019 to 2023, while dogs declined 6.0%.",
+      "token": "58.2",
+      "pointer": "/derived/cat_growth_pct",
+      "scale": 1,
+      "absolute_tolerance": 0.05,
+      "unit": "percent"
+    },
+    {
+      "id": "H2",
+      "quote": "China's cat population increased 58.2% from 2019 to 2023, while dogs declined 6.0%.",
+      "token": "6.0",
+      "pointer": "/derived/dog_decline_pct",
+      "scale": 1,
+      "absolute_tolerance": 0.05,
+      "unit": "percent"
+    },
+    {
+      "id": "H3",
+      "quote": "Frozen simple extrapolators predict cats at 7762, 8443 and 9124 and dogs at 5066, 4994 and 4923 in 2024-2026, all in 10000 animals.",
+      "token": "7762",
+      "pointer": "/base/series/China_cat/final_forecasts/2024",
+      "scale": 1,
+      "absolute_tolerance": 0.5,
+      "unit": "10000 animals"
+    },
+    {
+      "id": "H4",
+      "quote": "Frozen simple extrapolators predict cats at 7762, 8443 and 9124 and dogs at 5066, 4994 and 4923 in 2024-2026, all in 10000 animals.",
+      "token": "8443",
+      "pointer": "/base/series/China_cat/final_forecasts/2025",
+      "scale": 1,
+      "absolute_tolerance": 0.5,
+      "unit": "10000 animals"
+    },
+    {
+      "id": "H5",
+      "quote": "Frozen simple extrapolators predict cats at 7762, 8443 and 9124 and dogs at 5066, 4994 and 4923 in 2024-2026, all in 10000 animals.",
+      "token": "9124",
+      "pointer": "/base/series/China_cat/final_forecasts/2026",
+      "scale": 1,
+      "absolute_tolerance": 0.5,
+      "unit": "10000 animals"
+    },
+    {
+      "id": "H6",
+      "quote": "Frozen simple extrapolators predict cats at 7762, 8443 and 9124 and dogs at 5066, 4994 and 4923 in 2024-2026, all in 10000 animals.",
+      "token": "5066",
+      "pointer": "/base/series/China_dog/final_forecasts/2024",
+      "scale": 1,
+      "absolute_tolerance": 0.5,
+      "unit": "10000 animals"
+    },
+    {
+      "id": "H7",
+      "quote": "Frozen simple extrapolators predict cats at 7762, 8443 and 9124 and dogs at 5066, 4994 and 4923 in 2024-2026, all in 10000 animals.",
+      "token": "4994",
+      "pointer": "/base/series/China_dog/final_forecasts/2025",
+      "scale": 1,
+      "absolute_tolerance": 0.5,
+      "unit": "10000 animals"
+    },
+    {
+      "id": "H8",
+      "quote": "Frozen simple extrapolators predict cats at 7762, 8443 and 9124 and dogs at 5066, 4994 and 4923 in 2024-2026, all in 10000 animals.",
+      "token": "4923",
+      "pointer": "/base/series/China_dog/final_forecasts/2026",
+      "scale": 1,
+      "absolute_tolerance": 0.5,
+      "unit": "10000 animals"
+    },
+    {
+      "id": "H9",
+      "quote": "With fixed unknown nonnegative food coefficients, the three observed overseas markets have a 2026/2023 demand ratio between 0.897318 and 1.067906; even its direction is unidentified.",
+      "token": "0.897318",
+      "pointer": "/base/q2_three_market/fixed_intensity_food_bounds/rows/2/minimum_ratio",
+      "scale": 1,
+      "absolute_tolerance": 5e-07,
+      "unit": "dimensionless"
+    },
+    {
+      "id": "H10",
+      "quote": "With fixed unknown nonnegative food coefficients, the three observed overseas markets have a 2026/2023 demand ratio between 0.897318 and 1.067906; even its direction is unidentified.",
+      "token": "1.067906",
+      "pointer": "/base/q2_three_market/fixed_intensity_food_bounds/rows/2/maximum_ratio",
+      "scale": 1,
+      "absolute_tolerance": 5e-07,
+      "unit": "dimensionless"
+    },
+    {
+      "id": "H11",
+      "quote": "Assuming 2% loss, unchanged inventories and annual production growth of zero or 5%, the 2023 production anchor of 34.96 million tonnes gives 2026 consumption scenarios of 34.26 or 39.66 million tonnes.",
+      "token": "2",
+      "pointer": "/base/post_review_global_scenarios/rows/5/loss_fraction_assumed",
+      "scale": 100,
+      "absolute_tolerance": 0,
+      "unit": "percent assumed loss"
+    },
+    {
+      "id": "H12",
+      "quote": "Assuming 2% loss, unchanged inventories and annual production growth of zero or 5%, the 2023 production anchor of 34.96 million tonnes gives 2026 consumption scenarios of 34.26 or 39.66 million tonnes.",
+      "token": "5",
+      "pointer": "/base/post_review_global_scenarios/rows/5/annual_growth_scenario",
+      "scale": 100,
+      "absolute_tolerance": 0,
+      "unit": "percent assumed annual growth"
+    },
+    {
+      "id": "H13",
+      "quote": "Assuming 2% loss, unchanged inventories and annual production growth of zero or 5%, the 2023 production anchor of 34.96 million tonnes gives 2026 consumption scenarios of 34.26 or 39.66 million tonnes.",
+      "token": "34.96",
+      "pointer": "/base/post_review_global_scenarios/source/value",
+      "scale": 1,
+      "absolute_tolerance": 0.005,
+      "unit": "million metric tonnes production"
+    },
+    {
+      "id": "H14",
+      "quote": "Assuming 2% loss, unchanged inventories and annual production growth of zero or 5%, the 2023 production anchor of 34.96 million tonnes gives 2026 consumption scenarios of 34.26 or 39.66 million tonnes.",
+      "token": "34.26",
+      "pointer": "/base/post_review_global_scenarios/rows/2/consumption_million_tonnes",
+      "scale": 1,
+      "absolute_tolerance": 0.005,
+      "unit": "million metric tonnes conditional consumption"
+    },
+    {
+      "id": "H15",
+      "quote": "Assuming 2% loss, unchanged inventories and annual production growth of zero or 5%, the 2023 production anchor of 34.96 million tonnes gives 2026 consumption scenarios of 34.26 or 39.66 million tonnes.",
+      "token": "39.66",
+      "pointer": "/base/post_review_global_scenarios/rows/5/consumption_million_tonnes",
+      "scale": 1,
+      "absolute_tolerance": 0.005,
+      "unit": "million metric tonnes conditional consumption"
+    },
+    {
+      "id": "H16",
+      "quote": "Separate univariate baselines project production value at 3050.19, 3598.72 and 4147.25 (100m CNY), with exports at 39.6 (100m USD) annually.",
+      "token": "3050.19",
+      "pointer": "/base/series/production_100m_CNY/final_forecasts/2024",
+      "scale": 1,
+      "absolute_tolerance": 0.005,
+      "unit": "100m CNY"
+    },
+    {
+      "id": "H17",
+      "quote": "Separate univariate baselines project production value at 3050.19, 3598.72 and 4147.25 (100m CNY), with exports at 39.6 (100m USD) annually.",
+      "token": "3598.72",
+      "pointer": "/base/series/production_100m_CNY/final_forecasts/2025",
+      "scale": 1,
+      "absolute_tolerance": 0.005,
+      "unit": "100m CNY"
+    },
+    {
+      "id": "H18",
+      "quote": "Separate univariate baselines project production value at 3050.19, 3598.72 and 4147.25 (100m CNY), with exports at 39.6 (100m USD) annually.",
+      "token": "4147.25",
+      "pointer": "/base/series/production_100m_CNY/final_forecasts/2026",
+      "scale": 1,
+      "absolute_tolerance": 0.005,
+      "unit": "100m CNY"
+    },
+    {
+      "id": "H19",
+      "quote": "Separate univariate baselines project production value at 3050.19, 3598.72 and 4147.25 (100m CNY), with exports at 39.6 (100m USD) annually.",
+      "token": "39.6",
+      "pointer": "/base/series/exports_100m_USD/final_forecasts/2024",
+      "scale": 1,
+      "absolute_tolerance": 0.05,
+      "unit": "100m USD"
+    },
+    {
+      "id": "H20",
+      "quote": "Separate univariate baselines project production value at 3050.19, 3598.72 and 4147.25 (100m CNY), with exports at 39.6 (100m USD) annually.",
+      "token": "39.6",
+      "pointer": "/base/series/exports_100m_USD/final_forecasts/2025",
+      "scale": 1,
+      "absolute_tolerance": 0.05,
+      "unit": "100m USD"
+    },
+    {
+      "id": "H21",
+      "quote": "Separate univariate baselines project production value at 3050.19, 3598.72 and 4147.25 (100m CNY), with exports at 39.6 (100m USD) annually.",
+      "token": "39.6",
+      "pointer": "/base/series/exports_100m_USD/final_forecasts/2026",
+      "scale": 1,
+      "absolute_tolerance": 0.05,
+      "unit": "100m USD"
+    },
+    {
+      "id": "H22",
+      "quote": "A quantity-price-share-FX bridge, including a border-to-factory valuation factor, instead yields 2026 scenario envelopes of 35.08 to 51.63 (100m USD) for exports and 2698.09 to 3612.57 (100m CNY) for production.",
+      "token": "35.08",
+      "pointer": "/linked/bridge_bounds/2/exports_100m_USD/minimum/exports_100m_USD",
+      "scale": 1,
+      "absolute_tolerance": 0.005,
+      "unit": "100m USD"
+    },
+    {
+      "id": "H23",
+      "quote": "A quantity-price-share-FX bridge, including a border-to-factory valuation factor, instead yields 2026 scenario envelopes of 35.08 to 51.63 (100m USD) for exports and 2698.09 to 3612.57 (100m CNY) for production.",
+      "token": "51.63",
+      "pointer": "/linked/bridge_bounds/2/exports_100m_USD/maximum/exports_100m_USD",
+      "scale": 1,
+      "absolute_tolerance": 0.005,
+      "unit": "100m USD"
+    },
+    {
+      "id": "H24",
+      "quote": "A quantity-price-share-FX bridge, including a border-to-factory valuation factor, instead yields 2026 scenario envelopes of 35.08 to 51.63 (100m USD) for exports and 2698.09 to 3612.57 (100m CNY) for production.",
+      "token": "2698.09",
+      "pointer": "/linked/bridge_bounds/2/production_100m_CNY/minimum/production_100m_CNY",
+      "scale": 1,
+      "absolute_tolerance": 0.005,
+      "unit": "100m CNY"
+    },
+    {
+      "id": "H25",
+      "quote": "A quantity-price-share-FX bridge, including a border-to-factory valuation factor, instead yields 2026 scenario envelopes of 35.08 to 51.63 (100m USD) for exports and 2698.09 to 3612.57 (100m CNY) for production.",
+      "token": "3612.57",
+      "pointer": "/linked/bridge_bounds/2/production_100m_CNY/maximum/production_100m_CNY",
+      "scale": 1,
+      "absolute_tolerance": 0.005,
+      "unit": "100m CNY"
+    },
+    {
+      "id": "H26",
+      "quote": "For an illustrative tariff increase from 10% to 50%, the robust-domain price is 0.96 of baseline, with a model absorption parameter of 15%.",
+      "token": "10",
+      "pointer": "/linked/robust_price_decision/tariff_assumed/t0",
+      "scale": 100,
+      "absolute_tolerance": 0,
+      "unit": "percent assumed baseline tariff"
+    },
+    {
+      "id": "H27",
+      "quote": "For an illustrative tariff increase from 10% to 50%, the robust-domain price is 0.96 of baseline, with a model absorption parameter of 15%.",
+      "token": "50",
+      "pointer": "/linked/robust_price_decision/tariff_assumed/t1",
+      "scale": 100,
+      "absolute_tolerance": 0,
+      "unit": "percent assumed scenario tariff"
+    },
+    {
+      "id": "H28",
+      "quote": "For an illustrative tariff increase from 10% to 50%, the robust-domain price is 0.96 of baseline, with a model absorption parameter of 15%.",
+      "token": "0.96",
+      "pointer": "/linked/robust_price_decision/producer_price_multiplier",
+      "scale": 1,
+      "absolute_tolerance": 0.005,
+      "unit": "dimensionless"
+    },
+    {
+      "id": "H29",
+      "quote": "For an illustrative tariff increase from 10% to 50%, the robust-domain price is 0.96 of baseline, with a model absorption parameter of 15%.",
+      "token": "15",
+      "pointer": "/linked/robust_price_decision/absorption_fraction",
+      "scale": 100,
+      "absolute_tolerance": 0.5,
+      "unit": "percent model absorption parameter"
+    }
+  ],
+  "required_outputs": [
+    {
+      "id": "Q1",
+      "status": "verified",
+      "evidence": [
+        "results.json",
+        "paper.md",
+        "reviews/semantic.json"
+      ],
+      "review_note": "Frozen simple forecasts reproduced; causal drivers not claimed"
+    },
+    {
+      "id": "Q2",
+      "status": "unverified",
+      "evidence": [
+        "results.json",
+        "paper.md",
+        "reviews/semantic.json"
+      ],
+      "review_note": "Conditional answer present, but global-consumption/valuation or real policy calibration remains missing; internal evidence readiness not passed"
+    },
+    {
+      "id": "Q3",
+      "status": "unverified",
+      "evidence": [
+        "results.json",
+        "paper.md",
+        "reviews/semantic.json"
+      ],
+      "review_note": "Conditional answer present, but global-consumption/valuation or real policy calibration remains missing; internal evidence readiness not passed"
+    },
+    {
+      "id": "Q4",
+      "status": "unverified",
+      "evidence": [
+        "results.json",
+        "paper.md",
+        "reviews/semantic.json"
+      ],
+      "review_note": "Conditional answer present, but global-consumption/valuation or real policy calibration remains missing; internal evidence readiness not passed"
+    }
+  ],
+  "reviews": {
+    "semantic": {
+      "status": "pass",
+      "reviewer": "AI review / explicit limited scope",
+      "evidence": "reviews/semantic.json"
+    },
+    "coverage": {
+      "status": "pass",
+      "reviewer": "AI review / explicit limited scope",
+      "evidence": "reviews/semantic.json"
+    },
+    "figures": {
+      "status": "pass",
+      "reviewer": "AI review / explicit limited scope",
+      "evidence": "reviews/pdf-check.json"
+    },
+    "reproduction": {
+      "status": "pass",
+      "reviewer": "AI review / explicit limited scope",
+      "evidence": "reviews/reproduction.json"
+    }
+  }
+}

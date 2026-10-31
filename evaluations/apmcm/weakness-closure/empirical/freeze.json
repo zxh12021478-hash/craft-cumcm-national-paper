@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-31",
+  "plan_sha256": "8bd59f136067d19bfd51c1fd363096a836ead38d46893ff4739508bbd6d18b16",
+  "source_sha256": "9d3194d537d9a6bbf92eb819504070923a1885d0191f40b6b3aaeedd130b98e2",
+  "models": [
+    "affine",
+    "positive saturation"
+  ],
+  "train_rows": 10,
+  "holdout_rows": 4,
+  "preexposure": "Root saw complete benchmark and certified fit; existing conversation and known benchmark; not blind",
+  "held_out_labels_to_receiver": false
+}

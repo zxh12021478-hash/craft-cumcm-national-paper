@@ -1,0 +1,3129 @@
+{
+  "base": {
+    "meta": {
+      "fx_2019_cny_per_usd": 6.8985,
+      "unit_pet_counts": "10000 animals",
+      "validation": "two strictly forward one-step origins (2021->2022, 2022->2023); not a three-year accuracy or confidence claim",
+      "value_unit": "100 millions"
+    },
+    "post_review_global_scenarios": {
+      "phase": "Root source/accounting supplement after receiver v2; no change to existing pet forecasts or policy rows.",
+      "rows": [
+        {
+          "annual_growth_scenario": 0.0,
+          "consumption_million_tonnes": 34.2608,
+          "loss_fraction_assumed": 0.02,
+          "net_inventory_change_assumed": 0,
+          "production_million_tonnes": 34.96,
+          "year": 2024
+        },
+        {
+          "annual_growth_scenario": 0.0,
+          "consumption_million_tonnes": 34.2608,
+          "loss_fraction_assumed": 0.02,
+          "net_inventory_change_assumed": 0,
+          "production_million_tonnes": 34.96,
+          "year": 2025
+        },
+        {
+          "annual_growth_scenario": 0.0,
+          "consumption_million_tonnes": 34.2608,
+          "loss_fraction_assumed": 0.02,
+          "net_inventory_change_assumed": 0,
+          "production_million_tonnes": 34.96,
+          "year": 2026
+        },
+        {
+          "annual_growth_scenario": 0.05,
+          "consumption_million_tonnes": 35.97384,
+          "loss_fraction_assumed": 0.02,
+          "net_inventory_change_assumed": 0,
+          "production_million_tonnes": 36.708000000000006,
+          "year": 2024
+        },
+        {
+          "annual_growth_scenario": 0.05,
+          "consumption_million_tonnes": 37.772532000000005,
+          "loss_fraction_assumed": 0.02,
+          "net_inventory_change_assumed": 0,
+          "production_million_tonnes": 38.543400000000005,
+          "year": 2025
+        },
+        {
+          "annual_growth_scenario": 0.05,
+          "consumption_million_tonnes": 39.6611586,
+          "loss_fraction_assumed": 0.02,
+          "net_inventory_change_assumed": 0,
+          "production_million_tonnes": 40.47057,
+          "year": 2026
+        }
+      ],
+      "source": {
+        "author": "CONAFAB 2024 industry yearbook;tablecredits2024Alltechsurvey",
+        "measure": "Worldwide2023commercialpetfoodproduction, preliminary",
+        "pdf_sha256": "ed0216d9f1720aa392da12f0cf1e60ed933001d5990a6c8c2844d010a457e03b",
+        "physical_page": 12,
+        "printed_page": 10,
+        "scope_limit": "Production notconsumption; noobserved demandgrowth, inventoryorlossrates",
+        "source_url": "https://norel.com.mx/AnuarioCONAFAB2024.pdf",
+        "unit": "million metric tonnes",
+        "value": 34.96,
+        "verified": "Downloaded100pagePDF; complete relevantpage textread andrenderedtablevisuallychecked. Onlythisversionused, notlater2025/26revisions.",
+        "vintage_limit": "Creation2024-10-08/Mod2024-11-14 metadata predatecontest; actualpublicavailabilityatcontest notindependentlyarchived."
+      },
+      "status": "Conditional absolute scenarios, not empirically validated global demand forecasts. Growth0/5%, loss2%, inventory0 are assumptions."
+    },
+    "q2_three_market": {
+      "aggregate_10000_animals": {
+        "2019": 22910,
+        "2020": 19905,
+        "2021": 23350,
+        "2022": 21180,
+        "2023": 20660,
+        "2024": 20367.948389310957,
+        "2025": 20177.129566885877,
+        "2026": 19998.430428619897
+      },
+      "conditional_global": [
+        {
+          "consumption_formula": "Q0_consumption * 1.050000",
+          "note": "Q0_consumption = 2023 world consumption, not production. The later production/loss supplement can instantiate it conditionally; g and loss remain analyst assumptions, not estimates.",
+          "production_formula": "Q0_consumption * 1.050000 / (1 - 0.02)",
+          "year": 2024
+        },
+        {
+          "consumption_formula": "Q0_consumption * 1.102500",
+          "note": "Q0_consumption = 2023 world consumption, not production. The later production/loss supplement can instantiate it conditionally; g and loss remain analyst assumptions, not estimates.",
+          "production_formula": "Q0_consumption * 1.102500 / (1 - 0.02)",
+          "year": 2025
+        },
+        {
+          "consumption_formula": "Q0_consumption * 1.157625",
+          "note": "Q0_consumption = 2023 world consumption, not production. The later production/loss supplement can instantiate it conditionally; g and loss remain analyst assumptions, not estimates.",
+          "production_formula": "Q0_consumption * 1.157625 / (1 - 0.02)",
+          "year": 2026
+        }
+      ],
+      "coverage": "three countries, six pet-type series; not world demand",
+      "fixed_intensity_food_bounds": {
+        "proof": "food ratio = sum of nonnegative per-animal coefficient weights times stock ratios, so it lies between the min and max stock ratios; vertices attain the bounds",
+        "rows": [
+          {
+            "growth_sign_identified": false,
+            "maximum_ratio": 1.0142857142857142,
+            "minimum_ratio": 0.954265343759799,
+            "per_series_ratios": {
+              "America_cat": 0.9645292275052515,
+              "America_dog": 1.0,
+              "France_cat": 1.0,
+              "France_dog": 0.954265343759799,
+              "Germany_cat": 1.0,
+              "Germany_dog": 1.0142857142857142
+            },
+            "year": 2024
+          },
+          {
+            "growth_sign_identified": false,
+            "maximum_ratio": 1.020952380952381,
+            "minimum_ratio": 0.9303166307118814,
+            "per_series_ratios": {
+              "America_cat": 0.9303166307118814,
+              "America_dog": 1.0,
+              "France_cat": 1.0,
+              "France_dog": 1.0094877093254466,
+              "Germany_cat": 1.0,
+              "Germany_dog": 1.020952380952381
+            },
+            "year": 2025
+          },
+          {
+            "growth_sign_identified": false,
+            "maximum_ratio": 1.0679057370605396,
+            "minimum_ratio": 0.8973175811558216,
+            "per_series_ratios": {
+              "America_cat": 0.8973175811558216,
+              "America_dog": 1.0,
+              "France_cat": 1.0,
+              "France_dog": 1.0679057370605396,
+              "Germany_cat": 1.0,
+              "Germany_dog": 1.0276190476190477
+            },
+            "year": 2026
+          }
+        ],
+        "scope": "three markets, fixed per-animal intensity, point forecasts; not global, not a confidence interval"
+      },
+      "index_2023_100": {
+        "2019": 110.89060987415296,
+        "2020": 96.34559535333979,
+        "2021": 113.02032913843175,
+        "2022": 102.51694094869313,
+        "2023": 100.0,
+        "2024": 98.5863910421634,
+        "2025": 97.66277621919592,
+        "2026": 96.79782395266164
+      }
+    },
+    "q4_tariff": {
+      "checks": {
+        "eta_one_affected_revenue_1_over_g": true,
+        "eta_zero": true,
+        "kappa_one": true,
+        "monotonic": true,
+        "unchanged_tariff": true,
+        "zero_restoration_or_share_zero_cost": true,
+        "zero_share": true
+      },
+      "note": "analyst scenarios; t0/t1, eta, kappa, shares, unit cost 0.8 and restoration r are not measured policy or causal estimates; full loss restoration requires r = 1",
+      "rows": [
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.0,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.0,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.0,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.0,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.0,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.0,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.0,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.0,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.0,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.0,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.0,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.0,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.0,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.0,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.0,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.0,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.0,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.0,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.0,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.0,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.0,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.0,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.0,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.0,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.0,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.0,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.0,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.1,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.1363636363636362,
+          "eta": 0.0,
+          "g": 1.1363636363636362,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.25,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.1363636363636362,
+          "eta": 0.0,
+          "g": 1.1363636363636362,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.25,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.1363636363636362,
+          "eta": 0.0,
+          "g": 1.1363636363636362,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.25,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0681818181818181,
+          "eta": 0.0,
+          "g": 1.1363636363636362,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 0.9400000000000001,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.25,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0681818181818181,
+          "eta": 0.0,
+          "g": 1.1363636363636362,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.5939999999999994,
+            "1.0": 1.1879999999999988
+          },
+          "producer_price_mult": 0.9400000000000001,
+          "profit_per_R0": 0.16999999999999998,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.25,
+          "total_revenue_mult": 0.97
+        },
+        {
+          "buyer_price_mult": 1.0681818181818181,
+          "eta": 0.0,
+          "g": 1.1363636363636362,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 1.1879999999999988,
+            "1.0": 2.3759999999999977
+          },
+          "producer_price_mult": 0.9400000000000001,
+          "profit_per_R0": 0.14,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.25,
+          "total_revenue_mult": 0.9400000000000001
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.1363636363636362,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 0.8800000000000001,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.25,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.1363636363636362,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 1.1879999999999988,
+            "1.0": 2.3759999999999977
+          },
+          "producer_price_mult": 0.8800000000000001,
+          "profit_per_R0": 0.14,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.25,
+          "total_revenue_mult": 0.9400000000000001
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.1363636363636362,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 2.3759999999999977,
+            "1.0": 4.751999999999995
+          },
+          "producer_price_mult": 0.8800000000000001,
+          "profit_per_R0": 0.08000000000000007,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.25,
+          "total_revenue_mult": 0.8800000000000001
+        },
+        {
+          "buyer_price_mult": 1.1363636363636362,
+          "eta": 0.5,
+          "g": 1.1363636363636362,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 0.938083151964686,
+          "share": 0.0,
+          "t1": 0.25,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.1363636363636362,
+          "eta": 0.5,
+          "g": 1.1363636363636362,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.12259535910992195,
+            "1.0": 0.2451907182198439
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19380831519646854,
+          "quantity_mult": 0.938083151964686,
+          "share": 0.5,
+          "t1": 0.25,
+          "total_revenue_mult": 0.969041575982343
+        },
+        {
+          "buyer_price_mult": 1.1363636363636362,
+          "eta": 0.5,
+          "g": 1.1363636363636362,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.2451907182198439,
+            "1.0": 0.4903814364396878
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.18761663039293713,
+          "quantity_mult": 0.938083151964686,
+          "share": 1.0,
+          "t1": 0.25,
+          "total_revenue_mult": 0.938083151964686
+        },
+        {
+          "buyer_price_mult": 1.0681818181818181,
+          "eta": 0.5,
+          "g": 1.1363636363636362,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 0.9400000000000001,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 0.9675588936937934,
+          "share": 0.0,
+          "t1": 0.25,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0681818181818181,
+          "eta": 0.5,
+          "g": 1.1363636363636362,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.6389633733404015,
+            "1.0": 1.277926746680803
+          },
+          "producer_price_mult": 0.9400000000000001,
+          "profit_per_R0": 0.16772912255856554,
+          "quantity_mult": 0.9675588936937934,
+          "share": 0.5,
+          "t1": 0.25,
+          "total_revenue_mult": 0.9547526800360829
+        },
+        {
+          "buyer_price_mult": 1.0681818181818181,
+          "eta": 0.5,
+          "g": 1.1363636363636362,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 1.2779267466808035,
+            "1.0": 2.555853493361607
+          },
+          "producer_price_mult": 0.9400000000000001,
+          "profit_per_R0": 0.1354582451171311,
+          "quantity_mult": 0.9675588936937934,
+          "share": 1.0,
+          "t1": 0.25,
+          "total_revenue_mult": 0.9095053600721659
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.1363636363636362,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 0.8800000000000001,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.25,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.1363636363636362,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 1.1879999999999988,
+            "1.0": 2.3759999999999977
+          },
+          "producer_price_mult": 0.8800000000000001,
+          "profit_per_R0": 0.14,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.25,
+          "total_revenue_mult": 0.9400000000000001
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.1363636363636362,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 2.3759999999999977,
+            "1.0": 4.751999999999995
+          },
+          "producer_price_mult": 0.8800000000000001,
+          "profit_per_R0": 0.08000000000000007,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.25,
+          "total_revenue_mult": 0.8800000000000001
+        },
+        {
+          "buyer_price_mult": 1.1363636363636362,
+          "eta": 1.0,
+          "g": 1.1363636363636362,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 0.8800000000000001,
+          "share": 0.0,
+          "t1": 0.25,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.1363636363636362,
+          "eta": 1.0,
+          "g": 1.1363636363636362,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.23759999999999967,
+            "1.0": 0.47519999999999935
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.18799999999999997,
+          "quantity_mult": 0.8800000000000001,
+          "share": 0.5,
+          "t1": 0.25,
+          "total_revenue_mult": 0.9400000000000001
+        },
+        {
+          "buyer_price_mult": 1.1363636363636362,
+          "eta": 1.0,
+          "g": 1.1363636363636362,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.47519999999999935,
+            "1.0": 0.9503999999999987
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.176,
+          "quantity_mult": 0.8800000000000001,
+          "share": 1.0,
+          "t1": 0.25,
+          "total_revenue_mult": 0.8800000000000001
+        },
+        {
+          "buyer_price_mult": 1.0681818181818181,
+          "eta": 1.0,
+          "g": 1.1363636363636362,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 0.9400000000000001,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 0.9361702127659575,
+          "share": 0.0,
+          "t1": 0.25,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0681818181818181,
+          "eta": 1.0,
+          "g": 1.1363636363636362,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.6824680851063822,
+            "1.0": 1.3649361702127645
+          },
+          "producer_price_mult": 0.9400000000000001,
+          "profit_per_R0": 0.16553191489361702,
+          "quantity_mult": 0.9361702127659575,
+          "share": 0.5,
+          "t1": 0.25,
+          "total_revenue_mult": 0.9400000000000001
+        },
+        {
+          "buyer_price_mult": 1.0681818181818181,
+          "eta": 1.0,
+          "g": 1.1363636363636362,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 1.364936170212765,
+            "1.0": 2.72987234042553
+          },
+          "producer_price_mult": 0.9400000000000001,
+          "profit_per_R0": 0.13106382978723405,
+          "quantity_mult": 0.9361702127659575,
+          "share": 1.0,
+          "t1": 0.25,
+          "total_revenue_mult": 0.8800000000000001
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.1363636363636362,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 0.8800000000000001,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.25,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.1363636363636362,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 1.1879999999999988,
+            "1.0": 2.3759999999999977
+          },
+          "producer_price_mult": 0.8800000000000001,
+          "profit_per_R0": 0.14,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.25,
+          "total_revenue_mult": 0.9400000000000001
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.1363636363636362,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 2.3759999999999977,
+            "1.0": 4.751999999999995
+          },
+          "producer_price_mult": 0.8800000000000001,
+          "profit_per_R0": 0.08000000000000007,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.25,
+          "total_revenue_mult": 0.8800000000000001
+        },
+        {
+          "buyer_price_mult": 1.3636363636363635,
+          "eta": 0.0,
+          "g": 1.3636363636363635,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.5,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.3636363636363635,
+          "eta": 0.0,
+          "g": 1.3636363636363635,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.5,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.3636363636363635,
+          "eta": 0.0,
+          "g": 1.3636363636363635,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.5,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.1818181818181819,
+          "eta": 0.0,
+          "g": 1.3636363636363635,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 0.8666666666666667,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.5,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.1818181818181819,
+          "eta": 0.0,
+          "g": 1.3636363636363635,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 1.3199999999999998,
+            "1.0": 2.6399999999999997
+          },
+          "producer_price_mult": 0.8666666666666667,
+          "profit_per_R0": 0.1333333333333333,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.5,
+          "total_revenue_mult": 0.9333333333333333
+        },
+        {
+          "buyer_price_mult": 1.1818181818181819,
+          "eta": 0.0,
+          "g": 1.3636363636363635,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 2.6399999999999997,
+            "1.0": 5.279999999999999
+          },
+          "producer_price_mult": 0.8666666666666667,
+          "profit_per_R0": 0.06666666666666665,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.5,
+          "total_revenue_mult": 0.8666666666666667
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.3636363636363635,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 0.7333333333333334,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.5,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.3636363636363635,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 2.6399999999999997,
+            "1.0": 5.279999999999999
+          },
+          "producer_price_mult": 0.7333333333333334,
+          "profit_per_R0": 0.06666666666666665,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.5,
+          "total_revenue_mult": 0.8666666666666667
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.0,
+          "g": 1.3636363636363635,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 5.279999999999999,
+            "1.0": 10.559999999999999
+          },
+          "producer_price_mult": 0.7333333333333334,
+          "profit_per_R0": -0.06666666666666665,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.5,
+          "total_revenue_mult": 0.7333333333333334
+        },
+        {
+          "buyer_price_mult": 1.3636363636363635,
+          "eta": 0.5,
+          "g": 1.3636363636363635,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 0.8563488385776753,
+          "share": 0.0,
+          "t1": 0.5,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.3636363636363635,
+          "eta": 0.5,
+          "g": 1.3636363636363635,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.2844292996162027,
+            "1.0": 0.5688585992324054
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.1856348838577675,
+          "quantity_mult": 0.8563488385776753,
+          "share": 0.5,
+          "t1": 0.5,
+          "total_revenue_mult": 0.9281744192888377
+        },
+        {
+          "buyer_price_mult": 1.3636363636363635,
+          "eta": 0.5,
+          "g": 1.3636363636363635,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.568858599232406,
+            "1.0": 1.137717198464812
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.171269767715535,
+          "quantity_mult": 0.8563488385776753,
+          "share": 1.0,
+          "t1": 0.5,
+          "total_revenue_mult": 0.8563488385776753
+        },
+        {
+          "buyer_price_mult": 1.1818181818181819,
+          "eta": 0.5,
+          "g": 1.3636363636363635,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 0.8666666666666667,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 0.9198662110077999,
+          "share": 0.0,
+          "t1": 0.5,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.1818181818181819,
+          "eta": 0.5,
+          "g": 1.3636363636363635,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 1.3728883007348518,
+            "1.0": 2.7457766014697036
+          },
+          "producer_price_mult": 0.8666666666666667,
+          "profit_per_R0": 0.1306622070335933,
+          "quantity_mult": 0.9198662110077999,
+          "share": 0.5,
+          "t1": 0.5,
+          "total_revenue_mult": 0.8986086914367133
+        },
+        {
+          "buyer_price_mult": 1.1818181818181819,
+          "eta": 0.5,
+          "g": 1.3636363636363635,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 2.7457766014697036,
+            "1.0": 5.491553202939407
+          },
+          "producer_price_mult": 0.8666666666666667,
+          "profit_per_R0": 0.061324414067186646,
+          "quantity_mult": 0.9198662110077999,
+          "share": 1.0,
+          "t1": 0.5,
+          "total_revenue_mult": 0.7972173828734266
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.3636363636363635,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 0.7333333333333334,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.5,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.3636363636363635,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 2.6399999999999997,
+            "1.0": 5.279999999999999
+          },
+          "producer_price_mult": 0.7333333333333334,
+          "profit_per_R0": 0.06666666666666665,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.5,
+          "total_revenue_mult": 0.8666666666666667
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 0.5,
+          "g": 1.3636363636363635,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 5.279999999999999,
+            "1.0": 10.559999999999999
+          },
+          "producer_price_mult": 0.7333333333333334,
+          "profit_per_R0": -0.06666666666666665,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.5,
+          "total_revenue_mult": 0.7333333333333334
+        },
+        {
+          "buyer_price_mult": 1.3636363636363635,
+          "eta": 1.0,
+          "g": 1.3636363636363635,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 0.7333333333333334,
+          "share": 0.0,
+          "t1": 0.5,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.3636363636363635,
+          "eta": 1.0,
+          "g": 1.3636363636363635,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.5280000000000001,
+            "1.0": 1.0560000000000003
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.17333333333333328,
+          "quantity_mult": 0.7333333333333334,
+          "share": 0.5,
+          "t1": 0.5,
+          "total_revenue_mult": 0.8666666666666667
+        },
+        {
+          "buyer_price_mult": 1.3636363636363635,
+          "eta": 1.0,
+          "g": 1.3636363636363635,
+          "kappa": 0.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 1.0559999999999996,
+            "1.0": 2.111999999999999
+          },
+          "producer_price_mult": 1.0,
+          "profit_per_R0": 0.14666666666666664,
+          "quantity_mult": 0.7333333333333334,
+          "share": 1.0,
+          "t1": 0.5,
+          "total_revenue_mult": 0.7333333333333334
+        },
+        {
+          "buyer_price_mult": 1.1818181818181819,
+          "eta": 1.0,
+          "g": 1.3636363636363635,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 0.8666666666666667,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 0.8461538461538461,
+          "share": 0.0,
+          "t1": 0.5,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.1818181818181819,
+          "eta": 1.0,
+          "g": 1.3636363636363635,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 1.4215384615384614,
+            "1.0": 2.843076923076923
+          },
+          "producer_price_mult": 0.8666666666666667,
+          "profit_per_R0": 0.12820512820512817,
+          "quantity_mult": 0.8461538461538461,
+          "share": 0.5,
+          "t1": 0.5,
+          "total_revenue_mult": 0.8666666666666667
+        },
+        {
+          "buyer_price_mult": 1.1818181818181819,
+          "eta": 1.0,
+          "g": 1.3636363636363635,
+          "kappa": 0.5,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 2.8430769230769224,
+            "1.0": 5.686153846153845
+          },
+          "producer_price_mult": 0.8666666666666667,
+          "profit_per_R0": 0.0564102564102564,
+          "quantity_mult": 0.8461538461538461,
+          "share": 1.0,
+          "t1": 0.5,
+          "total_revenue_mult": 0.7333333333333334
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.3636363636363635,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 0.0,
+            "1.0": 0.0
+          },
+          "producer_price_mult": 0.7333333333333334,
+          "profit_per_R0": 0.19999999999999996,
+          "quantity_mult": 1.0,
+          "share": 0.0,
+          "t1": 0.5,
+          "total_revenue_mult": 1.0
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.3636363636363635,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 2.6399999999999997,
+            "1.0": 5.279999999999999
+          },
+          "producer_price_mult": 0.7333333333333334,
+          "profit_per_R0": 0.06666666666666665,
+          "quantity_mult": 1.0,
+          "share": 0.5,
+          "t1": 0.5,
+          "total_revenue_mult": 0.8666666666666667
+        },
+        {
+          "buyer_price_mult": 1.0,
+          "eta": 1.0,
+          "g": 1.3636363636363635,
+          "kappa": 1.0,
+          "max_mitigation_cost_100m_USD": {
+            "0.0": 0.0,
+            "0.5": 5.279999999999999,
+            "1.0": 10.559999999999999
+          },
+          "producer_price_mult": 0.7333333333333334,
+          "profit_per_R0": -0.06666666666666665,
+          "quantity_mult": 1.0,
+          "share": 1.0,
+          "t1": 0.5,
+          "total_revenue_mult": 0.7333333333333334
+        }
+      ]
+    },
+    "series": {
+      "America_cat": {
+        "all_model_final_forecasts": {
+          "last_value": {
+            "2024": 7380,
+            "2025": 7380,
+            "2026": 7380
+          },
+          "level_linear": {
+            "2024": 7060.0,
+            "2025": 6740.0,
+            "2026": 6420.0
+          },
+          "log_linear": {
+            "2024": 7118.225698988756,
+            "2025": 6865.736734653685,
+            "2026": 6622.203748929964
+          }
+        },
+        "final_forecasts": {
+          "2024": 7118.225698988756,
+          "2025": 6865.736734653685,
+          "2026": 6622.203748929964
+        },
+        "origin_mae": {
+          "last_value": 1020.0,
+          "level_linear": 533.333333333333,
+          "log_linear": 472.0605276902161
+        },
+        "selected_model": "log_linear",
+        "selection_reason": "min two-origin MAE; no tie",
+        "validation_origins": [
+          {
+            "abs_errors": {
+              "last_value": 2040,
+              "level_linear": 1066.666666666666,
+              "log_linear": 944.1210553804267
+            },
+            "actual": 7380,
+            "predictions": {
+              "last_value": 9420,
+              "level_linear": 8446.666666666666,
+              "log_linear": 8324.121055380427
+            },
+            "target_year": 2022,
+            "train_years": [
+              2019,
+              2020,
+              2021
+            ]
+          },
+          {
+            "abs_errors": {
+              "last_value": 0,
+              "level_linear": 0.0,
+              "log_linear": 5.4569682106375694e-12
+            },
+            "actual": 7380,
+            "predictions": {
+              "last_value": 7380,
+              "level_linear": 7380.0,
+              "log_linear": 7379.9999999999945
+            },
+            "target_year": 2023,
+            "train_years": [
+              2019,
+              2020,
+              2021,
+              2022
+            ]
+          }
+        ]
+      },
+      "America_dog": {
+        "all_model_final_forecasts": {
+          "last_value": {
+            "2024": 8010,
+            "2025": 8010,
+            "2026": 8010
+          },
+          "level_linear": {
+            "2024": 8249.0,
+            "2025": 8104.0,
+            "2026": 7959.0
+          },
+          "log_linear": {
+            "2024": 8237.621878891969,
+            "2025": 8096.684554240643,
+            "2026": 7958.158523743371
+          }
+        },
+        "final_forecasts": {
+          "2024": 8010,
+          "2025": 8010,
+          "2026": 8010
+        },
+        "origin_mae": {
+          "last_value": 480.0,
+          "level_linear": 558.333333333333,
+          "log_linear": 559.7427466651197
+        },
+        "selected_model": "last_value",
+        "selection_reason": "min two-origin MAE; no tie",
+        "validation_origins": [
+          {
+            "abs_errors": {
+              "last_value": 0,
+              "level_linear": 156.66666666666606,
+              "log_linear": 159.48549333023948
+            },
+            "actual": 8970,
+            "predictions": {
+              "last_value": 8970,
+              "level_linear": 8813.333333333334,
+              "log_linear": 8810.51450666976
+            },
+            "target_year": 2022,
+            "train_years": [
+              2019,
+              2020,
+              2021
+            ]
+          },
+          {
+            "abs_errors": {
+              "last_value": 960,
+              "level_linear": 960.0,
+              "log_linear": 960.0
+            },
+            "actual": 8010,
+            "predictions": {
+              "last_value": 8970,
+              "level_linear": 8970.0,
+              "log_linear": 8970.0
+            },
+            "target_year": 2023,
+            "train_years": [
+              2019,
+              2020,
+              2021,
+              2022
+            ]
+          }
+        ]
+      },
+      "China_cat": {
+        "all_model_final_forecasts": {
+          "last_value": {
+            "2024": 6980,
+            "2025": 6980,
+            "2026": 6980
+          },
+          "level_linear": {
+            "2024": 7762.2,
+            "2025": 8443.2,
+            "2026": 9124.2
+          },
+          "log_linear": {
+            "2024": 8109.238417920394,
+            "2025": 9155.32491936495,
+            "2026": 10336.355901672992
+          }
+        },
+        "final_forecasts": {
+          "2024": 7762.2,
+          "2025": 8443.2,
+          "2026": 9124.2
+        },
+        "origin_mae": {
+          "last_value": 587.0,
+          "level_linear": 184.16666666666652,
+          "log_linear": 276.7886119850168
+        },
+        "selected_model": "level_linear",
+        "selection_reason": "min two-origin MAE; no tie",
+        "validation_origins": [
+          {
+            "abs_errors": {
+              "last_value": 730,
+              "level_linear": 115.33333333333303,
+              "log_linear": 35.79525252094572
+            },
+            "actual": 6536,
+            "predictions": {
+              "last_value": 5806,
+              "level_linear": 6420.666666666667,
+              "log_linear": 6571.795252520946
+            },
+            "target_year": 2022,
+            "train_years": [
+              2019,
+              2020,
+              2021
+            ]
+          },
+          {
+            "abs_errors": {
+              "last_value": 444,
+              "level_linear": 253.0,
+              "log_linear": 517.7819714490879
+            },
+            "actual": 6980,
+            "predictions": {
+              "last_value": 6536,
+              "level_linear": 7233.0,
+              "log_linear": 7497.781971449088
+            },
+            "target_year": 2023,
+            "train_years": [
+              2019,
+              2020,
+              2021,
+              2022
+            ]
+          }
+        ]
+      },
+      "China_dog": {
+        "all_model_final_forecasts": {
+          "last_value": {
+            "2024": 5175,
+            "2025": 5175,
+            "2026": 5175
+          },
+          "level_linear": {
+            "2024": 5061.900000000001,
+            "2025": 4986.000000000001,
+            "2026": 4910.1
+          },
+          "log_linear": {
+            "2024": 5065.721672514065,
+            "2025": 4993.882491872445,
+            "2026": 4923.062093589757
+          }
+        },
+        "final_forecasts": {
+          "2024": 5065.721672514065,
+          "2025": 4993.882491872445,
+          "2026": 4923.062093589757
+        },
+        "origin_mae": {
+          "last_value": 183.0,
+          "level_linear": 142.33333333333348,
+          "log_linear": 141.2434756761786
+        },
+        "selected_model": "log_linear",
+        "selection_reason": "min two-origin MAE; no tie",
+        "validation_origins": [
+          {
+            "abs_errors": {
+              "last_value": 310,
+              "level_linear": 191.66666666666697,
+              "log_linear": 191.95232424182905
+            },
+            "actual": 5119,
+            "predictions": {
+              "last_value": 5429,
+              "level_linear": 5310.666666666667,
+              "log_linear": 5310.952324241829
+            },
+            "target_year": 2022,
+            "train_years": [
+              2019,
+              2020,
+              2021
+            ]
+          },
+          {
+            "abs_errors": {
+              "last_value": 56,
+              "level_linear": 93.0,
+              "log_linear": 90.53462711052816
+            },
+            "actual": 5175,
+            "predictions": {
+              "last_value": 5119,
+              "level_linear": 5082.0,
+              "log_linear": 5084.465372889472
+            },
+            "target_year": 2023,
+            "train_years": [
+              2019,
+              2020,
+              2021,
+              2022
+            ]
+          }
+        ]
+      },
+      "France_cat": {
+        "all_model_final_forecasts": {
+          "last_value": {
+            "2024": 1660,
+            "2025": 1660,
+            "2026": 1660
+          },
+          "level_linear": {
+            "2024": 1706.0,
+            "2025": 1778.0,
+            "2026": 1850.0
+          },
+          "log_linear": {
+            "2024": 1720.2003287660946,
+            "2025": 1806.3918846271554,
+            "2026": 1896.9021144109674
+          }
+        },
+        "final_forecasts": {
+          "2024": 1660,
+          "2025": 1660,
+          "2026": 1660
+        },
+        "origin_mae": {
+          "last_value": 95.0,
+          "level_linear": 109.16666666666663,
+          "log_linear": 112.64129263926372
+        },
+        "selected_model": "last_value",
+        "selection_reason": "min two-origin MAE; no tie",
+        "validation_origins": [
+          {
+            "abs_errors": {
+              "last_value": 20,
+              "level_linear": 153.33333333333326,
+              "log_linear": 171.12552232484404
+            },
+            "actual": 1490,
+            "predictions": {
+              "last_value": 1510,
+              "level_linear": 1643.3333333333333,
+              "log_linear": 1661.125522324844
+            },
+            "target_year": 2022,
+            "train_years": [
+              2019,
+              2020,
+              2021
+            ]
+          },
+          {
+            "abs_errors": {
+              "last_value": 170,
+              "level_linear": 65.0,
+              "log_linear": 54.15706295368341
+            },
+            "actual": 1660,
+            "predictions": {
+              "last_value": 1490,
+              "level_linear": 1595.0,
+              "log_linear": 1605.8429370463166
+            },
+            "target_year": 2023,
+            "train_years": [
+              2019,
+              2020,
+              2021,
+              2022
+            ]
+          }
+        ]
+      },
+      "France_dog": {
+        "all_model_final_forecasts": {
+          "last_value": {
+            "2024": 990,
+            "2025": 990,
+            "2026": 990
+          },
+          "level_linear": {
+            "2024": 948.5,
+            "2025": 997.0,
+            "2026": 1045.5
+          },
+          "log_linear": {
+            "2024": 944.722690322201,
+            "2025": 999.3928322321921,
+            "2026": 1057.2266796899341
+          }
+        },
+        "final_forecasts": {
+          "2024": 944.722690322201,
+          "2025": 999.3928322321921,
+          "2026": 1057.2266796899341
+        },
+        "origin_mae": {
+          "last_value": 120.0,
+          "level_linear": 115.0,
+          "log_linear": 114.97011728635414
+        },
+        "selected_model": "log_linear",
+        "selection_reason": "min two-origin MAE; no tie",
+        "validation_origins": [
+          {
+            "abs_errors": {
+              "last_value": 10,
+              "level_linear": 5.0,
+              "log_linear": 5.058137516696206
+            },
+            "actual": 760,
+            "predictions": {
+              "last_value": 750,
+              "level_linear": 765.0,
+              "log_linear": 765.0581375166962
+            },
+            "target_year": 2022,
+            "train_years": [
+              2019,
+              2020,
+              2021
+            ]
+          },
+          {
+            "abs_errors": {
+              "last_value": 230,
+              "level_linear": 225.0,
+              "log_linear": 224.88209705601207
+            },
+            "actual": 990,
+            "predictions": {
+              "last_value": 760,
+              "level_linear": 765.0,
+              "log_linear": 765.1179029439879
+            },
+            "target_year": 2023,
+            "train_years": [
+              2019,
+              2020,
+              2021,
+              2022
+            ]
+          }
+        ]
+      },
+      "Germany_cat": {
+        "all_model_final_forecasts": {
+          "last_value": {
+            "2024": 1570,
+            "2025": 1570,
+            "2026": 1570
+          },
+          "level_linear": {
+            "2024": 1605.0,
+            "2025": 1620.0,
+            "2026": 1635.0
+          },
+          "log_linear": {
+            "2024": 1605.712953839849,
+            "2025": 1621.7308117352104,
+            "2026": 1637.9084564535779
+          }
+        },
+        "final_forecasts": {
+          "2024": 1570,
+          "2025": 1570,
+          "2026": 1570
+        },
+        "origin_mae": {
+          "last_value": 100.0,
+          "level_linear": 150.0,
+          "log_linear": 155.64757236168373
+        },
+        "selected_model": "last_value",
+        "selection_reason": "min two-origin MAE; no tie",
+        "validation_origins": [
+          {
+            "abs_errors": {
+              "last_value": 150,
+              "level_linear": 250.0,
+              "log_linear": 261.19016786093516
+            },
+            "actual": 1520,
+            "predictions": {
+              "last_value": 1670,
+              "level_linear": 1770.0,
+              "log_linear": 1781.1901678609352
+            },
+            "target_year": 2022,
+            "train_years": [
+              2019,
+              2020,
+              2021
+            ]
+          },
+          {
+            "abs_errors": {
+              "last_value": 50,
+              "level_linear": 50.0,
+              "log_linear": 50.104976862432295
+            },
+            "actual": 1570,
+            "predictions": {
+              "last_value": 1520,
+              "level_linear": 1620.0,
+              "log_linear": 1620.1049768624323
+            },
+            "target_year": 2023,
+            "train_years": [
+              2019,
+              2020,
+              2021,
+              2022
+            ]
+          }
+        ]
+      },
+      "Germany_dog": {
+        "all_model_final_forecasts": {
+          "last_value": {
+            "2024": 1050,
+            "2025": 1050,
+            "2026": 1050
+          },
+          "level_linear": {
+            "2024": 1065.0,
+            "2025": 1072.0,
+            "2026": 1079.0
+          },
+          "log_linear": {
+            "2024": 1065.3808582968218,
+            "2025": 1072.6812350628365,
+            "2026": 1080.031636663173
+          }
+        },
+        "final_forecasts": {
+          "2024": 1065.0,
+          "2025": 1072.0,
+          "2026": 1079.0
+        },
+        "origin_mae": {
+          "last_value": 20.0,
+          "level_linear": 11.666666666666629,
+          "log_linear": 11.776572744035434
+        },
+        "selected_model": "level_linear",
+        "selection_reason": "min two-origin MAE; no tie",
+        "validation_origins": [
+          {
+            "abs_errors": {
+              "last_value": 30,
+              "level_linear": 3.3333333333332575,
+              "log_linear": 3.1095435404961336
+            },
+            "actual": 1060,
+            "predictions": {
+              "last_value": 1030,
+              "level_linear": 1056.6666666666667,
+              "log_linear": 1056.8904564595039
+            },
+            "target_year": 2022,
+            "train_years": [
+              2019,
+              2020,
+              2021
+            ]
+          },
+          {
+            "abs_errors": {
+              "last_value": 10,
+              "level_linear": 20.0,
+              "log_linear": 20.443601947574734
+            },
+            "actual": 1050,
+            "predictions": {
+              "last_value": 1060,
+              "level_linear": 1070.0,
+              "log_linear": 1070.4436019475747
+            },
+            "target_year": 2023,
+            "train_years": [
+              2019,
+              2020,
+              2021,
+              2022
+            ]
+          }
+        ]
+      },
+      "exports_100m_USD": {
+        "all_model_final_forecasts": {
+          "last_value": {
+            "2024": 39.6,
+            "2025": 39.6,
+            "2026": 39.6
+          },
+          "level_linear": {
+            "2024": 36.55472421540915,
+            "2025": 41.49708632311372,
+            "2026": 46.43944843081829
+          },
+          "log_linear": {
+            "2024": 35.730146418486285,
+            "2025": 43.94518800768756,
+            "2026": 54.049024216476255
+          }
+        },
+        "final_forecasts": {
+          "2024": 39.6,
+          "2025": 39.6,
+          "2026": 39.6
+        },
+        "origin_mae": {
+          "last_value": 13.700000000000001,
+          "level_linear": 20.013943852528328,
+          "log_linear": 19.234382855584194
+        },
+        "selected_model": "last_value",
+        "selection_reason": "min two-origin MAE; no tie",
+        "validation_origins": [
+          {
+            "abs_errors": {
+              "last_value": 12.5,
+              "level_linear": 20.058792974318088,
+              "log_linear": 17.122548719471396
+            },
+            "actual": 24.7,
+            "predictions": {
+              "last_value": 12.2,
+              "level_linear": 4.641207025681911,
+              "log_linear": 7.577451280528605
+            },
+            "target_year": 2022,
+            "train_years": [
+              2019,
+              2020,
+              2021
+            ]
+          },
+          {
+            "abs_errors": {
+              "last_value": 14.900000000000002,
+              "level_linear": 19.96909473073857,
+              "log_linear": 21.346216991696995
+            },
+            "actual": 39.6,
+            "predictions": {
+              "last_value": 24.7,
+              "level_linear": 19.630905269261433,
+              "log_linear": 18.253783008303007
+            },
+            "target_year": 2023,
+            "train_years": [
+              2019,
+              2020,
+              2021,
+              2022
+            ]
+          }
+        ]
+      },
+      "production_100m_CNY": {
+        "all_model_final_forecasts": {
+          "last_value": {
+            "2024": 2793,
+            "2025": 2793,
+            "2026": 2793
+          },
+          "level_linear": {
+            "2024": 3050.1899999999996,
+            "2025": 3598.72,
+            "2026": 4147.25
+          },
+          "log_linear": {
+            "2024": 4370.378422028745,
+            "2025": 6801.009722410058,
+            "2026": 10583.461837349349
+          }
+        },
+        "final_forecasts": {
+          "2024": 3050.1899999999996,
+          "2025": 3598.72,
+          "2026": 4147.25
+        },
+        "origin_mae": {
+          "last_value": 665.5,
+          "level_linear": 620.4916666666666,
+          "log_linear": 662.968714800405
+        },
+        "selected_model": "level_linear",
+        "selection_reason": "min two-origin MAE; no tie",
+        "validation_origins": [
+          {
+            "abs_errors": {
+              "last_value": 46,
+              "level_linear": 512.6333333333332,
+              "log_linear": 1287.1847280338334
+            },
+            "actual": 1508,
+            "predictions": {
+              "last_value": 1554,
+              "level_linear": 2020.6333333333332,
+              "log_linear": 2795.1847280338334
+            },
+            "target_year": 2022,
+            "train_years": [
+              2019,
+              2020,
+              2021
+            ]
+          },
+          {
+            "abs_errors": {
+              "last_value": 1285,
+              "level_linear": 728.3499999999999,
+              "log_linear": 38.75270156697661
+            },
+            "actual": 2793,
+            "predictions": {
+              "last_value": 1508,
+              "level_linear": 2064.65,
+              "log_linear": 2831.7527015669766
+            },
+            "target_year": 2023,
+            "train_years": [
+              2019,
+              2020,
+              2021,
+              2022
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "linked": {
+    "analytic_price_decisions": [
+      {
+        "absorption_fraction": 0,
+        "buyer_price_multiplier": 1.0,
+        "eta": 0.5,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.8,
+        "t0": 0.1,
+        "t1": 0.1,
+        "unit_cost_fraction": 0.2
+      },
+      {
+        "absorption_fraction": 0,
+        "buyer_price_multiplier": 1.0,
+        "eta": 0.5,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.5,
+        "t0": 0.1,
+        "t1": 0.1,
+        "unit_cost_fraction": 0.5
+      },
+      {
+        "absorption_fraction": 0,
+        "buyer_price_multiplier": 1.0,
+        "eta": 0.5,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.19999999999999996,
+        "t0": 0.1,
+        "t1": 0.1,
+        "unit_cost_fraction": 0.8
+      },
+      {
+        "absorption_fraction": 0,
+        "buyer_price_multiplier": 1.0,
+        "eta": 1,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.8,
+        "t0": 0.1,
+        "t1": 0.1,
+        "unit_cost_fraction": 0.2
+      },
+      {
+        "absorption_fraction": 0,
+        "buyer_price_multiplier": 1.0,
+        "eta": 1,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.5,
+        "t0": 0.1,
+        "t1": 0.1,
+        "unit_cost_fraction": 0.5
+      },
+      {
+        "absorption_fraction": 0,
+        "buyer_price_multiplier": 1.0,
+        "eta": 1,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.19999999999999996,
+        "t0": 0.1,
+        "t1": 0.1,
+        "unit_cost_fraction": 0.8
+      },
+      {
+        "absorption_fraction": 0,
+        "buyer_price_multiplier": 1.0,
+        "eta": 6,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.8,
+        "t0": 0.1,
+        "t1": 0.1,
+        "unit_cost_fraction": 0.2
+      },
+      {
+        "absorption_fraction": 0,
+        "buyer_price_multiplier": 1.0,
+        "eta": 6,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.5,
+        "t0": 0.1,
+        "t1": 0.1,
+        "unit_cost_fraction": 0.5
+      },
+      {
+        "absorption_fraction": 0,
+        "buyer_price_multiplier": 1.0,
+        "eta": 6,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.19999999999999996,
+        "t0": 0.1,
+        "t1": 0.1,
+        "unit_cost_fraction": 0.8
+      },
+      {
+        "absorption_fraction": 0.0,
+        "buyer_price_multiplier": 1.1363636363636362,
+        "eta": 0.5,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.7504665215717488,
+        "t0": 0.1,
+        "t1": 0.25,
+        "unit_cost_fraction": 0.2
+      },
+      {
+        "absorption_fraction": 0.0,
+        "buyer_price_multiplier": 1.1363636363636362,
+        "eta": 0.5,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.469041575982343,
+        "t0": 0.1,
+        "t1": 0.25,
+        "unit_cost_fraction": 0.5
+      },
+      {
+        "absorption_fraction": 0.0,
+        "buyer_price_multiplier": 1.1363636363636362,
+        "eta": 0.5,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.18761663039293713,
+        "t0": 0.1,
+        "t1": 0.25,
+        "unit_cost_fraction": 0.8
+      },
+      {
+        "absorption_fraction": 0.0,
+        "buyer_price_multiplier": 1.1363636363636362,
+        "eta": 1,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.7040000000000002,
+        "t0": 0.1,
+        "t1": 0.25,
+        "unit_cost_fraction": 0.2
+      },
+      {
+        "absorption_fraction": 0.0,
+        "buyer_price_multiplier": 1.1363636363636362,
+        "eta": 1,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.44000000000000006,
+        "t0": 0.1,
+        "t1": 0.25,
+        "unit_cost_fraction": 0.5
+      },
+      {
+        "absorption_fraction": 0.0,
+        "buyer_price_multiplier": 1.1363636363636362,
+        "eta": 1,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.176,
+        "t0": 0.1,
+        "t1": 0.25,
+        "unit_cost_fraction": 0.8
+      },
+      {
+        "absorption_fraction": 1.0,
+        "buyer_price_multiplier": 1.0,
+        "eta": 6,
+        "producer_price_multiplier": 0.8800000000000001,
+        "profit_per_exposed_baseline_revenue": 0.6800000000000002,
+        "t0": 0.1,
+        "t1": 0.25,
+        "unit_cost_fraction": 0.2
+      },
+      {
+        "absorption_fraction": 1.0,
+        "buyer_price_multiplier": 1.0,
+        "eta": 6,
+        "producer_price_multiplier": 0.8800000000000001,
+        "profit_per_exposed_baseline_revenue": 0.3800000000000001,
+        "t0": 0.1,
+        "t1": 0.25,
+        "unit_cost_fraction": 0.5
+      },
+      {
+        "absorption_fraction": 0.3333333333333321,
+        "buyer_price_multiplier": 1.090909090909091,
+        "eta": 6,
+        "producer_price_multiplier": 0.9600000000000002,
+        "profit_per_exposed_baseline_revenue": 0.09492675111454048,
+        "t0": 0.1,
+        "t1": 0.25,
+        "unit_cost_fraction": 0.8
+      },
+      {
+        "absorption_fraction": 0.0,
+        "buyer_price_multiplier": 1.3636363636363635,
+        "eta": 0.5,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.6850790708621403,
+        "t0": 0.1,
+        "t1": 0.5,
+        "unit_cost_fraction": 0.2
+      },
+      {
+        "absorption_fraction": 0.0,
+        "buyer_price_multiplier": 1.3636363636363635,
+        "eta": 0.5,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.42817441928883765,
+        "t0": 0.1,
+        "t1": 0.5,
+        "unit_cost_fraction": 0.5
+      },
+      {
+        "absorption_fraction": 0.0,
+        "buyer_price_multiplier": 1.3636363636363635,
+        "eta": 0.5,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.171269767715535,
+        "t0": 0.1,
+        "t1": 0.5,
+        "unit_cost_fraction": 0.8
+      },
+      {
+        "absorption_fraction": 0.0,
+        "buyer_price_multiplier": 1.3636363636363635,
+        "eta": 1,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.5866666666666668,
+        "t0": 0.1,
+        "t1": 0.5,
+        "unit_cost_fraction": 0.2
+      },
+      {
+        "absorption_fraction": 0.0,
+        "buyer_price_multiplier": 1.3636363636363635,
+        "eta": 1,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.3666666666666667,
+        "t0": 0.1,
+        "t1": 0.5,
+        "unit_cost_fraction": 0.5
+      },
+      {
+        "absorption_fraction": 0.0,
+        "buyer_price_multiplier": 1.3636363636363635,
+        "eta": 1,
+        "producer_price_multiplier": 1,
+        "profit_per_exposed_baseline_revenue": 0.14666666666666664,
+        "t0": 0.1,
+        "t1": 0.5,
+        "unit_cost_fraction": 0.8
+      },
+      {
+        "absorption_fraction": 1.0,
+        "buyer_price_multiplier": 1.0,
+        "eta": 6,
+        "producer_price_multiplier": 0.7333333333333334,
+        "profit_per_exposed_baseline_revenue": 0.5333333333333334,
+        "t0": 0.1,
+        "t1": 0.5,
+        "unit_cost_fraction": 0.2
+      },
+      {
+        "absorption_fraction": 1.0,
+        "buyer_price_multiplier": 1.0,
+        "eta": 6,
+        "producer_price_multiplier": 0.7333333333333334,
+        "profit_per_exposed_baseline_revenue": 0.2333333333333334,
+        "t0": 0.1,
+        "t1": 0.5,
+        "unit_cost_fraction": 0.5
+      },
+      {
+        "absorption_fraction": 0.14999999999999933,
+        "buyer_price_multiplier": 1.3090909090909093,
+        "eta": 6,
+        "producer_price_multiplier": 0.9600000000000002,
+        "profit_per_exposed_baseline_revenue": 0.031790776881102,
+        "t0": 0.1,
+        "t1": 0.5,
+        "unit_cost_fraction": 0.8
+      }
+    ],
+    "annual_policy": {
+      "assumptions": {
+        "cost_fraction": 0.8,
+        "eta": 1,
+        "exposed_share": 0.5,
+        "fixed_cost": 0.005,
+        "move_capacity": 0.25,
+        "producer_price_ratio": 1,
+        "quadratic_cost": 0.02,
+        "replacement_margin": 0.2,
+        "t0": 0.1,
+        "t1": 0.5
+      },
+      "move_incremental_profit_per_prepolicy_export_revenue": 0.00041666666666666415,
+      "profit_per_prepolicy_export_revenue": 0.17333333333333334,
+      "revenue_ratio": 0.8666666666666667,
+      "rows": [
+        {
+          "componentwise_envelopes": {
+            "exports_after_tariff_100m_USD": {
+              "maximum": 37.49185440000001,
+              "minimum": 32.960927999999996
+            },
+            "fixed_factory_value_100m_CNY": {
+              "maximum": 3079.3076317831787,
+              "minimum": 2748.985291222329
+            },
+            "fixed_output_extra_inventory_value_100m_CNY": {
+              "maximum": 42.677468141616,
+              "minimum": 16.973267905439993
+            },
+            "operating_profit_after_move_100m_USD": {
+              "maximum": 7.516395810000002,
+              "minimum": 6.608032199999999
+            },
+            "operating_profit_after_tariff_100m_USD": {
+              "maximum": 7.498370880000002,
+              "minimum": 6.5921856
+            },
+            "sales_adjusted_factory_value_100m_CNY": {
+              "maximum": 3051.065905650372,
+              "minimum": 2715.038755411449
+            }
+          },
+          "year": 2024
+        },
+        {
+          "componentwise_envelopes": {
+            "exports_after_tariff_100m_USD": {
+              "maximum": 40.956851583648,
+              "minimum": 31.655675251199998
+            },
+            "fixed_factory_value_100m_CNY": {
+              "maximum": 3340.4228391243837,
+              "minimum": 2723.3511250345555
+            },
+            "fixed_output_extra_inventory_value_100m_CNY": {
+              "maximum": 46.621719747264144,
+              "minimum": 16.301126496384573
+            },
+            "operating_profit_after_move_100m_USD": {
+              "maximum": 8.2110611107602,
+              "minimum": 6.34635412488
+            },
+            "operating_profit_after_tariff_100m_USD": {
+              "maximum": 8.1913703167296,
+              "minimum": 6.3311350502399995
+            },
+            "sales_adjusted_factory_value_100m_CNY": {
+              "maximum": 3308.2681795315607,
+              "minimum": 2690.7488720417864
+            }
+          },
+          "year": 2025
+        },
+        {
+          "componentwise_envelopes": {
+            "exports_after_tariff_100m_USD": {
+              "maximum": 44.742083807008775,
+              "minimum": 30.402110511252474
+            },
+            "fixed_factory_value_100m_CNY": {
+              "maximum": 3612.571686484004,
+              "minimum": 2698.088883714925
+            },
+            "fixed_output_extra_inventory_value_100m_CNY": {
+              "maximum": 50.93049908630633,
+              "minimum": 15.65560188712774
+            },
+            "operating_profit_after_move_100m_USD": {
+              "maximum": 8.969927378616664,
+              "minimum": 6.095038501534751
+            },
+            "operating_profit_after_tariff_100m_USD": {
+              "maximum": 8.948416761401756,
+              "minimum": 6.080422102250495
+            },
+            "sales_adjusted_factory_value_100m_CNY": {
+              "maximum": 3575.4154842277712,
+              "minimum": 2666.7776799406697
+            }
+          },
+          "year": 2026
+        }
+      ],
+      "scope": "Componentwise scenario envelopes, not jointly attainable endpoint tuples, probabilities or forecasts. All costs scale with that year pre-policy export revenue; world demand is exogenous. Sales-adjusted output assumes no inventory buildup or domestic rerouting. Fixed-output mode records unsold factory-value inventory, not tonnes or a verified inventory policy. No post-relocation export receipts inferred from a profit margin alone."
+    },
+    "bridge_bounds": [
+      {
+        "endpoint_scenarios": 128,
+        "exports_100m_USD": {
+          "maximum": {
+            "assumptions": {
+              "FX_h_over_FX_2023": 0.95,
+              "border_to_factory_valuation": 0.5,
+              "cat_dog_food_intensity_ratio": 0.25,
+              "domestic_price_growth": -0.02,
+              "export_price_growth": 0.02,
+              "global_growth": 0.05,
+              "share_growth": 0.02
+            },
+            "exports_100m_USD": 43.25983200000001,
+            "global_consumption_ratio": 1.05,
+            "production_100m_CNY": 2777.6236575640187
+          },
+          "minimum": {
+            "assumptions": {
+              "FX_h_over_FX_2023": 0.95,
+              "border_to_factory_valuation": 0.5,
+              "cat_dog_food_intensity_ratio": 0.25,
+              "domestic_price_growth": -0.02,
+              "export_price_growth": -0.02,
+              "global_growth": 0,
+              "share_growth": -0.02
+            },
+            "exports_100m_USD": 38.031839999999995,
+            "global_consumption_ratio": 1,
+            "production_100m_CNY": 2760.1246142314785
+          }
+        },
+        "production_100m_CNY": {
+          "maximum": {
+            "assumptions": {
+              "FX_h_over_FX_2023": 1.05,
+              "border_to_factory_valuation": 1,
+              "cat_dog_food_intensity_ratio": 2,
+              "domestic_price_growth": 0.02,
+              "export_price_growth": 0.02,
+              "global_growth": 0.05,
+              "share_growth": 0.02
+            },
+            "exports_100m_USD": 43.25983200000001,
+            "global_consumption_ratio": 1.05,
+            "production_100m_CNY": 3079.3076317831787
+          },
+          "minimum": {
+            "assumptions": {
+              "FX_h_over_FX_2023": 0.95,
+              "border_to_factory_valuation": 1,
+              "cat_dog_food_intensity_ratio": 0.25,
+              "domestic_price_growth": -0.02,
+              "export_price_growth": -0.02,
+              "global_growth": 0,
+              "share_growth": -0.02
+            },
+            "exports_100m_USD": 38.031839999999995,
+            "global_consumption_ratio": 1,
+            "production_100m_CNY": 2748.985291222329
+          }
+        },
+        "year": 2024
+      },
+      {
+        "endpoint_scenarios": 128,
+        "exports_100m_USD": {
+          "maximum": {
+            "assumptions": {
+              "FX_h_over_FX_2023": 0.95,
+              "border_to_factory_valuation": 0.5,
+              "cat_dog_food_intensity_ratio": 0.25,
+              "domestic_price_growth": -0.02,
+              "export_price_growth": 0.02,
+              "global_growth": 0.05,
+              "share_growth": 0.02
+            },
+            "exports_100m_USD": 47.25790567344,
+            "global_consumption_ratio": 1.1025,
+            "production_100m_CNY": 2774.5907537875746
+          },
+          "minimum": {
+            "assumptions": {
+              "FX_h_over_FX_2023": 0.95,
+              "border_to_factory_valuation": 0.5,
+              "cat_dog_food_intensity_ratio": 0.25,
+              "domestic_price_growth": -0.02,
+              "export_price_growth": -0.02,
+              "global_growth": 0,
+              "share_growth": -0.02
+            },
+            "exports_100m_USD": 36.525779136,
+            "global_consumption_ratio": 1,
+            "production_100m_CNY": 2738.6683676536695
+          }
+        },
+        "production_100m_CNY": {
+          "maximum": {
+            "assumptions": {
+              "FX_h_over_FX_2023": 1.05,
+              "border_to_factory_valuation": 1,
+              "cat_dog_food_intensity_ratio": 2,
+              "domestic_price_growth": 0.02,
+              "export_price_growth": 0.02,
+              "global_growth": 0.05,
+              "share_growth": 0.02
+            },
+            "exports_100m_USD": 47.25790567344,
+            "global_consumption_ratio": 1.1025,
+            "production_100m_CNY": 3340.4228391243837
+          },
+          "minimum": {
+            "assumptions": {
+              "FX_h_over_FX_2023": 0.95,
+              "border_to_factory_valuation": 1,
+              "cat_dog_food_intensity_ratio": 0.25,
+              "domestic_price_growth": -0.02,
+              "export_price_growth": -0.02,
+              "global_growth": 0,
+              "share_growth": -0.02
+            },
+            "exports_100m_USD": 36.525779136,
+            "global_consumption_ratio": 1,
+            "production_100m_CNY": 2723.3511250345555
+          }
+        },
+        "year": 2025
+      },
+      {
+        "endpoint_scenarios": 128,
+        "exports_100m_USD": {
+          "maximum": {
+            "assumptions": {
+              "FX_h_over_FX_2023": 0.95,
+              "border_to_factory_valuation": 0.5,
+              "cat_dog_food_intensity_ratio": 0.25,
+              "domestic_price_growth": -0.02,
+              "export_price_growth": 0.02,
+              "global_growth": 0.05,
+              "share_growth": 0.02
+            },
+            "exports_100m_USD": 51.62548131577935,
+            "global_consumption_ratio": 1.1576250000000001,
+            "production_100m_CNY": 2772.7657967463415
+          },
+          "minimum": {
+            "assumptions": {
+              "FX_h_over_FX_2023": 0.95,
+              "border_to_factory_valuation": 0.5,
+              "cat_dog_food_intensity_ratio": 0.25,
+              "domestic_price_growth": -0.02,
+              "export_price_growth": -0.02,
+              "global_growth": 0,
+              "share_growth": -0.02
+            },
+            "exports_100m_USD": 35.07935828221439,
+            "global_consumption_ratio": 1,
+            "production_100m_CNY": 2717.382903285546
+          }
+        },
+        "production_100m_CNY": {
+          "maximum": {
+            "assumptions": {
+              "FX_h_over_FX_2023": 1.05,
+              "border_to_factory_valuation": 1,
+              "cat_dog_food_intensity_ratio": 2,
+              "domestic_price_growth": 0.02,
+              "export_price_growth": 0.02,
+              "global_growth": 0.05,
+              "share_growth": 0.02
+            },
+            "exports_100m_USD": 51.62548131577935,
+            "global_consumption_ratio": 1.1576250000000001,
+            "production_100m_CNY": 3612.571686484004
+          },
+          "minimum": {
+            "assumptions": {
+              "FX_h_over_FX_2023": 0.95,
+              "border_to_factory_valuation": 1,
+              "cat_dog_food_intensity_ratio": 0.25,
+              "domestic_price_growth": -0.02,
+              "export_price_growth": -0.02,
+              "global_growth": 0,
+              "share_growth": -0.02
+            },
+            "exports_100m_USD": 35.07935828221439,
+            "global_consumption_ratio": 1,
+            "production_100m_CNY": 2698.088883714925
+          }
+        },
+        "year": 2026
+      }
+    ],
+    "capacity_cost_decisions": [
+      {
+        "capacity_assumed": 0,
+        "exposed_share": 0.5,
+        "fixed_cost": 0,
+        "incremental_profit_per_baseline_revenue": -0.0,
+        "maximum_acceptable_fixed_cost": -0.0,
+        "move_fraction": 0,
+        "old_margin": 0.14666666666666664,
+        "quadratic_cost": 0.02,
+        "replacement_margin": 0.1
+      },
+      {
+        "capacity_assumed": 0,
+        "exposed_share": 0.5,
+        "fixed_cost": 0.005,
+        "incremental_profit_per_baseline_revenue": -0.0,
+        "maximum_acceptable_fixed_cost": -0.0,
+        "move_fraction": 0,
+        "old_margin": 0.14666666666666664,
+        "quadratic_cost": 0.02,
+        "replacement_margin": 0.1
+      },
+      {
+        "capacity_assumed": 0.25,
+        "exposed_share": 0.5,
+        "fixed_cost": 0,
+        "incremental_profit_per_baseline_revenue": -0.0,
+        "maximum_acceptable_fixed_cost": -0.0,
+        "move_fraction": 0,
+        "old_margin": 0.14666666666666664,
+        "quadratic_cost": 0.02,
+        "replacement_margin": 0.1
+      },
+      {
+        "capacity_assumed": 0.25,
+        "exposed_share": 0.5,
+        "fixed_cost": 0.005,
+        "incremental_profit_per_baseline_revenue": -0.0,
+        "maximum_acceptable_fixed_cost": -0.0,
+        "move_fraction": 0,
+        "old_margin": 0.14666666666666664,
+        "quadratic_cost": 0.02,
+        "replacement_margin": 0.1
+      },
+      {
+        "capacity_assumed": 0.75,
+        "exposed_share": 0.5,
+        "fixed_cost": 0,
+        "incremental_profit_per_baseline_revenue": -0.0,
+        "maximum_acceptable_fixed_cost": -0.0,
+        "move_fraction": 0,
+        "old_margin": 0.14666666666666664,
+        "quadratic_cost": 0.02,
+        "replacement_margin": 0.1
+      },
+      {
+        "capacity_assumed": 0.75,
+        "exposed_share": 0.5,
+        "fixed_cost": 0.005,
+        "incremental_profit_per_baseline_revenue": -0.0,
+        "maximum_acceptable_fixed_cost": -0.0,
+        "move_fraction": 0,
+        "old_margin": 0.14666666666666664,
+        "quadratic_cost": 0.02,
+        "replacement_margin": 0.1
+      },
+      {
+        "capacity_assumed": 0,
+        "exposed_share": 0.5,
+        "fixed_cost": 0,
+        "incremental_profit_per_baseline_revenue": 0.0,
+        "maximum_acceptable_fixed_cost": 0.0,
+        "move_fraction": 0,
+        "old_margin": 0.14666666666666664,
+        "quadratic_cost": 0.02,
+        "replacement_margin": 0.2
+      },
+      {
+        "capacity_assumed": 0,
+        "exposed_share": 0.5,
+        "fixed_cost": 0.005,
+        "incremental_profit_per_baseline_revenue": 0.0,
+        "maximum_acceptable_fixed_cost": 0.0,
+        "move_fraction": 0,
+        "old_margin": 0.14666666666666664,
+        "quadratic_cost": 0.02,
+        "replacement_margin": 0.2
+      },
+      {
+        "capacity_assumed": 0.25,
+        "exposed_share": 0.5,
+        "fixed_cost": 0,
+        "incremental_profit_per_baseline_revenue": 0.005416666666666671,
+        "maximum_acceptable_fixed_cost": 0.005416666666666671,
+        "move_fraction": 0.25,
+        "old_margin": 0.14666666666666664,
+        "quadratic_cost": 0.02,
+        "replacement_margin": 0.2
+      },
+      {
+        "capacity_assumed": 0.25,
+        "exposed_share": 0.5,
+        "fixed_cost": 0.005,
+        "incremental_profit_per_baseline_revenue": 0.0004166666666666711,
+        "maximum_acceptable_fixed_cost": 0.005416666666666671,
+        "move_fraction": 0.25,
+        "old_margin": 0.14666666666666664,
+        "quadratic_cost": 0.02,
+        "replacement_margin": 0.2
+      },
+      {
+        "capacity_assumed": 0.75,
+        "exposed_share": 0.5,
+        "fixed_cost": 0,
+        "incremental_profit_per_baseline_revenue": 0.008888888888888903,
+        "maximum_acceptable_fixed_cost": 0.008888888888888903,
+        "move_fraction": 0.6666666666666671,
+        "old_margin": 0.14666666666666664,
+        "quadratic_cost": 0.02,
+        "replacement_margin": 0.2
+      },
+      {
+        "capacity_assumed": 0.75,
+        "exposed_share": 0.5,
+        "fixed_cost": 0.005,
+        "incremental_profit_per_baseline_revenue": 0.0038888888888889027,
+        "maximum_acceptable_fixed_cost": 0.008888888888888903,
+        "move_fraction": 0.6666666666666671,
+        "old_margin": 0.14666666666666664,
+        "quadratic_cost": 0.02,
+        "replacement_margin": 0.2
+      }
+    ],
+    "growth_warning": "Global0/5%, market share/prices+-2%, intensity.25/2, FX.95/1.05, valuation.5/1 are declared scenario endpoints, not measured bounds or probabilities.",
+    "limits": [
+      "No observed global consumption growth, market shares or matched valuation factor calibration",
+      "No causal policy estimate; actual tariff coverage, destination replacement margin/capacity/cost unverified",
+      "Scenario ranges do not provide confidence intervals or known physical possibility bounds",
+      "Policy optima apply to stated constant-elasticity, constant-unit-cost model only"
+    ],
+    "robust_price_decision": {
+      "absorption_fraction": 0.14999999999999933,
+      "assumed_domain": {
+        "cost": [
+          0.2,
+          0.8
+        ],
+        "eta": [
+          0.5,
+          6
+        ],
+        "producer_price_minimum": 0.8
+      },
+      "buyer_price_multiplier": 1.3090909090909093,
+      "producer_price_multiplier": 0.9600000000000002,
+      "profit_per_exposed_baseline_revenue": 0.031790776881102,
+      "tariff_assumed": {
+        "t0": 0.1,
+        "t1": 0.5
+      }
+    },
+    "scope": "Conditional accounting/decision extension, not calibrated forecasts or actual tariff facts",
+    "source_FX_2023": {
+      "CNY_per_USD": 7.0467,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202402/t20240228_1947915.html"
+    },
+    "valuation_warning": "Factory production and border exports are not automatically comparable. Border-to-factory factor and fixed factor over horizon are assumed; no empirical export share inferred."
+  },
+  "input_data": {
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "pet_count_unit": "10000 animals",
+    "pets": {
+      "China_cat": [
+        4412,
+        4862,
+        5806,
+        6536,
+        6980
+      ],
+      "China_dog": [
+        5503,
+        5222,
+        5429,
+        5119,
+        5175
+      ],
+      "America_cat": [
+        9420,
+        6500,
+        9420,
+        7380,
+        7380
+      ],
+      "America_dog": [
+        8970,
+        8500,
+        8970,
+        8970,
+        8010
+      ],
+      "France_cat": [
+        1300,
+        1490,
+        1510,
+        1490,
+        1660
+      ],
+      "France_dog": [
+        740,
+        775,
+        750,
+        760,
+        990
+      ],
+      "Germany_cat": [
+        1470,
+        1570,
+        1670,
+        1520,
+        1570
+      ],
+      "Germany_dog": [
+        1010,
+        1070,
+        1030,
+        1060,
+        1050
+      ]
+    },
+    "production_value_100m_CNY": [
+      440.7,
+      727.3,
+      1554,
+      1508,
+      2793
+    ],
+    "exports_value_original": [
+      154.1,
+      9.8,
+      12.2,
+      24.7,
+      39.6
+    ],
+    "exports_currency": [
+      "CNY",
+      "USD",
+      "USD",
+      "USD",
+      "USD"
+    ],
+    "value_scale": 100000000,
+    "provenance": "Originalofficialquestiontablepage3 visuallychecked; chronological order reversesoriginaltable"
+  },
+  "derived": {
+    "cat_growth_pct": 58.20489573889394,
+    "dog_decline_pct": 5.960385244412136,
+    "cat_share_2019_pct": 44.49823499747857,
+    "cat_share_2023_pct": 57.42492801316331,
+    "overseas_growth_pct": {
+      "America_cat": -21.65605095541401,
+      "America_dog": -10.70234113712375,
+      "France_cat": 27.692307692307683,
+      "France_dog": 33.7837837837838,
+      "Germany_cat": 6.802721088435382,
+      "Germany_dog": 3.960396039603964
+    }
+  }
+}

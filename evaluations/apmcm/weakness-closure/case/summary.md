@@ -1,0 +1,9 @@
+# Summary
+
+China's cat population increased 58.2% from 2019 to 2023, while dogs declined 6.0%. Frozen simple extrapolators predict cats at 7762, 8443 and 9124 and dogs at 5066, 4994 and 4923 in 2024-2026, all in 10000 animals. Selection uses two chronological one-step holdouts, which do not validate three-year accuracy or causal drivers.
+
+With fixed unknown nonnegative food coefficients, the three observed overseas markets have a 2026/2023 demand ratio between 0.897318 and 1.067906; even its direction is unidentified. Global consumption requires separate production, inventory and loss accounting. Assuming 2% loss, unchanged inventories and annual production growth of zero or 5%, the 2023 production anchor of 34.96 million tonnes gives 2026 consumption scenarios of 34.26 or 39.66 million tonnes. These are conditional scenarios, not measured demand or confidence bounds.
+
+Separate univariate baselines project production value at 3050.19, 3598.72 and 4147.25 (100m CNY), with exports at 39.6 (100m USD) annually. A quantity-price-share-FX bridge, including a border-to-factory valuation factor, instead yields 2026 scenario envelopes of 35.08 to 51.63 (100m USD) for exports and 2698.09 to 3612.57 (100m CNY) for production. The bridge and univariate baselines use different assumptions; the former propagates declared upstream scenarios rather than estimating an empirical industrial response.
+
+A coupled producer-price, buyer-price and demand model gives an analytic absorption rule. For an illustrative tariff increase from 10% to 50%, the robust-domain price is 0.96 of baseline, with a model absorption parameter of 15%. Relocation depends on attainable capacity and net replacement margin: both profitable and no-move cases occur after execution and fixed costs. Real action requires destination cost/capacity evidence; neither the policy domain nor the world-demand growth is empirically calibrated.

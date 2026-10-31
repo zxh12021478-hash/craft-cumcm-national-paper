@@ -1,0 +1,263 @@
+[
+  {
+    "id": "H1",
+    "quote": "China's cat population increased 58.2% from 2019 to 2023, while dogs declined 6.0%.",
+    "token": "58.2",
+    "pointer": "/derived/cat_growth_pct",
+    "scale": 1,
+    "absolute_tolerance": 0.05,
+    "unit": "percent"
+  },
+  {
+    "id": "H2",
+    "quote": "China's cat population increased 58.2% from 2019 to 2023, while dogs declined 6.0%.",
+    "token": "6.0",
+    "pointer": "/derived/dog_decline_pct",
+    "scale": 1,
+    "absolute_tolerance": 0.05,
+    "unit": "percent"
+  },
+  {
+    "id": "H3",
+    "quote": "Frozen simple extrapolators predict cats at 7762, 8443 and 9124 and dogs at 5066, 4994 and 4923 in 2024-2026, all in 10000 animals.",
+    "token": "7762",
+    "pointer": "/base/series/China_cat/final_forecasts/2024",
+    "scale": 1,
+    "absolute_tolerance": 0.5,
+    "unit": "10000 animals"
+  },
+  {
+    "id": "H4",
+    "quote": "Frozen simple extrapolators predict cats at 7762, 8443 and 9124 and dogs at 5066, 4994 and 4923 in 2024-2026, all in 10000 animals.",
+    "token": "8443",
+    "pointer": "/base/series/China_cat/final_forecasts/2025",
+    "scale": 1,
+    "absolute_tolerance": 0.5,
+    "unit": "10000 animals"
+  },
+  {
+    "id": "H5",
+    "quote": "Frozen simple extrapolators predict cats at 7762, 8443 and 9124 and dogs at 5066, 4994 and 4923 in 2024-2026, all in 10000 animals.",
+    "token": "9124",
+    "pointer": "/base/series/China_cat/final_forecasts/2026",
+    "scale": 1,
+    "absolute_tolerance": 0.5,
+    "unit": "10000 animals"
+  },
+  {
+    "id": "H6",
+    "quote": "Frozen simple extrapolators predict cats at 7762, 8443 and 9124 and dogs at 5066, 4994 and 4923 in 2024-2026, all in 10000 animals.",
+    "token": "5066",
+    "pointer": "/base/series/China_dog/final_forecasts/2024",
+    "scale": 1,
+    "absolute_tolerance": 0.5,
+    "unit": "10000 animals"
+  },
+  {
+    "id": "H7",
+    "quote": "Frozen simple extrapolators predict cats at 7762, 8443 and 9124 and dogs at 5066, 4994 and 4923 in 2024-2026, all in 10000 animals.",
+    "token": "4994",
+    "pointer": "/base/series/China_dog/final_forecasts/2025",
+    "scale": 1,
+    "absolute_tolerance": 0.5,
+    "unit": "10000 animals"
+  },
+  {
+    "id": "H8",
+    "quote": "Frozen simple extrapolators predict cats at 7762, 8443 and 9124 and dogs at 5066, 4994 and 4923 in 2024-2026, all in 10000 animals.",
+    "token": "4923",
+    "pointer": "/base/series/China_dog/final_forecasts/2026",
+    "scale": 1,
+    "absolute_tolerance": 0.5,
+    "unit": "10000 animals"
+  },
+  {
+    "id": "H9",
+    "quote": "With fixed unknown nonnegative food coefficients, the three observed overseas markets have a 2026/2023 demand ratio between 0.897318 and 1.067906; even its direction is unidentified.",
+    "token": "0.897318",
+    "pointer": "/base/q2_three_market/fixed_intensity_food_bounds/rows/2/minimum_ratio",
+    "scale": 1,
+    "absolute_tolerance": 5e-07,
+    "unit": "dimensionless"
+  },
+  {
+    "id": "H10",
+    "quote": "With fixed unknown nonnegative food coefficients, the three observed overseas markets have a 2026/2023 demand ratio between 0.897318 and 1.067906; even its direction is unidentified.",
+    "token": "1.067906",
+    "pointer": "/base/q2_three_market/fixed_intensity_food_bounds/rows/2/maximum_ratio",
+    "scale": 1,
+    "absolute_tolerance": 5e-07,
+    "unit": "dimensionless"
+  },
+  {
+    "id": "H11",
+    "quote": "Assuming 2% loss, unchanged inventories and annual production growth of zero or 5%, the 2023 production anchor of 34.96 million tonnes gives 2026 consumption scenarios of 34.26 or 39.66 million tonnes.",
+    "token": "2",
+    "pointer": "/base/post_review_global_scenarios/rows/5/loss_fraction_assumed",
+    "scale": 100,
+    "absolute_tolerance": 0,
+    "unit": "percent assumed loss"
+  },
+  {
+    "id": "H12",
+    "quote": "Assuming 2% loss, unchanged inventories and annual production growth of zero or 5%, the 2023 production anchor of 34.96 million tonnes gives 2026 consumption scenarios of 34.26 or 39.66 million tonnes.",
+    "token": "5",
+    "pointer": "/base/post_review_global_scenarios/rows/5/annual_growth_scenario",
+    "scale": 100,
+    "absolute_tolerance": 0,
+    "unit": "percent assumed annual growth"
+  },
+  {
+    "id": "H13",
+    "quote": "Assuming 2% loss, unchanged inventories and annual production growth of zero or 5%, the 2023 production anchor of 34.96 million tonnes gives 2026 consumption scenarios of 34.26 or 39.66 million tonnes.",
+    "token": "34.96",
+    "pointer": "/base/post_review_global_scenarios/source/value",
+    "scale": 1,
+    "absolute_tolerance": 0.005,
+    "unit": "million metric tonnes production"
+  },
+  {
+    "id": "H14",
+    "quote": "Assuming 2% loss, unchanged inventories and annual production growth of zero or 5%, the 2023 production anchor of 34.96 million tonnes gives 2026 consumption scenarios of 34.26 or 39.66 million tonnes.",
+    "token": "34.26",
+    "pointer": "/base/post_review_global_scenarios/rows/2/consumption_million_tonnes",
+    "scale": 1,
+    "absolute_tolerance": 0.005,
+    "unit": "million metric tonnes conditional consumption"
+  },
+  {
+    "id": "H15",
+    "quote": "Assuming 2% loss, unchanged inventories and annual production growth of zero or 5%, the 2023 production anchor of 34.96 million tonnes gives 2026 consumption scenarios of 34.26 or 39.66 million tonnes.",
+    "token": "39.66",
+    "pointer": "/base/post_review_global_scenarios/rows/5/consumption_million_tonnes",
+    "scale": 1,
+    "absolute_tolerance": 0.005,
+    "unit": "million metric tonnes conditional consumption"
+  },
+  {
+    "id": "H16",
+    "quote": "Separate univariate baselines project production value at 3050.19, 3598.72 and 4147.25 (100m CNY), with exports at 39.6 (100m USD) annually.",
+    "token": "3050.19",
+    "pointer": "/base/series/production_100m_CNY/final_forecasts/2024",
+    "scale": 1,
+    "absolute_tolerance": 0.005,
+    "unit": "100m CNY"
+  },
+  {
+    "id": "H17",
+    "quote": "Separate univariate baselines project production value at 3050.19, 3598.72 and 4147.25 (100m CNY), with exports at 39.6 (100m USD) annually.",
+    "token": "3598.72",
+    "pointer": "/base/series/production_100m_CNY/final_forecasts/2025",
+    "scale": 1,
+    "absolute_tolerance": 0.005,
+    "unit": "100m CNY"
+  },
+  {
+    "id": "H18",
+    "quote": "Separate univariate baselines project production value at 3050.19, 3598.72 and 4147.25 (100m CNY), with exports at 39.6 (100m USD) annually.",
+    "token": "4147.25",
+    "pointer": "/base/series/production_100m_CNY/final_forecasts/2026",
+    "scale": 1,
+    "absolute_tolerance": 0.005,
+    "unit": "100m CNY"
+  },
+  {
+    "id": "H19",
+    "quote": "Separate univariate baselines project production value at 3050.19, 3598.72 and 4147.25 (100m CNY), with exports at 39.6 (100m USD) annually.",
+    "token": "39.6",
+    "pointer": "/base/series/exports_100m_USD/final_forecasts/2024",
+    "scale": 1,
+    "absolute_tolerance": 0.05,
+    "unit": "100m USD"
+  },
+  {
+    "id": "H20",
+    "quote": "Separate univariate baselines project production value at 3050.19, 3598.72 and 4147.25 (100m CNY), with exports at 39.6 (100m USD) annually.",
+    "token": "39.6",
+    "pointer": "/base/series/exports_100m_USD/final_forecasts/2025",
+    "scale": 1,
+    "absolute_tolerance": 0.05,
+    "unit": "100m USD"
+  },
+  {
+    "id": "H21",
+    "quote": "Separate univariate baselines project production value at 3050.19, 3598.72 and 4147.25 (100m CNY), with exports at 39.6 (100m USD) annually.",
+    "token": "39.6",
+    "pointer": "/base/series/exports_100m_USD/final_forecasts/2026",
+    "scale": 1,
+    "absolute_tolerance": 0.05,
+    "unit": "100m USD"
+  },
+  {
+    "id": "H22",
+    "quote": "A quantity-price-share-FX bridge, including a border-to-factory valuation factor, instead yields 2026 scenario envelopes of 35.08 to 51.63 (100m USD) for exports and 2698.09 to 3612.57 (100m CNY) for production.",
+    "token": "35.08",
+    "pointer": "/linked/bridge_bounds/2/exports_100m_USD/minimum/exports_100m_USD",
+    "scale": 1,
+    "absolute_tolerance": 0.005,
+    "unit": "100m USD"
+  },
+  {
+    "id": "H23",
+    "quote": "A quantity-price-share-FX bridge, including a border-to-factory valuation factor, instead yields 2026 scenario envelopes of 35.08 to 51.63 (100m USD) for exports and 2698.09 to 3612.57 (100m CNY) for production.",
+    "token": "51.63",
+    "pointer": "/linked/bridge_bounds/2/exports_100m_USD/maximum/exports_100m_USD",
+    "scale": 1,
+    "absolute_tolerance": 0.005,
+    "unit": "100m USD"
+  },
+  {
+    "id": "H24",
+    "quote": "A quantity-price-share-FX bridge, including a border-to-factory valuation factor, instead yields 2026 scenario envelopes of 35.08 to 51.63 (100m USD) for exports and 2698.09 to 3612.57 (100m CNY) for production.",
+    "token": "2698.09",
+    "pointer": "/linked/bridge_bounds/2/production_100m_CNY/minimum/production_100m_CNY",
+    "scale": 1,
+    "absolute_tolerance": 0.005,
+    "unit": "100m CNY"
+  },
+  {
+    "id": "H25",
+    "quote": "A quantity-price-share-FX bridge, including a border-to-factory valuation factor, instead yields 2026 scenario envelopes of 35.08 to 51.63 (100m USD) for exports and 2698.09 to 3612.57 (100m CNY) for production.",
+    "token": "3612.57",
+    "pointer": "/linked/bridge_bounds/2/production_100m_CNY/maximum/production_100m_CNY",
+    "scale": 1,
+    "absolute_tolerance": 0.005,
+    "unit": "100m CNY"
+  },
+  {
+    "id": "H26",
+    "quote": "For an illustrative tariff increase from 10% to 50%, the robust-domain price is 0.96 of baseline, with a model absorption parameter of 15%.",
+    "token": "10",
+    "pointer": "/linked/robust_price_decision/tariff_assumed/t0",
+    "scale": 100,
+    "absolute_tolerance": 0,
+    "unit": "percent assumed baseline tariff"
+  },
+  {
+    "id": "H27",
+    "quote": "For an illustrative tariff increase from 10% to 50%, the robust-domain price is 0.96 of baseline, with a model absorption parameter of 15%.",
+    "token": "50",
+    "pointer": "/linked/robust_price_decision/tariff_assumed/t1",
+    "scale": 100,
+    "absolute_tolerance": 0,
+    "unit": "percent assumed scenario tariff"
+  },
+  {
+    "id": "H28",
+    "quote": "For an illustrative tariff increase from 10% to 50%, the robust-domain price is 0.96 of baseline, with a model absorption parameter of 15%.",
+    "token": "0.96",
+    "pointer": "/linked/robust_price_decision/producer_price_multiplier",
+    "scale": 1,
+    "absolute_tolerance": 0.005,
+    "unit": "dimensionless"
+  },
+  {
+    "id": "H29",
+    "quote": "For an illustrative tariff increase from 10% to 50%, the robust-domain price is 0.96 of baseline, with a model absorption parameter of 15%.",
+    "token": "15",
+    "pointer": "/linked/robust_price_decision/absorption_fraction",
+    "scale": 100,
+    "absolute_tolerance": 0.5,
+    "unit": "percent model absorption parameter"
+  }
+]

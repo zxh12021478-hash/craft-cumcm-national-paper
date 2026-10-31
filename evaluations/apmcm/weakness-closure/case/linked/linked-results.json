@@ -1,0 +1,743 @@
+{
+  "analytic_price_decisions": [
+    {
+      "absorption_fraction": 0,
+      "buyer_price_multiplier": 1.0,
+      "eta": 0.5,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.8,
+      "t0": 0.1,
+      "t1": 0.1,
+      "unit_cost_fraction": 0.2
+    },
+    {
+      "absorption_fraction": 0,
+      "buyer_price_multiplier": 1.0,
+      "eta": 0.5,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.5,
+      "t0": 0.1,
+      "t1": 0.1,
+      "unit_cost_fraction": 0.5
+    },
+    {
+      "absorption_fraction": 0,
+      "buyer_price_multiplier": 1.0,
+      "eta": 0.5,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.19999999999999996,
+      "t0": 0.1,
+      "t1": 0.1,
+      "unit_cost_fraction": 0.8
+    },
+    {
+      "absorption_fraction": 0,
+      "buyer_price_multiplier": 1.0,
+      "eta": 1,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.8,
+      "t0": 0.1,
+      "t1": 0.1,
+      "unit_cost_fraction": 0.2
+    },
+    {
+      "absorption_fraction": 0,
+      "buyer_price_multiplier": 1.0,
+      "eta": 1,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.5,
+      "t0": 0.1,
+      "t1": 0.1,
+      "unit_cost_fraction": 0.5
+    },
+    {
+      "absorption_fraction": 0,
+      "buyer_price_multiplier": 1.0,
+      "eta": 1,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.19999999999999996,
+      "t0": 0.1,
+      "t1": 0.1,
+      "unit_cost_fraction": 0.8
+    },
+    {
+      "absorption_fraction": 0,
+      "buyer_price_multiplier": 1.0,
+      "eta": 6,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.8,
+      "t0": 0.1,
+      "t1": 0.1,
+      "unit_cost_fraction": 0.2
+    },
+    {
+      "absorption_fraction": 0,
+      "buyer_price_multiplier": 1.0,
+      "eta": 6,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.5,
+      "t0": 0.1,
+      "t1": 0.1,
+      "unit_cost_fraction": 0.5
+    },
+    {
+      "absorption_fraction": 0,
+      "buyer_price_multiplier": 1.0,
+      "eta": 6,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.19999999999999996,
+      "t0": 0.1,
+      "t1": 0.1,
+      "unit_cost_fraction": 0.8
+    },
+    {
+      "absorption_fraction": 0.0,
+      "buyer_price_multiplier": 1.1363636363636362,
+      "eta": 0.5,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.7504665215717488,
+      "t0": 0.1,
+      "t1": 0.25,
+      "unit_cost_fraction": 0.2
+    },
+    {
+      "absorption_fraction": 0.0,
+      "buyer_price_multiplier": 1.1363636363636362,
+      "eta": 0.5,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.469041575982343,
+      "t0": 0.1,
+      "t1": 0.25,
+      "unit_cost_fraction": 0.5
+    },
+    {
+      "absorption_fraction": 0.0,
+      "buyer_price_multiplier": 1.1363636363636362,
+      "eta": 0.5,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.18761663039293713,
+      "t0": 0.1,
+      "t1": 0.25,
+      "unit_cost_fraction": 0.8
+    },
+    {
+      "absorption_fraction": 0.0,
+      "buyer_price_multiplier": 1.1363636363636362,
+      "eta": 1,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.7040000000000002,
+      "t0": 0.1,
+      "t1": 0.25,
+      "unit_cost_fraction": 0.2
+    },
+    {
+      "absorption_fraction": 0.0,
+      "buyer_price_multiplier": 1.1363636363636362,
+      "eta": 1,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.44000000000000006,
+      "t0": 0.1,
+      "t1": 0.25,
+      "unit_cost_fraction": 0.5
+    },
+    {
+      "absorption_fraction": 0.0,
+      "buyer_price_multiplier": 1.1363636363636362,
+      "eta": 1,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.176,
+      "t0": 0.1,
+      "t1": 0.25,
+      "unit_cost_fraction": 0.8
+    },
+    {
+      "absorption_fraction": 1.0,
+      "buyer_price_multiplier": 1.0,
+      "eta": 6,
+      "producer_price_multiplier": 0.8800000000000001,
+      "profit_per_exposed_baseline_revenue": 0.6800000000000002,
+      "t0": 0.1,
+      "t1": 0.25,
+      "unit_cost_fraction": 0.2
+    },
+    {
+      "absorption_fraction": 1.0,
+      "buyer_price_multiplier": 1.0,
+      "eta": 6,
+      "producer_price_multiplier": 0.8800000000000001,
+      "profit_per_exposed_baseline_revenue": 0.3800000000000001,
+      "t0": 0.1,
+      "t1": 0.25,
+      "unit_cost_fraction": 0.5
+    },
+    {
+      "absorption_fraction": 0.3333333333333321,
+      "buyer_price_multiplier": 1.090909090909091,
+      "eta": 6,
+      "producer_price_multiplier": 0.9600000000000002,
+      "profit_per_exposed_baseline_revenue": 0.09492675111454048,
+      "t0": 0.1,
+      "t1": 0.25,
+      "unit_cost_fraction": 0.8
+    },
+    {
+      "absorption_fraction": 0.0,
+      "buyer_price_multiplier": 1.3636363636363635,
+      "eta": 0.5,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.6850790708621403,
+      "t0": 0.1,
+      "t1": 0.5,
+      "unit_cost_fraction": 0.2
+    },
+    {
+      "absorption_fraction": 0.0,
+      "buyer_price_multiplier": 1.3636363636363635,
+      "eta": 0.5,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.42817441928883765,
+      "t0": 0.1,
+      "t1": 0.5,
+      "unit_cost_fraction": 0.5
+    },
+    {
+      "absorption_fraction": 0.0,
+      "buyer_price_multiplier": 1.3636363636363635,
+      "eta": 0.5,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.171269767715535,
+      "t0": 0.1,
+      "t1": 0.5,
+      "unit_cost_fraction": 0.8
+    },
+    {
+      "absorption_fraction": 0.0,
+      "buyer_price_multiplier": 1.3636363636363635,
+      "eta": 1,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.5866666666666668,
+      "t0": 0.1,
+      "t1": 0.5,
+      "unit_cost_fraction": 0.2
+    },
+    {
+      "absorption_fraction": 0.0,
+      "buyer_price_multiplier": 1.3636363636363635,
+      "eta": 1,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.3666666666666667,
+      "t0": 0.1,
+      "t1": 0.5,
+      "unit_cost_fraction": 0.5
+    },
+    {
+      "absorption_fraction": 0.0,
+      "buyer_price_multiplier": 1.3636363636363635,
+      "eta": 1,
+      "producer_price_multiplier": 1,
+      "profit_per_exposed_baseline_revenue": 0.14666666666666664,
+      "t0": 0.1,
+      "t1": 0.5,
+      "unit_cost_fraction": 0.8
+    },
+    {
+      "absorption_fraction": 1.0,
+      "buyer_price_multiplier": 1.0,
+      "eta": 6,
+      "producer_price_multiplier": 0.7333333333333334,
+      "profit_per_exposed_baseline_revenue": 0.5333333333333334,
+      "t0": 0.1,
+      "t1": 0.5,
+      "unit_cost_fraction": 0.2
+    },
+    {
+      "absorption_fraction": 1.0,
+      "buyer_price_multiplier": 1.0,
+      "eta": 6,
+      "producer_price_multiplier": 0.7333333333333334,
+      "profit_per_exposed_baseline_revenue": 0.2333333333333334,
+      "t0": 0.1,
+      "t1": 0.5,
+      "unit_cost_fraction": 0.5
+    },
+    {
+      "absorption_fraction": 0.14999999999999933,
+      "buyer_price_multiplier": 1.3090909090909093,
+      "eta": 6,
+      "producer_price_multiplier": 0.9600000000000002,
+      "profit_per_exposed_baseline_revenue": 0.031790776881102,
+      "t0": 0.1,
+      "t1": 0.5,
+      "unit_cost_fraction": 0.8
+    }
+  ],
+  "annual_policy": {
+    "assumptions": {
+      "cost_fraction": 0.8,
+      "eta": 1,
+      "exposed_share": 0.5,
+      "fixed_cost": 0.005,
+      "move_capacity": 0.25,
+      "producer_price_ratio": 1,
+      "quadratic_cost": 0.02,
+      "replacement_margin": 0.2,
+      "t0": 0.1,
+      "t1": 0.5
+    },
+    "move_incremental_profit_per_prepolicy_export_revenue": 0.00041666666666666415,
+    "profit_per_prepolicy_export_revenue": 0.17333333333333334,
+    "revenue_ratio": 0.8666666666666667,
+    "rows": [
+      {
+        "componentwise_envelopes": {
+          "exports_after_tariff_100m_USD": {
+            "maximum": 37.49185440000001,
+            "minimum": 32.960927999999996
+          },
+          "fixed_factory_value_100m_CNY": {
+            "maximum": 3079.3076317831787,
+            "minimum": 2748.985291222329
+          },
+          "fixed_output_extra_inventory_value_100m_CNY": {
+            "maximum": 42.677468141616,
+            "minimum": 16.973267905439993
+          },
+          "operating_profit_after_move_100m_USD": {
+            "maximum": 7.516395810000002,
+            "minimum": 6.608032199999999
+          },
+          "operating_profit_after_tariff_100m_USD": {
+            "maximum": 7.498370880000002,
+            "minimum": 6.5921856
+          },
+          "sales_adjusted_factory_value_100m_CNY": {
+            "maximum": 3051.065905650372,
+            "minimum": 2715.038755411449
+          }
+        },
+        "year": 2024
+      },
+      {
+        "componentwise_envelopes": {
+          "exports_after_tariff_100m_USD": {
+            "maximum": 40.956851583648,
+            "minimum": 31.655675251199998
+          },
+          "fixed_factory_value_100m_CNY": {
+            "maximum": 3340.4228391243837,
+            "minimum": 2723.3511250345555
+          },
+          "fixed_output_extra_inventory_value_100m_CNY": {
+            "maximum": 46.621719747264144,
+            "minimum": 16.301126496384573
+          },
+          "operating_profit_after_move_100m_USD": {
+            "maximum": 8.2110611107602,
+            "minimum": 6.34635412488
+          },
+          "operating_profit_after_tariff_100m_USD": {
+            "maximum": 8.1913703167296,
+            "minimum": 6.3311350502399995
+          },
+          "sales_adjusted_factory_value_100m_CNY": {
+            "maximum": 3308.2681795315607,
+            "minimum": 2690.7488720417864
+          }
+        },
+        "year": 2025
+      },
+      {
+        "componentwise_envelopes": {
+          "exports_after_tariff_100m_USD": {
+            "maximum": 44.742083807008775,
+            "minimum": 30.402110511252474
+          },
+          "fixed_factory_value_100m_CNY": {
+            "maximum": 3612.571686484004,
+            "minimum": 2698.088883714925
+          },
+          "fixed_output_extra_inventory_value_100m_CNY": {
+            "maximum": 50.93049908630633,
+            "minimum": 15.65560188712774
+          },
+          "operating_profit_after_move_100m_USD": {
+            "maximum": 8.969927378616664,
+            "minimum": 6.095038501534751
+          },
+          "operating_profit_after_tariff_100m_USD": {
+            "maximum": 8.948416761401756,
+            "minimum": 6.080422102250495
+          },
+          "sales_adjusted_factory_value_100m_CNY": {
+            "maximum": 3575.4154842277712,
+            "minimum": 2666.7776799406697
+          }
+        },
+        "year": 2026
+      }
+    ],
+    "scope": "Componentwise scenario envelopes, not jointly attainable endpoint tuples, probabilities or forecasts. All costs scale with that year pre-policy export revenue; world demand is exogenous. Sales-adjusted output assumes no inventory buildup or domestic rerouting. Fixed-output mode records unsold factory-value inventory, not tonnes or a verified inventory policy. No post-relocation export receipts inferred from a profit margin alone."
+  },
+  "bridge_bounds": [
+    {
+      "endpoint_scenarios": 128,
+      "exports_100m_USD": {
+        "maximum": {
+          "assumptions": {
+            "FX_h_over_FX_2023": 0.95,
+            "border_to_factory_valuation": 0.5,
+            "cat_dog_food_intensity_ratio": 0.25,
+            "domestic_price_growth": -0.02,
+            "export_price_growth": 0.02,
+            "global_growth": 0.05,
+            "share_growth": 0.02
+          },
+          "exports_100m_USD": 43.25983200000001,
+          "global_consumption_ratio": 1.05,
+          "production_100m_CNY": 2777.6236575640187
+        },
+        "minimum": {
+          "assumptions": {
+            "FX_h_over_FX_2023": 0.95,
+            "border_to_factory_valuation": 0.5,
+            "cat_dog_food_intensity_ratio": 0.25,
+            "domestic_price_growth": -0.02,
+            "export_price_growth": -0.02,
+            "global_growth": 0,
+            "share_growth": -0.02
+          },
+          "exports_100m_USD": 38.031839999999995,
+          "global_consumption_ratio": 1,
+          "production_100m_CNY": 2760.1246142314785
+        }
+      },
+      "production_100m_CNY": {
+        "maximum": {
+          "assumptions": {
+            "FX_h_over_FX_2023": 1.05,
+            "border_to_factory_valuation": 1,
+            "cat_dog_food_intensity_ratio": 2,
+            "domestic_price_growth": 0.02,
+            "export_price_growth": 0.02,
+            "global_growth": 0.05,
+            "share_growth": 0.02
+          },
+          "exports_100m_USD": 43.25983200000001,
+          "global_consumption_ratio": 1.05,
+          "production_100m_CNY": 3079.3076317831787
+        },
+        "minimum": {
+          "assumptions": {
+            "FX_h_over_FX_2023": 0.95,
+            "border_to_factory_valuation": 1,
+            "cat_dog_food_intensity_ratio": 0.25,
+            "domestic_price_growth": -0.02,
+            "export_price_growth": -0.02,
+            "global_growth": 0,
+            "share_growth": -0.02
+          },
+          "exports_100m_USD": 38.031839999999995,
+          "global_consumption_ratio": 1,
+          "production_100m_CNY": 2748.985291222329
+        }
+      },
+      "year": 2024
+    },
+    {
+      "endpoint_scenarios": 128,
+      "exports_100m_USD": {
+        "maximum": {
+          "assumptions": {
+            "FX_h_over_FX_2023": 0.95,
+            "border_to_factory_valuation": 0.5,
+            "cat_dog_food_intensity_ratio": 0.25,
+            "domestic_price_growth": -0.02,
+            "export_price_growth": 0.02,
+            "global_growth": 0.05,
+            "share_growth": 0.02
+          },
+          "exports_100m_USD": 47.25790567344,
+          "global_consumption_ratio": 1.1025,
+          "production_100m_CNY": 2774.5907537875746
+        },
+        "minimum": {
+          "assumptions": {
+            "FX_h_over_FX_2023": 0.95,
+            "border_to_factory_valuation": 0.5,
+            "cat_dog_food_intensity_ratio": 0.25,
+            "domestic_price_growth": -0.02,
+            "export_price_growth": -0.02,
+            "global_growth": 0,
+            "share_growth": -0.02
+          },
+          "exports_100m_USD": 36.525779136,
+          "global_consumption_ratio": 1,
+          "production_100m_CNY": 2738.6683676536695
+        }
+      },
+      "production_100m_CNY": {
+        "maximum": {
+          "assumptions": {
+            "FX_h_over_FX_2023": 1.05,
+            "border_to_factory_valuation": 1,
+            "cat_dog_food_intensity_ratio": 2,
+            "domestic_price_growth": 0.02,
+            "export_price_growth": 0.02,
+            "global_growth": 0.05,
+            "share_growth": 0.02
+          },
+          "exports_100m_USD": 47.25790567344,
+          "global_consumption_ratio": 1.1025,
+          "production_100m_CNY": 3340.4228391243837
+        },
+        "minimum": {
+          "assumptions": {
+            "FX_h_over_FX_2023": 0.95,
+            "border_to_factory_valuation": 1,
+            "cat_dog_food_intensity_ratio": 0.25,
+            "domestic_price_growth": -0.02,
+            "export_price_growth": -0.02,
+            "global_growth": 0,
+            "share_growth": -0.02
+          },
+          "exports_100m_USD": 36.525779136,
+          "global_consumption_ratio": 1,
+          "production_100m_CNY": 2723.3511250345555
+        }
+      },
+      "year": 2025
+    },
+    {
+      "endpoint_scenarios": 128,
+      "exports_100m_USD": {
+        "maximum": {
+          "assumptions": {
+            "FX_h_over_FX_2023": 0.95,
+            "border_to_factory_valuation": 0.5,
+            "cat_dog_food_intensity_ratio": 0.25,
+            "domestic_price_growth": -0.02,
+            "export_price_growth": 0.02,
+            "global_growth": 0.05,
+            "share_growth": 0.02
+          },
+          "exports_100m_USD": 51.62548131577935,
+          "global_consumption_ratio": 1.1576250000000001,
+          "production_100m_CNY": 2772.7657967463415
+        },
+        "minimum": {
+          "assumptions": {
+            "FX_h_over_FX_2023": 0.95,
+            "border_to_factory_valuation": 0.5,
+            "cat_dog_food_intensity_ratio": 0.25,
+            "domestic_price_growth": -0.02,
+            "export_price_growth": -0.02,
+            "global_growth": 0,
+            "share_growth": -0.02
+          },
+          "exports_100m_USD": 35.07935828221439,
+          "global_consumption_ratio": 1,
+          "production_100m_CNY": 2717.382903285546
+        }
+      },
+      "production_100m_CNY": {
+        "maximum": {
+          "assumptions": {
+            "FX_h_over_FX_2023": 1.05,
+            "border_to_factory_valuation": 1,
+            "cat_dog_food_intensity_ratio": 2,
+            "domestic_price_growth": 0.02,
+            "export_price_growth": 0.02,
+            "global_growth": 0.05,
+            "share_growth": 0.02
+          },
+          "exports_100m_USD": 51.62548131577935,
+          "global_consumption_ratio": 1.1576250000000001,
+          "production_100m_CNY": 3612.571686484004
+        },
+        "minimum": {
+          "assumptions": {
+            "FX_h_over_FX_2023": 0.95,
+            "border_to_factory_valuation": 1,
+            "cat_dog_food_intensity_ratio": 0.25,
+            "domestic_price_growth": -0.02,
+            "export_price_growth": -0.02,
+            "global_growth": 0,
+            "share_growth": -0.02
+          },
+          "exports_100m_USD": 35.07935828221439,
+          "global_consumption_ratio": 1,
+          "production_100m_CNY": 2698.088883714925
+        }
+      },
+      "year": 2026
+    }
+  ],
+  "capacity_cost_decisions": [
+    {
+      "capacity_assumed": 0,
+      "exposed_share": 0.5,
+      "fixed_cost": 0,
+      "incremental_profit_per_baseline_revenue": -0.0,
+      "maximum_acceptable_fixed_cost": -0.0,
+      "move_fraction": 0,
+      "old_margin": 0.14666666666666664,
+      "quadratic_cost": 0.02,
+      "replacement_margin": 0.1
+    },
+    {
+      "capacity_assumed": 0,
+      "exposed_share": 0.5,
+      "fixed_cost": 0.005,
+      "incremental_profit_per_baseline_revenue": -0.0,
+      "maximum_acceptable_fixed_cost": -0.0,
+      "move_fraction": 0,
+      "old_margin": 0.14666666666666664,
+      "quadratic_cost": 0.02,
+      "replacement_margin": 0.1
+    },
+    {
+      "capacity_assumed": 0.25,
+      "exposed_share": 0.5,
+      "fixed_cost": 0,
+      "incremental_profit_per_baseline_revenue": -0.0,
+      "maximum_acceptable_fixed_cost": -0.0,
+      "move_fraction": 0,
+      "old_margin": 0.14666666666666664,
+      "quadratic_cost": 0.02,
+      "replacement_margin": 0.1
+    },
+    {
+      "capacity_assumed": 0.25,
+      "exposed_share": 0.5,
+      "fixed_cost": 0.005,
+      "incremental_profit_per_baseline_revenue": -0.0,
+      "maximum_acceptable_fixed_cost": -0.0,
+      "move_fraction": 0,
+      "old_margin": 0.14666666666666664,
+      "quadratic_cost": 0.02,
+      "replacement_margin": 0.1
+    },
+    {
+      "capacity_assumed": 0.75,
+      "exposed_share": 0.5,
+      "fixed_cost": 0,
+      "incremental_profit_per_baseline_revenue": -0.0,
+      "maximum_acceptable_fixed_cost": -0.0,
+      "move_fraction": 0,
+      "old_margin": 0.14666666666666664,
+      "quadratic_cost": 0.02,
+      "replacement_margin": 0.1
+    },
+    {
+      "capacity_assumed": 0.75,
+      "exposed_share": 0.5,
+      "fixed_cost": 0.005,
+      "incremental_profit_per_baseline_revenue": -0.0,
+      "maximum_acceptable_fixed_cost": -0.0,
+      "move_fraction": 0,
+      "old_margin": 0.14666666666666664,
+      "quadratic_cost": 0.02,
+      "replacement_margin": 0.1
+    },
+    {
+      "capacity_assumed": 0,
+      "exposed_share": 0.5,
+      "fixed_cost": 0,
+      "incremental_profit_per_baseline_revenue": 0.0,
+      "maximum_acceptable_fixed_cost": 0.0,
+      "move_fraction": 0,
+      "old_margin": 0.14666666666666664,
+      "quadratic_cost": 0.02,
+      "replacement_margin": 0.2
+    },
+    {
+      "capacity_assumed": 0,
+      "exposed_share": 0.5,
+      "fixed_cost": 0.005,
+      "incremental_profit_per_baseline_revenue": 0.0,
+      "maximum_acceptable_fixed_cost": 0.0,
+      "move_fraction": 0,
+      "old_margin": 0.14666666666666664,
+      "quadratic_cost": 0.02,
+      "replacement_margin": 0.2
+    },
+    {
+      "capacity_assumed": 0.25,
+      "exposed_share": 0.5,
+      "fixed_cost": 0,
+      "incremental_profit_per_baseline_revenue": 0.005416666666666671,
+      "maximum_acceptable_fixed_cost": 0.005416666666666671,
+      "move_fraction": 0.25,
+      "old_margin": 0.14666666666666664,
+      "quadratic_cost": 0.02,
+      "replacement_margin": 0.2
+    },
+    {
+      "capacity_assumed": 0.25,
+      "exposed_share": 0.5,
+      "fixed_cost": 0.005,
+      "incremental_profit_per_baseline_revenue": 0.0004166666666666711,
+      "maximum_acceptable_fixed_cost": 0.005416666666666671,
+      "move_fraction": 0.25,
+      "old_margin": 0.14666666666666664,
+      "quadratic_cost": 0.02,
+      "replacement_margin": 0.2
+    },
+    {
+      "capacity_assumed": 0.75,
+      "exposed_share": 0.5,
+      "fixed_cost": 0,
+      "incremental_profit_per_baseline_revenue": 0.008888888888888903,
+      "maximum_acceptable_fixed_cost": 0.008888888888888903,
+      "move_fraction": 0.6666666666666671,
+      "old_margin": 0.14666666666666664,
+      "quadratic_cost": 0.02,
+      "replacement_margin": 0.2
+    },
+    {
+      "capacity_assumed": 0.75,
+      "exposed_share": 0.5,
+      "fixed_cost": 0.005,
+      "incremental_profit_per_baseline_revenue": 0.0038888888888889027,
+      "maximum_acceptable_fixed_cost": 0.008888888888888903,
+      "move_fraction": 0.6666666666666671,
+      "old_margin": 0.14666666666666664,
+      "quadratic_cost": 0.02,
+      "replacement_margin": 0.2
+    }
+  ],
+  "growth_warning": "Global0/5%, market share/prices+-2%, intensity.25/2, FX.95/1.05, valuation.5/1 are declared scenario endpoints, not measured bounds or probabilities.",
+  "limits": [
+    "No observed global consumption growth, market shares or matched valuation factor calibration",
+    "No causal policy estimate; actual tariff coverage, destination replacement margin/capacity/cost unverified",
+    "Scenario ranges do not provide confidence intervals or known physical possibility bounds",
+    "Policy optima apply to stated constant-elasticity, constant-unit-cost model only"
+  ],
+  "robust_price_decision": {
+    "absorption_fraction": 0.14999999999999933,
+    "assumed_domain": {
+      "cost": [
+        0.2,
+        0.8
+      ],
+      "eta": [
+        0.5,
+        6
+      ],
+      "producer_price_minimum": 0.8
+    },
+    "buyer_price_multiplier": 1.3090909090909093,
+    "producer_price_multiplier": 0.9600000000000002,
+    "profit_per_exposed_baseline_revenue": 0.031790776881102,
+    "tariff_assumed": {
+      "t0": 0.1,
+      "t1": 0.5
+    }
+  },
+  "scope": "Conditional accounting/decision extension, not calibrated forecasts or actual tariff facts",
+  "source_FX_2023": {
+    "CNY_per_USD": 7.0467,
+    "url": "https://www.stats.gov.cn/sj/zxfb/202402/t20240228_1947915.html"
+  },
+  "valuation_warning": "Factory production and border exports are not automatically comparable. Border-to-factory factor and fixed factor over horizon are assumed; no empirical export share inferred."
+}

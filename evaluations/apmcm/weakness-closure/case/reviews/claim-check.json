@@ -1,0 +1,6 @@
+{
+  "scope": "Numeric claims only; this is not the complete-content audit",
+  "status": "pass",
+  "mapped_scalar_claims": 29,
+  "errors": []
+}

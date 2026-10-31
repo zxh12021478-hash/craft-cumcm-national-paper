@@ -6,6 +6,8 @@ Match validation to the claim. Numerical verification tests the implemented equa
 
 Keep the submitted baseline immutable. Record model/input hashes, observables, domain, boundary conditions, calibration versus holdout split, comparison metrics and decision tolerances before inspecting test outcomes. Set tolerances from the intended decision and measurement uncertainty; label analyst-chosen screening thresholds as such. Keep a failed test failed after a repair and record a separate revised model/version.
 
+Freeze what each split is allowed to decide, not just its row IDs. If a returned handoff says “choose whichever model wins the final holdout”, that holdout has become selection data; report it as such and use another assessment if an independent performance claim is needed. A proposed next step is not a predeclared rule merely because a receiver calls it one. Compare frozen candidates without refitting or selecting on the reserved evaluation when that is the agreed purpose.
+
 Before a large sweep, run a small pilot at a stable time step and one additional resolution. Resolve a failed conservation, stability or model-definition check before increasing candidate count. Keep numerical failure separate from physical discrepancy; a divergent integrator is not evidence against the continuous equations.
 
 ## Check consequential mechanisms
@@ -15,6 +17,8 @@ Before a large sweep, run a small pilot at a stable time step and one additional
 - Test shape, parameter and objective-weight changes through the actual recommendation. Report rank changes and regret. Frequencies over selected scenarios are not probabilities of physical truth.
 - Compare appropriate observables with primary experimental or established benchmark data. Preserve raw measurements, units, provenance and conversion code. Explain geometry, operating-condition and scale mismatches. A model with no velocity state cannot be declared validated against measured velocity profiles.
 - Separate fitting from assessment. Hold out independent conditions or locations where possible; expose measurement uncertainty, residual patterns and failure regions. Published product specifications are not observations of the proposed design.
+
+Match identification to the claimed output: a well-fitted response curve can still leave an asymptote or extrapolated physical parameter unstable. Inspect parameter tradeoffs and signed held-out errors when those parameters drive the recommendation; small training residuals or a better holdout point error alone do not establish calibrated uncertainty or a true mechanism. A parameter lying inside its search bounds is not a convergence test; retain the actual stopping/stationarity or independent fit check separately.
 
 ## Report and repair
 

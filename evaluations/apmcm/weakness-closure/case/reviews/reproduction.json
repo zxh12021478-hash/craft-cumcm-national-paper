@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "runs": [
+    {
+      "script": "baseline/solve.py",
+      "exit_code": 0
+    },
+    {
+      "script": "baseline/add_global_anchor.py",
+      "exit_code": 0
+    },
+    {
+      "script": "linked/linked.py",
+      "exit_code": 0
+    }
+  ],
+  "all_result_fields_match_with_numeric_tolerance": true,
+  "numeric_tolerance": {
+    "relative": 1e-11,
+    "absolute": 1e-08
+  },
+  "origin_ledger_byte_equal_in_this_interpreter": true,
+  "interpretation": "Computational reproduction only, not economic calibration, source authenticity or current-rule clearance",
+  "python": "3.12.14"
+}

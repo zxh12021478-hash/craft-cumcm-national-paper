@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="493.228346456693" height="230" preserveAspectRatio="xMinYMin meet" viewBox="0 0 493 230" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="493.228346456693" height="230"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-230)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="100.75417322834647" y="218" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,436) scale(1,-1)">China pet counts: observations and conditional extrapolation</text>
+			<path d="M 55,40 L 481.228346,40 Z" style="stroke: rgb(50%,50%,50%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 55,40 L 55,200 Z" style="stroke: rgb(50%,50%,50%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 55,40 L 481.228346,40 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="32.0" y="37.0" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,74) scale(1,-1)">38.47</text>
+			<path d="M 55,80 L 481.228346,80 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="32.0" y="77.0" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,154) scale(1,-1)">53.07</text>
+			<path d="M 55,120 L 481.228346,120 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="32.0" y="116.99999999999999" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,233) scale(1,-1)">67.68</text>
+			<path d="M 55,160 L 481.228346,160 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="32.0" y="157.0" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,314) scale(1,-1)">82.29</text>
+			<path d="M 55,200 L 481.228346,200 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="32.0" y="197.0" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,394) scale(1,-1)">96.90</text>
+			<text x="47.0" y="27" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,54) scale(1,-1)">2019</text>
+			<text x="107.88976377952756" y="27" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,54) scale(1,-1)">2020</text>
+			<text x="168.7795275590551" y="27" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,54) scale(1,-1)">2021</text>
+			<text x="229.6692913385827" y="27" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,54) scale(1,-1)">2022</text>
+			<text x="290.5590551181102" y="27" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,54) scale(1,-1)">2023</text>
+			<text x="351.44881889763786" y="27" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,54) scale(1,-1)">2024</text>
+			<text x="412.3385826771654" y="27" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,54) scale(1,-1)">2025</text>
+			<text x="473.228346456693" y="27" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,54) scale(1,-1)">2026</text>
+			<polyline points="55 55.48387, 115.8898 67.80604, 176.7795 93.65521, 237.6693 113.6445, 298.5591 125.8024" style="stroke: rgb(9%,41%,52%); stroke-linecap: butt; stroke-width: 1.4; fill: None; fill-rule: evenodd;"/>
+			<circle cx="55.0" cy="55.483870967741936" r="2" style="stroke: rgb(9%,41%,52%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="115.88976377952756" cy="67.80603813573825" r="2" style="stroke: rgb(9%,41%,52%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="176.7795275590551" cy="93.65520659482388" r="2" style="stroke: rgb(9%,41%,52%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="237.6692913385827" cy="113.64450000068456" r="2" style="stroke: rgb(9%,41%,52%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="298.5590551181102" cy="125.80237160644091" r="2" style="stroke: rgb(9%,41%,52%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 58,24 L 72,24 Z" style="stroke: rgb(9%,41%,52%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<text x="76" y="21" style="font-family: Times-Roman; font-size: 7.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,42) scale(1,-1)">Cats observed</text>
+			<polyline points="55 85.35828, 115.8898 77.66377, 176.7795 83.33197, 237.6693 74.84336, 298.5591 76.37679" style="stroke: rgb(71%,30%,21%); stroke-linecap: butt; stroke-width: 1.4; fill: None; fill-rule: evenodd;"/>
+			<circle cx="55.0" cy="85.35828070170635" r="2" style="stroke: rgb(71%,30%,21%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="115.88976377952756" cy="77.66377187013532" r="2" style="stroke: rgb(71%,30%,21%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="176.7795275590551" cy="83.33196876741363" r="2" style="stroke: rgb(71%,30%,21%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="237.6692913385827" cy="74.84336471834948" r="2" style="stroke: rgb(71%,30%,21%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="298.5590551181102" cy="76.37678996592237" r="2" style="stroke: rgb(71%,30%,21%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 161,24 L 175,24 Z" style="stroke: rgb(71%,30%,21%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<text x="179" y="21" style="font-family: Times-Roman; font-size: 7.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,42) scale(1,-1)">Dogs observed</text>
+			<polyline points="298.5591 125.8024, 359.4488 147.221, 420.3386 165.8686, 481.2283 184.5161" style="stroke: rgb(43%,36%,61%); stroke-linecap: butt; stroke-width: 1.4; fill: None; fill-rule: evenodd;"/>
+			<circle cx="298.5590551181102" cy="125.80237160644091" r="2" style="stroke: rgb(43%,36%,61%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="359.44881889763786" cy="147.22103640378918" r="2" style="stroke: rgb(43%,36%,61%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="420.3385826771654" cy="165.86858271802362" r="2" style="stroke: rgb(43%,36%,61%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="481.228346456693" cy="184.51612903225805" r="2" style="stroke: rgb(43%,36%,61%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 264,24 L 278,24 Z" style="stroke: rgb(43%,36%,61%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<text x="282" y="21" style="font-family: Times-Roman; font-size: 7.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,42) scale(1,-1)">Cats forecast</text>
+			<polyline points="298.5591 76.37679, 359.4488 73.38447, 420.3386 71.41732, 481.2283 69.47808" style="stroke: rgb(37%,51%,32%); stroke-linecap: butt; stroke-width: 1.4; fill: None; fill-rule: evenodd;"/>
+			<circle cx="298.5590551181102" cy="76.37678996592237" r="2" style="stroke: rgb(37%,51%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="359.44881889763786" cy="73.38446592343183" r="2" style="stroke: rgb(37%,51%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="420.3385826771654" cy="71.41732282770312" r="2" style="stroke: rgb(37%,51%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="481.228346456693" cy="69.47807663538453" r="2" style="stroke: rgb(37%,51%,32%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 367,24 L 381,24 Z" style="stroke: rgb(37%,51%,32%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<text x="385" y="21" style="font-family: Times-Roman; font-size: 7.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,42) scale(1,-1)">Dogs forecast</text>
+			<text x="260.3421732283465" y="3" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,6) scale(1,-1)">Year</text>
+			<text x="3" y="207" style="font-family: Times-Roman; font-size: 7.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,414) scale(1,-1)">Million animals</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,28 @@
+{
+  "check_status": "pass",
+  "meaning": "Declared computations reproduce and the incomplete case is correctly rejected, not submission readiness",
+  "runs": [
+    {
+      "script": "empirical/check.py",
+      "exit_code": 0
+    },
+    {
+      "script": "case/linked/check-linked.py",
+      "exit_code": 0
+    },
+    {
+      "script": "case/reproduce.py",
+      "exit_code": 0
+    }
+  ],
+  "mapped_scalar_summary_claims": 29,
+  "numeric_claim_errors": 0,
+  "full_content_gate": "fail",
+  "received_map_errors_after_correct_grouping_normalization": 12,
+  "unverified_original_outputs": [
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "boundary": "Internal evidence gate, not an organizer disqualification decision; no current2026AI/template clearance or actual Modex test"
+}
