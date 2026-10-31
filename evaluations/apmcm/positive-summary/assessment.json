@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-31",
+  "case": "Own2024B frozen24-compartment v1 /384designs; not handbook2024Bpaper",
+  "base_commit": "7d1bf1b9e2c64c2cda391210dad2ee6320856c3c",
+  "status": "Accepted root-revised Summary and one body attribution repair within declared uncalibrated surrogate; PDF verification complete",
+  "original_failure": {
+    "candidate": "Same-existing-conversation Doubao development output fromOct26;543words, rawfiles retained",
+    "summary_sha256": "107133fe32a3d198bb57e4e29fbf8145285afbd9b2c2d24f850e0804715d9681",
+    "issues": [
+      "Conflated independentQ1-Q3objectives withQ4equal-weightJ",
+      "Attributed sameflow comparison toshell geometry although shellunchanged",
+      "Ambiguous geometry-linked filtration wording alongside fixedeta assumption; not an explicit numerical claim that eta was optimized",
+      "Repeated input/settings/results after claimed deletion pass",
+      "Selection note imported another case equation numbers"
+    ],
+    "directed_v2": "No verified local artifacts; never counted as pass"
+  },
+  "repair": {
+    "producer": "Codex root directly revised existing draft; not a new independent receiver",
+    "summary_words": 314,
+    "body_sentence_changes": 1,
+    "model_or_result_changes": false,
+    "content_selection": "RequiredQ1-Q4answers/mechanism/comparisons/limits retained; inputmenu/duplicategeometry/endpointlists/fullablations stay inbody",
+    "skill_change": "One mechanism-selection criterion: describe actual implemented changed quantities; fixed efficiency is not optimized efficiency"
+  },
+  "semantic_review": {
+    "task_answers": "Q1cylinder360mm/884mm and3.501CMAE;Q2tower/twooutlets/normalizedexposure0.210;Q3tower/oneoutlet/error0.167/RHbelow50;Q4tower/oneoutlet/J/seasonalenergy",
+    "objective_scope": "Q1thermal,Q2particle,Q3humidity independently; onlyQ4equal-weight composite. Best onlyin384declaredconfigurations.",
+    "shared_settings": "Allfourwinners sharefloor/middle/lowinlet/600flow/+25deg; dimensions/outletcount distinctions preserved.",
+    "mechanism": "Sourcecode andbody distinguish conservativekerneltransport and area-dependent fanpressure/wetcapacity from fixedeta0.95. No velocity-field or measured-performance claim.",
+    "comparison": "8.947% vs400corner/downbaseline;3.195% vs600sameflowcorner/down. Latter changesplacement/angle within sameshell, and gains are objective reduction, notenergy-savingpercentage.",
+    "validation": "All384mixreranking at0.7/1.3 retainedwinner;dtcheck isthermaltemporalonly; analyticparticleterminal3.11% discrepancy stays visible.",
+    "limits": "Uncalibratedkernels,fixedfiltration,nogas/summercondensation,packingunverified,externalheatpathassumed; nofullcomfortachievement,hardwarecertification orhighestawardclaim",
+    "provenance": "Original rehearsal exposure claims refer tooriginalrun; this revision is disclosed regression, notsolution-isolated orblind."
+  },
+  "actual_checks": {
+    "mapped_numbers": 17,
+    "configuration_and_gains": "Localcheck_claims.py pass",
+    "body": "Completebody/appendix alreadyreviewed; thisround reviewed revisedSummary,affectedbody and originalquestion; unchangedsourcereviewreused",
+    "freshness": "RelevantpaperMD/PDF/results/tradeoffhashes match frozenmanifest; no new19filearchivecomparison orsolverreplay",
+    "pdf_pages": 16,
+    "changed_pages_visually_inspected": [
+      1,
+      10
+    ],
+    "unchanged_decoded_streams": 14,
+    "unchanged_png_hashes": 14,
+    "raster_scope": "Samebundledpdftoppm90dpi foroldandnew; priorfullvisualreview reused foridenticalpages",
+    "skill_structure": "quick_validate.py pass on2026-10-31",
+    "installed_source_files_byte_match": 34
+  },
+  "build_failure_and_repair": {
+    "failure": "First post-write literalphraseassert crossed aPDFlinebreak",
+    "repair": "Normalizewhitespace; rerun passed; all16pagesrendered and compared, changed2directlyviewed",
+    "status": "Technicalcheckerfailure kept separate fromcontentfailures"
+  },
+  "public_artifacts": {
+    "summary": "summary.md",
+    "source": "frozen-results.json",
+    "numeric_map": "claim-ledger.json",
+    "check": "check_claims.py",
+    "results": "check-results.json"
+  },
+  "private_artifact_hashes": {
+    "summary.md": "61968152d40cf59c18a11d4d14dd77f8ace5e38a44b4085f8a2b77404799711f",
+    "paper.md": "dcbc5222fcd2ac073f71c5022a2a108b17bb6b70cb4445269d86117f7971522a",
+    "paper.pdf": "b92fec3851f05e7edf8d37ac57d5c1334d76244c2369487356ff957ef3948f49",
+    "selection.json": "b6c0e7430d97979fdbd55c14b66beac0c2fcbd6a3a18f89885a3606a266dc1bd",
+    "pdf-structure-checks.json": "f3c7a271843afb1cc66d2288e6d04e2249b6b7b7f801723705d192fbfd640cf1",
+    "raster-checks.json": "d793d56173616af6105c1e5b7e933b03b26b6fa336a1583a4f51380df6eda9bd"
+  },
+  "reused_evidence": "Originalfullmanuscript/code/16pageQA, twofullsolverreproductions, Oct26all384metricand5designreplay checks. No different-run finitevolumeoutput imported. Prior40skillunittests unchanged andnotrerun.",
+  "remaining_limits": [
+    "One exposed historical regression, not independent cross-case skill transfer",
+    "No actual paid Modex roundtrip",
+    "No real-world physicalvalidation or continuousshapeoptimization",
+    "No current2026format/template/AIclearance",
+    "Runtimeinstruction has direct root evidence, not a new blind forward test"
+  ],
+  "paid_Modex_calls": 0,
+  "Doubao_calls_this_cycle": 0,
+  "raw_private_material_publication": false
+}

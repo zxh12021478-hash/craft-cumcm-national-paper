@@ -1,0 +1,160 @@
+{
+  "case": "Own2024B frozen24compartment v1 rehearsal, distinct from handbook2024Bcase",
+  "source_sha256": "d0e38cdb4d12e5e27e2854858355184b320eb478421487b30a0e7406526b1578",
+  "claims": [
+    {
+      "id": "candidate_count",
+      "quote": "384 enclosure",
+      "result_pointer": "/candidate_count",
+      "displayed_value": 384,
+      "absolute_tolerance": 0,
+      "multiplier": 1,
+      "body_section": "4"
+    },
+    {
+      "id": "cylinder_diameter",
+      "quote": "0.360 m in diameter",
+      "result_pointer": "/shapes/cylinder/dims/0",
+      "displayed_value": 0.36,
+      "absolute_tolerance": 0.0005,
+      "multiplier": 1,
+      "body_section": "5"
+    },
+    {
+      "id": "cylinder_height",
+      "quote": "0.884 m high",
+      "result_pointer": "/shapes/cylinder/dims/2",
+      "displayed_value": 0.884,
+      "absolute_tolerance": 0.0005,
+      "multiplier": 1,
+      "body_section": "5"
+    },
+    {
+      "id": "Q1_MAE",
+      "quote": "season-average temperature MAE at 3.501 C",
+      "result_pointer": "/winners/Q1/metrics/0",
+      "displayed_value": 3.501,
+      "absolute_tolerance": 0.0005,
+      "multiplier": 10,
+      "body_section": "5"
+    },
+    {
+      "id": "tower_dimension_0",
+      "quote": "0.300 x 0.300 x 1.000 m tower",
+      "result_pointer": "/shapes/tower/dims/0",
+      "displayed_value": 0.3,
+      "absolute_tolerance": 0.0005,
+      "multiplier": 1,
+      "body_section": "4,6"
+    },
+    {
+      "id": "tower_dimension_1",
+      "quote": "0.300 x 0.300 x 1.000 m tower",
+      "result_pointer": "/shapes/tower/dims/1",
+      "displayed_value": 0.3,
+      "absolute_tolerance": 0.0005,
+      "multiplier": 1,
+      "body_section": "4,6"
+    },
+    {
+      "id": "tower_dimension_2",
+      "quote": "0.300 x 0.300 x 1.000 m tower",
+      "result_pointer": "/shapes/tower/dims/2",
+      "displayed_value": 1.0,
+      "absolute_tolerance": 0.0005,
+      "multiplier": 1,
+      "body_section": "4,6"
+    },
+    {
+      "id": "Q2_exposure",
+      "quote": "normalized one-hour particle exposure at 0.210",
+      "result_pointer": "/winners/Q2/metrics/1",
+      "displayed_value": 0.21,
+      "absolute_tolerance": 0.0005,
+      "multiplier": 1,
+      "body_section": "6"
+    },
+    {
+      "id": "Q3_humidity_error",
+      "quote": "normalized humidity error at 0.167",
+      "result_pointer": "/winners/Q3/metrics/2",
+      "displayed_value": 0.167,
+      "absolute_tolerance": 0.0005,
+      "multiplier": 1,
+      "body_section": "6"
+    },
+    {
+      "id": "Q3_RH",
+      "quote": "winter mean relative humidity reaches 42.76%",
+      "result_pointer": "/winners/Q3/winter/RH_final_mean_pct",
+      "displayed_value": 42.76,
+      "absolute_tolerance": 0.005,
+      "multiplier": 1,
+      "body_section": "6"
+    },
+    {
+      "id": "Q4_score",
+      "quote": "composite objective at 0.376398",
+      "result_pointer": "/winners/Q4/score",
+      "displayed_value": 0.376398,
+      "absolute_tolerance": 5e-07,
+      "multiplier": 1,
+      "body_section": "7"
+    },
+    {
+      "id": "Q4_declared_gain",
+      "quote": "8.947% below the declared corner-tower baseline",
+      "result_pointer": "/score_improvement_pct",
+      "displayed_value": 8.947,
+      "absolute_tolerance": 0.0005,
+      "multiplier": 1,
+      "body_section": "7"
+    },
+    {
+      "id": "Q4_sameflow_gain",
+      "quote": "3.195% below the baseline at the same",
+      "result_pointer": "/same_flow_improvement_pct",
+      "displayed_value": 3.195,
+      "absolute_tolerance": 0.0005,
+      "multiplier": 1,
+      "body_section": "7"
+    },
+    {
+      "id": "Q4_winter_energy",
+      "quote": "1.627 kWh in winter",
+      "result_pointer": "/winners/Q4/winter/energy_kWh",
+      "displayed_value": 1.627,
+      "absolute_tolerance": 0.0005,
+      "multiplier": 1,
+      "body_section": "7"
+    },
+    {
+      "id": "Q4_summer_energy",
+      "quote": "1.165 kWh in summer",
+      "result_pointer": "/winners/Q4/summer/energy_kWh",
+      "displayed_value": 1.165,
+      "absolute_tolerance": 0.0005,
+      "multiplier": 1,
+      "body_section": "7"
+    },
+    {
+      "id": "winter_dt_change",
+      "quote": "winter thermal MAE by 0.0055 C",
+      "result_pointer": "/checks/dt_halving_thermal_mae_difference_C/winter",
+      "displayed_value": 0.0055,
+      "absolute_tolerance": 5e-05,
+      "multiplier": 1,
+      "body_section": "8"
+    },
+    {
+      "id": "particle_limit_error",
+      "quote": "3.11% terminal Euler discrepancy",
+      "result_pointer": "/checks/analytic_particle_relative_error",
+      "displayed_value": 3.11,
+      "absolute_tolerance": 0.005,
+      "multiplier": 100,
+      "body_section": "8"
+    }
+  ],
+  "manual_semantics": "See assessment.json; numeric lookup alone does not verify the English meaning."
+}

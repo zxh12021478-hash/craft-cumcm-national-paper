@@ -1,0 +1,115 @@
+{
+  "status": "pass",
+  "mapped_numeric_claims": [
+    {
+      "id": "candidate_count",
+      "actual": 384,
+      "displayed": 384,
+      "error": 0
+    },
+    {
+      "id": "cylinder_diameter",
+      "actual": 0.36,
+      "displayed": 0.36,
+      "error": 0.0
+    },
+    {
+      "id": "cylinder_height",
+      "actual": 0.8841941282883075,
+      "displayed": 0.884,
+      "error": 0.0001941282883074491
+    },
+    {
+      "id": "Q1_MAE",
+      "actual": 3.5012053496114817,
+      "displayed": 3.501,
+      "error": 0.00020534961148177544
+    },
+    {
+      "id": "tower_dimension_0",
+      "actual": 0.3,
+      "displayed": 0.3,
+      "error": 0.0
+    },
+    {
+      "id": "tower_dimension_1",
+      "actual": 0.3,
+      "displayed": 0.3,
+      "error": 0.0
+    },
+    {
+      "id": "tower_dimension_2",
+      "actual": 1.0,
+      "displayed": 1.0,
+      "error": 0.0
+    },
+    {
+      "id": "Q2_exposure",
+      "actual": 0.21024508678393466,
+      "displayed": 0.21,
+      "error": 0.00024508678393467265
+    },
+    {
+      "id": "Q3_humidity_error",
+      "actual": 0.1669315459646816,
+      "displayed": 0.167,
+      "error": 6.845403531841043e-05
+    },
+    {
+      "id": "Q3_RH",
+      "actual": 42.761497331858706,
+      "displayed": 42.76,
+      "error": 0.0014973318587081508
+    },
+    {
+      "id": "Q4_score",
+      "actual": 0.3763977791508557,
+      "displayed": 0.376398,
+      "error": 2.2084914430564595e-07
+    },
+    {
+      "id": "Q4_declared_gain",
+      "actual": 8.94718031330864,
+      "displayed": 8.947,
+      "error": 0.00018031330864154427
+    },
+    {
+      "id": "Q4_sameflow_gain",
+      "actual": 3.195396282996956,
+      "displayed": 3.195,
+      "error": 0.00039628299695637637
+    },
+    {
+      "id": "Q4_winter_energy",
+      "actual": 1.6274819949779007,
+      "displayed": 1.627,
+      "error": 0.00048199497790069046
+    },
+    {
+      "id": "Q4_summer_energy",
+      "actual": 1.1645476611134489,
+      "displayed": 1.165,
+      "error": 0.0004523388865511624
+    },
+    {
+      "id": "winter_dt_change",
+      "actual": 0.005529158353976271,
+      "displayed": 0.0055,
+      "error": 2.915835397627152e-05
+    },
+    {
+      "id": "particle_limit_error",
+      "actual": 3.1120674816061995,
+      "displayed": 3.11,
+      "error": 0.002067481606199628
+    }
+  ],
+  "shared_settings_consistent": true,
+  "same_flow_changed_fields": [
+    "angle",
+    "location"
+  ],
+  "RH_target_not_reached": true,
+  "mixing_rerank_scope_checked": true,
+  "scope": "Arithmetic, provenance and configuration checks only. No new solver run, physical validation, English semantic grading, independent receiver or actual Modex test."
+}
