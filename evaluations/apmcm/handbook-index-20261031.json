@@ -28,7 +28,7 @@
       "pdf_end": 97,
       "pages": 29,
       "opening_text_chars": 3450,
-      "status": "section indexed, not full read or award-level verified"
+      "status": "Energy section and relevant question reviewed; full case/award-level not verified"
     },
     {
       "year": 2025,
@@ -161,6 +161,16 @@
       "listed_pages": 23,
       "last_header": "Page21of44",
       "status": "same prior team/header issue remains unresolved; handbook does not establish missing appendix/completeness"
+    },
+    {
+      "case": "2025A",
+      "physical_range": [
+        69,
+        97
+      ],
+      "listed_pages": 29,
+      "last_header": "Page27of46",
+      "status": "Complete version not established; do not assume missing content or stale denominator cause"
     }
   ],
   "rules_status": "No unknown rule field cleared. Prior Oct20 official general rules retain precedence over August handbook; no current AI-specific permission/template established.",
@@ -175,9 +185,37 @@
     }
   ],
   "awards": "11sections labeled excellent papers; exact awards/final-submission identities not newly verified. Prior2023Bteamaward match reused only where applicable.",
-  "exposure": "Read first200characters of11case openings (not full abstracts), including2025case route hints. Record this before any future rehearsal; do not call future same-case solution-isolated/zero-knowledge without acknowledging exposure.",
+  "exposure": "Read first200characters of11case openings (not full abstracts), including2025case route hints. Record this before any future rehearsal; do not call future same-case solution-isolated/zero-knowledge without acknowledging exposure. Followup2025A: full Summary and Q4energy section/relevant original question exposed; future2025Arehearsal is not unseen.",
   "source_page": "https://newoaa.shisu.edu.cn/3d/92/c6353a212370/page.htm",
   "source_boundary": "University page links similarly titled handbook. Direct and proxy downloads timed out; equivalence to supplied441page file is unverified. Organizer site charter menu still shows2020, so its page title is not proof of a2026 revision.",
   "official_current_rules": "https://www.apmcm.org/detail/2513",
-  "raw_manual_redistributed": false
+  "raw_manual_redistributed": false,
+  "followup_2025A_energy_review": {
+    "report": "handbook-performance/assessment.json",
+    "question_physical_pages": [
+      19,
+      20,
+      21
+    ],
+    "text_physical_pages": [
+      69,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
+    ],
+    "visual_physical_pages": [
+      19,
+      20,
+      21,
+      89,
+      90,
+      91
+    ],
+    "status": "Selected-section review and independent conditional/synthetic checks; not full29page technical review"
+  }
 }

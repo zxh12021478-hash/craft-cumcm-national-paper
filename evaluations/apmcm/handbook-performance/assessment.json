@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-31",
+  "cycle": "handbook-performance-20261031",
+  "base_commit": "02cc26615dd496dd22baacfbe6be659e3badd4fa",
+  "source": {
+    "role": "User-provided handbook, not redistributed",
+    "sha256": "c67cf32ddc9d1febbf6dadc9803fd6b272b33bf9bb9e685afd738490583e1d16",
+    "case": "2025 A / apmcm25302425",
+    "question_physical_pages": [
+      19,
+      20,
+      21
+    ],
+    "energy_section_physical_pages": [
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
+    ],
+    "visual_checked_physical_pages": [
+      19,
+      20,
+      21,
+      89,
+      90,
+      91
+    ],
+    "text_read": "Complete extracted relevant question and energy sections; full case opening also read. All29case pages extracted, not all read.",
+    "completeness": "29physicalpages, endingheaderPage27of46; complete implementation/version not established",
+    "award": "Case called excellent in handbook; exact award level/final version not newly verified"
+  },
+  "observed_failure": {
+    "claim": "1.5x time scaling with33.3% energy reduction while preserving performance",
+    "requirement_gap": "10m at2m/s fixes5s; circle period4s. A uniform stretch changes timing. Q4 relaxation must be justified explicitly, not silently assumed.",
+    "conditional_energy_gap": "2.67J/9.33J are below6J/21J base-energy floors IF stated motors stay on and additional electrical draw is nonnegative. Author drive/sign/activation implementation unavailable; not an unconditional diagnosis of hidden code.",
+    "additional_visible_conflict": "Q4input describesQ3trajectory10s although original question uses0-4s; no separate runtime rule added for this symptom."
+  },
+  "repair": {
+    "route": "Bind original performance invariants in existing handoff; examine redundancy/coordination within fixed task rather than freely extending time.",
+    "verification": "Chain-rule derivatives, transformed integration interval, conditional always-on base bound, explicit electrical draw/regeneration convention.",
+    "summary": "Only comparable gains that close required performance checks enter Summary; allowed tradeoffs retain the changed performance.",
+    "scope": "Four supporting references only; no new mandatory form, production helper, solver campaign or model call."
+  },
+  "executed_validation": {
+    "script": "check.py",
+    "result": "check-results.json",
+    "cases": [
+      "No-stretch control preserves speed;1.5x fails fixed speed",
+      "Circle trajectory closes at6s rather than4s after stretch",
+      "Two conditional base-power lower bounds",
+      "Independent quadrature vs analytic energy for synthetic positive-work model",
+      "High-base draw makes stretch cost more; low-base draw makes it cost less"
+    ],
+    "interpretation": "Actual local arithmetic/analytic checks. Not a receiver behavior test, author implementation reproduction or hardware validation.",
+    "structure": "quick_validate.py pass on2026-10-31",
+    "diff_check": "git diff --check pass",
+    "installed_files_byte_match": 34
+  },
+  "reuse": {
+    "unit_tests": "Prior40pass reused; production scripts/tests/assets unchanged. These tests do not validate new reference behavior.",
+    "CUMCM": "Unchanged; prior102tests not rerun",
+    "rules": "No new rule/policy status; reuse current evidence"
+  },
+  "remaining_limits": [
+    "No raw trajectories/author code for this case",
+    "No full-case correctness/award verification",
+    "Fixed-task alternate robot route is a hypothesis, not a completed solution",
+    "Positive long-manuscript Summary/PDF closure from prior cycle still pending",
+    "No actual paid Modex; no Doubao run in this narrow cycle"
+  ],
+  "paid_Modex_calls": 0,
+  "raw_private_material_publication": false
+}

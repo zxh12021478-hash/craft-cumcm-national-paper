@@ -1,0 +1,59 @@
+{
+  "status": "pass",
+  "walking": {
+    "original_duration_s": 5.0,
+    "stretched_duration_s": 7.5,
+    "stretched_average_speed_m_s": 1.3333333333333333,
+    "preserves_required_speed": false
+  },
+  "circle": {
+    "required_period_s": 4.0,
+    "stretched_period_s": 6.0,
+    "closure_error_at_original_deadline_m": 0.5196152422706632
+  },
+  "conditional_energy_bounds": [
+    {
+      "question": "Q1",
+      "reported_J": 2.67,
+      "conditional_base_floor_J": 6.0,
+      "compatible_under_stated_bound_assumptions": false
+    },
+    {
+      "question": "Q2",
+      "reported_J": 9.33,
+      "conditional_base_floor_J": 21.0,
+      "compatible_under_stated_bound_assumptions": false
+    }
+  ],
+  "synthetic_positive_work_model": {
+    "high_base": {
+      "1.0": {
+        "energy_J": 4.1233700671095095,
+        "analytic_J": 4.123370055013617,
+        "base_energy_J": 4.0,
+        "signed_mechanical_work_J": -2.14970344568241e-18
+      },
+      "1.5": {
+        "energy_J": 6.054831140937567,
+        "analytic_J": 6.054831135561607,
+        "base_energy_J": 6.0,
+        "signed_mechanical_work_J": -5.545382430608545e-18
+      }
+    },
+    "low_base": {
+      "1.0": {
+        "energy_J": 0.12537006710950788,
+        "analytic_J": 0.12537005501361698,
+        "base_energy_J": 0.002,
+        "signed_mechanical_work_J": -2.14970344568241e-18
+      },
+      "1.5": {
+        "energy_J": 0.05783114093755855,
+        "analytic_J": 0.057831135561607544,
+        "base_energy_J": 0.003,
+        "signed_mechanical_work_J": -5.545382430608545e-18
+      }
+    }
+  },
+  "scope": "Task arithmetic and conditional/synthetic energy checks; not a reproduction, empirical validation or agent behavior test."
+}
