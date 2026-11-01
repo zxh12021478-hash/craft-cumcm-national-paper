@@ -1,0 +1,43 @@
+{
+  "check_status": "pass",
+  "meaning": "Source arithmetic conflict identified and reconciled with detailed table; metadata guard scope demonstrated",
+  "literal_sector_headers": {
+    "implied_change_million_tonnes": -0.26,
+    "level_ratio_growth_percent": -0.7437070938215103,
+    "agrees_with_printed_change_with_rounding": false,
+    "growth_rounding_range_percent": [
+      -0.7722007722007722,
+      -0.7152052639107424
+    ]
+  },
+  "detailed_pet_headers": {
+    "implied_change_million_tonnes": 0.26,
+    "level_ratio_growth_percent": 0.7492795389048992,
+    "agrees_with_printed_change_with_rounding": true,
+    "growth_rounding_range_percent": [
+      0.7203572972194209,
+      0.7782101167315175
+    ]
+  },
+  "printed_growth_percent": 0.74,
+  "reported_rate_consistent_with_rounded_levels": true,
+  "illustrative_vintage_guard": {
+    "false_first_release_lag_status": "pass",
+    "correct_revision_lag_status": "fail",
+    "correct_revision_error": [
+      {
+        "code": "FUTURE_INFORMATION",
+        "forecast": "origin2023",
+        "feature": "tonnage_2022_v2024",
+        "source_time": 2022,
+        "available_at": 2024,
+        "origin": 2023
+      }
+    ],
+    "boundary": "Declared metadata demonstration only; no real-time forecast score or inferred publication date"
+  },
+  "readiness": "One historical production-growth interval; not a fitted consumption-growth model, empirical policy validation or contest clearance",
+  "unchanged_prior_2024C_anchor": 34.96,
+  "prior_results_or_PDF_changed": false,
+  "behavior_test": "No model receiver or independent AI pass in this narrow source check"
+}

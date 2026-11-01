@@ -2,6 +2,10 @@
 
 Use when a forecast probe or returned code uses delayed or future exogenous variables. A historical CSV contains values known today; that does not mean they were known at each historical forecast origin. A one-period lag may still be unavailable if publication is delayed. Check the actual code, not just its prose description.
 
+For revised statistics, bind the observation period separately from the release/vintage actually used (source version/hash and table). A value for an old period revised after the forecast origin is still later information. Compute growth on a comparable, consistent vintage or document the reconciliation; concatenating each year’s first release can mix economic change with revisions. State whether assessment targets first-release or revised outcomes; do not label an unverifiable historical snapshot as a real-time backtest.
+
+A primary report can contain inconsistent year headers. Compare the original page, signed change/growth and a detailed same-measure table before importing an answer-changing series. Record the conflict and basis for the chosen mapping; never silently swap columns to obtain a preferred trend, and leave an unresolved mapping unverified.
+
 Trace derived features back to their ingredients as well as their release times. A contemporaneous ratio, per-capita value, share or residual computed from the target still contains that target: if `E_t = M_t / N_t`, supplying actual `E_t` to forecast unknown `M_t` is not an independent predictor. A new column name or high fitted R² does not remove the dependence. Use genuinely available lags or independently formed forecasts/scenarios for the ingredients; if solving a simultaneous structural system, state and identify that system instead of treating the constructed feature as observed input. The optional timestamp checker below cannot discover hidden construction dependencies or validate a falsely labeled scenario.
 
 Optionally emit a small feature-use trace from the calculation and check it with:

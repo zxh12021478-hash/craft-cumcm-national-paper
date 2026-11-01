@@ -1,0 +1,53 @@
+{
+  "author": "Alltech",
+  "report": "Agri-Food Outlook2024, English",
+  "source_kind": "Publisher-authored primary report retrieved from a third-party mirror",
+  "url": "https://news.foodmap.vn/wp-content/uploads/2024/04/Alltech_Agrifood-outlook-report-pdf-2024.pdf",
+  "sha256": "7145120fc4bd19cd9bd4018578e114c8916887af40aff88f9777f2c24e9e5e87",
+  "pages": 20,
+  "retrieved": "2026-11-01",
+  "creation_metadata": "2024-03-28; metadata is not proof of public availability at a forecast origin",
+  "reviewed_physical_pages": [
+    2,
+    8,
+    18
+  ],
+  "measure": "Global commercial pet-feed production; not observed consumption",
+  "unit": "million metric tonnes",
+  "raw_sector_table": {
+    "physical_page": 8,
+    "columns": [
+      {
+        "printed_year": 2022,
+        "value": "34.96"
+      },
+      {
+        "printed_year": 2023,
+        "value": "34.70"
+      }
+    ],
+    "printed_change": "0.26",
+    "printed_growth_percent": "0.7"
+  },
+  "detailed_pet_table": {
+    "physical_page": 18,
+    "columns": [
+      {
+        "printed_year": 2023,
+        "value": "34.96"
+      },
+      {
+        "printed_year": 2022,
+        "value": "34.70"
+      }
+    ],
+    "printed_change": "0.26",
+    "printed_growth_percent": "0.74"
+  },
+  "level_rounding_half_width": "0.005",
+  "growth_rounding_half_width_percent": "0.005",
+  "resolution": "Retain both transcriptions; choose detailed pet table because its explicit year headers agree with positive change, pet narrative and sector number ordering. This is an evidence-based mapping, not an organizer/publisher erratum.",
+  "revision_scope": "Page2 explicitly describes prior survey data adjustments for overall feed; it does not establish the exact reason for each pet-sector revision.",
+  "non_use": "Search exposed later2025/2026 data and indexed2023 values, but none enters these calculations.2023 mirror timed out locally, so no local2023hash or comparison asserted.",
+  "exposure": "Root reads source then performs deterministic arithmetic, not a blind AI behavioral test"
+}
