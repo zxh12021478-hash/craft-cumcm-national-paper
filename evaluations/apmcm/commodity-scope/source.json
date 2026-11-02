@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-02",
+  "baseline_HEAD": "65bbec025cad20088128a51d439d300def3692ee",
+  "uncomtrade": {
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2023&reporterCode=156&cmdCode=230910&flowCode=X&partnerCode=0&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "sha256": "86d68c0b4f610264877edb26119abef48ac33e0984404ecaaacee8ea27f28c2b",
+    "snapshot": "uncomtrade-2023.json",
+    "kind": "UN official public-preview API; one filtered2023 row",
+    "current_retrieval_not_historical_vintage": true,
+    "units": {
+      "primaryValue": "USD",
+      "fobvalue": "USD",
+      "netWgt": "kg"
+    },
+    "metadata_references": [
+      "https://uncomtrade.org/docs/un-comtrade-api/",
+      "https://uncomtrade.org/docs/supplementary-quantity-units/",
+      "https://uncomtrade.org/docs/quantity-and-weight-data-in-un-comtrade/",
+      "https://uncomtrade.org/docs/trade-valuation/"
+    ],
+    "expected_row": {
+      "period": "2023",
+      "reporterCode": 156,
+      "partnerCode": 0,
+      "partner2Code": 0,
+      "flowCode": "X",
+      "cmdCode": "230910",
+      "classificationCode": "H6",
+      "customsCode": "C00",
+      "motCode": 0
+    }
+  },
+  "mofcom": {
+    "url": "https://chinawto.mofcom.gov.cn/article/jsbl/zszc/202306/20230603418510.shtml",
+    "sha256": "dfaca71d160c098f537c2594e71fd68a73cb5f96c36e2138dd3efa06bb11d748",
+    "publication": "2023-06-26; official page republication of Agricultural Trade Promotion article by Huo Chunyue and Yang Miaoxi",
+    "category": "HS230910, retail dog or cat food, including feed and canned food",
+    "export_value_100m_USD": {
+      "2020": 9.8,
+      "2021": 12.2,
+      "2022": 12.4
+    },
+    "scope": "Article citing Customs, not a raw Customs extract; no UN2022 response claimed"
+  },
+  "question": {
+    "url": "https://www.apmcm.org/uploads/files/20241120/1732111242440930.zip",
+    "PDF_sha256": "c0fc14649d90acc5309efb3ca68a244603166a42b03d190b6eba526f7440d627",
+    "attachment": 3,
+    "physical_page": 3,
+    "input_json": "../weakness-closure/case/input/data.json",
+    "input_sha256": "4c97888b4e9c2f3ca6aa5e7e4e3e63dea2fa519823aba1a87619e9b93da861f1",
+    "category": "Pet-food export value as labeled in official attachment; no commodity code supplied",
+    "policy": "Keep original question values; cross-source mismatch not silently corrected"
+  },
+  "reconciliation": {
+    "2022": "Question24.7 vs ministry article12.4 (100mUSD); definition/source issue unresolved",
+    "2023": "Question39.6 vs current UNHS230910 record; same scope not established",
+    "possible_explanations": "Different category/coverage or source error; none chosen as established fact",
+    "decision": "No splice/replacement; no calibration of full question series using the narrower external weight"
+  },
+  "retrieval_failures": [
+    "Initial two-period preview query returned400; documentation specifies one period. Fixed by separate requests.",
+    "Separate2022 request returned429; no further retries or2022UN result claimed.2023 request succeeded."
+  ],
+  "test_boundary": "Root source reconciliation and deterministic calculation only; no independent AI, receiver, empirical policy validation or forecast accuracy test"
+}

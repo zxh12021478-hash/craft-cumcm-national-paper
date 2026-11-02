@@ -1,0 +1,31 @@
+{
+  "check_status": "pass",
+  "meaning": "Frozen primary API row and question data reproduce; cross-source scope remains unresolved",
+  "2022_comparison_100m_USD": {
+    "question": 24.7,
+    "ministry_article": 12.4,
+    "question_2021_to_2022_growth_percent": 102.45901639344262,
+    "article_2021_to_2022_growth_percent": 1.639344262295082,
+    "status": "Different labeled-source sequences; no automatic correction or splice"
+  },
+  "2023_comparison": {
+    "question_export_100m_USD": 39.6,
+    "UN_HS230910_export_USD": 1225836028.0,
+    "UN_net_weight_kg": 266019000.302,
+    "UN_net_weight_is_estimated": true,
+    "UN_isReported": false,
+    "UN_isAggregate": true,
+    "matched_UN_unit_value_USD_per_kg": 4.60807696671426,
+    "unit_value_interpretation": "Aggregate descriptive unit value with estimated net weight, not a homogeneous transaction price or identified price elasticity"
+  },
+  "constructed_negative_probe": {
+    "hybrid_question_value_div_UN_weight_USD_per_kg": 14.886154731445428,
+    "ratio_to_matched_UN_unit_value": 3.2304483711911263,
+    "units": "USD/kg in both; dimensional agreement does not resolve scope",
+    "status": "unsupported_scope",
+    "judgment": "Root semantic assessment; not an automated scope discovery or actual receiver failure"
+  },
+  "original_question_bytes_unchanged": true,
+  "old_case_results_and_PDF_changed": false,
+  "boundary": "Current retrieved snapshot; not archived2024 information, a fitted forecast or empirical validation of the question-wide bridge"
+}
